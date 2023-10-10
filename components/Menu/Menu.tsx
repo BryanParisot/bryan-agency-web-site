@@ -1,3 +1,5 @@
+"use client"
+
 import { Fragment } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -26,7 +28,7 @@ const solutions = [
 export default function Menu() {
     return (
         <Popover className="relative">
-            <div className="flex justify-evenly text-sm font-semibold leading-6 text-gray-900">
+            <div className="flex justify-between font-semibold leading-6 text-emerald-900 hover:text-emerald-700">
                 <Popover.Button className="inline-flex items-center gap-x-1 ">
                     <span>Nos services</span>
                     <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
