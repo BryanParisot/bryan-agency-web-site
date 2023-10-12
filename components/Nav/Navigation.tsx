@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Navigation() {
     return (
-        <header className='flex justify-center '>
+        <header className='flex justify-center'>
             <div className='fixed shadow flex items-center justify-between bg-emerald-50/90 h-20 w-full max-w-[90%] rounded-lg text mt-10 px-5'>
                 <div>Logo Here</div>
                 <div className='w-96'><Menu /></div>
