@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, text, image, alt }) =>
                 <div className='w-3/6 space-y-4'>
                     <div className='space-y-3 mb-5'>
                         <h1 className='text-2xl font-bold text-emerald-400'>{title}</h1>
-                        <h2 className='font-semibold text-emerald-50 text-xl'>{subtitle}</h2>
+                        <h2 className='font-semibold text-emerald-50 text-3xl'>{subtitle}</h2>
                         <p className='text-emerald-50 text-lg '>{text}</p>
                     </div>
                     <Button>Discutons de votre projet</Button>
