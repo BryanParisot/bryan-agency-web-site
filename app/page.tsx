@@ -1,7 +1,9 @@
 import Header from "@/components/Header/Header";
 import picture_home from "../public/pictures/header/picture_home_page.svg"
 import HomeCards from "@/components/HomeCards/HomeCards";
+import CallToAction from "@/components/CTA/CallToAction";
 
+//PICTURES
 import logo_creation_site from "../public/logos/nav/logo_html.svg"
 import logo_refonte_site from "../public/logos/nav/logo_refonte.svg"
 import logo_sass_web from "../public/logos/nav/logo_sass.svg"
@@ -38,9 +40,15 @@ export default function Home() {
 
         <div className="mt-20 grid grid-cols-3 gap-10 justify-items-center">
           {contentCards.map((card) => (
-            <HomeCards title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
+            <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}
         </div>
+
+        <div className="px-16">
+          <CallToAction />
+        </div>
+
+
       </section>
     </main>
   )
