@@ -23,7 +23,7 @@ const HomeCards: React.FC<HomeCardsProps> = ({ title, text, image, alt, link, bg
 
                 <div className='space-y-2'>
                     <h3 className='text-emerald-950 font-extrabold text-lg'>{title}</h3>
-                    <p className='text-emerald-700 font-light '>{text}</p>
+                    <p className='text-gray-700 font-light '>{text}</p>
                 </div>
 
                 <div className='flex justify-end'>
