@@ -6,7 +6,7 @@ export default {
   component: HomeCards,
 };
 
-export const SectionHeader = () => (
+export const HomeCard = () => (
   <HomeCards
     title='Création de Sites Internet'
     text='Notre équipe expérimentée concevra un site web unique et optimisé, représentant votre entreprise de manière professionnelle en ligne. Nous intégrons vos besoins et votre identité dans chaque aspect du site pour offrir une expérience utilisateur exceptionnelle'
