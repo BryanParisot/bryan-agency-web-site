@@ -13,6 +13,7 @@ import logo_referencement_sea from "../public/logos/nav/logo_sea.svg"
 import logo_design from "../public/logos/nav/logo_design.svg"
 import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import illustration_web from '../public/pictures/home/illustration_web.jpg'
+import BlogSection from "@/components/BlogSection/BlogSection";
 
 export default function Home() {
 
@@ -54,7 +55,8 @@ export default function Home() {
             image={illustration_web}
             alt="Illustration web"
           />
-          
+          <BlogSection />
+
         </div>
       </section>
     </main>
