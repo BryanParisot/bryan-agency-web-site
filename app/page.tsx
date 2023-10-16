@@ -14,6 +14,7 @@ import logo_design from "../public/logos/nav/logo_design.svg"
 import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import illustration_web from '../public/pictures/home/illustration_web.jpg'
 import BlogSection from "@/components/BlogSection/BlogSection";
+import Faq from "@/components/FAQ/Faq";
 
 export default function Home() {
 
@@ -26,6 +27,31 @@ export default function Home() {
     { title: "Référencement Sponsorisé - SEA", text: 'Boostez votre visibilité instantanément grâce à notre expertise en référencement sponsorisé (SEA). Nous créons et gérons des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icone référencement Sponsorisé - SEA", },
     { title: "Web Design ", text: 'Notre équipe de web designers talentueux se consacre à la création d\'expériences en ligne inoubliables. Nous croyons que le design va bien au-delà de l\'esthétique ; c\'est l\'art de créer des sites web qui suscitent l\'émotion, renforcent la crédibilité et génèrent des résultats tangibles.', icon: logo_design, link: '/web-design', bg: 'bg-amber-200', alt: "Icone web design", },
   ]
+
+  const faqs = [
+    {
+      question: "Quels sont les avantages de la création d'un site web pour mon entreprise ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "Combien de temps faut-il pour créer un site web personnalisé ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "Pouvez-vous m'aider à mettre à jour ou à moderniser un site web existant ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "Quelles technologies utilisez-vous pour créer des sites web ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    // More questions...
+  ]
+
 
   return (
     <main>
@@ -56,6 +82,8 @@ export default function Home() {
             alt="Illustration web"
           />
           <BlogSection />
+
+          <Faq faq={faqs} />
 
         </div>
       </section>
