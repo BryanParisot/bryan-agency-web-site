@@ -5,4 +5,4 @@ export default {
   component: CallToAction,
 };
 
-export const SectionHeader = () => <CallToAction />;
+export const ComponentsCallToAction = () => <CallToAction />;
