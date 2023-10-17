@@ -88,7 +88,7 @@ const navigation = {
 
 function Footer() {
     return (
-        <footer className='bg-emerald-500 px-20 pt-10'>
+        <footer className='bg-emerald-500 px-8 sm:px-20 pt-10'>
             <CallToActionFooter />
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-20">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
