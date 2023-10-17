@@ -12,7 +12,7 @@ import logo_sass_web from "../../public/logos/nav/logo_sass.svg"
 import logo_integration_maquette from "../../public/logos/nav/logo_intégration.svg"
 import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
 import logo_referencement_sea from "../../public/logos/nav/logo_sea.svg"
-
+import logo_design from "../../public/logos/nav/logo_design.svg"
 
 
 
@@ -23,6 +23,7 @@ const solutions = [
     { name: 'Integration de vos maquettes', description: 'Donnez vie à vos conceptions avec notre expertise en intégration', href: '/integration', icon: logo_integration_maquette, alt: "Icone intégration de maquette", bg: 'bg-green-200' },
     { name: 'Référencement Naturel - SEO', description: 'Optimisez votre visibilité en ligne grâce à notre expertise en SEO.', href: '/referencement-naturel-seo', icon: logo_referencement_seo, alt: "Icone référencement naturel SEO", bg: 'bg-blue-200' },
     { name: 'Référencement Sponsorisé - SEA', description: 'Augmentez votre visibilité instantanément avec notre stratégie SEA', href: '/referencement-sponsorise-sea', icon: logo_referencement_sea, alt: "Icone référencement Sponsorisé - SEA", bg: 'bg-blue-200' },
+    { name: 'Web design', description: 'Transformez votre présence en ligne avec notre approche de conception web qui captive, engage et convertit', href: '/web-design', icon: logo_design, alt: "Icone web design", bg: 'bg-amber-200' },
 ]
 
 export default function Menu() {
