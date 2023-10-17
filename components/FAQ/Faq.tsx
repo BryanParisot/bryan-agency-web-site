@@ -45,7 +45,7 @@ const Faq: React.FC<FaqProps> = ({ faq }) => {
                                     <>
                                         <dt>
                                             <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900  mb-1">
-                                                <span className="text-base font-semibold leading-7 px-3 ">{FaqItem.question}</span>
+                                                <span className="text-base font-semibold leading-6 sm:leading-7 px-3 ">{FaqItem.question}</span>
                                                 <span className="ml-6 flex h-7 items-center ">
                                                     {open ? (
                                                         <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
