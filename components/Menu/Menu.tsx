@@ -29,13 +29,13 @@ const solutions = [
 export default function Menu() {
     return (
         <Popover className="relative">
-            <div className="flex justify-between font-semibold leading-6 text-emerald-900 hover:text-emerald-700">
-                <Popover.Button className="inline-flex items-center gap-x-1  focus:outline-none">
-                    <span>Nos services</span>
+            <div className="flex sm:justify-between font-semibold sm:text-base text-4xl h-full justify-center  leading-6 flex-col sm:flex-row text-emerald-50 sm:text-emerald-900 space-y-10 sm:space-y-0 ">
+                <Popover.Button className="inline-flex items-center gap-x-1 focus:outline-none">
+                    <span className="hover:text-emerald-700">Nos services</span>
                     <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
                 </Popover.Button>
-                <Link href="/blog" > <span>Ressources</span> </Link>
-                <Link href="/realisation" > <span>Réalisation</span> </Link>
+                <Link href="/blog" > <span className='hover:text-emerald-700'>Ressources</span> </Link>
+                <Link href="/realisation" > <span className='hover:text-emerald-700'>Réalisation</span> </Link>
             </div>
 
             <Transition
@@ -47,7 +47,7 @@ export default function Menu() {
                 leaveFrom="opacity-100 translate-y-0"
                 leaveTo="opacity-0 translate-y-1"
             >
-                <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
+                <Popover.Panel className="absolute left-1/2 z-10 mt-5 flex items-start top-20 w-screen max-w-max -translate-x-1/2 px-4">
                     <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5 lg:max-w-3xl">
                         <div className="grid grid-cols-1 gap-x-6 gap-y-1 p-4 lg:grid-cols-2">
                             {solutions.map((item) => (
