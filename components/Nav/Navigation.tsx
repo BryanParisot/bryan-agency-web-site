@@ -17,7 +17,7 @@ export default function Navigation() {
                 <Link className='hidden sm:block' href="/contact"> <Button variant="secondary" size="lg">Contactez-nous</Button></Link>
                 <Bars3Icon onClick={() => setOpen(true)} className="h-12 w-12 sm:hidden block cursor-pointer" aria-hidden="true" />
             </div>
-            <div className={`bg-emerald-800 w-full h-[600px]  absolute p-2  ${open ? "bottom-0 top-0" : "bottom-[1000px]"}  }`}>
+            <div className={`bg-emerald-800 w-full h-[600px] absolute p-2 z-50  ${open ? "bottom-0 top-0" : "bottom-[1000px]"}  }`}>
                 <div className='flex justify-end w-full'>
                     < XMarkIcon onClick={() => setOpen(false)} className="h-12 w-12 sm:hidde block cursor-pointer text-emerald-50" aria-hidden="true" />
                 </div>
