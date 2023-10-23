@@ -1,12 +1,17 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import Image from 'next/image'
+
+import cat from "../../public/animations/home/Animation - 1698073664929.gif"
 
 function CallToActionFooter() {
     return (
         <div className='bg-emerald-800 h-[500px] sm:h-96 rounded-xl flex flex-row justify-center items-center px-5'>
             <div className='aboslute sm:mr-10'>
-                <div className='sm:relative hidden right-10 bg-emerald-50 shadow rounded-lg h-72 w-72'></div>
+                <div className='sm:relative hidden right-10 bg-emerald-50 shadow rounded-lg h-72 w-72 sm:flex sm:items-end sm:justify-center '>
+                    <Image src={cat} alt="cat animation" height={100} width={100} />
+                </div>
             </div>
             <div className='space-y-3 sm:space-y-5 sm:pr-96'>
                 <h2 className='text-2xl sm:text-4xl font-bold text-emerald-50 '>Découvrez Comment Nous Pouvons Booster Votre Présence en Ligne</h2>
