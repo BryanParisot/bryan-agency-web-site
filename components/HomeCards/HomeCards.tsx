@@ -22,13 +22,19 @@ const HomeCards: React.FC<HomeCardsProps> = ({ title, text, image, alt, link, bg
                 </div>
 
                 <div className='space-y-2'>
-                    <h3 className='text-emerald-950 font-extrabold text-lg'>{title}</h3>
-                    <p className='text-gray-700 font-light '>{text}</p>
+                    <h3 className='text-emerald-950 font-extrabold text-lg'>
+                        {title}
+                    </h3>
+                    <p className='text-gray-700 font-light '>
+                        {text}
+                    </p>
                 </div>
 
                 <div className='flex justify-end'>
                     <Link href={link}>
-                        <Button variant="outline" size="lg">En savoir plus</Button>
+                        <Button variant="outline" size="lg">
+                            En savoir plus
+                        </Button>
                     </Link>
                 </div>
 
