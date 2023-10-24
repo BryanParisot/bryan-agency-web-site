@@ -63,16 +63,16 @@ export default function Home() {
         alt="image png developpeur web"
       />
 
-      <section className="mt-20 mb-20">
-        <h2 className="text-center text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale à Nancy</span></h2>
+      <div className="mt-20 mb-20">
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale à Nancy</span></h2>
 
-        <div className="mt-20 grid grid-cols-3 gap-10 justify-items-center">
+        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center">
           {contentCards.map((card) => (
             <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}
         </div>
 
-        <div className="px-16">
+        <div className="px-5 sm:px-16">
           <CallToAction />
 
           <SectionWithPictures
@@ -86,7 +86,7 @@ export default function Home() {
           <Faq faq={faqs} />
 
         </div>
-      </section>
+      </div>
     </main>
   )
 }
