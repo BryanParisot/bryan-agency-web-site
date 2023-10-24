@@ -1,7 +1,6 @@
 import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 import { Button } from '../ui/button'
-import logo_vitrine from '../../public/logos/site/logo_vitrine.svg'
 import Link from 'next/link'
 
 interface siteCardsProps {
@@ -28,7 +27,7 @@ const SiteCards: React.FC<siteCardsProps> = ({ title, text, image, alt, link }) 
                 <div className='flex items-end justify-center'>
                     <Link href={link}>
                         <Button variant="primary">
-                            En savoir plis
+                            En savoir plus
                         </Button>
                     </Link>
                 </div>

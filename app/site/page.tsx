@@ -1,5 +1,8 @@
+//COMPONENTS
+import CallToAction from "@/components/CTA/CallToAction";
+import SectionWithPictures from "@/components/Section/SectionWithPictures";
+import BlogSection from "@/components/BlogSection/BlogSection";
 import Header from "@/components/Header/Header";
-import picture_site from "../../public/pictures/site/site_page.png"
 import SiteCards from "../../components/Cards/SiteCards";
 
 //LOGOS
@@ -9,7 +12,12 @@ import logo_landing_page from "../../public/logos/site/logo_landing_page.svg"
 import logo_wordpress from "../../public/logos/site/logo_wordpress.svg"
 import logo_refonte from "../../public/logos/site/logo_refonte.svg"
 import logo_maintenance from "../../public/logos/site/logo_maintenance.svg"
-import CallToAction from "@/components/CTA/CallToAction";
+import illustration_web from '../../public/pictures/home/illustration_web.jpg'
+import picture_site from "../../public/pictures/site/site_page.png"
+import Faq from "@/components/FAQ/Faq";
+
+
+
 
 export default function Page() {
 
@@ -34,6 +42,31 @@ export default function Page() {
     }
   ]
 
+  const faqs = [
+    {
+      question: "Quels sont les avantages de la création d'un site web pour mon entreprise ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "CPouvez-vous m'aider à choisir la plateforme adaptée à mes besoins pour mon site ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "Quels sont les délais typiques pour la création d'un site web ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    {
+      question: "Proposez-vous des services d'hébergement web en plus de la création de site web ?",
+      answer:
+        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    },
+    // More questions...
+  ]
+
+
   return (
     <main>
       <Header
@@ -47,7 +80,7 @@ export default function Page() {
       <div className="mt-10 mb-10">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >Nos prestation de <span className="text-emerald-600">création de site web</span> </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-20">
+        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             cardData.map((item) => (
               <SiteCards title={item.title} text={item.text} image={item.image} alt={item.alt} link={item.link} key={item.title} />
@@ -59,7 +92,18 @@ export default function Page() {
 
           <CallToAction />
 
-          
+          <SectionWithPictures
+            title="Créez votre présence en ligne personnalisée avec nos services de création de site web"
+            description="Pourquoi choisir une agence web ? Parce que nous sommes les navigateurs de l'univers numérique. Avec notre expertise en développement web, design, référencement et stratégie numérique, nous vous aidons à hisser les voiles vers le succès en ligne. Notre équipe technique assure une conception professionnelle, une visibilité accrue dans les moteurs de recherche et un site web optimisé. Gagnez du temps, restez à la pointe de la technologie et concentrez-vous sur votre entreprise pendant que nous donnons vie à votre présence en ligne. Contactez-nous aujourd'hui pour commencer votre voyage vers la réussite digitale."
+            image={illustration_web}
+            alt='illustration web'
+          />
+
+          <BlogSection />
+
+
+          <Faq faq={faqs} />
+
 
         </div>
 

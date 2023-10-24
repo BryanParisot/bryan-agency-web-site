@@ -1,6 +1,6 @@
 import Header from "@/components/Header/Header";
 import picture_home from "../public/pictures/header/picture_home_page.svg"
-import HomeCards from "@/components/HomeCards/HomeCards";
+import HomeCards from "@/components/Cards/HomeCards";
 import CallToAction from "@/components/CTA/CallToAction";
 
 //PICTURES
@@ -11,8 +11,10 @@ import logo_integration_maquette from "../public/logos/nav/logo_intégration.sv
 import logo_referencement_seo from "../public/logos/nav/logo_seo.svg"
 import logo_referencement_sea from "../public/logos/nav/logo_sea.svg"
 import logo_design from "../public/logos/nav/logo_design.svg"
-import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import illustration_web from '../public/pictures/home/illustration_web.jpg'
+
+
+import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import BlogSection from "@/components/BlogSection/BlogSection";
 import Faq from "@/components/FAQ/Faq";
 
@@ -66,7 +68,7 @@ export default function Home() {
       <div className="mt-20 mb-20">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale à Nancy</span></h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center">
+        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {contentCards.map((card) => (
             <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}
