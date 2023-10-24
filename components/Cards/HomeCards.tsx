@@ -14,7 +14,7 @@ interface HomeCardsProps {
 
 const HomeCards: React.FC<HomeCardsProps> = ({ title, text, image, alt, link, bg }) => {
     return (
-        <div className='bg-emerald-50 rounded-md w-[395px] p-5'>
+        <div className='bg-emerald-50 rounded-md p-5'>
             <div className='flex flex-col !justify-between  space-y-4 h-full'>
 
                 <div className={`${bg} flex items-center justify-end w-20 h-20 rounded p-3`}>
