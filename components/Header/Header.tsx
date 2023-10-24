@@ -1,13 +1,13 @@
 import React from 'react'
 import { Button } from '../ui/button'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 
 interface HeaderProps {
     title: string;
     subtitle: string;
     text: string;
-    image: string;
+    image: StaticImageData;
     alt: string;
 }
 
