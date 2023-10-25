@@ -120,12 +120,12 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className='sm:px-20 px-5'>
+      <div className='sm:px-20 px-5 mb-10'>
         <CallToAction />
+        <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
+        <BlogSection />
+        <Faq faq={faqs} />
       </div>
-      <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
-      <BlogSection />
-      <Faq faq={faqs} />
 
 
 
