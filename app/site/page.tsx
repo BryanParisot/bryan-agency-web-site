@@ -78,7 +78,9 @@ export default function Page() {
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >Nos prestation de <span className="text-emerald-600">création de site web</span> </h2>
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+          Nos prestation de <span className="text-emerald-600">création de site web</span>
+        </h2>
 
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
