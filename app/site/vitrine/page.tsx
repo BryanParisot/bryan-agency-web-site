@@ -114,12 +114,14 @@ export default function page() {
               Un site vitrine qui vous ressemble
             </h2>
             <p>
-              Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi nous nous engageons à créer un site vitrine sur mesure qui vous ressemble            </p>
+              Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi nous nous engageons à créer un site vitrine sur mesure qui vous ressemble.
+            </p>
             <p>
               Notre équipe de designers et de développeurs travaille en étroite collaboration avec vous pour capturer l'essence de votre entreprise et la traduire en un design web exceptionnel. Nous croyons que chaque entreprise est unique, et votre site web devrait l'être aussi.
             </p>
             <p>
-              Que vous ayez besoin d'un site vitrine élégant, moderne, créatif ou professionnel, nous avons l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment nous pouvons vous aider à créer un site web qui reflète parfaitement votre vision et à             </p>
+              Que vous ayez besoin d'un site vitrine élégant, moderne, créatif ou professionnel, nous avons l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment nous pouvons vous aider à créer un site web qui reflète parfaitement votre vision et à la partager avec le monde.
+            </p>
           </div>
         </div>
 
