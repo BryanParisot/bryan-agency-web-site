@@ -1,7 +1,191 @@
-import React from 'react'
+import Image from 'next/image'
+
+//COMPONENTS
+import Header from '@/components/Header/Header'
+import CardGeneral from '@/components/Cards/CardGeneral'
+import CallToAction from '@/components/CTA/CallToAction'
+import SectionLogos from '@/components/Section/SectionLogos'
+import BlogSection from '@/components/BlogSection/BlogSection'
+import Faq from '@/components/FAQ/Faq'
+import CallToActionLight from '@/components/CTA/CallToActionLight'
+import LittleCard from '@/components/Cards/LittleCard'
+
+
+//LOGOS | PICTURES
+import picture_site from "../../public/pictures/site/site_page.png"
+import loupe from "../../public/logos/integration/loupe.svg"
+import content from "../../public/logos/seo/content.svg"
+import logo_qualite from "../../public/logos/seo/logo_qualite.svg"
+import logo_tag from "../../public/logos/seo/logo_tag.svg"
+import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
+import map from "../../public/logos/sea/map.svg"
+import crayon from "../../public/logos/integration/crayon.svg"
+import double_screen from "../../public/pictures/site/vitrine/double_screen.png"
+import vitrine_site from "../../public/pictures/site/vitrine/vitrine_site.png"
+import growth from "../../public/logos/sea/growth.svg"
+import speed from "../../public/logos/sea/speed.svg"
+import test from "../../public/logos/sea/test.svg"
+import competion from "../../public/logos/sea/competion.svg"
+import conversion from "../../public/logos/sea/conversion.svg"
+import target from "../../public/logos/sea/target.svg"
+import audit from "../../public/logos/sea/audit.svg"
+import road from "../../public/logos/sea/road.svg"
+
+
 
 export default function page() {
+
+    const vitrineData = [
+        {
+            title: 'Visibilité immédiate', text: 'Le SEA permet d\'obtenir une visibilité immédiate sur les moteurs de recherche.Vous pouvez diffuser des annonces payantes qui apparaissent en haut des résultats de recherche, ce qui signifie que votre entreprise est instantanément visible par les utilisateurs qui effectuent des recherches pertinentes.', image: logo_visibile, alt: 'Logo meilleure visibilité'
+        },
+        {
+            title: 'Contrôle total', text: 'Avec le SEA, vous avez un contrôle total sur vos campagnes publicitaires. Vous pouvez définir votre budget quotidien, choisir les mots-clés pour lesquels vous souhaitez apparaître, cibler des audiences spécifiques, et ajuster vos campagnes en fonction des performances en temps réel. Cela vous permet d\'optimiser vos dépenses publicitaires et d\'obtenir un bon retour sur investissement (ROI).', image: logo_qualite, alt: 'Logo qualité'
+        },
+        {
+            title: 'Mesure et suivi précis', text: 'Le SEA offre des outils de suivi avancés qui vous permettent de mesurer précisément les performances de vos annonces. Vous pouvez suivre le nombre de clics, les conversions, le coût par conversion, et d\'autres métriques clés.Cela vous permet d\'ajuster vos campagnes en fonction des données réelles, de maximiser l\'efficacité et d\'obtenir des résultats mesurables.', image: growth, alt: 'logo tags'
+        },
+        {
+            title: 'Flexibilité budgétaire', text: 'Vous pouvez ajuster rapidement votre budget en fonction des performances de vos campagnes, ce qui vous permet de maximiser votre retour sur investissement (ROI).', image: logo_tag, alt: 'logo tags'
+        },
+        {
+            title: 'Rapidité', text: 'Contrairement au référencement organique, qui peut prendre du temps pour obtenir des résultats, le SEA offre une visibilité instantanée.', image: speed, alt: 'logo de rapidité'
+        },
+        {
+            title: 'Test et optimisation', text: 'Vous pouvez effectuer des tests A/B pour vos annonces, essayer différentes approches marketing, et optimiser en fonction des résultats.', image: test, alt: 'logo test'
+        },
+        {
+            title: 'Compétitivité', text: 'Vous pouvez rivaliser avec des entreprises de toutes tailles, car le SEA ne dépend pas de la taille de votre entreprise, mais de votre stratégie publicitaire.', image: competion, alt: 'logo test'
+        },
+        {
+            title: 'Positionnement géographique', text: 'Le ciblage géographique vous permet de diffuser des annonces uniquement dans les zones géographiques pertinentes pour votre entreprise.', image: map, alt: 'logo map'
+        },
+        {
+            title: 'Conversion élevée', text: 'Les utilisateurs qui cliquent sur des annonces sont souvent plus enclins à convertir en clients, car ils ont déjà manifesté un intérêt pour votre produit ou service.', image: conversion, alt: 'logo conversion'
+        },
+    ]
+
+    const faqs = [
+        {
+            question: "Qu'est-ce que le SEA ?",
+            answer:
+                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        },
+        {
+            question: "Pourquoi choisir le SEA comme levier ? ",
+            answer:
+                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        },
+        {
+            question: "Quels sont les avantages du SEA par rapport au référencement naturel (SEO) ?",
+            answer:
+                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        },
+        {
+            question: "Quel est le coût d'une campagne SEA ?",
+            answer:
+                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        },
+    ]
+
+
+    const atouts = [
+        {
+            title: "Gestion de campagnes ", text: "Création, configuration, et gestion complète de campagnes publicitaires sur les moteurs de recherche, notamment Google Ads et Bing Ads.", logo: loupe, alt: "logo loupe"
+        },
+        {
+            title: "Recherche de mots-clés", text: "Analyse approfondie des mots-clés pour déterminer les termes les plus pertinents et rentables pour cibler.", logo: content, alt: "logo appareil responsive"
+        },
+        {
+            title: "Stratégie de ciblage", text: "Définition d'une stratégie de ciblage précise, y compris le ciblage géographique, le ciblage démographique et le ciblage par centres d'intérêt.", logo: target, alt: "logo cible"
+        },
+        {
+            title: "Annonces textuelles", text: "Création et optimisation d'annonces textuelles percutantes, y compris les titres, les descriptions et les liens.", logo: crayon, alt: "logo crayon"
+        },
+        {
+            title: "Audit de campagnes", text: "Évaluation et amélioration des campagnes SEA existantes pour en augmenter l'efficacité.", logo: audit, alt: "logo audit"
+        },
+        {
+            title: "Analyse et suivi", text: "Utilisation d'outils d'analyse pour mesurer les performances des campagnes, suivre les conversions et ajuster les stratégies en conséquence.", logo: road, alt: "logo crayon"
+        },
+    ]
+
+
     return (
-        <div>page sea</div>
+        <main>
+            <Header
+                title="Agence Ads à nancy "
+                subtitle="Boostez votre visibilité avec le SEA"
+                text="Explorez de nouvelles horizons en ligne avec notre expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à notre stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
+                image={picture_site}
+                alt="image png developpeur web"
+            />
+
+            <div className="mt-10 mb-10">
+                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+                    Les avantages du <span className="text-emerald-600">SEA (Search Engine Advertising)</span>
+                </h2>
+
+                <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+                    {
+                        vitrineData.map((item) => (
+                            <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
+                        ))
+                    }
+                </div>
+
+                <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
+                    <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+                        <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+                    </div>
+                    <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                            Boostez votre performance grâce au SEA
+                        </h2>
+                        <p>
+                            Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. Notre équipe d'experts en publicité sur les moteurs de recherche est prête à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, nous maximisons chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.                        </p>
+                    </div>
+                </div>
+
+                <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
+                    <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+                        <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
+                    </div>
+                    <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                            Créez Votre landing page spécialisée
+                        </h2>
+                        <p>
+                            Chez [Nom de Votre Entreprise], nous croyons en l'importance d'une première impression mémorable en ligne. C'est pourquoi nous proposons des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Nos équipes de conception expérimentées travaillent en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Nous allons encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à notre expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment nos services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div className='sm:px-20 px-5'>
+                <CallToAction />
+            </div>
+
+            <div className="px-5 sm:px-16 mb-10">
+                <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
+                    {
+                        atouts.map((item) => (
+                            <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
+                        ))
+                    }
+
+                </div>
+
+
+                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
+                <BlogSection />
+
+                <CallToActionLight />
+
+                <Faq faq={faqs} />
+            </div>
+
+        </main>
     )
 }
