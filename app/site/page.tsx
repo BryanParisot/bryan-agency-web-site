@@ -4,6 +4,8 @@ import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import BlogSection from "@/components/BlogSection/BlogSection";
 import Header from "@/components/Header/Header";
 import SiteCards from "../../components/Cards/SiteCards";
+import Faq from "@/components/FAQ/Faq";
+import Carousel from "@/components/Carrousel/Carousel";
 
 //LOGOS
 import logo_vitrine from "../../public/logos/site/logo_vitrine.svg"
@@ -14,7 +16,6 @@ import logo_refonte from "../../public/logos/site/logo_refonte.svg"
 import logo_maintenance from "../../public/logos/site/logo_maintenance.svg"
 import illustration_web from '../../public/pictures/home/illustration_web.jpg'
 import picture_site from "../../public/pictures/site/site_page.png"
-import Faq from "@/components/FAQ/Faq";
 
 
 
@@ -78,6 +79,7 @@ export default function Page() {
       />
 
       <div className="mt-10 mb-10">
+
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
           Nos prestation de <span className="text-emerald-600">création de site web</span>
         </h2>
@@ -107,6 +109,7 @@ export default function Page() {
           <Faq faq={faqs} />
 
 
+          <Carousel />
         </div>
 
 
