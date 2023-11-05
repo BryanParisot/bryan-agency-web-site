@@ -1,7 +1,9 @@
 import React from 'react'
-import { Button } from '../ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
+
+//COMPONENTS
+import { Button } from '../ui/button'
 
 function CallToAction() {
     return (
@@ -22,20 +24,19 @@ function CallToAction() {
                         </defs>
                     </svg>
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                        <h2 className="text-2xl font-bold tracking-tight text-white sm:text-1xl">
+                        <h2 className="text-lg font-bold tracking-tight text-white sm:text-1xl">
                             Embarquez avec notre équipage digital et propulsez votre présence en ligne vers de nouveaux sommets !
+                            <br />
                             <br />
                             Contactez-nous dès aujourd'hui pour commencer votre voyage vers le succès.
                         </h2>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+
                             <Link
-                                href="#"
-                                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                                href="/contact"
                             >
-                               Contactez-nous
-                            </Link>
-                            <Link href="#" className="text-sm font-semibold leading-6 text-white">
-                                Prendre rendez-vous <span aria-hidden="true">→</span>
+                                <Button>Contactez-nous <span className='ml-2' aria-hidden="true">→</span></Button>
+
                             </Link>
                         </div>
                     </div>
