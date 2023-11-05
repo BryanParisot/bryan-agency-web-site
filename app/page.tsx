@@ -1,7 +1,12 @@
+
+//COMPONENTS
 import Header from "@/components/Header/Header";
 import picture_home from "../public/pictures/header/picture_home_page.svg"
 import HomeCards from "@/components/Cards/HomeCards";
 import CallToAction from "@/components/CTA/CallToAction";
+import SectionWithPictures from "@/components/Section/SectionWithPictures";
+import BlogSection from "@/components/BlogSection/BlogSection";
+import Faq from "@/components/FAQ/Faq";
 
 //PICTURES
 import logo_creation_site from "../public/logos/nav/logo_html.svg"
@@ -14,9 +19,6 @@ import logo_design from "../public/logos/nav/logo_design.svg"
 import illustration_web from '../public/pictures/home/illustration_web.jpg'
 
 
-import SectionWithPictures from "@/components/Section/SectionWithPictures";
-import BlogSection from "@/components/BlogSection/BlogSection";
-import Faq from "@/components/FAQ/Faq";
 
 export default function Home() {
 
@@ -34,25 +36,24 @@ export default function Home() {
     {
       question: "Quels sont les avantages de la création d'un site web pour mon entreprise ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La création d'un site web offre de nombreux avantages pour votre entreprise. Il vous permet d'élargir votre présence en ligne, d'atteindre un public plus large, d'augmenter votre visibilité et votre crédibilité, et de fournir des informations essentielles sur vos produits ou services 24/7. De plus, un site web bien conçu peut renforcer la confiance des clients et améliorer l'expérience utilisateur.",
     },
     {
       question: "Combien de temps faut-il pour créer un site web personnalisé ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La durée de création d'un site web personnalisé dépend de plusieurs facteurs, notamment la complexité du projet, les fonctionnalités requises, le design, et la taille de l'équipe de développement. En général, cela peut prendre de quelques semaines à plusieurs mois. Nous travaillons en étroite collaboration avec nos clients pour définir des délais réalistes et assurer un processus de création efficace.",
     },
     {
       question: "Pouvez-vous m'aider à mettre à jour ou à moderniser un site web existant ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Absolument ! Nous proposons des services de mise à jour et de modernisation de sites web existants. Que votre site ait besoin de nouvelles fonctionnalités, d'une refonte de design, de mises à jour de contenu ou de corrections techniques, notre équipe d'experts peut vous aider à revitaliser votre présence en ligne et à rester compétitif sur le marché.",
     },
     {
       question: "Quelles technologies utilisez-vous pour créer des sites web ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Nous utilisons un large éventail de technologies de développement web pour créer des sites web personnalisés. Cela inclut des langages de programmation tels que HTML, CSS, JavaScript, ainsi que des CMS populaires comme WordPress et des frameworks tels que React/Next. Nous adaptons nos choix technologiques en fonction des besoins spécifiques de chaque projet pour garantir des solutions sur mesure de haute qualité.",
     },
-    // More questions...
-  ]
+  ];
 
 
   return (
@@ -65,16 +66,16 @@ export default function Home() {
         alt="image png developpeur web"
       />
 
-      <div className="mt-20 mb-20">
+      <div className="sm:mt-20 sm:mb-20 mt-14 mb-14 px-5 sm:px-16">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale à Nancy</span></h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="sm:mt-20 mt-14 grid grid-cols-1 sm:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
           {contentCards.map((card) => (
             <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}
         </div>
 
-        <div className="px-5 sm:px-16">
+        <div className="sm:px-16">
           <CallToAction />
 
           <SectionWithPictures
