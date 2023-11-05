@@ -21,7 +21,7 @@ function CallToActionFooter() {
                     Contactez-nous dès aujourd'hui pour discuter de vos besoins en développement web, référencement, applications web et plus encore. Notre équipe est prête à vous aider à naviguer vers le succès numérique.
                 </p>
                 <Link href='/contact'>
-                    <Button className='mt-10' variant='primary' size='lg'>
+                    <Button className='sm:mt-10 mt-5' variant='primary' size='lg'>
                         Contactez-nous
                     </Button>
                 </Link>
