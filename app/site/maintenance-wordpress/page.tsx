@@ -44,24 +44,24 @@ export default function page() {
         {
             question: "Pourquoi la maintenance de site WordPress est-elle importante ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "La maintenance de site WordPress est essentielle pour assurer le bon fonctionnement de votre site, la sécurité, et la performance. Elle permet de corriger les erreurs, de mettre à jour les plugins, de surveiller la sécurité, et de sauvegarder les données. En maintenant votre site à jour, vous évitez les vulnérabilités potentielles et garantissez une expérience utilisateur optimale. Une maintenance régulière contribue également à prévenir les pannes et à assurer la conformité avec les dernières normes du web.",
         },
         {
             question: "À quelle fréquence devrais-je effectuer la maintenance de mon site WordPress ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "La fréquence de la maintenance dépend des besoins spécifiques de votre site. En général, il est recommandé de procéder à des mises à jour de sécurité, de plugins et de thèmes dès qu'elles sont disponibles. Les sauvegardes devraient être effectuées régulièrement, par exemple, une fois par semaine. La surveillance de la sécurité devrait être continue. Certaines tâches peuvent être automatisées, tandis que d'autres nécessitent une vérification manuelle. Il est préférable de mettre en place un plan de maintenance pour suivre les activités régulières.",
         },
         {
             question: "Comment choisir un service de maintenance WordPress ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le choix d'un service de maintenance WordPress doit se baser sur plusieurs critères. Recherchez des fournisseurs de services de maintenance réputés avec une expérience avérée dans la gestion de sites WordPress. Vérifiez leurs offres de services, y compris la fréquence des mises à jour, les protocoles de sécurité, et le support client. Assurez-vous qu'ils sont en mesure de personnaliser leurs services en fonction de vos besoins spécifiques. Demandez des références et lisez les avis d'autres clients. Enfin, comparez les tarifs pour trouver le meilleur rapport qualité-prix.",
         },
         {
             question: "Combien coûte la maintenance de site WordPress en moyenne ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Les coûts de maintenance de site WordPress peuvent varier en fonction de la complexité de votre site et des services inclus. Les prix peuvent aller de quelques dizaines de dollars par mois à plusieurs centaines de dollars par mois. Les forfaits de maintenance comprennent généralement des mises à jour de sécurité, des sauvegardes régulières, une surveillance de la sécurité, et un support en cas de problème. Le coût peut également varier en fonction de la fréquence des mises à jour et du niveau de personnalisation. Il est important de trouver un service de maintenance qui correspond à vos besoins et à votre budget.",
         },
-    ]
+    ];
 
 
     return (

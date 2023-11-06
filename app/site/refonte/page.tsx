@@ -44,24 +44,24 @@ export default function page() {
         {
             question: "Quand faut-il envisager une refonte de site web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Une refonte de site web est envisagée lorsque votre site actuel ne répond plus à vos besoins, n'est pas à jour sur le plan du design ou de la technologie, ou ne parvient pas à atteindre ses objectifs. Cela peut être dû à des changements dans votre entreprise, à l'évolution des attentes de vos clients, ou à des problèmes de performance. Il est essentiel de considérer une refonte lorsque vous souhaitez améliorer l'expérience des utilisateurs, augmenter la visibilité de votre site, ou renforcer votre image de marque.",
         },
         {
             question: "Quel est le coût moyen d'une refonte de site web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le coût moyen d'une refonte de site web peut varier considérablement en fonction de la taille et de la complexité du projet. Les coûts peuvent inclure la conception, le développement, la migration de contenu, le référencement, etc. Pour avoir une idée plus précise des coûts, il est recommandé de demander des devis personnalisés à des agences ou des développeurs web qualifiés. Le coût dépendra également de la portée de la refonte et des fonctionnalités souhaitées.",
         },
         {
             question: "Combien de temps prend une refonte de site web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "La durée d'une refonte de site web dépend de plusieurs facteurs, notamment la complexité du projet, la taille du site, et la disponibilité des ressources. Une refonte peut prendre de quelques semaines à plusieurs mois. Il est essentiel de planifier soigneusement chaque étape du processus, de la conception à la mise en ligne, pour minimiser les retards. La communication avec l'équipe de développement est également cruciale pour respecter les délais.",
         },
         {
             question: "Comment choisir une agence de refonte de site web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le choix d'une agence de refonte de site web doit se baser sur divers facteurs. Il est essentiel de vérifier les antécédents de l'agence, d'examiner ses précédents travaux, et de demander des références. Assurez-vous que l'agence comprend bien vos besoins et objectifs, et qu'elle propose des solutions sur mesure. Les compétences en conception, développement, référencement et expérience utilisateur sont également des critères importants. Enfin, établissez un budget réaliste pour votre projet et assurez-vous que l'agence peut respecter vos contraintes financières.",
         },
-    ]
+    ];
 
 
     return (

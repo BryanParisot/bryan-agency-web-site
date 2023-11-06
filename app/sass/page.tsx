@@ -62,24 +62,24 @@ export default function page() {
         {
             question: "Comment puis-je bénéficier d'une application web ou d'un SaaS ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Pour bénéficier d'une application web ou d'un SaaS, vous devez suivre ces étapes : Définir vos besoins : Identifiez clairement ce que vous attendez de l'application, quelles fonctionnalités vous souhaitez, et les problèmes qu'elle doit résoudre.  Recherchez des développeurs : Cherchez des développeurs d'applications web expérimentés ou des entreprises spécialisées dans le développement de SaaS. Obtenez des recommandations si possible.  Consultez les experts : Discutez de vos besoins avec des experts en développement web. Ils vous aideront à choisir la meilleure solution pour votre projet.  Concevez l'application : Travaillez avec les développeurs pour concevoir l'application ou le SaaS, en vous assurant que les fonctionnalités répondent à vos besoins.  Développez et testez : Une fois la conception terminée, l'application est développée et testée pour s'assurer qu'elle fonctionne correctement.  Lancez et formez : Lorsque l'application est prête, elle est lancée et vous recevez une formation sur son utilisation.  Support et maintenance : Assurez-vous d'obtenir un support et une maintenance continus pour l'application afin qu'elle reste performante et sécurisée.",
         },
         {
             question: "Quels sont les avantages des applications web et SaaS ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Les applications web et les SaaS offrent de nombreux avantages, notamment : Accessibilité : Vous pouvez accéder à l'application depuis n'importe quel appareil avec une connexion Internet.  Mises à jour automatiques : Les mises à jour sont gérées par les développeurs, ce qui garantit que vous disposez toujours de la dernière version de l'application.  Évolutivité : Les SaaS peuvent évoluer pour répondre à la croissance de votre entreprise.  Économie de coûts : Pas besoin d'investir dans l'infrastructure, les mises à jour matérielles, etc.  Collaboration : Les SaaS permettent une collaboration en temps réel avec des collègues et des clients.  Sécurité : Les SaaS sont généralement sécurisés et sauvegardés automatiquement.  Support technique : Vous bénéficiez généralement d'un support technique pour résoudre les problèmes rapidement.",
         },
         {
             question: "Qui contacter pour créer une application web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Pour créer une application web, vous pouvez contacter des développeurs web indépendants, des entreprises de développement web ou des agences spécialisées dans le développement d'applications. Il est essentiel de choisir des professionnels expérimentés et de vérifier leurs antécédents et leurs réalisations. Discutez de vos besoins spécifiques avec eux pour obtenir des devis et des recommandations adaptés à votre projet.",
         },
         {
             question: "Quel est le coût d'une application web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le coût d'une application web varie en fonction de nombreux facteurs, notamment la complexité, les fonctionnalités, les technologies utilisées, le temps de développement et les besoins spécifiques du projet. Il est recommandé de demander des devis à plusieurs développeurs ou agences pour obtenir une idée précise du coût. Les applications web simples peuvent coûter quelques milliers d'euros, tandis que des projets plus complexes peuvent atteindre plusieurs dizaines de milliers d'euros ou plus.",
         },
-    ]
+    ];
 
 
     const atouts = [

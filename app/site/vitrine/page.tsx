@@ -41,26 +41,24 @@ export default function page() {
     {
       question: "Combien coûte la création d'un site vitrine ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le coût de création d'un site vitrine peut varier en fonction de plusieurs facteurs. Cela inclut la complexité du site, les fonctionnalités spécifiques que vous souhaitez inclure. N'hésitez pas à nous demander un devis gratuit personnalisé",
     },
     {
       question: "Quel est l’objectif d’un site vitrine ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Un site vitrine a pour objectif principal de présenter votre entreprise, vos produits ou services en ligne. Il agit comme une vitrine virtuelle, offrant aux visiteurs des informations sur votre entreprise, son expertise et son offre. Il peut aider à établir votre présence en ligne, renforcer votre crédibilité et fournir un moyen pour les clients potentiels de vous contacter. C'est un excellent outil pour attirer de nouveaux clients et renforcer votre image de marque.",
     },
     {
       question: "De quelles étapes ai-je besoin pour créer un site web de A à Z ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La création d'un site web de A à Z implique plusieurs étapes. Tout d'abord, vous devez définir clairement vos objectifs et besoins. Ensuite, choisissez une plateforme (comme WordPress, Shopify, etc.) et un nom de domaine. Concevez la structure de votre site, créez du contenu de qualité, et assurez-vous de l'optimiser pour les moteurs de recherche. Enfin, choisissez un hébergement web, configurez votre site, testez-le, et assurez-vous de sa maintenance continue.",
     },
     {
       question: "Quelle plateforme de création de site web dois-je utiliser (WordPress, Shopify, etc.) ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le choix de la plateforme dépend de vos besoins et objectifs spécifiques. WordPress est une option populaire pour sa polyvalence et sa facilité d'utilisation. Shopify est idéal pour les sites de commerce électronique. La décision dépendra de votre secteur d'activité, de votre budget, et des fonctionnalités requises pour votre site. Il est conseillé de consulter un professionnel pour déterminer la meilleure plateforme pour votre projet.",
     },
-    // More questions...
-  ]
-
+  ];
 
   return (
     <main>

@@ -47,26 +47,24 @@ export default function Page() {
     {
       question: "Quels sont les avantages de la création d'un site web pour mon entreprise ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La création d'un site web offre de nombreux avantages à votre entreprise. Cela vous permet d'atteindre un public plus large, d'améliorer votre visibilité en ligne, de renforcer la crédibilité de votre entreprise et d'offrir un moyen pratique pour les clients de vous contacter ou d'acheter vos produits ou services.",
     },
     {
-      question: "CPouvez-vous m'aider à choisir la plateforme adaptée à mes besoins pour mon site ?",
+      question: "Pouvez-vous m'aider à choisir la plateforme adaptée à mes besoins pour mon site ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Bien sûr, nous pouvons vous aider à choisir la plateforme de création de site web la mieux adaptée à vos besoins. Nous évaluerons vos objectifs, vos fonctionnalités requises et votre budget pour recommander la plateforme la plus appropriée, que ce soit WordPress, Shopify, ou d'autres options.",
     },
     {
       question: "Quels sont les délais typiques pour la création d'un site web ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Les délais varient en fonction de la taille et de la complexité de votre projet. Pour les sites web simples, cela peut prendre quelques semaines, tandis que des projets plus importants peuvent prendre plusieurs mois. Nous travaillerons avec vous pour établir un calendrier réaliste.",
     },
     {
       question: "Proposez-vous des services d'hébergement web en plus de la création de site web ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Oui, nous proposons des services d'hébergement web pour votre site. Nous pouvons vous aider à choisir un plan d'hébergement adapté à vos besoins, assurant ainsi la performance et la sécurité de votre site web une fois qu'il est en ligne.",
     },
-    // More questions...
-  ]
-
+  ];
 
   return (
     <main>

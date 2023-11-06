@@ -69,25 +69,24 @@ export default function page() {
         {
             question: "Qu'est-ce que le SEA ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEA (Search Engine Advertising) est une stratégie de marketing en ligne qui consiste à diffuser des annonces publicitaires sur les moteurs de recherche. Les annonceurs paient pour que leurs annonces soient affichées en haut des résultats de recherche lorsque des utilisateurs effectuent des recherches sur des mots-clés pertinents. Le SEA est un moyen efficace d'attirer du trafic qualifié vers un site web en plaçant des annonces payantes.",
         },
         {
-            question: "Pourquoi choisir le SEA comme levier ? ",
+            question: "Pourquoi choisir le SEA comme levier ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEA est un choix judicieux pour de nombreuses raisons. Il offre un contrôle précis sur les annonces, permettant aux annonceurs de cibler des mots-clés spécifiques et de définir un budget quotidien. De plus, les résultats sont généralement rapides, ce qui signifie que vous pouvez augmenter votre visibilité instantanément. En outre, le SEA permet de mesurer précisément les performances de vos campagnes et d'ajuster votre stratégie en conséquence.",
         },
         {
             question: "Quels sont les avantages du SEA par rapport au référencement naturel (SEO) ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEA présente plusieurs avantages par rapport au référencement naturel (SEO) : 1. Résultats rapides : Contrairement au SEO, les campagnes SEA peuvent générer des résultats immédiats en affichant des annonces en haut des pages de résultats des moteurs de recherche. 2. Contrôle précis : Vous avez un contrôle total sur vos annonces, vos mots-clés et votre budget publicitaire. 3. Visibilité instantanée : Le SEA vous permet de maximiser votre visibilité en ligne rapidement, ce qui est essentiel pour les nouveaux sites ou les lancements de produits. 4. Mesure et ajustement : Vous pouvez mesurer précisément les performances de vos annonces et apporter des ajustements en temps réel pour optimiser vos campagnes. 5. Ciblage : Le SEA offre un ciblage précis en fonction de l'emplacement, de l'heure, des intérêts et d'autres critères, ce qui permet d'atteindre un public spécifique.",
         },
         {
             question: "Quel est le coût d'une campagne SEA ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le coût d'une campagne SEA dépend de plusieurs facteurs, notamment les mots-clés que vous ciblez, la concurrence sur ces mots-clés, votre budget quotidien et la qualité de vos annonces. Les coûts varient largement, mais il est essentiel de fixer un budget quotidien que vous êtes prêt à dépenser. Il est recommandé de commencer avec un budget modeste et d'ajuster au fur et à mesure que vous évaluez les performances de vos annonces.",
         },
-    ]
-
+    ];
 
     const atouts = [
         {

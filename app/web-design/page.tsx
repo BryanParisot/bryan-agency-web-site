@@ -46,24 +46,24 @@ export default function page() {
     {
       question: "Qu'est-ce que le web design exactement ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le web design est le processus de conception, de planification et de création d'éléments visuels et interactifs pour un site web. Cela inclut la disposition, la couleur, la typographie, les images, les icônes et d'autres éléments visuels qui contribuent à l'apparence et à l'expérience utilisateur d'un site web. Le web design vise à créer des sites web esthétiquement attrayants, faciles à naviguer et efficaces pour atteindre leurs objectifs.",
     },
     {
       question: "Quelle est l'importance du web design pour mon entreprise ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le web design est d'une importance cruciale pour votre entreprise, car il influe sur la première impression que les visiteurs ont de votre site web. Un design bien pensé peut renforcer la crédibilité de votre entreprise, améliorer l'expérience utilisateur, encourager l'engagement des visiteurs et augmenter les conversions. Il contribue également à la cohérence de la marque et à la différenciation par rapport à la concurrence.",
     },
     {
       question: "Quelle est la différence entre le design web et le développement web ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le design web se concentre sur l'apparence visuelle et l'expérience utilisateur d'un site web. Il implique la création de maquettes, de mises en page, de couleurs, de typographie et de visuels. En revanche, le développement web se concentre sur la création du code et de la structure qui rendent un site web fonctionnel. Les développeurs web traduisent les conceptions en code, ajoutent des fonctionnalités interactives et assurent le bon fonctionnement du site.",
     },
     {
       question: "Quelle est la différence entre UI et UX design ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "L'UI (User Interface) design se concentre sur la conception des éléments interactifs d'un site web, tels que les boutons, les menus, les formulaires et les icônes. L'objectif est de rendre l'interface utilisateur esthétiquement agréable et facile à utiliser. L'UX (User Experience) design se concentre sur l'expérience globale de l'utilisateur en interagissant avec le site. Il vise à rendre cette expérience fluide, intuitive et agréable. Les deux aspects du design web travaillent ensemble pour créer des sites web performants et conviviaux.",
     },
-  ]
+  ];
 
 
   const atouts = [

@@ -38,25 +38,25 @@ export default function page() {
     {
       question: "Combien coûte la création d'un site e-commerce ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le coût de la création d'un site e-commerce peut varier considérablement en fonction de divers facteurs tels que la taille du site, les fonctionnalités requises, la conception, les fonctionnalités de paiement, etc. Les coûts peuvent aller de quelques milliers d'euros pour des solutions simples à plusieurs dizaines de milliers d'euros pour des projets plus complexes. Il est recommandé de discuter de vos besoins spécifiques avec des professionnels du développement web pour obtenir un devis précis.",
     },
     {
-      question: "Quel est l’objectif d’un site internet e-commerce ?",
+      question: "Quel est l'objectif d'un site internet e-commerce ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "L'objectif principal d'un site internet e-commerce est de permettre la vente de produits ou de services en ligne. Il offre aux entreprises une plateforme pour présenter leurs offres, gérer leur catalogue de produits, traiter les paiements en ligne et offrir une expérience d'achat conviviale aux clients. Un site e-commerce vise à générer des ventes, à fidéliser les clients et à développer une présence en ligne rentable.",
     },
     {
       question: "De quelles étapes ai-je besoin pour créer un site e-commerce de A à Z ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La création d'un site e-commerce de A à Z implique plusieurs étapes clés : Planification : Définissez vos objectifs, identifiez votre public cible, choisissez les produits à vendre et établissez un budget.Conception : Créez une conception de site web attrayante et conviviale, en tenant compte de l'expérience utilisateur. Développement : Choisissez une plateforme (comme WooCommerce, Shopify, Magento) et développez votre site, en ajoutant des fonctionnalités de paiement, de gestion de produits, etc. Contenu : Ajoutez des descriptions de produits, des images de qualité, et optimisez votre contenu pour le référencement. Tests : Testez le site pour vous assurer qu'il fonctionne correctement, effectuez des tests de paiement, etc.  Lancement : Mettez en ligne votre site et commencez à vendre. Marketing : Promouvez votre site e-commerce à travers des canaux marketing comme le référencement, les médias sociaux, la publicité, etc.",
     },
     {
       question: "Quelle plateforme de création de site e-commerce dois-je utiliser (WordPress, Shopify, etc.) ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le choix de la plateforme dépend de vos besoins spécifiques. WordPress avec le plugin WooCommerce est une option populaire et polyvalente. Shopify est une solution conviviale tout-en-un. Magento est adapté aux grandes entreprises. La meilleure plateforme dépend de la taille de votre entreprise, du nombre de produits, de votre budget, etc. Il est recommandé de consulter des professionnels du développement web pour choisir la plateforme la plus adaptée à vos besoins.",
     },
-    // More questions...
-  ]
+  ];
+
   return (
     <main>
       <Header

@@ -44,24 +44,24 @@ export default function page() {
         {
             question: "Pourquoi devrais-je choisir WordPress pour la création de mon site web ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "WordPress est l'une des plateformes de gestion de contenu les plus populaires et polyvalentes, offrant de nombreux avantages. Il est convivial, ce qui signifie que vous pouvez facilement gérer le contenu de votre site. Il est hautement personnalisable, vous permettant de créer un site web unique. De plus, il propose une grande variété de thèmes et de plugins pour étendre les fonctionnalités de votre site. Enfin, WordPress est bien pris en charge avec une communauté active et des mises à jour régulières pour des performances optimales.",
         },
         {
             question: "Quelles sont les étapes clés pour créer un site web WordPress personnalisé ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "La création d'un site web WordPress personnalisé implique plusieurs étapes clés. Tout d'abord, vous devez définir vos objectifs et besoins spécifiques. Ensuite, choisissez un nom de domaine et un hébergeur web. Installez WordPress et sélectionnez un thème adapté à votre entreprise. Personnalisez le thème en fonction de vos préférences de design. Ajoutez des plugins pour ajouter des fonctionnalités supplémentaires. Enfin, créez et organisez votre contenu et assurez-vous que votre site est convivial.",
         },
         {
             question: "Quels sont les coûts associés à la création d'un site WordPress ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Les coûts de création d'un site WordPress peuvent varier en fonction de vos besoins. Les éléments à prendre en compte comprennent le coût de l'hébergement, le nom de domaine, les thèmes ou plugins premium, les services de développement ou de conception, et les coûts de maintenance. Il est essentiel de planifier votre budget en fonction de ces éléments et de choisir des options en fonction de vos priorités et de vos ressources financières.",
         },
         {
             question: "Quelle est la différence entre une landing page et une page d'accueil ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Une page d'accueil est la page principale de votre site web et agit comme une introduction globale à votre entreprise. Elle présente souvent un aperçu de l'ensemble de votre site. En revanche, une landing page est une page spécifiquement conçue pour une campagne marketing ou publicitaire. Elle a un objectif précis, tel que la capture de leads ou la promotion d'un produit. Les landing pages sont souvent épurées et axées sur l'appel à l'action pour encourager les visiteurs à effectuer une action spécifique.",
         },
-    ]
+    ];
 
 
     return (

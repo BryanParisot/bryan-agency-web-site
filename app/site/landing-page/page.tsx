@@ -36,26 +36,24 @@ export default function page() {
     {
       question: "Qu'est-ce qu'une landing page ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Une landing page, ou page d'atterrissage, est une page web spécialement conçue pour convertir les visiteurs en leads ou en clients. Elle est généralement associée à une campagne marketing ou publicitaire et présente un contenu ciblé pour inciter les visiteurs à effectuer une action spécifique, comme remplir un formulaire, télécharger un ebook ou effectuer un achat. Les landing pages sont conçues pour maximiser le taux de conversion en fournissant un message clair et des incitations à l'action.",
     },
     {
       question: "Pourquoi ai-je besoin d'une landing page ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Les landing pages sont essentielles pour les entreprises cherchant à convertir les visiteurs en clients ou prospects. Elles permettent de cibler efficacement votre public, d'obtenir des informations précieuses sur les visiteurs et d'augmenter le taux de conversion. Les landing pages sont idéales pour les campagnes publicitaires, le lancement de produits, la collecte de leads, ou toute autre action marketing nécessitant une conversion spécifique. Elles vous aident à mesurer et à optimiser vos efforts marketing.",
     },
     {
       question: "Quels éléments devraient figurer sur une landing page efficace ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Une landing page efficace doit comporter plusieurs éléments clés, notamment : Un titre accrocheur qui capte l'attention. Un contenu clair et convaincant qui explique les avantages de votre offre. Un appel à l'action (CTA) clair et incitatif. Un formulaire de conversion pour recueillir des informations précieuses. Des éléments visuels, tels que des images ou des vidéos, pour renforcer le message. Des témoignages ou des preuves sociales pour établir la crédibilité. Une conception responsive pour une expérience utilisateur optimale. Des informations de contact ou des liens vers des pages supplémentaires si nécessaire. Une landing page bien conçue doit être axée sur la conversion et présenter un contenu pertinent pour le public cible.",
     },
     {
       question: "Quelle est la différence entre une landing page et une page d'accueil ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La principale différence entre une landing page et une page d'accueil réside dans leur objectif et leur contenu. Une landing page est conçue pour une conversion spécifique, généralement dans le cadre d'une campagne marketing ou publicitaire. Son contenu est ciblé et axé sur une incitation à l'action claire, comme s'inscrire à une newsletter ou acheter un produit. En revanche, une page d'accueil est la porte d'entrée principale de votre site web. Elle offre un aperçu général de votre entreprise, de vos produits ou services, et de la navigation vers d'autres pages du site. Elle vise à informer, orienter et présenter l'ensemble de votre offre. Une page d'accueil n'a pas un objectif de conversion spécifique, contrairement à une landing page.",
     },
-    // More questions...
-  ]
-
+  ];
 
 
   return (

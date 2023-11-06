@@ -45,25 +45,24 @@ export default function page() {
         {
             question: "Qu'est-ce que le SEO ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEO, ou Search Engine Optimization, est un ensemble de techniques visant à améliorer la visibilité d'un site web dans les résultats organiques (non payants) des moteurs de recherche comme Google. Le SEO implique l'optimisation de divers éléments, tels que les mots-clés, la structure du site, le contenu et les liens, afin de favoriser un classement plus élevé dans les résultats de recherche et d'attirer un trafic organique de qualité.",
         },
         {
             question: "À quoi sert le SEO ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEO est essentiel pour permettre à un site web d'apparaître en tête des résultats de recherche, ce qui augmente sa visibilité en ligne. Cela peut entraîner une augmentation du trafic organique, de la notoriété de la marque et des conversions. En investissant dans le SEO, les entreprises peuvent atteindre un public plus large et rivaliser efficacement dans le paysage numérique.",
         },
         {
             question: "Quelle est la différence entre le SEO et le SEA ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le SEO (Search Engine Optimization) et le SEA (Search Engine Advertising) sont deux stratégies de marketing en ligne distinctes. Le SEO vise à améliorer la visibilité d'un site web dans les résultats de recherche organiques, tandis que le SEA consiste à diffuser des annonces payantes sur les moteurs de recherche. La principale différence réside dans le fait que le SEO repose sur des efforts d'optimisation non payants, tandis que le SEA implique un coût par clic (CPC) pour diffuser des annonces payantes.",
         },
         {
             question: "Combien de temps faut-il pour voir des résultats avec le SEO ?",
             answer:
-                "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+                "Le délai nécessaire pour voir des résultats avec le SEO peut varier en fonction de nombreux facteurs, tels que la concurrence, l'âge du site, la qualité du contenu et les pratiques d'optimisation. En général, il faut souvent plusieurs semaines, voire plusieurs mois, pour commencer à observer des améliorations significatives. Le SEO est un effort à long terme, et la patience est souvent nécessaire pour obtenir des résultats durables.",
         },
-    ]
-
+    ];
 
     const atouts = [
         {

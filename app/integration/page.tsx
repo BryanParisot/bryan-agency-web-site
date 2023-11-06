@@ -68,26 +68,26 @@ export default function page() {
 
   const faqs = [
     {
-      question: "Dans quel langage intégrez-vous nos maquettes",
+      question: "Dans quel langage intégrez-vous nos maquettes ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Nous intégrons vos maquettes en utilisant des technologies web modernes, telles que HTML5, CSS3 et JavaScript. Ces langages nous permettent de créer des sites web interactifs, réactifs et esthétiques en respectant vos conceptions visuelles.",
     },
     {
       question: "Pourquoi l'intégration de maquette est-elle importante ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "L'intégration de maquettes est essentielle car elle transforme vos conceptions visuelles en une expérience web fonctionnelle. Elle garantit que le design est correctement traduit en code, assurant ainsi la cohérence visuelle et la convivialité de votre site. Une intégration de qualité est essentielle pour offrir une expérience utilisateur optimale.",
     },
     {
       question: "Combien de temps faut-il pour intégrer une maquette en site web ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "La durée d'intégration d'une maquette dépend de sa complexité et de ses fonctionnalités. En règle générale, cela peut prendre de quelques jours à quelques semaines. Notre équipe travaille efficacement pour respecter les délais tout en assurant une intégration de haute qualité.",
     },
     {
-      question: "Combien coûte l’intégration d’une maquette ? ",
+      question: "Combien coûte l’intégration d’une maquette ?",
       answer:
-        "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+        "Le coût de l'intégration d'une maquette varie en fonction de la taille du projet, de la complexité de la maquette et des fonctionnalités requises. Nous vous fournirons un devis sur mesure pour votre projet d'intégration de maquette après une évaluation approfondie de vos besoins.",
     },
-  ]
+  ];
 
   const atouts = [
     {
