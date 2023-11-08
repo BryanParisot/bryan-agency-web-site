@@ -23,7 +23,7 @@ function CallToAction() {
                             </radialGradient>
                         </defs>
                     </svg>
-                    <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                    <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left z-50">
                         <h2 className="text-lg font-bold tracking-tight text-white sm:text-1xl">
                             Embarquez avec notre équipage digital et propulsez votre présence en ligne vers de nouveaux sommets !
                             <br />
