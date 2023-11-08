@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from '../ui/button'
 import Image, { StaticImageData } from 'next/image'
 import { ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link';
 
 
 interface HeaderProps {
@@ -30,10 +31,20 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, text, image, alt }) =>
                         </p>
                     </div>
 
-                    <Button>
-                        <ChatBubbleBottomCenterIcon className="h-5 w-5 mr-2" aria-hidden="true" />
-                        Discutons de votre projet
-                    </Button>
+                    <div className='flex flex-col sm:flex-row justify-start items-start sm:items-center sm:space-y-0 space-y-5 space-x-0 sm:space-x-4'>
+
+                        <Link href="/contact">
+                            <Button size="lg">
+                                <ChatBubbleBottomCenterIcon className="h-5 w-5 mr-2" aria-hidden="true" />
+                                Discutons de votre projet
+                            </Button>
+                        </Link>
+                        <Link href="tel:0750966522">
+                            <Button size="lg" variant="primary">
+                                Appelez-nous
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
                 <div className='hidden  sm:block :w-2/6'>
                     <Image src={image} alt={alt} />
