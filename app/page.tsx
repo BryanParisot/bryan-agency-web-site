@@ -75,7 +75,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="sm:px-16">
+        <div className="px-5 sm:px-16">
           <CallToAction />
 
           <SectionWithPictures

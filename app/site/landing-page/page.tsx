@@ -4,18 +4,19 @@ import Image from 'next/image'
 //COMPONENTS
 import Header from '@/components/Header/Header'
 import CardGeneral from '@/components/Cards/CardGeneral'
+import CallToAction from '@/components/CTA/CallToAction'
+import SectionLogos from '@/components/Section/SectionLogos'
+import BlogSection from '@/components/BlogSection/BlogSection'
+import Faq from '@/components/FAQ/Faq'
 
 //LOGOS | PICTURES
 import picture_site from "../../../public/pictures/site/site_page.png"
 import logo_optimization from "../../../public/logos/site/landing/logo_optimization.svg"
 import logo_audience from "../../../public/logos/site/landing/logo_audience.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
-import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
 import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
-import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
+import landing_page from "../../../public/pictures/site/landing_page/illustration_landing_page.jpg"
+import maquette_landing from "../../../public/pictures/site/landing_page/maquette_landing.jpg"
 
 
 export default function page() {
@@ -78,45 +79,52 @@ export default function page() {
             ))
           }
         </div>
+        <div className='sm:px-20 px-5 mb-10'>
 
-        <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-          <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-            <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={landing_page}
+                alt="Freelance landing page nancy" />
+            </div>
+            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                Optimisez vos taux de conversion avec notre expertise en <span className='text-emerald-600'>landing pages</span>
+              </h2>
+              <p>
+                Chez [Nom de Votre Entreprise], nous comprenons que chaque clic sur votre site web représente une opportunité de conversion précieuse. C'est pourquoi nous mettons notre savoir-faire au service de la création de landing pages qui captivent vos visiteurs et les incitent à agir.            </p>
+              <p>
+                Que votre objectif soit de collecter des leads, de vendre un produit ou de promouvoir une offre spéciale, notre équipe d'experts en design et en rédaction sait comment créer des landing pages persuasives. Nous personnalisons chaque élément pour répondre aux besoins de votre public cible, en optimisant l'expérience de l'utilisateur pour maximiser les conversions.            </p>
+              <p>
+                Découvrez comment nous pouvons vous aider à obtenir des résultats concrets en ligne grâce à nos <span className='font-bold'>landing pages</span> de haute performance. Avec [Nom de Votre Entreprise], chaque visiteur est une opportunité de conversion que nous saisissons avec succès.            </p>
+            </div>
           </div>
-          <div className='w-full sm:w-3/6 space-y-4 px-8'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Optimisez vos taux de conversion avec notre expertise en landing pages
-            </h2>
-            <p>
-              Chez [Nom de Votre Entreprise], nous comprenons que chaque clic sur votre site web représente une opportunité de conversion précieuse. C'est pourquoi nous mettons notre savoir-faire au service de la création de landing pages qui captivent vos visiteurs et les incitent à agir.            </p>
-            <p>
-              Que votre objectif soit de collecter des leads, de vendre un produit ou de promouvoir une offre spéciale, notre équipe d'experts en design et en rédaction sait comment créer des landing pages persuasives. Nous personnalisons chaque élément pour répondre aux besoins de votre public cible, en optimisant l'expérience de l'utilisateur pour maximiser les conversions.            </p>
-            <p>
-              Découvrez comment nous pouvons vous aider à obtenir des résultats concrets en ligne grâce à nos landing pages de haute performance. Avec [Nom de Votre Entreprise], chaque visiteur est une opportunité de conversion que nous saisissons avec succès.            </p>
+
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={maquette_landing}
+                alt="Freelance landing page Nancy" />
+            </div>
+            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                Une <span className='text-emerald-600'>landing page</span> qui vous ressemble
+              </h2>
+              <p>
+                Votre <span className='font-bold'>landing page</span> est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une landing page qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.
+              </p>
+              <p>
+                Que vous souhaitiez promouvoir un produit, générer des leads ou lancer une campagne spéciale, notre équipe d'experts en design et en rédaction travaille en étroite collaboration avec vous pour personnaliser chaque élément de votre landing page. Nous croyons que chaque entreprise est unique, et votre landing page devrait l'être aussi.
+              </p>
+              <p>
+                Faites confiance à notre expertise pour créer une <span className='font-bold'>landing page</span> qui vous ressemble, une page qui communique avec succès votre histoire, vos valeurs et votre proposition de valeur. Découvrez comment nous pouvons vous aider à optimiser votre présence en ligne et à inciter vos visiteurs à passer à l'action.
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-          <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-            <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-          </div>
-          <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Une landing page qui vous ressemble             </h2>
-            <p>
-              Votre landing page est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une landing page qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.
-            </p>
-            <p>
-              Que vous souhaitiez promouvoir un produit, générer des leads ou lancer une campagne spéciale, notre équipe d'experts en design et en rédaction travaille en étroite collaboration avec vous pour personnaliser chaque élément de votre landing page. Nous croyons que chaque entreprise est unique, et votre landing page devrait l'être aussi.
-            </p>
-            <p>
-              Faites confiance à notre expertise pour créer une landing page qui vous ressemble, une page qui communique avec succès votre histoire, vos valeurs et votre proposition de valeur. Découvrez comment nous pouvons vous aider à optimiser votre présence en ligne et à inciter vos visiteurs à passer à l'action.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className='sm:px-20 px-5 mb-10'>
         <CallToAction />
 
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre landing page" />

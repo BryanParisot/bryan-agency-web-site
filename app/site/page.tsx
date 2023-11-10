@@ -7,15 +7,15 @@ import SiteCards from "../../components/Cards/SiteCards";
 import Faq from "@/components/FAQ/Faq";
 import Carousel from "@/components/Carrousel/Carousel";
 
-//LOGOS
+//LOGOS | PICTURES
 import logo_vitrine from "../../public/logos/site/logo_vitrine.svg"
 import logo_e_commerce from "../../public/logos/site/logo_e_commerce.svg"
 import logo_landing_page from "../../public/logos/site/logo_landing_page.svg"
 import logo_wordpress from "../../public/logos/site/logo_wordpress.svg"
 import logo_refonte from "../../public/logos/site/logo_refonte.svg"
 import logo_maintenance from "../../public/logos/site/logo_maintenance.svg"
-import illustration_web from '../../public/pictures/home/illustration_web.jpg'
 import picture_site from "../../public/pictures/site/site_page.png"
+import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg"
 
 
 
@@ -97,7 +97,7 @@ export default function Page() {
           <SectionWithPictures
             title="Créez votre présence en ligne personnalisée avec nos services de création de site web"
             description="Pourquoi choisir une agence web ? Parce que nous sommes les navigateurs de l'univers numérique. Avec notre expertise en développement web, design, référencement et stratégie numérique, nous vous aidons à hisser les voiles vers le succès en ligne. Notre équipe technique assure une conception professionnelle, une visibilité accrue dans les moteurs de recherche et un site web optimisé. Gagnez du temps, restez à la pointe de la technologie et concentrez-vous sur votre entreprise pendant que nous donnons vie à votre présence en ligne. Contactez-nous aujourd'hui pour commencer votre voyage vers la réussite digitale."
-            image={illustration_web}
+            image={presence_en_ligne}
             alt='illustration web'
           />
 

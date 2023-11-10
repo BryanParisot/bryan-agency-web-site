@@ -84,11 +84,11 @@ export default function page() {
         </div>
         <div className='sm:px-20 px-5'>
 
-          <div className='flex flex-col sm:flex-row mt-20'>
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
             <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
               {" "}
               <Image
-                className="rounded-xl shadow-xl shadow-emerald-900/20"
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={double_screen}
                 alt="Double Ecran illustration" />
             </div>
@@ -108,10 +108,10 @@ export default function page() {
             </div>
           </div>
 
-          <div className='flex flex-col sm:flex-row  mt-10 sm:mt-0'>
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
             <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
               <Image
-                className="rounded-xl shadow-xl shadow-emerald-900/20"
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={vitrine_site} alt="Illustration d'un site vitrine" />
             </div>
             <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>

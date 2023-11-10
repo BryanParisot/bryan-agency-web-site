@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 //COMPONENTS
 import Header from '@/components/Header/Header'
@@ -8,8 +7,9 @@ import CallToAction from '@/components/CTA/CallToAction'
 import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
 import Faq from '@/components/FAQ/Faq'
-import { Button } from '@/components/ui/button'
 import SectionEmerald from '@/components/Section/SectionEmerald'
+import CallToActionLight from '@/components/CTA/CallToActionLight'
+import { Button } from '@/components/ui/button'
 
 
 //LOGOS | PICTURES
@@ -19,10 +19,9 @@ import logo_securite from "../../../public/logos/site/maintenance/logo_securite.
 import logo_performance from "../../../public/logos/site/maintenance/logo_performance.svg"
 import logo_stress from "../../../public/logos/site/maintenance/logo_stress.svg"
 
-import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
-import maintenance from "../../../public/pictures/site/wordpress/maintenance.png"
-import CallToActionLight from '@/components/CTA/CallToActionLight'
+import wordpress_maintenance from "../../../public/pictures/site/wordpress/wordpress_maintenance.jpg"
+import wordpress_maintenance_menu from "../../../public/pictures/site/wordpress/wordpress_maintenance_menu.jpg"
+import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 
 
 
@@ -69,8 +68,7 @@ export default function page() {
             <Header
                 title="Agence de maintenance Wordpress"
                 subtitle="Services de maintenance de site WordPress : Votre garantie de performances optimal"
-                text="Chez [Nom de Votre Entreprise], nous comprenons l'importance de maintenir votre site WordPress en parfait état de fonctionnement. Notre équipe dédiée de professionnels WordPress est là pour vous offrir des services de maintenance complets et rigoureux, afin de garantir que votre site fonctionne à son meilleur, à tout moment.
-"
+                text="Chez [Nom de Votre Entreprise], nous comprenons l'importance de maintenir votre site WordPress en parfait état de fonctionnement. Notre équipe dédiée de professionnels WordPress est là pour vous offrir des services de maintenance complets et rigoureux, afin de garantir que votre site fonctionne à son meilleur, à tout moment."
                 image={picture_site}
                 alt="image png developpeur web"
             />
@@ -87,84 +85,92 @@ export default function page() {
                         ))
                     }
                 </div>
+                <div className='sm:px-20 px-5'>
 
-                <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-                    <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
-                    </div>
-                    <div className='w-full sm:w-3/6 space-y-6 px-8'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Liste des services de maintenance
-                        </h2>
-                        <p>
-                            Chez [Nom de Votre Entreprise], nous comprenons que la maintenance de votre site web est une décision importante, et nous sommes prêts à vous montrer pourquoi nous sommes le choix idéal pour cette tâche cruciale.
-                        </p>
-                        <div className='flex flex-row'>
-                            <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>1</div>
-                            <div className='w-5/6'>
-                                <p>
-                                    <span className='font-extrabold'>Mises à jour régulières :  </span> Nous assurons une gestion proactive des mises à jour pour maintenir la compatibilité et la sécurité de votre site.
-                                </p>
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={wordpress_maintenance}
+                                alt="Freelance wordpress" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Liste des services de maintenance
+                            </h2>
+                            <p>
+                                Chez [Nom de Votre Entreprise], nous comprenons que la maintenance de votre site web est une décision importante, et nous sommes prêts à vous montrer pourquoi nous sommes le choix idéal pour cette tâche cruciale.
+                            </p>
+                            <div className='flex flex-row'>
+                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>1</div>
+                                <div className='w-5/6'>
+                                    <p>
+                                        <span className='font-extrabold'>Mises à jour régulières :  </span> Nous assurons une gestion proactive des mises à jour pour maintenir la compatibilité et la sécurité de votre site.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row'>
+                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>2</div>
+                                <div className='w-5/6'>
+                                    <p>
+                                        <span className='font-extrabold'>Sécurité renforcée : </span> Notre équipe de sécurité surveille en permanence votre site pour prévenir les menaces et réagir rapidement en cas d'incident.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div className='flex flex-row'>
-                            <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>2</div>
-                            <div className='w-5/6'>
-                                <p>
-                                    <span className='font-extrabold'>Sécurité renforcée : </span> Notre équipe de sécurité surveille en permanence votre site pour prévenir les menaces et réagir rapidement en cas d'incident.
-                                </p>
+                    </div>
+
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={wordpress_maintenance_menu}
+                                alt="Freelance wordpress" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-6 px-8 mt-5 flex flex-col justify-center'>
+                            <div className='flex flex-row mt-2'>
+                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
+                                <div className='w-5/6'>
+                                    <p>
+                                        <span className='font-extrabold'>Sauvegardes Automatisées : </span> Vos données sont précieuses. Nous les protégeons grâce à des sauvegardes régulières.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mt-2'>
+                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>4</div>
+                                <div className='w-5/6'>
+                                    <p>
+                                        <span className='font-extrabold'>Optimisation des performances : </span> Nous améliorons constamment la vitesse et la réactivité de votre site pour offrir une expérience utilisateur exceptionnelle.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row mt-2'>
+                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
+                                <div className='w-5/6'>
+                                    <p>
+                                        <span className='font-extrabold'>Support technique réactif  : </span> En cas de problème, notre équipe est prête à intervenir rapidement pour résoudre tout souci technique.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
-
-                <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-                    <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-                    </div>
-                    <div className='w-full sm:w-3/6 space-y-6 px-8 mt-5 flex flex-col justify-center'>
-                        <div className='flex flex-row mt-2'>
-                            <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
-                            <div className='w-5/6'>
-                                <p>
-                                    <span className='font-extrabold'>Sauvegardes Automatisées : </span> Vos données sont précieuses. Nous les protégeons grâce à des sauvegardes régulières.
-                                </p>
-                            </div>
-                        </div>
-                        <div className='flex flex-row mt-2'>
-                            <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>4</div>
-                            <div className='w-5/6'>
-                                <p>
-                                    <span className='font-extrabold'>Optimisation des performances : </span> Nous améliorons constamment la vitesse et la réactivité de votre site pour offrir une expérience utilisateur exceptionnelle.
-                                </p>
-                            </div>
-                        </div>
-                        <div className='flex flex-row mt-2'>
-                            <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
-                            <div className='w-5/6'>
-                                <p>
-                                    <span className='font-extrabold'>Support technique réactif  : </span> En cas de problème, notre équipe est prête à intervenir rapidement pour résoudre tout souci technique.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <div className='sm:px-20 px-5'>
                 <CallToAction />
             </div>
 
             <div className="px-5 sm:px-16 mb-10">
 
-                <SectionEmerald image={maintenance} alt="représentation maintenance wordpress">
-                    <div className='space-y-6 flex-col flex justify-center'>
+                <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
+                    <div className='space-y-6 flex-col flex justify-evenly '>
                         <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
                             Pourquoi la maintenance d’un site WordPress est indispensable ?
                         </h2>
                         <p>
-                            La maintenance d'un site WordPress est bien plus qu'une simple tâche technique, c'est la clé pour assurer la sécurité, la performance et la fiabilité de votre présence en ligne. Notre équipe d'experts veille constamment sur votre site, appliquant des mises à jour cruciales, effectuant des sauvegardes régulières et surveillant les menaces potentielles. Grâce à notre service de maintenance, votre site reste en parfait état de fonctionnement, laissant une impression positive sur vos visiteurs et renforçant votre crédibilité en ligne.                        </p>
+                            La maintenance d'un site WordPress est bien plus qu'une simple tâche technique, c'est la clé pour assurer la sécurité, la performance et la fiabilité de votre présence en ligne. Notre équipe d'experts veille constamment sur votre site, appliquant des mises à jour cruciales, effectuant des sauvegardes régulières et surveillant les menaces potentielles. Grâce à notre service de maintenance, votre site reste en parfait état de fonctionnement, laissant une impression positive sur vos visiteurs et renforçant votre crédibilité en ligne.
+                        </p>
+                        <Button variant="primary">Contactez-nous</Button>
                     </div>
                 </SectionEmerald>
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />

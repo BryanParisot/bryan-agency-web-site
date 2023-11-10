@@ -15,10 +15,11 @@ import picture_site from "../../../public/pictures/site/site_page.png"
 import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
 import logo_promotion from "../../../public/logos/site/vitrine/logo_promotion.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
-import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
 import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
+import commerce from "../../../public/pictures/site/commerce/commerce.jpg"
+import site_e_commerce_nancy from "../../../public/pictures/site/commerce/site_e_commerce_nancy.jpg"
 
-
+site_e_commerce_nancy
 
 export default function page() {
 
@@ -79,48 +80,54 @@ export default function page() {
             ))
           }
         </div>
+        <div className='sm:px-20 px-5 mb-5'>
 
-        <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-          <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-            <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
+            <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={commerce}
+                alt="E-commerce nancy" />
+            </div>
+            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
+              </h2>
+              <p>
+                Chez [Nom de Votre Entreprise], nous sommes passionnés par la création de boutiques en ligne qui se démarquent. Notre expertise en développement e-commerce vous permet de créer une expérience d'achat en ligne exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, nous concevons des sites e-commerce sur mesure qui répondent à vos besoins spécifiques.
+              </p>
+              <p>
+                Nous comprenons l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi nous mettons tout en œuvre pour vous offrir une plateforme e-commerce qui maximise vos ventes et fidélise vos clients.
+              </p>
+              <p>
+                Explorez nos services de création de sites e-commerce et découvrez comment nous pouvons vous aider à développer votre entreprise en ligne. De la conception à la gestion, nous sommes là à chaque étape de votre parcours e-commerce.
+              </p>
+            </div>
           </div>
-          <div className='w-full sm:w-3/6 space-y-4 px-8'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Transformez votre entreprise en ligne avec une boutique e-commerce sur mesure
-            </h2>
-            <p>
-              Chez [Nom de Votre Entreprise], nous sommes passionnés par la création de boutiques en ligne qui se démarquent. Notre expertise en développement e-commerce vous permet de créer une expérience d'achat en ligne exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, nous concevons des sites e-commerce sur mesure qui répondent à vos besoins spécifiques.
-            </p>
-            <p>
-              Nous comprenons l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi nous mettons tout en œuvre pour vous offrir une plateforme e-commerce qui maximise vos ventes et fidélise vos clients.
-            </p>
-            <p>
-              Explorez nos services de création de sites e-commerce et découvrez comment nous pouvons vous aider à développer votre entreprise en ligne. De la conception à la gestion, nous sommes là à chaque étape de votre parcours e-commerce.
-            </p>
+
+          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={site_e_commerce_nancy}
+                alt="e-commerce nancy" />
+            </div>
+            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                Un site internet  <span className='text-emerald-600'>e-commerce</span> qui vous ressemble
+              </h2>
+              <p>
+                Votre boutique en ligne est plus qu'un simple site web, c'est le visage de votre entreprise sur internet. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une boutique en ligne qui reflète votre identité de marque et votre vision.
+              </p>
+              <p>
+                Que vous soyez une petite entreprise artisanale ou une entreprise établie, nous travaillons en étroite collaboration avec vous pour concevoir une boutique en ligne qui vous ressemble. De la personnalisation du design à l'intégration des fonctionnalités spécifiques, nous mettons tout en œuvre pour capturer l'essence de votre entreprise.
+              </p>
+              <p>
+                Votre site e-commerce devrait être unique, tout comme vous. Faites confiance à notre équipe d'experts en développement e-commerce pour créer une boutique en ligne exceptionnelle qui séduit vos clients et vous aide à réussir dans le monde de la vente en ligne. Découvrez comment nous pouvons faire de votre boutique en ligne une extension authentique de votre entreprise.
+              </p>
+            </div>
           </div>
         </div>
-
-        <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-          <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-            <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-          </div>
-          <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Un Site internet e-commerce qui vous ressemble
-            </h2>
-            <p>
-              Votre boutique en ligne est plus qu'un simple site web, c'est le visage de votre entreprise sur internet. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une boutique en ligne qui reflète votre identité de marque et votre vision.
-            </p>
-            <p>
-              Que vous soyez une petite entreprise artisanale ou une entreprise établie, nous travaillons en étroite collaboration avec vous pour concevoir une boutique en ligne qui vous ressemble. De la personnalisation du design à l'intégration des fonctionnalités spécifiques, nous mettons tout en œuvre pour capturer l'essence de votre entreprise.
-            </p>
-            <p>
-              Votre site e-commerce devrait être unique, tout comme vous. Faites confiance à notre équipe d'experts en développement e-commerce pour créer une boutique en ligne exceptionnelle qui séduit vos clients et vous aide à réussir dans le monde de la vente en ligne. Découvrez comment nous pouvons faire de votre boutique en ligne une extension authentique de votre entreprise.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='sm:px-20 px-5 mb-10'>
         <CallToAction />
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
         <BlogSection />
