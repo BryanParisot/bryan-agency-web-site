@@ -10,6 +10,7 @@ import BlogSection from '@/components/BlogSection/BlogSection'
 import Faq from '@/components/FAQ/Faq'
 import { Button } from '@/components/ui/button'
 import SectionEmerald from '@/components/Section/SectionEmerald'
+import CallToActionLight from '@/components/CTA/CallToActionLight'
 
 
 //LOGOS | PICTURES
@@ -19,11 +20,10 @@ import logo_growth from "../../../public/logos/site/wordpress/logo_growth.svg"
 import logo_responsive from "../../../public/logos/site/wordpress/logo_responsive.svg"
 import logo_security from "../../../public/logos/site/wordpress/logo_security.svg"
 
-import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
-import maintenance from "../../../public/pictures/site/wordpress/maintenance.png"
-import CallToActionLight from '@/components/CTA/CallToActionLight'
+import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 
+import wp from "../../../public/pictures/site/wordpress/wp.jpg"
+import wp_illu from "../../../public/pictures/site/wordpress/wp_il.jpg"
 
 
 export default function page() {
@@ -86,51 +86,57 @@ export default function page() {
                         ))
                     }
                 </div>
+                <div className='sm:px-20 px-5'>
 
-                <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-                    <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={wp}
+                                alt="Freelance créateur de site wordpress" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-4 px-8'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Votre vision, notre expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span>
+                            </h2>
+                            <p>
+                                Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi nous nous spécialisons dans la création de sites WordPress personnalisés qui vous permettent de concrétiser vos idées en ligne.                        </p>
+                            <p>
+                                Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, notre équipe d'experts en développement WordPress est là pour vous. Nous collaborons étroitement avec vous pour comprendre vos objectifs, vos besoins et votre identité de marque, puis nous personnalisons chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.                        </p>
+                            <p>
+                                Avec WordPress comme toile, nous donnons vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment nous pouvons transformer votre vision en réalité en créant un site WordPress personnalisé qui excelle en ligne.                        </p>
+                        </div>
                     </div>
-                    <div className='w-full sm:w-3/6 space-y-4 px-8'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Votre vision, notre expertise : Créez un site WordPress professionnel
-                        </h2>
-                        <p>
-                            Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi nous nous spécialisons dans la création de sites WordPress personnalisés qui vous permettent de concrétiser vos idées en ligne.                        </p>
-                        <p>
-                            Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, notre équipe d'experts en développement WordPress est là pour vous. Nous collaborons étroitement avec vous pour comprendre vos objectifs, vos besoins et votre identité de marque, puis nous personnalisons chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.                        </p>
-                        <p>
-                            Avec WordPress comme toile, nous donnons vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment nous pouvons transformer votre vision en réalité en créant un site WordPress personnalisé qui excelle en ligne.                        </p>
+
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={wp_illu}
+                                alt="Illustration d'un site vitrine" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Un site <span className='text-emerald-600' >WordPress personnalisé</span> à votre image
+                            </h2>
+                            <p>
+                                Votre site web est le reflet de votre entreprise et de votre identité en ligne. Chez [Nom de Votre Entreprise], nous croyons en la création de sites WordPress qui sont fidèles à votre vision et à votre image de marque.
+                            </p>
+                            <p>
+                                Que vous cherchiez à transmettre un message professionnel, à partager vos idées créatives, à vendre des produits ou à présenter une plateforme unique, nous sommes là pour personnaliser chaque aspect de votre site WordPress. Nous collaborons étroitement avec vous pour capturer l'essence de votre entreprise, en intégrant des éléments de design, des fonctionnalités et un contenu qui reflètent parfaitement qui vous êtes.                            </p>
+                            <p>
+                                Notre objectif est de créer un site WordPress personnalisé qui vous ressemble, qui parle à votre public cible et qui vous aide à atteindre vos objectifs en ligne. Découvrez comment nous pouvons transformer votre vision en réalité et créer une présence en ligne qui vous distingue.                            </p>
+                        </div>
                     </div>
+
+
                 </div>
-
-                <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-                    <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-                    </div>
-                    <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Un Site WordPress Personnalisé à Votre Image
-                        </h2>
-                        <p>
-                            Votre landing page est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une landing page qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.                        </p>
-                        <p>
-                            Notre équipe de designers et de développeurs travaille en étroite collaboration avec vous pour capturer l'essence de votre entreprise et la traduire en un design web exceptionnel. Nous croyons que chaque entreprise est unique, et votre site web devrait l'être aussi.
-                        </p>
-                        <p>
-                            Faites confiance à notre expertise pour créer une landing page qui vous ressemble, une page qui communique avec succès votre histoire, vos valeurs et votre proposition de valeur. Découvrez comment nous pouvons vous aider à optimiser votre présence en ligne et à inciter vos visiteurs à passer à l'action.                        </p>
-                    </div>
-                </div>
-
-
-            </div>
-            <div className='sm:px-20 px-5'>
                 <CallToAction />
             </div>
 
             <div className="px-5 sm:px-16 mb-10">
 
-                <SectionEmerald image={maintenance} alt="représentation maintenance wordpress">
+                <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
                         <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
                             Garantissez la performance de votre site avec notre Service de maintenance WordPress                        </h2>

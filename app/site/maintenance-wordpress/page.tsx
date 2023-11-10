@@ -96,7 +96,7 @@ export default function page() {
                         </div>
                         <div className='w-full sm:w-3/6 space-y-6 px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                                Liste des services de maintenance
+                                Liste des  <span className="text-emerald-600" >services de maintenance</span>
                             </h2>
                             <p>
                                 Chez [Nom de Votre Entreprise], nous comprenons que la maintenance de votre site web est une décision importante, et nous sommes prêts à vous montrer pourquoi nous sommes le choix idéal pour cette tâche cruciale.
