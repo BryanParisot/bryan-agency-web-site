@@ -38,7 +38,7 @@ export default function page() {
             title: 'Optimisation pour les moteurs de recherche', text: 'Une refonte bien planifiée offre l\'opportunité d\'optimiser votre site pour les moteurs de recherche. Vous pouvez mettre à jour les balises meta, les mots-clés, le contenu et la structure des liens pour améliorer la visibilité de votre site dans les résultats de recherche. Cela peut entraîner une augmentation du trafic organique et de la visibilité en ligne.', image: logo_seo, alt: 'Logo référencement naturel'
         },
         {
-            title: 'Alignement sur les tendances actuels', text: 'Les objectifs et les tendances en ligne évoluent avec le temps. Une refonte vous permet de vous aligner sur les objectifs actuels de votre entreprise et sur les attentes de votre public. Vous pouvez intégrer de nouvelles fonctionnalités, mettre en avant des produits ou des services spécifiques, et vous adapter aux dernières tendances en matière de design et de technologie.', image: logo_market, alt: 'logo  market'
+            title: 'Alignement sur les tendances actuels', text: 'Les objectifs et les tendances en ligne évoluent avec le temps. Une refonte vous permet de vous aligner sur les objectifs actuels de votre entreprise et sur les attentes de votre public. Vous pouvez intégrer de nouvelles fonctionnalités, mettre en avant des produits ou des services spécifiques.', image: logo_market, alt: 'logo  market'
         }
     ]
 
