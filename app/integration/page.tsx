@@ -19,7 +19,7 @@ import deadline from "../../public/logos/integration/deadline.svg"
 import people from "../../public/logos/integration/people.svg"
 import crayon from "../../public/logos/integration/crayon.svg"
 
-import double_screen from "../../public/pictures/site/vitrine/double_screen.png"
+import integration from "../../public/pictures/integration/integration.jpg"
 import CallToActionLight from '@/components/CTA/CallToActionLight'
 import LittleCard from '@/components/Cards/LittleCard'
 
@@ -124,7 +124,7 @@ export default function page() {
 
       <div className="mt-10 mb-10">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de nous laisser <span className="text-emerald-600">le service de maintenance</span>
+          Les avantages de nous laisser <span className="text-emerald-600">l'intégration de votre maquette</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -142,7 +142,7 @@ export default function page() {
 
         <div className='flex flex-col sm:flex-row mt-20 sm:max-h-full  h-full'>
           <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-            <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+            <Image className="w-full h-full" src={integration} alt="Double Ecran illustration" />
           </div>
           <div className='w-full sm:w-3/6 space-y-6 px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
@@ -173,15 +173,21 @@ export default function page() {
 
       <div className="px-5 sm:px-16 mb-10">
 
-        <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
-          {
-            atouts.map((item) => (
-              <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
-            ))
-          }
+        <div className='bg-emerald-50 flex items-center flex-col py-5'>
+          <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
+            Les atouts de nos <span className='text-emerald-600'>intégration web</span> sur mesure
+          </h2>
 
+
+          <div className=' grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
+            {
+              atouts.map((item) => (
+                <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
+              ))
+            }
+
+          </div>
         </div>
-
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
         <BlogSection />
 
@@ -190,6 +196,6 @@ export default function page() {
         <Faq faq={faqs} />
       </div>
 
-    </main>
+    </main >
   )
 }

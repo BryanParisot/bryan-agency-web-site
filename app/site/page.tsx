@@ -5,7 +5,6 @@ import BlogSection from "@/components/BlogSection/BlogSection";
 import Header from "@/components/Header/Header";
 import SiteCards from "../../components/Cards/SiteCards";
 import Faq from "@/components/FAQ/Faq";
-import Carousel from "@/components/Carrousel/Carousel";
 
 //LOGOS | PICTURES
 import logo_vitrine from "../../public/logos/site/logo_vitrine.svg"
@@ -102,16 +101,8 @@ export default function Page() {
           />
 
           <BlogSection />
-
-
           <Faq faq={faqs} />
-
-
-          <Carousel />
         </div>
-
-
-
       </div>
     </main>
   )

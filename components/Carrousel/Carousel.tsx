@@ -35,7 +35,7 @@ const Carousel = () => {
     }, [])
 
     return (
-        <div className='relative mt-12' >
+        <div className='relative mt-12 px-5 sm:px-16 mb-10' >
             <h2 className='text-center sm:text-4xl font-bold text-emerald-950 mb-12 text-2xl'>Découvrez nos <span className='text-emerald-600'>solutions web</span>  sur mesure</h2>
             <motion.div ref={carousel} className="cursor-grab overflow-auto sm:overflow-hidden h-full" whileTap={{ cursor: 'grabbing' }}>
                 <motion.div
