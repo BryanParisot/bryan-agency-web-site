@@ -20,8 +20,6 @@ import logo_tag from "../../public/logos/seo/logo_tag.svg"
 import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
 import map from "../../public/logos/sea/map.svg"
 import crayon from "../../public/logos/integration/crayon.svg"
-import double_screen from "../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../public/pictures/site/vitrine/vitrine_site.png"
 import growth from "../../public/logos/sea/growth.svg"
 import speed from "../../public/logos/sea/speed.svg"
 import test from "../../public/logos/sea/test.svg"
@@ -31,6 +29,8 @@ import target from "../../public/logos/sea/target.svg"
 import audit from "../../public/logos/sea/audit.svg"
 import road from "../../public/logos/sea/road.svg"
 
+import sea from "../../public/pictures/sea/sea.jpg"
+import sea_computer from "../../public/pictures/sea/sea_computer.jpg"
 
 
 export default function page() {
@@ -133,49 +133,61 @@ export default function page() {
                     }
                 </div>
 
-                <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-                    <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+                <div className='sm:px-20 px-5'>
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={sea}
+                                alt="Double Ecran illustration" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Boostez votre performance grâce au SEA
+                            </h2>
+                            <p>
+                                Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. Notre équipe d'experts en publicité sur les moteurs de recherche est prête à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, nous maximisons chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.
+                            </p>
+                        </div>
                     </div>
-                    <div className='w-full sm:w-3/6 space-y-6 px-8'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Boostez votre performance grâce au SEA
-                        </h2>
-                        <p>
-                            Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. Notre équipe d'experts en publicité sur les moteurs de recherche est prête à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, nous maximisons chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.                        </p>
+
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={sea_computer}
+                                alt="Illustration d'un site vitrine" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Créez Votre landing page spécialisée
+                            </h2>
+                            <p>
+                                Chez [Nom de Votre Entreprise], nous croyons en l'importance d'une première impression mémorable en ligne. C'est pourquoi nous proposons des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Nos équipes de conception expérimentées travaillent en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Nous allons encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à notre expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment nos services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.                        </p>
+                        </div>
                     </div>
+
+
+
                 </div>
-
-                <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-                    <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-                    </div>
-                    <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Créez Votre landing page spécialisée
-                        </h2>
-                        <p>
-                            Chez [Nom de Votre Entreprise], nous croyons en l'importance d'une première impression mémorable en ligne. C'est pourquoi nous proposons des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Nos équipes de conception expérimentées travaillent en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Nous allons encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à notre expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment nos services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.                        </p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div className='sm:px-20 px-5'>
                 <CallToAction />
             </div>
 
             <div className="px-5 sm:px-16 mb-10">
-                <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
-                    {
-                        atouts.map((item) => (
-                            <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
-                        ))
-                    }
+                <div className='bg-emerald-50 flex items-center flex-col py-5'>
+                    <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
+                        Nos étapes de construction d'une compagne <span className='text-emerald-600'>SEA</span>
+                    </h2>
 
+                    <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
+                        {
+                            atouts.map((item) => (
+                                <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
+                            ))
+                        }
+
+                    </div>
                 </div>
-
 
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
                 <BlogSection />

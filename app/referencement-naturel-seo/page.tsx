@@ -22,9 +22,8 @@ import browser from "../../public/logos/seo/browser.svg"
 import link from "../../public/logos/seo/link.svg"
 import map from "../../public/logos/seo/map.svg"
 import crayon from "../../public/logos/integration/crayon.svg"
-import double_screen from "../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../public/pictures/site/vitrine/vitrine_site.png"
-
+import seo from "../../public/pictures/seo/seo.jpg"
+import seo_score from "../../public/pictures/seo/seo_score.jpg"
 
 
 export default function page() {
@@ -98,7 +97,7 @@ export default function page() {
 
             <div className="mt-10 mb-10">
                 <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages du<span className="text-emerald-600">référencement naturel (SEO)</span>
+                    Les avantages du <span className="text-emerald-600">référencement naturel (SEO)</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -108,63 +107,66 @@ export default function page() {
                         ))
                     }
                 </div>
-
-                <div className='flex flex-col sm:flex-row mt-20 sm:max-h-[500px]  h-full'>
-                    <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={double_screen} alt="Double Ecran illustration" />
+                <div className='sm:px-20 px-5'>
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={seo}
+                                alt="Double Ecran illustration" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                                Pourquoi le SEO est indispensable ?
+                            </h2>
+                            <p>
+                                Le SEO, ou Search Engine Optimization, est une stratégie essentielle pour toute entreprise cherchant à prospérer en ligne. Il offre de nombreux avantages clés qui contribuent à la croissance et à la réussite à long terme.                        </p>
+                            <p>
+                                Tout d'abord, le SEO améliore la visibilité en ligne de votre site web. En optimisant votre contenu et votre structure, vous augmentez vos chances d'apparaître en haut des résultats des moteurs de recherche, ce qui signifie que plus de personnes peuvent découvrir votre entreprise.                        </p>
+                            <p>
+                                De plus, le trafic organique généré par le SEO est de haute qualité. Les visiteurs arrivent sur votre site parce qu'ils recherchent activement des informations ou des produits liés à votre secteur. Cela augmente considérablement les chances de conversion en clients ou en prospects.                        </p>
+                        </div>
                     </div>
-                    <div className='w-full sm:w-3/6 space-y-6 px-8'>
-                        <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                            Pourquoi le SEO est indispensable ?
-                        </h2>
-                        <p>
-                            Le SEO, ou Search Engine Optimization, est une stratégie essentielle pour toute entreprise cherchant à prospérer en ligne. Il offre de nombreux avantages clés qui contribuent à la croissance et à la réussite à long terme.                        </p>
-                        <p>
-                            Tout d'abord, le SEO améliore la visibilité en ligne de votre site web. En optimisant votre contenu et votre structure, vous augmentez vos chances d'apparaître en haut des résultats des moteurs de recherche, ce qui signifie que plus de personnes peuvent découvrir votre entreprise.                        </p>
-                        <p>
-                            De plus, le trafic organique généré par le SEO est de haute qualité. Les visiteurs arrivent sur votre site parce qu'ils recherchent activement des informations ou des produits liés à votre secteur. Cela augmente considérablement les chances de conversion en clients ou en prospects.                        </p>
+
+                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+                            <Image
+                                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                                src={seo_score}
+                                alt="Illustration d'un site vitrine" />
+                        </div>
+                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                            <p>
+                                Le SEO est également rentable à long terme. Contrairement à la publicité payante qui nécessite un budget continu, le SEO continue de produire des résultats après avoir investi du temps et des efforts initiaux.                        </p>
+                            <p>
+                                En outre, il renforce la crédibilité de votre entreprise. Les sites bien classés dans les moteurs de recherche sont souvent perçus comme des autorités dans leur domaine.                        </p>
+                            <p>
+                                Enfin, le SEO vous aide à rester compétitif en ligne. Si vos concurrents investissent dans le SEO et que vous ne le faites pas, vous risquez de perdre des parts de marché.                        </p>
+                            <p>
+                                En conclusion, le SEO est bien plus qu'une stratégie de marketing ; il est devenu une nécessité pour toute entreprise cherchant à prospérer dans le paysage numérique d'aujourd'hui. C'est un investissement qui porte ses fruits à long terme en augmentant la visibilité, en attirant un trafic de qualité et en renforçant la crédibilité.                        </p>
+                        </div>
                     </div>
                 </div>
-
-                <div className='flex flex-col sm:flex-row sm:max-h-[500px] h-full mt-10 sm:mt-0'>
-                    <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
-                        <Image className="w-full h-full" src={vitrine_site} alt="Illustration d'un site vitrine" />
-                    </div>
-                    <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
-                        <p>
-                            Le SEO est également rentable à long terme. Contrairement à la publicité payante qui nécessite un budget continu, le SEO continue de produire des résultats après avoir investi du temps et des efforts initiaux.                        </p>
-                        <p>
-                            En outre, il renforce la crédibilité de votre entreprise. Les sites bien classés dans les moteurs de recherche sont souvent perçus comme des autorités dans leur domaine.                        </p>
-                        <p>
-                            Enfin, le SEO vous aide à rester compétitif en ligne. Si vos concurrents investissent dans le SEO et que vous ne le faites pas, vous risquez de perdre des parts de marché.                        </p>
-                        <p>
-                            En conclusion, le SEO est bien plus qu'une stratégie de marketing ; il est devenu une nécessité pour toute entreprise cherchant à prospérer dans le paysage numérique d'aujourd'hui. C'est un investissement qui porte ses fruits à long terme en augmentant la visibilité, en attirant un trafic de qualité et en renforçant la crédibilité.                        </p>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div className='sm:px-20 px-5'>
                 <CallToAction />
             </div>
-
             <div className="px-5 sm:px-16 mb-10">
-                <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
-                    {
-                        atouts.map((item) => (
-                            <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
-                        ))
-                    }
+                <div className='bg-emerald-50 flex items-center flex-col py-5'>
+                    <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
+                        Les services de <span className='text-emerald-600'>referecement naturel</span>
+                    </h2>
 
+                    <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
+                        {
+                            atouts.map((item) => (
+                                <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
+                            ))
+                        }
+
+                    </div>
                 </div>
-
-
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
                 <BlogSection />
-
                 <CallToActionLight />
-
                 <Faq faq={faqs} />
             </div>
 

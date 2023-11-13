@@ -15,11 +15,8 @@ import picture_site from "../../../public/pictures/site/site_page.png"
 import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
 import logo_promotion from "../../../public/logos/site/vitrine/logo_promotion.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
-import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 import commerce from "../../../public/pictures/site/commerce/commerce.jpg"
 import site_e_commerce_nancy from "../../../public/pictures/site/commerce/site_e_commerce_nancy.jpg"
-
-site_e_commerce_nancy
 
 export default function page() {
 
@@ -133,9 +130,6 @@ export default function page() {
         <BlogSection />
         <Faq faq={faqs} />
       </div>
-
-
-
     </main>
   )
 }

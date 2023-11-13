@@ -163,10 +163,8 @@ export default function page() {
             }
           </div>
         </div>
-
-
-
       </div>
+
       <div className='sm:px-20 px-5'>
         <CallToAction />
       </div>
@@ -177,22 +175,17 @@ export default function page() {
           <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
             Les atouts de nos <span className='text-emerald-600'>intégration web</span> sur mesure
           </h2>
-
-
           <div className=' grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
             {
               atouts.map((item) => (
                 <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
               ))
             }
-
           </div>
         </div>
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
         <BlogSection />
-
         <CallToActionLight />
-
         <Faq faq={faqs} />
       </div>
 
