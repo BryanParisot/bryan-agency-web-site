@@ -21,6 +21,13 @@ import double_screen from "../../../public/pictures/site/vitrine/double_screen.p
 import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 import score_site from "../../../public/pictures/site/vitrine/score_site.png"
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Développeur Web Freelance | Création de site vitrine - Pret à lever l\'ancre',
+  description: 'Hissons les voiles avec la création de site vitrine par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
+}
+
 
 
 export default function page() {

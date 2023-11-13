@@ -18,6 +18,15 @@ import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
 import commerce from "../../../public/pictures/site/commerce/commerce.jpg"
 import site_e_commerce_nancy from "../../../public/pictures/site/commerce/site_e_commerce_nancy.jpg"
 
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Développeur Web Freelance | Création de site e-commerce - Pret à lever l\'ancre',
+  description: 'Explorez de nouveaux horizons avec une boutique en ligne unique, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
+}
+
+
 export default function page() {
 
   const vitrineData = [

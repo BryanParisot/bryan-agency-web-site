@@ -10,6 +10,7 @@ import Faq from '@/components/FAQ/Faq'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
 import LittleCard from '@/components/Cards/LittleCard'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 
 //LOGOS | PICTURES
@@ -33,8 +34,14 @@ import education from "../../public/logos/saas/education.svg"
 import tools from "../../public/logos/saas/tools.svg"
 
 import saas from "../../public/pictures/saas/saas.jpg"
-import team_saas from "../../public/pictures/saas/team_sass.jpg"
-import Link from 'next/link'
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Développeur Web Freelance | Création d\'applications web et SaaS personnalisées',
+    description: "Optez pour des applications web et SaaS sur mesure avec Bryan Parisot, développeur web freelance. Transformez vos idées en solutions numériques"
+}
+
 
 
 

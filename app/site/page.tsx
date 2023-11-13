@@ -17,6 +17,12 @@ import picture_site from "../../public/pictures/site/site_page.png"
 import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg"
 
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: ' Développeur Web Freelance | Création de site web - Pret à lever l\'ancre',
+  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web. Des sites web sur mesure qui naviguent entre créativité et performance.',
+}
 
 
 export default function Page() {

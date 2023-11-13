@@ -23,7 +23,12 @@ import integration from "../../public/pictures/integration/integration.jpg"
 import CallToActionLight from '@/components/CTA/CallToActionLight'
 import LittleCard from '@/components/Cards/LittleCard'
 
+import { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Développeur Web Freelance | Intégration de vos maquettes - Pret à lever l\'ancre',
+  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques."
+}
 
 export default function page() {
 

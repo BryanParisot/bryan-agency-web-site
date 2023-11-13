@@ -26,6 +26,16 @@ import seo from "../../public/pictures/seo/seo.jpg"
 import seo_score from "../../public/pictures/seo/seo_score.jpg"
 
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Freelance SEO expert : Optimisation et visibilité en ligne',
+    description: "Boostez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en SEO. Maximisez votre visibilité, attirez du trafic organique"
+
+}
+
+
+
 export default function page() {
 
     const vitrineData = [

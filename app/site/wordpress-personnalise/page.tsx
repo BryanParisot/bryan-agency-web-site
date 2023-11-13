@@ -26,6 +26,15 @@ import wp from "../../../public/pictures/site/wordpress/wp.jpg"
 import wp_illu from "../../../public/pictures/site/wordpress/wp_il.jpg"
 
 
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Développeur Web Freelance | Création de site wordpress - Pret à lever l\'ancre',
+    description: "Découvrez l'univers unique de votre site WordPress avec Bryan Parisot, développeur web freelance. Créez une présence en ligne, naviguez vers le succès"
+}
+
+
 export default function page() {
 
     const vitrineData = [

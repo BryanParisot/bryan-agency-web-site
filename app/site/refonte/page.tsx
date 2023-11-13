@@ -19,12 +19,17 @@ import picture_site from "../../../public/pictures/site/site_page.png"
 import logo_experience from "../../../public/logos/site/refonte/logo_experience.svg"
 import logo_market from "../../../public/logos/site/refonte/logo_market.svg"
 import logo_seo from "../../../public/logos/site/refonte/logo_seo.svg"
-
-import maintenance from "../../../public/pictures/site/wordpress/maintenance.png"
 import refonte from "../../../public/pictures/site/refonte/refonte.jpg"
 import refonte_1 from "../../../public/pictures/site/refonte/refonte1.jpg"
 import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Développeur Web Freelance | Refonte de site web   - Pret à lever l\'ancre',
+    description: "Donnez une nouvelle vie à votre site web avec notre service de refonte web. Bryan Parisot, développeur web freelance."
+}
 
 
 

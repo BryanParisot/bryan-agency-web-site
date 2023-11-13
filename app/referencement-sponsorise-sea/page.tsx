@@ -32,6 +32,14 @@ import road from "../../public/logos/sea/road.svg"
 import sea from "../../public/pictures/sea/sea.jpg"
 import sea_computer from "../../public/pictures/sea/sea_computer.jpg"
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Freelance SEA expert : Campagnes publicitaires performantes',
+    description: "Embarquez pour le succès avec Bryan Parisot, développeur web freelance expert en SEA. Maximisez votre visibilité instantanément"
+}
+
+
 
 export default function page() {
 

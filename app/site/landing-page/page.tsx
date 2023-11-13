@@ -14,10 +14,16 @@ import picture_site from "../../../public/pictures/site/site_page.png"
 import logo_optimization from "../../../public/logos/site/landing/logo_optimization.svg"
 import logo_audience from "../../../public/logos/site/landing/logo_audience.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
-import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 import landing_page from "../../../public/pictures/site/landing_page/illustration_landing_page.jpg"
 import maquette_landing from "../../../public/pictures/site/landing_page/maquette_landing.jpg"
 
+
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Développeur Web Freelance | Création de landing page - Pret à lever l\'ancre',
+  description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance, conçoit des pages pour maximiser votre taux de conversion"
+}
 
 export default function page() {
 

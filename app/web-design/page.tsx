@@ -17,18 +17,20 @@ import picture_site from "../../public/pictures/site/site_page.png"
 import loupe from "../../public/logos/integration/loupe.svg"
 import content from "../../public/logos/seo/content.svg"
 import browser from "../../public/logos/seo/browser.svg"
-import double_screen from "../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../public/pictures/site/vitrine/vitrine_site.png"
 import customer from "../../public/logos/web-design/customer.svg"
 import quality from "../../public/logos/web-design/quality.svg"
 import branding from "../../public/logos/web-design/branding.svg"
-import code from "../../public/pictures/saas/code.jpg"
-import screen_code from "../../public/pictures/saas/screen_code.jpg"
-
 import web_design from "../../public/pictures/web-design/web-design.jpg"
 import web_design_1 from "../../public/pictures/web-design/web-design-1.jpg"
 import web_design_2 from "../../public/pictures/web-design/web-design-2.jpg"
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Web Design freelance : Créez une expérience unique en ligne',
+  description: "Transformez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en web design."
+
+}
 
 
 

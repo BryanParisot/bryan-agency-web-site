@@ -1,4 +1,3 @@
-
 //COMPONENTS
 import Header from "@/components/Header/Header";
 import picture_home from "../public/pictures/header/picture_home_page.svg"
@@ -18,6 +17,12 @@ import logo_referencement_sea from "../public/logos/nav/logo_sea.svg"
 import logo_design from "../public/logos/nav/logo_design.svg"
 import illustration_web from '../public/pictures/home/illustration_web.jpg'
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Développeur web freelance | Bryan Parisot - Création de sites et applications',
+  description: 'Bryan Parisot, développeur web freelance spécialisé dans la création de sites et d\'applications sur mesure.',
+}
 
 
 export default function Home() {

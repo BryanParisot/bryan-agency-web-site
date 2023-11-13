@@ -24,6 +24,14 @@ import wordpress_maintenance_menu from "../../../public/pictures/site/wordpress/
 import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Développeur Web Freelance | Maintenance wordpress - Pret à lever l\'ancre',
+    description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance. Bryan Parisot, développeur web freelance, veille à la performance, sécurité"
+}
+
+
 
 export default function page() {
 
