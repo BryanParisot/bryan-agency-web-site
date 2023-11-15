@@ -12,6 +12,7 @@ export type FormData = {
     email: string;
     message: string;
     numero: number;
+    check: boolean
 };
 
 const Form: FC = () => {
@@ -24,14 +25,13 @@ const Form: FC = () => {
         try {
             await sendEmail(data);
             toast.success('Email envoyé avec succès!');
-            reset()
+            reset();
         } catch (error) {
             toast.error('Erreur lors de l\'envoi de l\'email');
         } finally {
             setLoading(false);
         }
     };
-
     return (
         <div>
             <Toaster />
@@ -47,7 +47,7 @@ const Form: FC = () => {
                                     type="text"
                                     id="prenom"
                                     autoComplete="given-name"
-                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6"
                                     {...register('prenom', { required: true })}
                                 />
                             </div>
@@ -111,6 +111,19 @@ const Form: FC = () => {
                                 />
                             </div>
                         </div>
+                        <div className="sm:col-span-2">
+                            <div className="flex flex-row h-6 items-center gap-2">
+                                <input
+                                    id="check"
+                                    type="checkbox"
+                                    className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-emerald-600"
+                                    {...register('check', { required: true })}
+                                />
+                                <label htmlFor="candidates" className="font-medium text-gray-900"></label>
+                                <span className="text-gray-400 text-sm">En soumettant ce formulaire, j’autorise à exploiter les informations saisies dans le cadre de la relation commerciale qui peut en découler.</span>
+                            </div>
+                        </div>
+                        {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
                     <div className="mt-8 flex justify-end">
                         <Button
@@ -123,9 +136,9 @@ const Form: FC = () => {
                         </Button>
                     </div>
                 </div>
-            </form>
+            </form >
 
-        </div>
+        </div >
     )
 }
 

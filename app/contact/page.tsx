@@ -53,10 +53,9 @@ export default function integration() {
                                     <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
                                 </svg>
                             </div>
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Get in touch</h2>
+                            <h2 className="text-3xl font-bold tracking-tight text-emerald-900">Contactez Bryan Parisot, Développeur Web Freelance</h2>
                             <p className="mt-6 text-lg leading-8 text-gray-600">
-                                Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt
-                                integer elementum id sem. Arcu sed malesuada et magna.
+                                Vous souhaitez discuter de votre projet, avoir des conseils ou simplement échanger sur les possibilités qui s'offrent à vous ? N'hésitez pas à me contacter ! Remplissez le formulaire ci-dessous, et je me ferai un plaisir de vous répondre dans les plus brefs délais. Ensemble, donnons vie à votre présence en ligne
                             </p>
                             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                                 <div className="flex gap-x-4">
