@@ -76,9 +76,9 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Agence de création de site wordpress personnalisé"
+                title="Développeur web freelance créateur de site wordpress personnalisé"
                 subtitle="Création d'un site wordpress personnalisé"
-                text="Chez [Nom de Votre Entreprise], nous sommes convaincus que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi nous nous sommes spécialisés dans la création de sites WordPress personnalisés qui captivent, convainquent et transforment ces visiteurs en clients fidèles."
+                text="  En tant que développeur web freelance, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me spécialise dans la création de sites WordPress personnalisés qui captivent, convainquent et transforment ces visiteurs en clients fidèles."
                 image={picture_site}
                 alt="image png developpeur web"
             />
@@ -106,14 +106,17 @@ export default function page() {
                         </div>
                         <div className='w-full sm:w-3/6 space-y-4 px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                                Votre vision, notre expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span>
+                                Votre vision, mon expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span>
                             </h2>
                             <p>
-                                Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi nous nous spécialisons dans la création de sites WordPress personnalisés qui vous permettent de concrétiser vos idées en ligne.                        </p>
+                                En tant que développeur web freelance, je comprends que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi je me spécialise dans la création de  <span className="font-bold">sites WordPress personnalisés</span> qui vous permettent de concrétiser vos idées en ligne.
+                            </p>
                             <p>
-                                Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, notre équipe d'experts en développement WordPress est là pour vous. Nous collaborons étroitement avec vous pour comprendre vos objectifs, vos besoins et votre identité de marque, puis nous personnalisons chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.                        </p>
+                                Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, je suis là pour vous. Nous collaborons étroitement pour comprendre vos objectifs, vos besoins et votre identité de marque, puis nous personnalisons chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.
+                            </p>
                             <p>
-                                Avec WordPress comme toile, nous donnons vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment nous pouvons transformer votre vision en réalité en créant un site WordPress personnalisé qui excelle en ligne.                        </p>
+                                Avec <span className="font-bold"> WordPress </span> comme toile, nous donnons vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment je peux transformer votre vision en réalité en créant un <span className="font-bold">sites WordPress personnalisé</span> qui excelle en ligne.
+                            </p>
                         </div>
                     </div>
 
@@ -129,12 +132,14 @@ export default function page() {
                                 Un site <span className='text-emerald-600' >WordPress personnalisé</span> à votre image
                             </h2>
                             <p>
-                                Votre site web est le reflet de votre entreprise et de votre identité en ligne. Chez [Nom de Votre Entreprise], nous croyons en la création de sites WordPress qui sont fidèles à votre vision et à votre image de marque.
+                                En tant que développeur web freelance, je crois en la création de sites WordPress qui sont fidèles à votre vision et à votre identité en ligne.
                             </p>
                             <p>
-                                Que vous cherchiez à transmettre un message professionnel, à partager vos idées créatives, à vendre des produits ou à présenter une plateforme unique, nous sommes là pour personnaliser chaque aspect de votre site WordPress. Nous collaborons étroitement avec vous pour capturer l'essence de votre entreprise, en intégrant des éléments de design, des fonctionnalités et un contenu qui reflètent parfaitement qui vous êtes.                            </p>
+                                Que vous cherchiez à transmettre un message professionnel, à partager vos idées créatives, à vendre des produits ou à présenter une plateforme unique, je suis là pour personnaliser chaque aspect de votre site  <span className="font-bold">WordPress </span>. Nous collaborons étroitement pour capturer l'essence de votre entreprise, en intégrant des éléments de design, des fonctionnalités et un contenu qui reflètent parfaitement qui vous êtes.
+                            </p>
                             <p>
-                                Notre objectif est de créer un site WordPress personnalisé qui vous ressemble, qui parle à votre public cible et qui vous aide à atteindre vos objectifs en ligne. Découvrez comment nous pouvons transformer votre vision en réalité et créer une présence en ligne qui vous distingue.                            </p>
+                                Mon objectif est de créer un site  <span className="font-bold">WordPress</span>  personnalisé qui vous ressemble, qui parle à votre public cible et qui vous aide à atteindre vos objectifs en ligne. Découvrez comment je peux transformer votre vision en réalité et créer une présence en ligne qui vous distingue.
+                            </p>
                         </div>
                     </div>
 
@@ -148,13 +153,16 @@ export default function page() {
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
                         <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
-                            Garantissez la performance de votre site avec notre Service de maintenance WordPress                        </h2>
+                            Garantissez la performance de votre site avec min Service de maintenance WordPress                        </h2>
                         <p>
-                            La maintenance régulière de votre site WordPress est essentielle pour assurer sa performance, sa sécurité et sa fiabilité. Chez [Nom de Votre Entreprise], nous proposons un service de maintenance WordPress complet qui vous permet de vous concentrer sur votre entreprise, en laissant notre équipe d'experts prendre soin de votre site.                        </p>
+                            La <span className='font-bold'>maintenance</span> régulière de votre site web est essentielle pour assurer sa performance, sa sécurité et sa fiabilité. En tant que développeur web freelance, je propose un service complet de <span className='font-bold'>maintenance WordPress</span>  qui vous permet de vous concentrer sur votre entreprise, en laissant mon expertise prendre soin de votre site.
+                        </p>
                         <p>
-                            Notre service de maintenance comprend des mises à jour régulières, des sauvegardes sécurisées, une surveillance de la sécurité, la résolution des problèmes techniques et bien plus encore. Nous vous offrons la tranquillité d'esprit en veillant à ce que votre site WordPress fonctionne de manière optimale à tout moment.                        </p>
+                            Mon service de <span className='font-bold'>maintenance</span> comprend des mises à jour régulières, des sauvegardes sécurisées, la surveillance de la sécurité, la résolution des problèmes techniques et bien plus encore. Je vous offre la tranquillité d'esprit en veillant à ce que votre site WordPress fonctionne de manière optimale à tout moment.
+                        </p>
                         <p>
-                            Découvrez comment notre service de maintenance WordPress peut vous aider à éviter les interruptions inattendues et à maintenir la qualité de votre présence en ligne.                        </p>
+                            Découvrez comment mon service de <span className='font-bold'>maintenance WordPress</span>  peut vous aider à éviter les interruptions inattendues et à maintenir la qualité de votre présence en ligne.
+                        </p>
                         <div>
                             <Link href="/site/maintenance-wordpress">
                                 <Button variant="primary">

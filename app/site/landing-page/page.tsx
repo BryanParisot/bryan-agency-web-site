@@ -66,11 +66,11 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Agence de création de landing page"
+        title="Développeur web créateur de landing page"
         subtitle="Création d'une landing page sur mesure"
-        text="Chez [Nom de Votre Entreprise], nous sommes convaincus que chaque visiteur sur votre site web est une opportunité en or. C'est pourquoi nous nous spécialisons dans la création de landing pages qui captivent, persuadent et convertissent."
+        text="En tant que développeur web freelance, je suis convaincu que chaque visiteur sur votre site web est une opportunité en or. C'est pourquoi je me spécialise dans la création de landing pages qui captivent, persuadent et convertissent."
         image={picture_site}
-        alt="image png developpeur web"
+        alt="image png developpeur web freelance"
       />
 
       <div className="mt-10 mb-10">
@@ -96,14 +96,17 @@ export default function page() {
             </div>
             <div className='w-full sm:w-3/6 space-y-4 px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                Optimisez vos taux de conversion avec notre expertise en <span className='text-emerald-600'>landing pages</span>
+                Optimisez vos taux de conversion avec mon expertise en <span className='text-emerald-600'>landing pages</span>
               </h2>
               <p>
-                Chez [Nom de Votre Entreprise], nous comprenons que chaque clic sur votre site web représente une opportunité de conversion précieuse. C'est pourquoi nous mettons notre savoir-faire au service de la création de landing pages qui captivent vos visiteurs et les incitent à agir.            </p>
+                En tant que développeur web freelance, je comprends que chaque clic sur votre site web représente une opportunité de conversion précieuse. C'est pourquoi je mets mon savoir-faire au service de la création de <span className='font-bold'>landing pages</span> qui captivent vos visiteurs et les incitent à agir.
+              </p>
               <p>
-                Que votre objectif soit de collecter des leads, de vendre un produit ou de promouvoir une offre spéciale, notre équipe d'experts en design et en rédaction sait comment créer des landing pages persuasives. Nous personnalisons chaque élément pour répondre aux besoins de votre public cible, en optimisant l'expérience de l'utilisateur pour maximiser les conversions.            </p>
+                Que votre objectif soit de collecter des leads, de vendre un produit ou de promouvoir une offre spéciale, je sais comment créer des <span className='font-bold'>landing pages</span> persuasives. Je personnalise chaque élément pour répondre aux besoins de votre public cible, en optimisant l'expérience de l'utilisateur pour maximiser les conversions.
+              </p>
               <p>
-                Découvrez comment nous pouvons vous aider à obtenir des résultats concrets en ligne grâce à nos <span className='font-bold'>landing pages</span> de haute performance. Avec [Nom de Votre Entreprise], chaque visiteur est une opportunité de conversion que nous saisissons avec succès.            </p>
+                Découvrez comment je peux vous aider à obtenir des résultats concrets en ligne grâce à mes <span className='font-bold'>landing pages</span> de haute performance. Avec moi, chaque visiteur est une opportunité de conversion que nous saisissons avec succès.
+              </p>
             </div>
           </div>
 
@@ -119,13 +122,13 @@ export default function page() {
                 Une <span className='text-emerald-600'>landing page</span> qui vous ressemble
               </h2>
               <p>
-                Votre <span className='font-bold'>landing page</span> est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une landing page qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.
+                Votre <span className='font-bold'>landing page</span> est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. En tant que développeur web freelance, je comprends l'importance de créer une <span className='font-bold'>landing page</span> qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.
               </p>
               <p>
-                Que vous souhaitiez promouvoir un produit, générer des leads ou lancer une campagne spéciale, notre équipe d'experts en design et en rédaction travaille en étroite collaboration avec vous pour personnaliser chaque élément de votre landing page. Nous croyons que chaque entreprise est unique, et votre landing page devrait l'être aussi.
+                Que vous souhaitiez promouvoir un produit, générer des leads ou lancer une campagne spéciale, je travaille en étroite collaboration avec vous pour personnaliser chaque élément de votre <span className='font-bold'>landing page</span>. Je crois que chaque entreprise est unique, et votre <span className='font-bold'>landing page</span> devrait l'être aussi.
               </p>
               <p>
-                Faites confiance à notre expertise pour créer une <span className='font-bold'>landing page</span> qui vous ressemble, une page qui communique avec succès votre histoire, vos valeurs et votre proposition de valeur. Découvrez comment nous pouvons vous aider à optimiser votre présence en ligne et à inciter vos visiteurs à passer à l'action.
+                Faites confiance à mon expertise pour créer une <span className='font-bold'>landing page</span> qui vous ressemble, une page qui communique avec succès votre histoire, vos valeurs et votre proposition de valeur. Découvrez comment je peux vous aider à optimiser votre présence en ligne et à inciter vos visiteurs à passer à l'action.
               </p>
             </div>
           </div>

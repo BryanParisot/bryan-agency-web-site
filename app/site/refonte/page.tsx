@@ -74,7 +74,7 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Agence de création de refonte de site web"
+                title="décveloppeur web freelance refonte de site web"
                 subtitle="Donnez un nouveau souffle à votre site avec notre service de refonte"
                 text="Chez [Nom de Votre Entreprise], nous sommes convaincus que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi nous nous sommes spécialisés dans la refonte de sites web qui réinventent l'expérience en ligne, persuadent les visiteurs et les transforment en clients fidèles."
                 image={picture_site}
@@ -104,16 +104,16 @@ export default function page() {
                         </div>
                         <div className='w-full sm:w-3/6 space-y-6 px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                                Pourquoi nous confier la <span className="text-emerald-600">refonte de votre site web ?</span>
+                                Pourquoi me confier la <span className="text-emerald-600">refonte de votre site web ?</span>
                             </h2>
                             <p>
-                                Chez [Nom de Votre Entreprise], nous comprenons que la refonte de votre site web est une décision importante, et nous sommes prêts à vous montrer pourquoi nous sommes le choix idéal pour cette tâche cruciale.
+                                En tant que développeur web freelance, je comprends que la refonte de votre site web est une décision importante, et je suis prêt à vous montrer pourquoi je suis le choix idéal pour cette tâche cruciale.
                             </p>
                             <div className='flex flex-row'>
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>1</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Expertise Complète : </span> Notre équipe d'experts en conception, développement web et marketing numérique possède une vaste expérience dans la création de sites web performants. Nous maîtrisons les dernières technologies et tendances pour vous offrir un site à la pointe de l'industrie.
+                                        <span className='font-extrabold'>Expertise Complète :</span> En tant que développeur web freelance, je mets à votre disposition une expertise complète en conception, développement web et marketing numérique. Fort de ma vaste expérience, je maîtrise les dernières technologies et tendances pour vous offrir un site à la pointe de l'industrie.
                                     </p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>2</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Approche personnalisée : </span> Nous ne croyons pas en une approche unique pour tous. Chaque entreprise est unique, et nous personnalisons chaque refonte en fonction de vos besoins spécifiques. Votre site sera conçu pour refléter votre identité de marque et atteindre vos objectifs commerciaux.
+                                        <span className='font-extrabold'>Approche personnalisée :</span> En tant que développeur web freelance, je rejette l'approche unique pour tous. Chaque entreprise étant unique, je personnalise chaque refonte en fonction de vos besoins spécifiques. Votre site sera conçu pour refléter votre identité de marque et atteindre vos objectifs commerciaux.
                                     </p>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Optimisation pour les résultats : </span> Notre objectif ultime est de vous aider à obtenir des résultats tangibles. Nous optimisons chaque aspect de votre site pour améliorer la conversion, le référencement et la performance, vous permettant ainsi d'atteindre vos objectifs en ligne.
+                                        <span className='font-extrabold'>Optimisation pour les résultats :</span> Mon objectif ultime en tant que développeur web freelance est de vous aider à obtenir des résultats tangibles. J'optimise chaque aspect de votre site pour améliorer la conversion, le référencement et la performance, vous permettant ainsi d'atteindre vos objectifs en ligne.
                                     </p>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>4</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Engagement envers la qualité : </span> Nous croyons en la qualité à chaque étape du processus. De la planification à la mise en œuvre, nous visons l'excellence pour vous offrir un site web qui fait impression et fonctionne sans faille.
+                                        <span className='font-extrabold'>Engagement envers la qualité :</span> En tant que développeur web freelance, je crois en la qualité à chaque étape du processus. De la planification à la mise en œuvre, je vise l'excellence pour vous offrir un site web qui fait impression et fonctionne sans faille.
                                     </p>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Soutien continu  : </span> Notre service ne se termine pas avec la refonte. Nous offrons un soutien continu, des mises à jour de sécurité et des services de maintenance pour assurer la pérennité de votre site.
+                                        <span className='font-extrabold'>Soutien continu :</span> Notre engagement envers votre succès va au-delà de la refonte. Nous vous assurons un soutien continu, des mises à jour de sécurité régulières et des services de maintenance pour garantir la pérennité et la performance optimale de votre site web.
                                     </p>
                                 </div>
                             </div>
@@ -176,19 +176,21 @@ export default function page() {
                             Nouveau <span className="text-emerald-600">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
                         </h2>
                         <p>
-                            <span className='font-extrabold'> Création d'un nouveau site :</span> Si vous démarrez une nouvelle entreprise, un nouveau site web est souvent la voie à suivre. Il vous permet de partir d'une feuille blanche pour créer une présence en ligne qui reflète parfaitement votre vision et vos objectifs. Nous pouvons concevoir et développer un site entièrement personnalisé pour répondre à vos besoins.                        </p>
+                            <span className='font-extrabold'>Création d'un nouveau site :</span> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. Nous sommes spécialisés dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
+                        </p>
                         <p>
-                            <span className='font-extrabold'>Refonte de site existant :</span>  Si vous avez déjà un site web, une refonte peut être la clé pour le moderniser, l'optimiser et le rendre plus performant. Une refonte peut également être nécessaire si votre site actuel ne répond pas aux normes actuelles en matière de design, de convivialité ou de référencement. Nous travaillons sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.                        </p>
+                            <span className='font-extrabold'>Refonte de site existant :</span> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. Nous travaillons sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
+                        </p>
                         <div>
                             <Link href="/site">
                                 <Button variant="primary">
-                                    Découvrez nos services de création de site internet
+                                    Découvrez mes services de création de site internet
                                 </Button>
                             </Link>
                         </div>
                     </div>
                 </SectionEmerald>
-                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
+                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site" />
                 <BlogSection />
 
                 <CallToActionLight />

@@ -67,9 +67,9 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Agence de création de e-commerce"
+        title="Développeur web freelance de création de e-commerce"
         subtitle="Création d'un site internet e-commerce"
-        text="Découvrez le potentiel infini de la vente en ligne avec [Nom de Votre Entreprise]. Notre expertise en création de sites e-commerce vous permet de transformer vos idées en une boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et développez votre entreprise comme jamais auparavant."
+        text="Embarquez pour l'aventure de la vente en ligne avec [Nom de Votre Entreprise]. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
         image={picture_site}
         alt="image png developpeur web"
       />
@@ -100,13 +100,13 @@ export default function page() {
                 Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
               </h2>
               <p>
-                Chez [Nom de Votre Entreprise], nous sommes passionnés par la création de boutiques en ligne qui se démarquent. Notre expertise en développement e-commerce vous permet de créer une expérience d'achat en ligne exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, nous concevons des sites e-commerce sur mesure qui répondent à vos besoins spécifiques.
+                En tant que développeur web freelance passionné, je m'engage à créer des boutiques en ligne qui se démarquent. Ma spécialité en développement <span className='font-bold'>e-commerce</span>  vous offre la possibilité de créer une expérience d'achat exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, je conçois des sites <span className='font-bold'> e-commerce</span>  sur mesure qui répondent à vos besoins spécifiques.
               </p>
               <p>
-                Nous comprenons l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi nous mettons tout en œuvre pour vous offrir une plateforme e-commerce qui maximise vos ventes et fidélise vos clients.
+                Nous comprenons l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi nous mettons tout en œuvre pour vous offrir une plateforme<span className='font-bold'> e-commerce</span>  qui maximise vos ventes et fidélise vos clients.
               </p>
               <p>
-                Explorez nos services de création de sites e-commerce et découvrez comment nous pouvons vous aider à développer votre entreprise en ligne. De la conception à la gestion, nous sommes là à chaque étape de votre parcours e-commerce.
+                Explorez nos services de création de sites <span className='font-bold'>e-commerce</span> et découvrez comment nous pouvons vous aider à développer votre entreprise en ligne. De la conception à la gestion, nous sommes là à chaque étape de votre parcours <span className='font-bold'>e-commerce</span>.
               </p>
             </div>
           </div>
@@ -123,15 +123,14 @@ export default function page() {
                 Un site internet  <span className='text-emerald-600'>e-commerce</span> qui vous ressemble
               </h2>
               <p>
-                Votre boutique en ligne est plus qu'un simple site web, c'est le visage de votre entreprise sur internet. Chez [Nom de Votre Entreprise], nous comprenons l'importance de créer une boutique en ligne qui reflète votre identité de marque et votre vision.
+                En tant que développeur web freelance, je comprends que votre boutique en ligne est bien plus qu'un simple site web ; c'est le visage de votre entreprise sur internet. Je m'engage à créer une boutique en ligne qui reflète votre identité de marque et votre vision.
               </p>
               <p>
-                Que vous soyez une petite entreprise artisanale ou une entreprise établie, nous travaillons en étroite collaboration avec vous pour concevoir une boutique en ligne qui vous ressemble. De la personnalisation du design à l'intégration des fonctionnalités spécifiques, nous mettons tout en œuvre pour capturer l'essence de votre entreprise.
+                Que vous soyez une petite entreprise artisanale ou une entreprise établie, je travaille en étroite collaboration avec vous pour concevoir une boutique en ligne qui vous ressemble. De la personnalisation du design à l'intégration des fonctionnalités spécifiques, je mets tout en œuvre pour capturer l'essence de votre entreprise.
               </p>
               <p>
-                Votre site e-commerce devrait être unique, tout comme vous. Faites confiance à notre équipe d'experts en développement e-commerce pour créer une boutique en ligne exceptionnelle qui séduit vos clients et vous aide à réussir dans le monde de la vente en ligne. Découvrez comment nous pouvons faire de votre boutique en ligne une extension authentique de votre entreprise.
-              </p>
-            </div>
+                Votre site e-commerce devrait être unique, tout comme vous. Faites-moi confiance en tant que développeur web freelance pour créer une boutique en ligne exceptionnelle qui séduit vos clients et vous aide à réussir dans le monde de la vente en ligne. Découvrez comment je peux faire de votre boutique en ligne une extension authentique de votre entreprise.
+              </p>            </div>
           </div>
         </div>
         <CallToAction />

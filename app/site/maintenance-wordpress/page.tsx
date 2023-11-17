@@ -37,14 +37,23 @@ export default function page() {
 
     const vitrineData = [
         {
-            title: 'Sécurité renforcée', text: 'Laissez-nous prendre en charge la sécurité de votre site WordPress. Notre équipe met en place des mesures de sécurité avancées pour protéger votre site contre les menaces en ligne. Nous surveillons en temps réel et réagissons rapidement en cas de problème, ce qui vous évite les soucis liés aux failles de sécurité potentielles.', image: logo_securite, alt: 'Logo experience utilisateur'
+            title: "Sécurité Renforcée",
+            text: "Confiez-moi la sécurité de votre site WordPress. En tant que développeur web freelance, je mets en place des mesures de sécurité avancées pour protéger votre site contre les menaces en ligne. J'assure une surveillance en temps réel et réagis rapidement en cas de problème, vous évitant ainsi les soucis liés aux failles de sécurité potentielles.",
+            image: logo_securite,
+            alt: "Logo expérience utilisateur",
         },
         {
-            title: 'Performance optimisée', text: 'Votre site doit fonctionner rapidement et sans accroc pour offrir la meilleure expérience utilisateur possible. Nous sommes experts en optimisation des performances WordPress. Nous effectuons des ajustements pour garantir une vitesse de chargement optimale, ce qui peut avoir un impact direct sur la satisfaction de vos visiteurs et sur le classement de votre site dans les moteurs de recherche.', image: logo_performance, alt: 'Logo référencement naturel'
+            title: "Performance Optimisée",
+            text: "Votre site doit fonctionner rapidement et sans accroc pour offrir la meilleure expérience utilisateur possible. En tant que développeur web freelance, j'excelle dans l'optimisation des performances WordPress. J'effectue des ajustements pour garantir une vitesse de chargement optimale, ce qui peut avoir un impact direct sur la satisfaction de vos visiteurs et sur le classement de votre site dans les moteurs de recherche.",
+            image: logo_performance,
+            alt: "Logo référencement naturel",
         },
         {
-            title: 'Economie de temps et de stress', text: 'En nous confiant la maintenance de votre site WordPress, vous gagnez du temps et évitez le stress lié à la gestion des mises à jour, des sauvegardes et des problèmes techniques. Vous pouvez vous concentrer sur le développement de votre entreprise, sachant que votre site est entre de bonnes mains.', image: logo_stress, alt: 'logo  market'
-        }
+            title: "Économie de Temps et de Stress",
+            text: "En me confiant la maintenance de votre site WordPress, vous gagnez du temps et évitez le stress lié à la gestion des mises à jour, des sauvegardes et des problèmes techniques. En tant que développeur web freelance, je vous permet de vous concentrer sur le développement de votre entreprise, sachant que votre site est entre de bonnes mains.",
+            image: logo_stress,
+            alt: "Logo marketing",
+        },
     ]
 
     const faqs = [
@@ -107,13 +116,12 @@ export default function page() {
                                 Liste des  <span className="text-emerald-600" >services de maintenance</span>
                             </h2>
                             <p>
-                                Chez [Nom de Votre Entreprise], nous comprenons que la maintenance de votre site web est une décision importante, et nous sommes prêts à vous montrer pourquoi nous sommes le choix idéal pour cette tâche cruciale.
-                            </p>
+                                En tant que développeur web freelance, je comprends que la maintenance de votre site web est une décision cruciale. Je suis prêt à vous montrer pourquoi choisir mes services est la meilleure option pour assurer la performance, la sécurité et la fiabilité continues de votre site.                            </p>
                             <div className='flex flex-row'>
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>1</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Mises à jour régulières :  </span> Nous assurons une gestion proactive des mises à jour pour maintenir la compatibilité et la sécurité de votre site.
+                                        <span className='font-extrabold'>Mises à jour régulières :  </span> En tant que développeur web freelance, j'assure une gestion proactive des mises à jour pour maintenir la compatibilité et la sécurité de votre site.
                                     </p>
                                 </div>
                             </div>
@@ -121,7 +129,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>2</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Sécurité renforcée : </span> Notre équipe de sécurité surveille en permanence votre site pour prévenir les menaces et réagir rapidement en cas d'incident.
+                                        <span className='font-extrabold'>Sécurité renforcée : </span> En tant que développeur web freelance, je surveille en permanence votre site pour prévenir les menaces et réagir rapidement en cas d'incident.
                                     </p>
                                 </div>
                             </div>
@@ -140,7 +148,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Sauvegardes Automatisées : </span> Vos données sont précieuses. Nous les protégeons grâce à des sauvegardes régulières.
+                                        <span className='font-extrabold'>Sauvegardes Automatisées : </span> En tant que développeur web freelance, je protège vos données grâce à des sauvegardes régulières.
                                     </p>
                                 </div>
                             </div>
@@ -148,7 +156,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>4</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Optimisation des performances : </span> Nous améliorons constamment la vitesse et la réactivité de votre site pour offrir une expérience utilisateur exceptionnelle.
+                                        <span className='font-extrabold'>Optimisation des performances : </span> En tant que développeur web freelance, j'améliore constamment la vitesse et la réactivité de votre site pour offrir une expérience utilisateur exceptionnelle.
                                     </p>
                                 </div>
                             </div>
@@ -156,7 +164,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Support technique réactif  : </span> En cas de problème, notre équipe est prête à intervenir rapidement pour résoudre tout souci technique.
+                                        <span className='font-extrabold'>Support technique réactif : </span> En tant que développeur web freelance, je suis prêt à intervenir rapidement en cas de problème pour résoudre tout souci technique sur votre site.
                                     </p>
                                 </div>
                             </div>
@@ -176,9 +184,9 @@ export default function page() {
                             Pourquoi la maintenance d’un site WordPress est indispensable ?
                         </h2>
                         <p>
-                            La maintenance d'un site WordPress est bien plus qu'une simple tâche technique, c'est la clé pour assurer la sécurité, la performance et la fiabilité de votre présence en ligne. Notre équipe d'experts veille constamment sur votre site, appliquant des mises à jour cruciales, effectuant des sauvegardes régulières et surveillant les menaces potentielles. Grâce à notre service de maintenance, votre site reste en parfait état de fonctionnement, laissant une impression positive sur vos visiteurs et renforçant votre crédibilité en ligne.
+                            La maintenance d'un site WordPress est bien plus qu 'une simple tâche technique, c'est la clé pour assurer la sécurité, la performance et la fiabilité de votre présence en ligne. Notre équipe d'experts veille constamment sur votre site, appliquant des mises à jour cruciales, effectuant des sauvegardes régulières et surveillant les menaces potentielles. Grâce à notre service de maintenance, votre site reste en parfait état de fonctionnement, laissant une impression positive sur vos visiteurs et renforçant votre crédibilité en ligne.
                         </p>
-                        <Button variant="primary">Contactez-nous</Button>
+                        <Button variant="primary">Contactez-moi</Button>
                     </div>
                 </SectionEmerald>
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />

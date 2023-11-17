@@ -34,13 +34,22 @@ export default function page() {
 
   const vitrineData = [
     {
-      title: 'Visibilité en ligne', text: 'Un site vitrine permet à votre entreprise d\'avoir une présence en ligne 24 heures sur 24, 7 jours sur 7. Il est accessible aux clients potentiels à tout moment, ce qui augmente votre visibilité en ligne et votre accessibilité.', image: logo_visibilite, alt: 'Logo visibilité en ligne'
+      title: 'Visibilité en ligne',
+      text: 'Un site vitrine permet à votre entreprise d\'avoir une présence en ligne 24 heures sur 24, 7 jours sur 7. Il est accessible aux clients potentiels à tout moment, ce qui augmente votre visibilité en ligne et votre accessibilité.',
+      image: logo_visibilite,
+      alt: 'Logo visibilité en ligne'
     },
     {
-      title: 'Promotion de votre marque', text: 'Un site vitrine bien conçu permet de présenter votre entreprise, vos produits ou services, et votre identité de marque de manière professionnelle. Il offre une plateforme pour communiquer votre message et renforcer la confiance.', image: logo_promotion, alt: 'Logo promotion de votre marque'
+      title: 'Promotion de votre marque',
+      text: 'Un site vitrine bien conçu permet de présenter votre entreprise, vos produits ou services, et votre identité de marque de manière professionnelle. Il offre une plateforme pour communiquer votre message et renforcer la confiance.',
+      image: logo_promotion,
+      alt: 'Logo promotion de votre marque'
     },
     {
-      title: 'Chiffre d\'affaires', text: 'Un site vitrine bien conçu peut contribuer à l\'augmentation de votre chiffre d\'affaires en attirant de nouveaux clients, en augmentant la notoriété de votre entreprise et en facilitant la vente de vos produits ou services en ligne.', image: logo_roi, alt: 'logo roi'
+      title: 'Chiffre d\'affaires',
+      text: 'Un site vitrine bien conçu peut contribuer à l\'augmentation de votre chiffre d\'affaires en attirant de nouveaux clients, en augmentant la notoriété de votre entreprise et en facilitant la vente de vos produits ou services en ligne.',
+      image: logo_roi,
+      alt: 'logo roi'
     }
   ]
 
@@ -70,9 +79,9 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Agence de création de site vitrine"
+        title="Développeur web freelance créateur de site vitrine"
         subtitle="Création d'un site vitrine sur mesure"
-        text="Découvrez l'élégance et la simplicité d'un site vitrine conçu spécialement pour votre entreprise. Chez [Nom de Votre Entreprise], nous mettons en avant votre image de marque et vos produits/services de manière captivante. Transformez les visiteurs en clients avec un site web vitrine qui laisse une impression mémorable."
+        text="Découvrez l'élégance et la simplicité d'un site vitrine conçu spécialement pour votre entreprise. Mettons en avant votre image de marque et vos produits/services de manière captivante. Transformez les visiteurs en clients avec un site web vitrine qui laisse une impression mémorable."
         image={picture_site}
         alt="image png developpeur web"
       />
@@ -101,20 +110,19 @@ export default function page() {
             </div>
             <div className='w-full sm:w-3/6 space-y-4 px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                Boostez votre entreprise à Nancy avec notre expertise en création de  <span className='text-emerald-600'>sites vitrine</span>
+                Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span>
               </h2>
               <p>
-                Vous êtes basé à Nancy ou dans ses environs et vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Chez [Nom de Votre Entreprise], nous sommes fiers d'offrir nos services de création de sites web sur mesure spécialement conçus pour les entreprises locales de Nancy.
+                Vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Je suis fier d'offrir mes services de création de sites web sur mesure.
               </p>
               <p>
-                Notre équipe d'experts en développement web, design et référencement est prête à travailler avec vous pour créer un site web qui capte l'attention de votre public cible à Nancy. Que vous ayez besoin d'un site vitrine pour mettre en avant vos services, d'un site e-commerce pour vendre vos produits, ou d'une refonte pour moderniser votre présence en ligne, nous avons l'expertise pour vous accompagner à chaque étape
+                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un site e-commerce pour vendre vos produits, ou d'une refonte pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
               </p>
               <p>
-                Nancy est une ville dynamique avec un marché en constante évolution, et nous sommes là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment notre savoir-faire local peut faire une différence significative pour votre entreprise. Contactez-nous dès aujourd'hui pour discuter de vos besoins en matière de création de site web et de marketing numérique
+                Je suis là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment mon savoir-faire peut faire une différence significative pour votre entreprise. Contactez-moi dès aujourd'hui pour discuter de vos besoins en matière de création de site web et de marketing numérique.
               </p>
             </div>
           </div>
-
           <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
             <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
               <Image
@@ -126,13 +134,13 @@ export default function page() {
                 <span className='text-emerald-600'>Un site vitrine</span> qui vous ressemble
               </h2>
               <p>
-                Chez [Nom de Votre Entreprise], nous comprenons que votre site web doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi nous nous engageons à créer un site vitrine sur mesure qui vous ressemble.
+                En tant que développeur web freelance, je comprends que votre <span className='font-bold'>site vitrine</span> doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi je m'engage à créer un site vitrine sur mesure qui vous ressemble.
               </p>
               <p>
-                Notre équipe de designers et de développeurs travaille en étroite collaboration avec vous pour capturer l'essence de votre entreprise et la traduire en un design web exceptionnel. Nous croyons que chaque entreprise est unique, et votre site web devrait l'être aussi.
+                Travaillant en étroite collaboration avec vous, je capture l'essence de votre entreprise et la traduis en un design web exceptionnel. Je crois que chaque entreprise est unique, et votre site web devrait l'être aussi.
               </p>
               <p>
-                Que vous ayez besoin d'un site vitrine élégant, moderne, créatif ou professionnel, nous avons l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment nous pouvons vous aider à créer un site web qui reflète parfaitement votre vision et à la partager avec le monde.
+                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un site web qui reflète parfaitement votre vision et à le partager avec le monde.
               </p>
             </div>
           </div >
@@ -147,21 +155,21 @@ export default function page() {
         <SectionEmerald image={score_site} alt="représentation du score du site">
           <div className='space-y-6'>
             <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
-              Optimisez votre présence en ligne avec notre service de <span className='text-emerald-600'>refonte de site</span>
+              Optimisez votre présence en ligne avec mon service de <span className='text-emerald-600'>refonte de site</span>
             </h2>
             <p>
-              La  <span className='font-bold'>refonte de site</span>  est une étape essentielle pour maintenir la pertinence en ligne de votre entreprise. Chez [Nom de Votre Entreprise], nous offrons un service de refonte de site complet qui vous permet de moderniser votre présence en ligne, d'améliorer l'expérience utilisateur et d'optimiser la performance.
+              La <span className='font-bold'>refonte de site</span> est une étape essentielle pour maintenir la pertinence en ligne de votre entreprise. En tant que développeur web freelance, je propose un service complet de refonte de site qui vous permet de moderniser votre présence en ligne, d'améliorer l'expérience utilisateur et d'optimiser la performance.
             </p>
             <p>
-              Notre équipe de designers, de développeurs et de spécialistes du marketing collabore pour donner une nouvelle vie à votre site web. Nous nous efforçons également d'obtenir un score élevé sur PageSpeed Insight de Google, ce qui améliore la vitesse de chargement de votre site, le rendant plus convivial pour vos visiteurs.
+              En tant que développeur web freelance, je m'occupe de tout, de la conception à la mise en œuvre, pour donner une nouvelle vie à votre site web. Mon objectif est d'optimiser la vitesse de chargement de votre site, offrant ainsi une expérience utilisateur améliorée pour vos visiteurs, sans avoir besoin d'une équipe étendue. Découvrez comment je peux revitaliser votre présence en ligne de manière efficace et personnalisée.
             </p>
             <p>
-              Découvrez comment notre service de refonte de site peut vous aider à rester compétitif en ligne et à offrir une expérience utilisateur exceptionnelle.
+              Découvrez comment mon service de refonte de site peut vous aider à rester compétitif en ligne et à offrir une expérience utilisateur exceptionnelle.
             </p>
             <div>
               <Link href="/site/refonte">
                 <Button size="lg" variant="primary">
-                  En savoir plus sur nos services de refonte de site ici
+                  En savoir plus sur mon service de refonte de site
                 </Button>
               </Link>
             </div>

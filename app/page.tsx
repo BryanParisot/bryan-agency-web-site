@@ -28,13 +28,13 @@ export const metadata: Metadata = {
 export default function Home() {
 
   const contentCards = [
-    { title: "Création de Sites Internet", text: 'Notre équipe expérimentée concevra un site web unique et optimisé, représentant votre entreprise de manière professionnelle en ligne. Nous intégrons vos besoins et votre identité dans chaque aspect du site pour offrir une expérience utilisateur exceptionnelle', icon: logo_creation_site, link: '/site', bg: 'bg-amber-200', alt: "Icone création de site internet" },
-    { title: "Refonte de Site Web", text: 'Donnez une nouvelle vie à votre site web existant. Notre équipe de professionnels de la refonte web travaillera pour moderniser votre site, améliorer son design et son efficacité, et vous aider à rester compétitif en ligne. Découvrez comment nous pouvons revitaliser votre présence sur le web', icon: logo_refonte_site, link: '/site/refonte', bg: 'bg-blue-200', alt: "Icone refonte de site internet" },
-    { title: "Applications Web / SaaS", text: 'Notre équipe crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels. Transformez vos idées en réalité numérique avec notre expertise en développement d\'applications web.', icon: logo_sass_web, link: '/sass', bg: 'bg-green-200', alt: "Icone application web/sass" },
-    { title: "Intégration de Vos Maquettes", text: 'Notre équipe experte assure une parfaite intégration de vos maquettes dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à notre savoir-faire en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icone intégration de maquette" },
-    { title: "Référencement Naturel - SEO", text: 'Maximisez votre visibilité en ligne avec notre expertise en référencement naturel (SEO). Nous optimisons votre site web pour les moteurs de recherche, ce qui signifie une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icone référencement naturel SEO" },
-    { title: "Référencement Sponsorisé - SEA", text: 'Boostez votre visibilité instantanément grâce à notre expertise en référencement sponsorisé (SEA). Nous créons et gérons des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icone référencement Sponsorisé - SEA", },
-    { title: "Web Design ", text: 'Notre équipe de web designers talentueux se consacre à la création d\'expériences en ligne inoubliables. Nous croyons que le design va bien au-delà de l\'esthétique ; c\'est l\'art de créer des sites web qui suscitent l\'émotion, renforcent la crédibilité et génèrent des résultats tangibles.', icon: logo_design, link: '/web-design', bg: 'bg-amber-200', alt: "Icone web design", },
+    { title: "Création de Sites Internet", text: 'En tant que développeur web freelance, je concevrai un site web unique et optimisé, représentant votre entreprise de manière professionnelle en ligne. J\'intègre vos besoins et votre identité dans chaque aspect du site pour offrir une expérience utilisateur exceptionnelle', icon: logo_creation_site, link: '/site', bg: 'bg-amber-200', alt: "Icone création de site internet" },
+    { title: "Refonte de Site Web", text: 'Donnez une nouvelle vie à votre site web existant. Mon expertise en tant que développeur web freelance vous aidera à moderniser votre site, améliorer son design et son efficacité pour rester compétitif en ligne. Découvrez comment je peux revitaliser votre présence sur le web', icon: logo_refonte_site, link: '/site/refonte', bg: 'bg-blue-200', alt: "Icone refonte de site internet" },
+    { title: "Applications Web / SaaS", text: 'En tant que développeur web freelance, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web.', icon: logo_sass_web, link: '/sass', bg: 'bg-green-200', alt: "Icone application web/sass" },
+    { title: "Intégration de Vos Maquettes", text: 'Mon expertise en tant que développeur web freelance assure une parfaite intégration de vos maquettes dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon savoir-faire en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icone intégration de maquette" },
+    { title: "Référencement Naturel - SEO", text: 'Maximisez votre visibilité en ligne avec mon expertise en référencement naturel (SEO). J\'optimise votre site web pour les moteurs de recherche, ce qui signifie une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icone référencement naturel SEO" },
+    { title: "Référencement Sponsorisé - SEA", text: 'Boostez votre visibilité instantanément avec mon expertise en référencement sponsorisé (SEA). Je crée et gère des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icone référencement Sponsorisé - SEA", },
+    { title: "Web Design", text: 'Mon talent en tant que développeur web freelance se consacre à la création d\'expériences en ligne inoubliables. Je crois que le design va bien au-delà de l\'esthétique ; c\'est l\'art de créer des sites web qui suscitent l\'émotion, renforcent la crédibilité et génèrent des résultats tangibles.', icon: logo_design, link: '/web-design', bg: 'bg-amber-200', alt: "Icone web design", },
   ]
 
   const faqs = [
@@ -64,9 +64,9 @@ export default function Home() {
   return (
     <main>
       <Header
-        title="Agence web Nancy"
+        title="Développeur web freelance à Nancy"
         subtitle="Hissez les voiles vers votre succès digital à Nancy avec un capitaine du web expérimenté."
-        text="Cap sur la réussite digitale à Nancy ! Votre agence web experte en création de sites, refonte et applications. Naviguez vers le succès avec nous"
+        text="Cap sur la réussite digitale à Nancy ! Votre développeur web freelance expert en création de sites, refonte et applications. Naviguez vers le succès avec nous"
         image={picture_home}
         alt="image png developpeur web"
       />
@@ -84,8 +84,8 @@ export default function Home() {
           <CallToAction />
 
           <SectionWithPictures
-            title="Pourquoi choisir une agence web ?"
-            description="Pourquoi choisir une agence web ? Parce que nous sommes les navigateurs de l'univers numérique. Avec notre expertise en développement web, design, référencement et stratégie numérique, nous vous aidons à hisser les voiles vers le succès en ligne. Notre équipe technique assure une conception professionnelle, une visibilité accrue dans les moteurs de recherche et un site web optimisé. Gagnez du temps, restez à la pointe de la technologie et concentrez-vous sur votre entreprise pendant que nous donnons vie à votre présence en ligne. Contactez-nous aujourd'hui pour commencer votre voyage vers la réussite digitale."
+            title="Pourquoi choisir un développeur web freelance ?"
+            description="Pourquoi opter pour un Développeur Web Freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
             image={illustration_web}
             alt="Illustration web"
           />
