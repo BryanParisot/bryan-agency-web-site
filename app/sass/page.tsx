@@ -126,11 +126,11 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Solutions web & Saas sur-mesure"
+                title="Solutions Web & SaaS sur-mesure"
                 subtitle="Transformez vos idées en réalité digitale"
-                text="Bienvenue dans l'univers des applications web et SaaS sur-mesure. Chez [Nom de Votre Entreprise], nous faisons de la technologie un catalyseur pour la réalisation de vos ambitions. Nos équipes d'experts travaillent en étroite collaboration avec vous pour créer des solutions web innovantes et des logiciels SaaS parfaitement adaptés à vos besoins. Ensemble, nous transformons vos idées en réalité digitale, en fournissant des outils puissants qui stimulent la croissance de votre entreprise. Explorez notre gamme de services et découvrez comment nous pouvons façonner le futur de votre entreprise."
+                text="Bienvenue dans l'univers des applications web et SaaS sur-mesure. En tant que développeur web freelance, je fais de la technologie un catalyseur pour la réalisation de vos ambitions. Travaillons ensemble pour créer des solutions web innovantes et des logiciels SaaS parfaitement adaptés à vos besoins. Ensemble, nous transformerons vos idées en réalité digitale, en fournissant des outils puissants qui stimuleront la croissance de votre entreprise. Explorez ma gamme de services et découvrez comment je peux façonner le futur de votre entreprise."
                 image={picture_site}
-                alt="image png developpeur web"
+                alt="Image PNG développeur web"
             />
             <div className='sm:px-20 px-5'>
 
@@ -156,7 +156,7 @@ export default function page() {
                                 Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
                             </h2>
                             <p>
-                                En tant que développeur d'application web sur mesure de premier plan, [Nom de Votre Entreprise] s'engage à créer des solutions numériques qui répondent précisément à vos besoins. Nous ne croyons pas en l'approche taille unique. Au contraire, notre équipe talentueuse de développeurs, de concepteurs et d'experts en technologie travaille en étroite collaboration avec vous pour concevoir des applications web totalement personnalisées. Que vous recherchiez une application web pour automatiser des processus métier, fournir une expérience client exceptionnelle ou optimiser la productivité de votre équipe, nous sommes là pour transformer vos idées en réalité. Découvrez comment notre expertise en développement sur mesure peut propulser votre entreprise vers de nouveaux sommets.
+                                En tant que développeur web sur mesure de premier plan, je m'engage à créer des solutions numériques qui répondent précisément à vos besoins. Je ne crois pas en l'approche taille unique. Au contraire, ma mission en tant que développeur freelance est de travailler en étroite collaboration avec vous pour concevoir des applications web totalement personnalisées. Que vous recherchiez une application web pour automatiser des processus métier, fournir une expérience client exceptionnelle ou optimiser la productivité de votre équipe, je suis là pour transformer vos idées en réalité. Découvrez comment mon expertise en développement sur mesure peut propulser votre entreprise vers de nouveaux sommets.
                             </p>
                             <div>
                                 <Link href="/contact">

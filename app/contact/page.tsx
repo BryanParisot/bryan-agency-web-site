@@ -23,7 +23,7 @@ export default function integration() {
                 subtitle="Contactez Bryan Parisot, Développeur Web Freelance"
                 text="Vous avez des questions, des projets à discuter ou simplement envie de dire bonjour ? N'hésitez pas à me contacter. Je suis là pour vous aider à concrétiser vos idées numériques. Remplissez le formulaire ci-dessous, et je vous répondrai dans les plus brefs délais. Ensemble, créons une présence en ligne qui vous démarque !"
                 image={picture_site}
-                alt="image png developpeur web"
+                alt="image png developpeur web freelance"
             />
             <div className="relative isolate bg-white">
                 <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">

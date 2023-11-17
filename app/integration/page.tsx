@@ -32,44 +32,61 @@ export const metadata: Metadata = {
 
 export default function page() {
 
-  const step = [
+  const steps = [
     {
-      id: 1, title: "Nous analysons votre maquette", text: "Nous commençons par examiner attentivement votre maquette, que ce soit au format PSD, XD, Sketch ou tout autre format graphique. Nous étudions chaque élément, de la mise en page aux polices, pour comprendre votre vision."
+      id: 1,
+      title: "Analyse de votre maquette",
+      text: "En tant qu'intégrateur web freelance, je commence par examiner attentivement votre maquette, que ce soit au format PSD, XD, Sketch ou tout autre format graphique. J'étudie chaque élément, de la mise en page aux polices, pour comprendre votre vision."
     },
     {
-      id: 2, title: "Évaluation des besoins", text: "Après avoir analysé votre maquette, nous discutons avec vous pour comprendre vos besoins spécifiques, vos objectifs et les fonctionnalités requises pour votre site web."
+      id: 2,
+      title: "Évaluation des besoins",
+      text: "Après avoir analysé votre maquette, je discute avec vous pour comprendre vos besoins spécifiques, vos objectifs et les fonctionnalités requises pour votre site web."
     },
     {
-      id: 3, title: "Devis personnalisé", text: "Sur la base de notre analyse et de votre vision, nous vous envoyons un devis détaillé sous 48 heures. Ce devis comprendra un aperçu des coûts et des délais pour l'intégration de votre maquette."
+      id: 3,
+      title: "Devis personnalisé",
+      text: "Sur la base de mon analyse et de votre vision, je vous envoie un devis détaillé sous 48 heures. Ce devis comprendra un aperçu des coûts et des délais pour l'intégration de votre maquette."
     },
     {
-      id: 4, title: "Développement Front-End", text: "Notre équipe commence le travail d'intégration en traduisant chaque élément de votre maquette en code HTML/CSS ou dans le cms de votre choix. Nous veillons à ce que le site soit compatible avec tous les navigateurs et appareils."
+      id: 4,
+      title: "Développement Front-End",
+      text: "Je commence le travail d'intégration en traduisant chaque élément de votre maquette en code HTML/CSS ou dans le CMS de votre choix. Je veille à ce que le site soit compatible avec tous les navigateurs et appareils."
     },
     {
-      id: 5, title: "Intégration des fonctionnalités", text: "Si votre site nécessite des fonctionnalités spécifiques, comme des formulaires interactifs, des boutons de partage sur les réseaux sociaux ou une section de blog, nous les intégrons avec soin."
+      id: 5,
+      title: "Intégration des fonctionnalités",
+      text: "Si votre site nécessite des fonctionnalités spécifiques, comme des formulaires interactifs, des boutons de partage sur les réseaux sociaux ou une section de blog, je les intègre avec soin."
     },
     {
-      id: 6, title: "Livraison et suivi", text: "Une fois que tout est parfait, nous vous livrons le site web intégré et prêt à être déployé. Notre équipe reste à votre disposition pour toute assistance future ou pour répondre à vos questions."
+      id: 6,
+      title: "Livraison et suivi",
+      text: "Une fois que tout est parfait, je vous livre le site web intégré et prêt à être déployé. Je reste à votre disposition pour toute assistance future ou pour répondre à vos questions."
     },
-  ]
+  ];
 
   const choiceMaquetteData = [
     {
-      title: "Expertise Inégalée", text: "Chez [Nom de Votre Entreprise], nous sommes fiers de notre expertise inégalée en matière d'intégration de maquettes. Notre équipe d'intégrateurs de maquettes chevronnés possède une vaste expérience dans la transformation de designs visuels en sites web fonctionnels et esthétiquement plaisants."
+      title: "Mon Expertise Inégalée",
+      text: "En tant qu'intégrateur web freelance, je suis fier de mon expertise inégalée en matière d'intégration de maquettes. Ma vaste expérience dans la transformation de designs visuels en sites web fonctionnels et esthétiquement plaisants fait de moi votre partenaire idéal."
     },
     {
-      title: " Engagement envers la qualité", text: "Notre engagement envers la qualité est au cœur de notre processus d'intégration. Chaque détail de votre maquette est soigneusement pris en compte pour garantir une fidélité visuelle exceptionnelle. Nous mettons un point d'honneur à maintenir les plus hauts standards de qualité tout au long du projet."
+      title: "Engagement envers la qualité",
+      text: "Mon engagement envers la qualité est au cœur de mon processus d'intégration. Chaque détail de votre maquette est soigneusement pris en compte pour garantir une fidélité visuelle exceptionnelle. Je maintiens les plus hauts standards de qualité tout au long du projet."
     },
     {
-      title: "Collaboration transparente", text: "Nous croyons en une collaboration transparente avec nos clients. Votre vision est notre priorité, et nous travaillons étroitement avec vous à chaque étape du processus. Nous écoutons vos besoins, vos préoccupations et vos idées, et nous vous tenons régulièrement informés de l'avancement du projet."
+      title: "Collaboration transparente",
+      text: "Je crois en une collaboration transparente avec mes clients. Votre vision est ma priorité, et je travaille étroitement avec vous à chaque étape du processus. J'écoute vos besoins, vos préoccupations et vos idées, et je vous tiens régulièrement informé de l'avancement du projet."
     },
     {
-      title: "Respect des délais", text: "Nous comprenons à quel point le respect des délais est important pour votre entreprise. Notre réputation repose sur notre capacité à livrer les projets à temps, ce qui vous permet de planifier vos activités en toute confiance."
+      title: "Respect des délais",
+      text: "Je comprends à quel point le respect des délais est important pour votre entreprise. Ma réputation repose sur ma capacité à livrer les projets à temps, ce qui vous permet de planifier vos activités en toute confiance."
     },
     {
-      title: "Satisfaction client", text: "La satisfaction de nos clients est notre principale récompense. Nous sommes fiers de nos relations solides avec nos clients, bâties grâce à notre dévouement envers la qualité et à notre approche orientée vers les solutions."
+      title: "Satisfaction client",
+      text: "La satisfaction de mes clients est ma principale récompense. Je suis fier de mes relations solides avec mes clients, bâties grâce à mon dévouement envers la qualité et à mon approche orientée vers les solutions."
     },
-  ]
+  ];
 
   const faqs = [
     {
@@ -119,22 +136,20 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Agence d’intégration de maquette"
-        subtitle="Intégration de maquettes : Transformez votre vision en réalité en ligne"
-        text="Chez [Nom de Votre Entreprise], nous sommes spécialisés dans l'intégration de maquettes, transformant vos designs visuels en sites web dynamiques et fonctionnels. Nous comprenons l'importance de faire passer votre vision du concept à la réalité en ligne, et nous avons l'expertise nécessaire pour le faire de manière impeccable.
-"
+        title="Développeur web freelance - Intégrateur web "
+        subtitle="Intégration web : Transformez votre vision en réalité en ligne"
+        text="Bienvenue ! Je suis bryan parisot, un développeur web freelance, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
         image={picture_site}
         alt="image png developpeur web"
       />
-
       <div className="mt-10 mb-10">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de nous laisser <span className="text-emerald-600">l'intégration de votre maquette</span>
+          Les avantages de me laisser <span className="text-emerald-600">l'intégration de votre maquette</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
-            step.map((item) => (
+            steps.map((item) => (
               <div className='space-y-4' key={item.id}>
                 <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg' >{item.id}</div>
                 <h3 className='font-bold text-lg text-emerald-950'>{item.title}</h3>
@@ -151,7 +166,7 @@ export default function page() {
           </div>
           <div className='w-full sm:w-3/6 space-y-6 px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Pourquoi choisir [Nom de Votre Entreprise] pour l'intégration de votre maquette ?
+              Pourquoi me en tant qu'intégrateur web freelance ?
             </h2>
             {
               choiceMaquetteData.map((item) => (
@@ -178,7 +193,7 @@ export default function page() {
 
         <div className='bg-emerald-50 flex items-center flex-col py-5'>
           <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
-            Les atouts de nos <span className='text-emerald-600'>intégration web</span> sur mesure
+            Les atouts de mes <span className='text-emerald-600'>intégration web</span> sur mesure
           </h2>
           <div className=' grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
             {

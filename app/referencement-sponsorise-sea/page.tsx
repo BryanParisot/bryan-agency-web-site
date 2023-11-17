@@ -121,9 +121,9 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Agence Ads à nancy "
+                title="Expert Ads developpeur web freelance"
                 subtitle="Boostez votre visibilité avec le SEA"
-                text="Explorez de nouvelles horizons en ligne avec notre expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à notre stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
+                text="Explorez de nouvelles horizons en ligne avec mon expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à ma stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
                 image={picture_site}
                 alt="image png developpeur web"
             />
@@ -154,7 +154,9 @@ export default function page() {
                                 Boostez votre performance grâce au SEA
                             </h2>
                             <p>
-                                Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. Notre équipe d'experts en publicité sur les moteurs de recherche est prête à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, nous maximisons chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.
+                                <p>
+                                    Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. En tant que développeur web freelance spécialisé en publicité sur les moteurs de recherche, je suis prêt à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, je maximise chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.
+                                </p>
                             </p>
                         </div>
                     </div>
@@ -171,7 +173,8 @@ export default function page() {
                                 Créez Votre landing page spécialisée
                             </h2>
                             <p>
-                                Chez [Nom de Votre Entreprise], nous croyons en l'importance d'une première impression mémorable en ligne. C'est pourquoi nous proposons des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Nos équipes de conception expérimentées travaillent en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Nous allons encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à notre expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment nos services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.                        </p>
+                                En tant que développeur web freelance, je crois en l'importance d'une première impression mémorable en ligne. C'est pourquoi je propose des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Ma conception expérimentée travaille en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Je vais encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à mon expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment mes services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.
+                            </p>
                         </div>
                     </div>
 

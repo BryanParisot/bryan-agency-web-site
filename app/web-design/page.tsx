@@ -88,9 +88,9 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Agence de web-design à Nancy"
+        title="Développeur web freelance web-design"
         subtitle="Donnez vie à votre site web avec un design personnalisé"
-        text="Au cœur de notre agence web, le design est une passion qui prend vie à travers chaque projet que nous entreprenons. Nous sommes déterminés à donner vie à votre vision en créant des sites web uniques, captivants et parfaitement adaptés à votre entreprise ou à votre projet. Notre équipe de concepteurs talentueux s'engage à créer des expériences en ligne exceptionnelles qui captivent vos visiteurs, renforcent votre image de marque et stimulent votre succès en ligne. Explorez notre portfolio pour découvrir comment nous pouvons transformer votre vision en une réalité web à couper le souffle"
+        text="Au cœur de mon approche en tant que développeur web freelance, le design est une passion qui prend vie à travers chaque projet que j'entreprends. Je suis déterminé à donner vie à votre vision en créant des sites web uniques, captivants et parfaitement adaptés à votre entreprise ou à votre projet. Mon engagement en tant que concepteur talentueux est de créer des expériences en ligne exceptionnelles qui captivent vos visiteurs, renforcent votre image de marque et stimulent votre succès en ligne. Explorez mon portfolio pour découvrir comment je peux transformer votre vision en une réalité web à couper le souffle."
         image={picture_site}
         alt="image png developpeur web"
       />
