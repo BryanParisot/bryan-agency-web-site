@@ -74,9 +74,9 @@ export default function page() {
     return (
         <main>
             <Header
-                title="décveloppeur web freelance refonte de site web"
-                subtitle="Donnez un nouveau souffle à votre site avec notre service de refonte"
-                text="Chez [Nom de Votre Entreprise], nous sommes convaincus que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi nous nous sommes spécialisés dans la refonte de sites web qui réinventent l'expérience en ligne, persuadent les visiteurs et les transforment en clients fidèles."
+                title="Développeur web freelance - refonte de site web"
+                subtitle="Donnez un nouveau souffle à votre site avec mes services de refonte"
+                text="En tant que développeur web freelance, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me suis spécialisé dans la refonte de sites web qui réinvente l'expérience en ligne, persuade les visiteurs et les transforme en clients fidèles."
                 image={picture_site}
                 alt="image png developpeur web"
             />
@@ -156,7 +156,7 @@ export default function page() {
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
                                 <div className='w-5/6'>
                                     <p>
-                                        <span className='font-extrabold'>Soutien continu :</span> Notre engagement envers votre succès va au-delà de la refonte. Nous vous assurons un soutien continu, des mises à jour de sécurité régulières et des services de maintenance pour garantir la pérennité et la performance optimale de votre site web.
+                                        <span className='font-extrabold'>Soutien continu :</span> Mon engagement envers votre succès va au-delà de la refonte. Je vous assure un soutien continu, des mises à jour de sécurité régulières et des services de maintenance pour garantir la pérennité et la performance optimale de votre site web.
                                     </p>
                                 </div>
                             </div>
@@ -176,10 +176,10 @@ export default function page() {
                             Nouveau <span className="text-emerald-600">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
                         </h2>
                         <p>
-                            <span className='font-extrabold'>Création d'un nouveau site :</span> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. Nous sommes spécialisés dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
+                            <span className='font-extrabold'>Création d'un nouveau site :</span> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
                         </p>
                         <p>
-                            <span className='font-extrabold'>Refonte de site existant :</span> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. Nous travaillons sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
+                            <span className='font-extrabold'>Refonte de site existant :</span> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
                         </p>
                         <div>
                             <Link href="/site">

@@ -6,10 +6,10 @@ const CallToActionLight = () => {
     return (
         <div className='flex flex-col justify-center items-center mb-20 space-y-5'>
             <h3 className='text-4xl text-center font-bold text-emerald-800'>
-                N’hésitez plus contactez-nous
+                N’hésitez plus, contactez-moi
             </h3>
             <p className='text-center'>
-                Chez [Nom de Votre Entreprise], nous croyons que l'expérience en ligne peut être une aventure familiale. Explorez notre gamme de services, des sites web personnalisés aux landing pages persuasives, et découvrez comment toute la famille peut se joindre à l'excitation de la présence en ligne.
+                En tant que développeur web freelance passionné, je crois que l'expérience en ligne peut être une aventure familiale. Explorez ma gamme de services, des sites web personnalisés aux landing pages persuasives, et découvrez comment toute la famille peut se joindre à l'excitation de la présence en ligne.
             </p>
             <Link href="/contact">
                 <Button size="lg" variant="primary">

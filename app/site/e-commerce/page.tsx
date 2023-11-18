@@ -100,13 +100,13 @@ export default function page() {
                 Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
               </h2>
               <p>
-                En tant que développeur web freelance passionné, je m'engage à créer des boutiques en ligne qui se démarquent. Ma spécialité en développement <span className='font-bold'>e-commerce</span>  vous offre la possibilité de créer une expérience d'achat exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, je conçois des sites <span className='font-bold'> e-commerce</span>  sur mesure qui répondent à vos besoins spécifiques.
+                En tant que développeur web freelance passionné, je m'engage à créer des boutiques en ligne qui se démarquent. Ma spécialité en développement <span className='font-bold'>e-commerce</span> vous offre la possibilité de créer une expérience d'achat exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, je conçois des sites <span className='font-bold'>e-commerce</span> sur mesure qui répondent à vos besoins spécifiques.
               </p>
               <p>
-                Nous comprenons l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi nous mettons tout en œuvre pour vous offrir une plateforme<span className='font-bold'> e-commerce</span>  qui maximise vos ventes et fidélise vos clients.
+                Je comprends l'importance de la convivialité, de la sécurité et de la performance pour votre boutique en ligne. C'est pourquoi je mets tout en œuvre pour vous offrir une plateforme <span className='font-bold'>e-commerce</span> qui maximise vos ventes et fidélise vos clients.
               </p>
               <p>
-                Explorez nos services de création de sites <span className='font-bold'>e-commerce</span> et découvrez comment nous pouvons vous aider à développer votre entreprise en ligne. De la conception à la gestion, nous sommes là à chaque étape de votre parcours <span className='font-bold'>e-commerce</span>.
+                Explorez mes services de création de sites <span className='font-bold'>e-commerce</span> et découvrez comment je peux vous aider à développer votre entreprise en ligne. De la conception à la gestion, je suis là à chaque étape de votre parcours <span className='font-bold'>e-commerce</span>.
               </p>
             </div>
           </div>

@@ -113,24 +113,42 @@ export default function page() {
 
   const atouts = [
     {
-      title: "SEO-friendly", text: "Nos sites sont structurés de façon à être SEO-friendly. Nous paramétrons les balises et toutes les fonctionnalités avancées nécessaires pour améliorer votre visibilité dans les moteurs de recherche.", logo: loupe, alt: "logo loupe"
+      title: "SEO-friendly",
+      text: "Mes sites sont structurés de façon à être SEO-friendly. Je paramètre les balises et toutes les fonctionnalités avancées nécessaires pour améliorer votre visibilité dans les moteurs de recherche.",
+      logo: loupe,
+      alt: "logo loupe"
     },
     {
-      title: "Responsive (adaptatif)", text: "Nos intégrations sont bien sûr 100% responsive, garantissant une expérience utilisateur optimale sur tous les appareils, des ordinateurs de bureau aux smartphones.", logo: device, alt: "logo appareil responsive"
+      title: "Responsive (adaptatif)",
+      text: "Mes intégrations sont bien sûr 100% responsive, garantissant une expérience utilisateur optimale sur tous les appareils, des ordinateurs de bureau aux smartphones.",
+      logo: device,
+      alt: "logo appareil responsive"
     },
     {
-      title: "Conversion-oriented", text: "Notre approche d'intégration est orientée vers la conversion. Nous optimisons chaque élément pour encourager les visiteurs à passer à l'action et à devenir des clients.", logo: conversion, alt: "logo conversion"
+      title: "Conversion-oriented",
+      text: "Mon approche d'intégration est orientée vers la conversion. J'optimise chaque élément pour encourager les visiteurs à passer à l'action et à devenir des clients.",
+      logo: conversion,
+      alt: "logo conversion"
     },
     {
-      title: "Haute performance", text: "Nous nous assurons que nos sites web intègrent les meilleures pratiques de performance, garantissant une vitesse de chargement rapide et une expérience utilisateur sans accroc.", logo: deadline, alt: "logo deadline"
+      title: "Haute performance",
+      text: "Je m'assure que mes sites web intègrent les meilleures pratiques de performance, garantissant une vitesse de chargement rapide et une expérience utilisateur sans accroc.",
+      logo: deadline,
+      alt: "logo deadline"
     },
     {
-      title: "Convivialité maximale", text: "La convivialité est au cœur de notre travail. Nous nous efforçons de créer des sites web qui sont faciles à naviguer et à utiliser, quel que soit le niveau de compétence de l'utilisateur.", logo: people, alt: "logo personnes"
+      title: "Convivialité maximale",
+      text: "La convivialité est au cœur de mon travail. J'efforce de créer des sites web qui sont faciles à naviguer et à utiliser, quel que soit le niveau de compétence de l'utilisateur.",
+      logo: people,
+      alt: "logo personnes"
     },
     {
-      title: "Design personnalisé", text: "Chaque intégration que nous réalisons est unique et adaptée à vos besoins spécifiques. Notre équipe de conception travaille en étroite collaboration avec vous pour créer un design personnalisé qui reflète votre marque.", logo: crayon, alt: "logo crayon"
+      title: "Design personnalisé",
+      text: "Chaque intégration que je réalise est unique et adaptée à vos besoins spécifiques. Ma équipe de conception travaille en étroite collaboration avec vous pour créer un design personnalisé qui reflète votre marque.",
+      logo: crayon,
+      alt: "logo crayon"
     },
-  ]
+  ];
 
 
   return (

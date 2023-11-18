@@ -100,7 +100,7 @@ export default function page() {
             <Header
                 title="Développeur web freelance - SEO "
                 subtitle="Améliorez votre référencement naturel avec mon expertise en SEO"
-                text="Bienvenue dans mon univers chez [Nom de Votre Entreprise], votre partenaire de confiance pour le référencement SEO. En tant que développeur web freelance, je suis déterminé à propulser votre site web vers les sommets des résultats de recherche. Grâce à mon expertise, je conçois des stratégies SEO sur mesure qui maximisent votre visibilité en ligne et génèrent un trafic qualifié. Découvrez comment mon expertise en SEO peut booster votre présence sur le web."
+                text="Bienvenue dans mon univers chez Bryan Parisot, votre partenaire de confiance pour le référencement SEO. En tant que développeur web freelance, je suis déterminé à propulser votre site web vers les sommets des résultats de recherche. Grâce à mon expertise, je conçois des stratégies SEO sur mesure qui maximisent votre visibilité en ligne et génèrent un trafic qualifié. Découvrez comment mon expertise en SEO peut booster votre présence sur le web."
                 image={picture_site}
                 alt="image png developpeur web"
             />

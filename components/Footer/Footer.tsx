@@ -96,7 +96,7 @@ function Footer() {
                     <div className="space-y-8">
                         <h3 className="font-bold leading-6 text-white text-lg">Restons connecté</h3>
                         <p className="sm:text-base text-sm leading-6 text-emerald-50 pr-4">
-                            Suivez-nous sur les réseaux sociaux pour rester informés des dernières tendances en développement web, référencement et bien plus encore. Rejoignez notre communauté en ligne et découvrez comment nous pouvons vous aider à réussir sur le web.
+                            Suivez-moi sur les réseaux sociaux pour rester informés des dernières tendances en développement web, référencement et bien plus encore. Rejoignez ma communauté en ligne et découvrez comment je peux vous aider à réussir sur le web en tant que développeur web freelance.
                         </p>
                         {/* <div className="flex space-x-6">
                             {navigation.social.map((item) => (

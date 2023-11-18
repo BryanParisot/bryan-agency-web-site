@@ -15,12 +15,11 @@ function CallToActionFooter() {
             </div>
             <div className='space-y-3 sm:space-y-5 sm:pr-96'>
                 <h2 className='text-2xl sm:text-4xl font-bold text-emerald-50'>
-                    Découvrez comment nous pouvons booster votre présence en ligne
+                    Découvrez comment je peux booster votre présence en ligne
                 </h2>
                 <p className='text-emerald-50 text-lg'>
-                    Contactez-nous dès aujourd'hui pour discuter de vos besoins en développement web, référencement, applications web et plus encore. Notre équipe est prête à vous aider à naviguer vers le succès numérique.
-                </p>
-                <Link href='/contact'>
+                    Contactez-moi dès aujourd'hui pour discuter de vos besoins en développement web, référencement, applications web et plus encore. En tant que développeur web freelance, je suis prêt à vous aider à naviguer vers le succès numérique.
+                </p>                <Link href='/contact'>
                     <Button className='sm:mt-10 mt-5' variant='primary' size='lg'>
                         Contactez-nous
                     </Button>

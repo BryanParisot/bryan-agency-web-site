@@ -15,13 +15,10 @@ import CallToActionLight from '@/components/CTA/CallToActionLight'
 
 //LOGOS | PICTURES
 import picture_site from "../../../public/pictures/site/site_page.png"
-
 import logo_growth from "../../../public/logos/site/wordpress/logo_growth.svg"
 import logo_responsive from "../../../public/logos/site/wordpress/logo_responsive.svg"
 import logo_security from "../../../public/logos/site/wordpress/logo_security.svg"
-
 import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
-
 import wp from "../../../public/pictures/site/wordpress/wp.jpg"
 import wp_illu from "../../../public/pictures/site/wordpress/wp_il.jpg"
 
@@ -112,10 +109,10 @@ export default function page() {
                                 En tant que développeur web freelance, je comprends que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi je me spécialise dans la création de  <span className="font-bold">sites WordPress personnalisés</span> qui vous permettent de concrétiser vos idées en ligne.
                             </p>
                             <p>
-                                Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, je suis là pour vous. Nous collaborons étroitement pour comprendre vos objectifs, vos besoins et votre identité de marque, puis nous personnalisons chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.
+                                Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, je suis là pour vous. Je collabore étroitement avec vous pour comprendre vos objectifs, vos besoins et votre identité de marque, puis je personnalise chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.
                             </p>
                             <p>
-                                Avec <span className="font-bold"> WordPress </span> comme toile, nous donnons vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment je peux transformer votre vision en réalité en créant un <span className="font-bold">sites WordPress personnalisé</span> qui excelle en ligne.
+                                Avec <span className="font-bold"> WordPress </span> comme toile, je donne vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment je peux transformer votre vision en réalité en créant un <span className="font-bold"> site WordPress personnalisé </span> qui excelle en ligne.
                             </p>
                         </div>
                     </div>
@@ -135,15 +132,13 @@ export default function page() {
                                 En tant que développeur web freelance, je crois en la création de sites WordPress qui sont fidèles à votre vision et à votre identité en ligne.
                             </p>
                             <p>
-                                Que vous cherchiez à transmettre un message professionnel, à partager vos idées créatives, à vendre des produits ou à présenter une plateforme unique, je suis là pour personnaliser chaque aspect de votre site  <span className="font-bold">WordPress </span>. Nous collaborons étroitement pour capturer l'essence de votre entreprise, en intégrant des éléments de design, des fonctionnalités et un contenu qui reflètent parfaitement qui vous êtes.
+                                Que vous cherchiez à transmettre un message professionnel, à partager vos idées créatives, à vendre des produits ou à présenter une plateforme unique, je suis là pour personnaliser chaque aspect de votre site <span className="font-bold">WordPress</span>. Nous collaborons étroitement pour capturer l'essence de votre entreprise, en intégrant des éléments de design, des fonctionnalités et un contenu qui reflètent parfaitement qui vous êtes.
                             </p>
                             <p>
                                 Mon objectif est de créer un site  <span className="font-bold">WordPress</span>  personnalisé qui vous ressemble, qui parle à votre public cible et qui vous aide à atteindre vos objectifs en ligne. Découvrez comment je peux transformer votre vision en réalité et créer une présence en ligne qui vous distingue.
                             </p>
                         </div>
                     </div>
-
-
                 </div>
                 <CallToAction />
             </div>

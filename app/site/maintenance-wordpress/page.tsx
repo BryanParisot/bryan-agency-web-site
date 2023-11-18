@@ -83,16 +83,16 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Agence de maintenance Wordpress"
-                subtitle="Services de maintenance de site WordPress : Votre garantie de performances optimal"
-                text="Chez [Nom de Votre Entreprise], nous comprenons l'importance de maintenir votre site WordPress en parfait état de fonctionnement. Notre équipe dédiée de professionnels WordPress est là pour vous offrir des services de maintenance complets et rigoureux, afin de garantir que votre site fonctionne à son meilleur, à tout moment."
+                title="Développeur web freelance - Maintenance Wordpress"
+                subtitle="Services de maintenance pour votre site WordPress : Votre garantie de performances optimales"
+                text="En tant que développeur web freelance spécialisé dans WordPress, je comprends l'importance de maintenir votre site en parfait état de fonctionnement. Je m'engage à vous offrir des services de maintenance complets et rigoureux pour garantir que votre site fonctionne à son meilleur, à tout moment."
                 image={picture_site}
                 alt="image png developpeur web"
             />
 
             <div className="mt-10 mb-10">
                 <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages de nous laisser <span className="text-emerald-600">le service de maintenance</span>
+                    Les avantages de me laisser <span className="text-emerald-600">le service de maintenance</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
