@@ -4,10 +4,16 @@ import React, { useState } from 'react'
 import Menu from '../Menu/Menu'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import MenuMobile from '../Menu/MenuMobile'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+
 export default function Navigation() {
-    const [open, setOpen] = useState(false)
+
+    const [menuOpen, setMenuOpen] = useState(false);
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
 
     return (
         <header className='flex justify-center'>
@@ -21,16 +27,18 @@ export default function Navigation() {
                         </Button>
                     </Link>
                 </div>
-                <Bars3Icon onClick={() => setOpen(true)} className="h-12 w-12 sm:hidden block cursor-pointer" aria-hidden="true" />
+                <Bars3Icon onClick={() => setMenuOpen(true)} className="h-12 w-12 sm:hidden block cursor-pointer" aria-hidden="true" />
             </div>
-            <div className={`bg-emerald-800 w-full h-[600px] absolute p-2 z-50  ${open ? "bottom-0 top-0" : "bottom-[1000px]"}  }`}>
-                <div className='flex justify-end w-full'>
-                    < XMarkIcon onClick={() => setOpen(false)} className="h-12 w-12 sm:hidde block cursor-pointer text-emerald-50" aria-hidden="true" />
+            {menuOpen && (
+                <div className="bg-emerald-800 w-full h-full fixed top-0 left-0 p-2 z-50">
+                    <div className="flex justify-end w-full">
+                        <XMarkIcon onClick={() => setMenuOpen(false)} className="h-12 w-12 cursor-pointer text-emerald-50" aria-hidden="true" />
+                    </div>
+                    <div className="h-full flex justify-center">
+                        <MenuMobile onLinkClick={closeMenu} />
+                    </div>
                 </div>
-                <div className='h-full flex justify-center'>
-                    <Menu />
-                </div>
-            </div>
+            )}
         </header >
     )
 }
