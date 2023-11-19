@@ -7,7 +7,7 @@ import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import BlogSection from "@/components/BlogSection/BlogSection";
 import Faq from "@/components/FAQ/Faq";
 
-//PICTURES
+//PICTURES | LOGOS
 import logo_creation_site from "../public/logos/nav/logo_html.svg"
 import logo_refonte_site from "../public/logos/nav/logo_refonte.svg"
 import logo_sass_web from "../public/logos/nav/logo_sass.svg"

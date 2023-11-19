@@ -12,8 +12,8 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick }) => {
         { name: 'Refonte de site', path: '/site/refonte' },
         { name: 'Application web | Sass', path: '/sass' },
         { name: 'Intégration maquette', path: '/integration' },
-        { name: 'SEO', path: '/seo' },
-        { name: 'SEA', path: '/sea' },
+        { name: 'SEO', path: '/referencement-naturel-seo' },
+        { name: 'SEA', path: '/referencement-sponsorise-sea' },
         { name: 'Web design', path: '/web-design' },
         { name: 'Blog', path: '/blog' },
     ];

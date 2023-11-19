@@ -136,22 +136,22 @@ export default function page() {
 
                 <div className="mt-10 mb-10">
 
-                    <div className='flex flex-row'>
-                        <div className='w-3/6 p-10 relative mb-20'>
-                            <div className='w-[500px]'>
+                    <div className='flex flex-col sm:flex-row'>
+                        <div className='w-full md:w-6/12 sm:w-3/6 sm:p-10 p-0 relative sm:mb-20 mb-10'>
+                            <div className='w-[500px] hidden sm:block'>
                                 <Image
                                     className='w-full h-full rounded'
                                     src={code}
                                     alt="Freelance developpeur sass" />
                             </div>
-                            <div className='w-[500px] absolute top-40 right-1'>
+                            <div className='w-full h-full sm:w-[500px] sm:absolute top-40 right-1 flex items-center'>
                                 <Image
-                                    className='w-full h-full rounded'
+                                    className='w-full h-full sm:rounded rounded-xl'
                                     src={screen_code}
                                     alt="Capture d'écran code" />
                             </div>
                         </div>
-                        <div className='w-3/6 space-y-6 p-10'>
+                        <div className='w-full sm:w-3/6 space-y-6 sm:p-10 p-0 px-8'>
                             <h2 className='text-2xl sm:text-4xl text-emerald-950 font-bold'>
                                 Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
                             </h2>
