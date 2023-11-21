@@ -8,7 +8,6 @@ import Header from '@/components/Header/Header'
 import picture_site from "../../public/pictures/site/site_page.png"
 import BlogSection from '@/components/BlogSection/BlogSection'
 
-
 export const metadata: Metadata = {
   title: 'Blog Freelance : Explorez nos Conseils, Tendances et Astuces pour le Succès en Ligne',
   description: "Découvrez des articles captivants et informatifs sur le blog de Bryan Parisot, développeur web freelance. Boostez vos connaissances, suivez les tendances du web design"
