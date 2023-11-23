@@ -3,10 +3,12 @@
 import React from 'react'
 import { Metadata } from 'next'
 import Header from '@/components/Header/Header'
+import { allPosts, Post } from 'contentlayer/generated'
+import { compareDesc } from 'date-fns'
+import ArticlesPost from '@/components/BlogSection/ArticlesPost'
 
 //LOGOS | PICTURES
 import picture_site from "../../public/pictures/site/site_page.png"
-import BlogSection from '@/components/BlogSection/BlogSection'
 
 export const metadata: Metadata = {
   title: 'Blog Freelance : Explorez nos conseils, tendances et astuces pour le succès en ligne',
@@ -15,6 +17,8 @@ export const metadata: Metadata = {
 
 
 export default function page() {
+  const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
+
   return (
     <main>
       <Header
@@ -25,7 +29,15 @@ export default function page() {
         alt="image png developpeur web"
       />
 
-      <BlogSection />
+      <div className="bg-white py-24 sm:py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            {posts.map((post, idx) => (
+              <ArticlesPost key={idx} {...post} />
+            ))}
+          </div>
+        </div>
+      </div>
 
     </main>
   )

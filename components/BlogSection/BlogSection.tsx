@@ -2,13 +2,12 @@ import React from 'react'
 import ArticlesPost from './ArticlesPost'
 import { allPosts, Post } from 'contentlayer/generated'
 import { compareDesc } from 'date-fns'
-
-
 import { Button } from "../ui/button"
+import Link from 'next/link'
 
 
 const BlogSection = () => {
-    const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
+    const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date))).slice(0, 3);
 
     return (
         <div className="bg-white py-24 sm:py-20">
@@ -27,7 +26,9 @@ const BlogSection = () => {
                 </div>
 
                 <div className="flex justify-center items-center mt-12">
-                    <Button variant="secondary" size="lg">Lire plus d'articles</Button>
+                    <Link href="/blog">
+                        <Button variant="secondary" size="lg">Lire plus d'articles</Button>
+                    </Link>
                 </div>
             </div>
         </div>
