@@ -65,8 +65,8 @@ export default function Home() {
     <main>
       <Header
         title="Développeur web freelance"
-        subtitle="Hissez les voiles vers votre succès digital avec un capitaine du web expérimenté."
-        text="Cap sur la réussite digitale ! Votre développeur web freelance expert en création de sites, refonte et applications. Naviguez vers le succès avec nous"
+        subtitle="Hissez les voiles vers votre succès digital avec un capitaine du web expérimenté"
+        text="Cap sur la réussite digitale ! Votre développeur web freelance expert en création de sites, refonte et applications. Naviguez vers le succès avec nous."
         image={picture_home}
         alt="image png developpeur web"
       />

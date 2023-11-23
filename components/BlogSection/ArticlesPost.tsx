@@ -1,13 +1,12 @@
 import React from 'react'
 import { format, parseISO } from 'date-fns'
-// import Link from 'next/link'
+import Link from 'next/link'
 import { Post } from 'contentlayer/generated'
-import Image from 'next/image'
 
 
 const ArticlesPost = (post: Post) => {
     return (
-        <article key={post.id} className="flex flex-col items-start justify-between">
+        <article className="flex flex-col items-start justify-between">
             <div className="relative w-full">
                 <img
                     src={post.image}
@@ -19,7 +18,7 @@ const ArticlesPost = (post: Post) => {
             <div className="max-w-xl">
                 <div className="mt-8 flex items-center gap-x-4 text-xs">
                     <time dateTime={post.date} className="text-gray-500">
-                        {format(parseISO(post.date), 'LLLL d, yyyy')}
+                        {format(parseISO(post.date), 'd LLLL yyyy')}
 
                     </time>
                     <p
@@ -28,13 +27,14 @@ const ArticlesPost = (post: Post) => {
                     >
                         {post.category}
                     </p>
+                    <span className='text-gray-500'>{post.readTime} min</span>
                 </div>
                 <div className="group relative">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                        <a href={post.url}>
+                        <Link href={post.url}>
                             <span className="absolute inset-0" />
                             {post.title}
-                        </a>
+                        </Link>
                     </h3>
                     {/* <div className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} /> */}
 

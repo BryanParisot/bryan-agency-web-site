@@ -13,5 +13,5 @@ module.exports = {
       middle: '#34d399',
     },
   },
-  plugins: ['prettier-plugin-tailwindcss'],
+  plugins: [require('@tailwindcss/typography')],
 };
