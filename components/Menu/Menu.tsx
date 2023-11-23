@@ -30,7 +30,7 @@ export default function Menu() {
     return (
         <Popover className="relative">
             <div className="flex sm:justify-between font-semibold sm:text-base text-4xl h-full justify-center  leading-6 flex-col sm:flex-row text-emerald-50 sm:text-emerald-900 space-x-4 space-y-10 sm:space-y-0  sm:mr-6">
-                <Link href="/" > <span className='hover:text-emerald-700'>Agence</span> </Link>
+                <Link href="/" > <span className='hover:text-emerald-700'>Accueil</span> </Link>
                 <Popover.Button className="inline-flex items-center gap-x-1 focus:outline-none">
                     <span className="hover:text-emerald-700">Nos services</span>
                     <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
