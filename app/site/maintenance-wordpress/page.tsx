@@ -44,7 +44,7 @@ export default function page() {
         },
         {
             title: "Performance Optimisée",
-            text: "Votre site doit fonctionner rapidement et sans accroc pour offrir la meilleure expérience utilisateur possible. En tant que développeur web freelance, j'excelle dans l'optimisation des performances WordPress. J'effectue des ajustements pour garantir une vitesse de chargement optimale, ce qui peut avoir un impact direct sur la satisfaction de vos visiteurs et sur le classement de votre site dans les moteurs de recherche.",
+            text: "Votre site doit fonctionner rapidement et sans accroc pour offrir la meilleure expérience utilisateur possible. En tant que développeur web freelance, j'excelle dans l'optimisation des performances WordPress. J'effectue des ajustements pour garantir une vitesse de chargement optimale, ce qui peut avoir un impact direct sur la satisfaction de vos visiteurs.",
             image: logo_performance,
             alt: "Logo référencement naturel",
         },

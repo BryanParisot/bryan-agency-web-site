@@ -1,18 +1,20 @@
 import Image, { StaticImageData } from "next/image";
-import Link from 'next/link'
+import Link from "next/link";
 import React from "react";
+import { Button } from "../ui/button";
 
 interface SectionWithPicturesProps {
     title: string,
     description: string,
     image: StaticImageData,
     alt: string,
-
+    buttonText?: string, 
+    buttonLink?: string,
 }
 
 
 
-const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, description, image, alt }) => {
+const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, description, image, alt, buttonLink, buttonText }) => {
     return (
         <div className="animated fadeIn mb-8 flex flex-col sm:flex-row mt-20">
             <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
@@ -31,6 +33,13 @@ const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, descri
                 <div className="text mt-5 space-y-3 text-lg text-gray-700 md:text-left">
                     <span className="block">{description} </span>
                 </div>
+                {buttonText && (
+                    <Link href={buttonLink || "#"} >
+                        <Button variant="primary" size="lg">
+                            {buttonText}
+                        </Button>
+                    </Link>
+                )}
             </div>
         </div>
     );

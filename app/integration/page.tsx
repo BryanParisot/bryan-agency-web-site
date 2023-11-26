@@ -154,7 +154,7 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Développeur web freelance - Intégrateur web "
+        title="Intégrateur web freelance - Intégrateur web "
         subtitle="Intégration web : Transformez votre vision en réalité en ligne"
         text="Bienvenue ! Je suis bryan parisot, un développeur web freelance, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
         image={picture_site}
@@ -184,7 +184,7 @@ export default function page() {
           </div>
           <div className='w-full sm:w-3/6 space-y-6 px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Pourquoi me en tant qu'intégrateur web freelance ?
+              Pourquoi me choisir en tant qu'intégrateur web freelance ?
             </h2>
             {
               choiceMaquetteData.map((item) => (

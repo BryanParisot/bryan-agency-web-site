@@ -48,10 +48,10 @@ export default function page() {
             title: 'Visibilité immédiate', text: 'Le SEA permet d\'obtenir une visibilité immédiate sur les moteurs de recherche.Vous pouvez diffuser des annonces payantes qui apparaissent en haut des résultats de recherche, ce qui signifie que votre entreprise est instantanément visible par les utilisateurs qui effectuent des recherches pertinentes.', image: logo_visibile, alt: 'Logo meilleure visibilité'
         },
         {
-            title: 'Contrôle total', text: 'Avec le SEA, vous avez un contrôle total sur vos campagnes publicitaires. Vous pouvez définir votre budget quotidien, choisir les mots-clés pour lesquels vous souhaitez apparaître, cibler des audiences spécifiques, et ajuster vos campagnes en fonction des performances en temps réel. Cela vous permet d\'optimiser vos dépenses publicitaires et d\'obtenir un bon retour sur investissement (ROI).', image: logo_qualite, alt: 'Logo qualité'
+            title: 'Contrôle total', text: 'Avec le SEA, vous avez un contrôle total sur vos campagnes publicitaires. Vous pouvez définir votre budget quotidien, choisir les mots-clés pour lesquels vous souhaitez apparaître, cibler des audiences spécifiques. Cela vous permet d\'optimiser vos dépenses publicitaires et d\'obtenir un bon retour sur investissement (ROI).', image: logo_qualite, alt: 'Logo qualité'
         },
         {
-            title: 'Mesure et suivi précis', text: 'Le SEA offre des outils de suivi avancés qui vous permettent de mesurer précisément les performances de vos annonces. Vous pouvez suivre le nombre de clics, les conversions, le coût par conversion, et d\'autres métriques clés.Cela vous permet d\'ajuster vos campagnes en fonction des données réelles, de maximiser l\'efficacité et d\'obtenir des résultats mesurables.', image: growth, alt: 'logo tags'
+            title: 'Mesure et suivi précis', text: 'Le SEA offre des outils de suivi avancés qui vous permettent de mesurer précisément les performances de vos annonces. Vous pouvez suivre le nombre de clics, les conversions, le coût par conversion. Cela vous permet d\'ajuster vos campagnes en fonction des données réelles, de maximiser l\'efficacité et d\'obtenir des résultats.', image: growth, alt: 'logo tags'
         },
         {
             title: 'Flexibilité budgétaire', text: 'Vous pouvez ajuster rapidement votre budget en fonction des performances de vos campagnes, ce qui vous permet de maximiser votre retour sur investissement (ROI).', image: logo_tag, alt: 'logo tags'
@@ -98,7 +98,7 @@ export default function page() {
 
     const atouts = [
         {
-            title: "Gestion de campagnes ", text: "Création, configuration, et gestion complète de campagnes publicitaires sur les moteurs de recherche, notamment Google Ads et Bing Ads.", logo: loupe, alt: "logo loupe"
+            title: "Gestion de campagnes ", text: "Création, configuration, et gestion complète de campagnes publicitaires sur les moteurs de recherche, notamment Google Ads.", logo: loupe, alt: "logo loupe"
         },
         {
             title: "Recherche de mots-clés", text: "Analyse approfondie des mots-clés pour déterminer les termes les plus pertinents et rentables pour cibler.", logo: content, alt: "logo appareil responsive"
@@ -121,7 +121,7 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Expert Ads developpeur web freelance"
+                title="Expert Ads freelance"
                 subtitle="Boostez votre visibilité avec le SEA"
                 text="Explorez de nouvelles horizons en ligne avec mon expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à ma stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
                 image={picture_site}
@@ -155,7 +155,7 @@ export default function page() {
                             </h2>
                             <p>
                                 <p>
-                                    Découvrez comment le SEA peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. En tant que développeur web freelance spécialisé en publicité sur les moteurs de recherche, je suis prêt à élaborer des stratégies de SEA sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, je maximise chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec [Nom de Votre Entreprise] et placez votre entreprise sous les feux de la rampe en ligne.
+                                    Découvrez comment le <span className="font-bold">SEA</span> peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. En tant que développeur web freelance spécialisé en publicité sur les moteurs de recherche, je suis prêt à concevoir des stratégies de <span className='font-bold'>SEA</span> sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, je maximise chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec moi, Bryan Parisot, et propulsez votre entreprise sous les feux de la rampe en ligne.
                                 </p>
                             </p>
                         </div>
@@ -170,10 +170,10 @@ export default function page() {
                         </div>
                         <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                                Créez Votre landing page spécialisée
+                                Créez votre landing page spécialisée
                             </h2>
                             <p>
-                                En tant que développeur web freelance, je crois en l'importance d'une première impression mémorable en ligne. C'est pourquoi je propose des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Ma conception expérimentée travaille en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Je vais encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à mon expertise en SEA. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment mes services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.
+                                En tant que développeur web freelance, je crois en l'importance d'une première impression mémorable en ligne. C'est pourquoi je propose des services de création de landing pages spécialisées conçues pour captiver instantanément vos visiteurs. Ma conception expérimentée travaille en étroite collaboration avec vous pour créer des landing pages qui reflètent l'essence de votre entreprise, mettent en avant vos produits ou services, et encouragent les conversions. Mais ce n'est pas tout. Je vais encore plus loin en vous offrant la possibilité de propulser ces landing pages grâce à mon expertise en <span className='font-bold'>SEA</span>. En combinant une landing page de haute qualité avec une stratégie publicitaire ciblée, vous pouvez maximiser l'impact de votre campagne, attirer un public pertinent et obtenir des résultats concrets. Découvrez comment mes services de landing page et de SEA peuvent travailler ensemble pour renforcer votre présence en ligne et transformer les visiteurs en clients engagés.
                             </p>
                         </div>
                     </div>
@@ -199,8 +199,6 @@ export default function page() {
 
                     </div>
                 </div>
-
-                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
                 <BlogSection />
 
                 <CallToActionLight />

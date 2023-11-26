@@ -156,7 +156,9 @@ export default function page() {
                                 Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
                             </h2>
                             <p>
-                                En tant que développeur web sur mesure de premier plan, je m'engage à créer des solutions numériques qui répondent précisément à vos besoins. Je ne crois pas en l'approche taille unique. Au contraire, ma mission en tant que développeur freelance est de travailler en étroite collaboration avec vous pour concevoir des applications web totalement personnalisées. Que vous recherchiez une application web pour automatiser des processus métier, fournir une expérience client exceptionnelle ou optimiser la productivité de votre équipe, je suis là pour transformer vos idées en réalité. Découvrez comment mon expertise en développement sur mesure peut propulser votre entreprise vers de nouveaux sommets.
+                                En tant que <span className='font-bold'>développeur web freelance</span>  sur mesure de premier plan, je m'engage à créer des solutions numériques qui répondent précisément à vos besoins. Je ne crois pas en l'approche
+                                taille unique. Au contraire, ma mission en tant que développeur freelance est de travailler en étroite collaboration avec vous pour concevoir des <span className='font-bold'>applications web</span>  totalement personnalisées. Que vous recherchiez une  <span className='font-bold'>applications web</span> pour automatiser des processus métier, fournir une expérience client exceptionnelle ou optimiser la productivité de votre équipe,
+                                je suis là pour transformer vos idées en réalité. Découvrez comment mon expertise en développement sur mesure peut propulser votre entreprise vers de nouveaux sommets.
                             </p>
                             <div>
                                 <Link href="/contact">
@@ -168,7 +170,7 @@ export default function page() {
                     </div>
 
 
-                    <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
+                    <div className='flex flex-col sm:flex-row mt-44 sm:h-[50vh] h-full'>
                         <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
                             <Image
                                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
@@ -180,9 +182,9 @@ export default function page() {
                                 Qu'est-ce qu'une <span className='text-emerald-600'> application Web ?</span>
                             </h2>
                             <p>
-                                Une application web, souvent appelée simplement 'web app', est une application logicielle accessible via un navigateur web. Contrairement aux applications traditionnelles installées localement, les applications web ne nécessitent pas de téléchargement ni d'installation sur l'appareil de l'utilisateur. Elles sont hébergées sur des serveurs distants et accessibles en ligne.                        </p>
+                                Une<span className='font-bold'>application web</span>, souvent appelée simplement '<span className='font-bold'>web app</span>', est une application logicielle accessible via un navigateur web. Contrairement aux applications traditionnelles installées localement, les <span className='font-bold'>applications web</span>  ne nécessitent pas de téléchargement ni d'installation sur l'appareil de l'utilisateur. Elles sont hébergées sur des serveurs distants et accessibles en ligne.                        </p>
                             <p>
-                                Les applications web offrent de nombreux avantages, notamment leur accessibilité depuis n'importe quel appareil connecté à Internet, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un smartphone. Elles éliminent également les contraintes de compatibilité et de mises à jour, car les utilisateurs accèdent toujours à la version la plus récente de l'application.                        </p>
+                                Les <span className='font-bold'>applications web</span>  offrent de nombreux avantages, notamment leur accessibilité depuis n'importe quel appareil connecté à Internet, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un smartphone. Elles éliminent également les contraintes de compatibilité et de mises à jour, car les utilisateurs accèdent toujours à la version la plus récente de l'application.                        </p>
                         </div>
                     </div>
 

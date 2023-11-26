@@ -32,7 +32,7 @@ export default function page() {
       title: 'Conversion maximale', text: 'Les landing pages sont conçues pour une seule action ou objectif, ce qui les rend hautement efficaces pour convaincre les visiteurs d\'effectuer cette action spécifique.Une landing page bien conçue est optimisée pour maximiser les conversions.', image: logo_optimization, alt: 'Logo optimisation en ligne'
     },
     {
-      title: 'Personnalisation ciblée', text: 'Les landing pages sont généralement créées pour des publics spécifiques ou des campagnes marketing particulières. Cela permet une personnalisation approfondie du contenu, du design et des éléments de persuasion pour répondre aux besoins et aux intérêts de votre public cible.', image: logo_audience, alt: 'Logo audience'
+      title: 'Personnalisation ciblée', text: 'Les landing pages sont généralement créées pour des publics spécifiques ou des campagnes marketing particulières. Cela permet une personnalisation approfondie du contenu, du design et des éléments de persuasion pour répondre aux besoins de votre public.', image: logo_audience, alt: 'Logo audience'
     },
     {
       title: 'Mesure et optimisation faciles', text: 'Les landing pages offrent une visibilité claire sur les performances, ce qui facilite la mesure du taux de conversion et l\'optimisation continue.Vous pouvez effectuer des tests A/ B pour découvrir ce qui fonctionne le mieux et ajuster votre landing page en conséquence.', image: logo_roi, alt: 'logo roi'
