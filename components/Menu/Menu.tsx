@@ -9,7 +9,7 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import logo_creation_site from "../../public/logos/nav/logo_html.svg"
 import logo_refonte_site from "../../public/logos/nav/logo_refonte.svg"
 import logo_sass_web from "../../public/logos/nav/logo_sass.svg"
-import logo_integration_maquette from "../../public/logos/nav/logo_intégration.svg"
+import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
 import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
 import logo_referencement_sea from "../../public/logos/nav/logo_sea.svg"
 import logo_design from "../../public/logos/nav/logo_design.svg"
