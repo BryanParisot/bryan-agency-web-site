@@ -41,7 +41,7 @@ export default function page() {
     },
     {
       title: 'Promotion de votre marque',
-      text: 'Un site vitrine bien conçu permet de présenter votre entreprise, vos produits ou services, et votre identité de marque de manière professionnelle. Il offre une plateforme pour communiquer votre message et renforcer la confiance.',
+      text: 'Un site vitrine bien conçu permet de présenter votre entreprise, vos produits ou services, et votre identité de marque de manière professionnelle. Il offre une plateforme pour communiquer votre message, renforcer la confiance.',
       image: logo_promotion,
       alt: 'Logo promotion de votre marque'
     },
@@ -108,7 +108,7 @@ export default function page() {
                 src={double_screen}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span>
               </h2>
@@ -116,7 +116,7 @@ export default function page() {
                 Vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Je suis fier d'offrir mes services de création de sites web sur mesure.
               </p>
               <p>
-                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un site e-commerce pour vendre vos produits, ou d'une refonte pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
+                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un <Link className='font-bold underline' href="/site/e-commerce">site e-commerce</Link>  pour vendre vos produits, ou d'une <Link className='font-bold underline' href="refonte">refonte </Link> pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
               </p>
               <p>
                 Je suis là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment mon savoir-faire peut faire une différence significative pour votre entreprise. Contactez-moi dès aujourd'hui pour discuter de vos besoins en matière de création de site web et de marketing numérique.
@@ -129,18 +129,18 @@ export default function page() {
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={vitrine_site} alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 <span className='text-emerald-600'>Un site vitrine</span> qui vous ressemble
               </h2>
               <p>
-                En tant que développeur web freelance, je comprends que votre <span className='font-bold'>site vitrine</span> doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi je m'engage à créer un site vitrine sur mesure qui vous ressemble.
+                En tant que développeur web freelance, je comprends que votre <span className='font-bold'>site vitrine</span> doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi je m'engage à créer un <span className='font-bold'>site vitrine</span> sur mesure qui vous ressemble.
               </p>
               <p>
                 Travaillant en étroite collaboration avec vous, je capture l'essence de votre entreprise et la traduis en un design web exceptionnel. Je crois que chaque entreprise est unique, et votre site web devrait l'être aussi.
               </p>
               <p>
-                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un site web qui reflète parfaitement votre vision et à le partager avec le monde.
+                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/site" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
               </p>
             </div>
           </div >
@@ -169,7 +169,7 @@ export default function page() {
             <div>
               <Link href="/site/refonte">
                 <Button size="lg" variant="primary">
-                  En savoir plus sur mon service de refonte de site
+                  En savoir plus sur la refonte de site
                 </Button>
               </Link>
             </div>

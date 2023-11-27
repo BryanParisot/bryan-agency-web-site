@@ -96,7 +96,7 @@ export default function page() {
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-4 sm:px-0" >
           Les avantages de la création d’un <span className="text-emerald-600">design personnalisé </span>
         </h2>
 
@@ -115,14 +115,14 @@ export default function page() {
                 src={web_design}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-6 px-8'>
+            <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Qu'est-ce que le <span className='text-emerald-600'> Web Design ?</span>
               </h2>
               <p>
-                Le web design, ou conception web, est l'art et la discipline de créer des interfaces visuelles attrayantes et fonctionnelles pour les sites web. Il englobe la disposition des éléments visuels, la typographie, les couleurs, les images, les icônes et d'autres éléments graphiques qui composent l'apparence et la convivialité d'un site web. Le web design vise à créer une expérience utilisateur agréable et intuitive, à renforcer l'identité visuelle de la marque et à atteindre les objectifs spécifiques du site, que ce soit la génération de leads, la vente en ligne, l'information ou la sensibilisation.            </p>
+                Le <span className='font-bold'>web design</span>, ou conception web, est l'art et la discipline de créer des interfaces visuelles attrayantes et fonctionnelles pour les sites web. Il englobe la disposition des éléments visuels, la typographie, les couleurs, les images, les icônes et d'autres éléments graphiques qui composent l'apparence et la convivialité d'un site web. Le <span className='font-bold'>web design</span> vise à créer une expérience utilisateur agréable et intuitive, à renforcer l'identité visuelle de la marque et à atteindre les objectifs spécifiques du site, que ce soit la génération de leads, la vente en ligne, l'information ou la sensibilisation.            </p>
               <p>
-                Les web designers s'appuient sur leur expertise en design, en ergonomie, en UX (expérience utilisateur) et en connaissances techniques pour concevoir des sites web qui sont à la fois esthétiques et fonctionnels. Ils tiennent compte des besoins de l'entreprise, du public cible et des dernières tendances en matière de design pour créer des sites web qui se démarquent dans l'univers numérique en constante évolution. Le web design joue un rôle crucial dans la réussite en ligne, car il influe sur l'impression que les visiteurs ont d'un site et sur leur engagement envers son contenu.                                      </p>
+                Les web designers s'appuient sur leur expertise en design, en ergonomie, en UX (expérience utilisateur) et en connaissances techniques pour concevoir des sites web qui sont à la fois esthétiques et fonctionnels. Ils tiennent compte des besoins de l'entreprise, du public cible et des dernières tendances en matière de design pour créer des sites web qui se démarquent dans l'univers numérique en constante évolution. Le <span className='font-bold'>web design</span> joue un rôle crucial dans la réussite en ligne, car il influe sur l'impression que les visiteurs ont d'un site et sur leur engagement envers son contenu.                                      </p>
             </div>
           </div>
 
@@ -133,13 +133,13 @@ export default function page() {
                 src={web_design_1}
                 alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 sm:mt-0 mt-5 flex flex-col justify-center'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 L'Art de Créer des <span className='text-emerald-600'>sites web</span>  mémorables
               </h2>
 
               <p>
-                Le web design va au-delà de la simple esthétique. C'est l'art de créer des sites web qui laissent une impression durable. Chaque élément, depuis la disposition des pages jusqu'au choix des couleurs, est minutieusement conçu pour établir une connexion avec les visiteurs. Un bon design web prend en compte la psychologie de l'utilisateur, s'efforce de simplifier la navigation et de rendre l'information accessible, tout en suscitant un sentiment d'authenticité et de confiance.
+                Le <span className='font-bold'>web design</span> va au-delà de la simple esthétique. C'est l'art de créer des sites web qui laissent une impression durable. Chaque élément, depuis la disposition des pages jusqu'au choix des couleurs, est minutieusement conçu pour établir une connexion avec les visiteurs. Un bon design web prend en compte la psychologie de l'utilisateur, s'efforce de simplifier la navigation et de rendre l'information accessible, tout en suscitant un sentiment d'authenticité et de confiance.
               </p>
               <p>
                 Les web designers combinent créativité et expertise technique pour concevoir des expériences en ligne qui vont au-delà de l'esthétique pour répondre aux besoins des utilisateurs et des entreprises. En investissant dans un design web de qualité, vous créez une vitrine virtuelle engageante qui non seulement attire l'attention, mais incite également les visiteurs à rester, à explorer et à s'engager. Le web design est l'art de créer des sites web mémorables qui laissent une impression durable dans l'esprit des visiteurs.
@@ -181,12 +181,12 @@ export default function page() {
               src={web_design_2}
               alt="Double Ecran illustration" />
           </div>
-          <div className='w-full sm:w-3/6 space-y-6 px-8'>
+          <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
               L’importance du <span className='text-emerald-600'>web-design</span>
             </h2>
             <p>
-              Le web design est bien plus qu'une simple esthétique ; c'est l'art de créer des expériences en ligne mémorables. Dans un monde numérique en constante évolution, votre site web est souvent la première interaction que les clients potentiels ont avec votre entreprise. Il est donc crucial que cette interaction soit positive et inoubliable.
+              Le <span className='font-bold'>web design</span> est bien plus qu'une simple esthétique, c'est l'art de créer des expériences en ligne mémorables. Dans un monde numérique en constante évolution, votre site web est souvent la première interaction que les clients potentiels ont avec votre entreprise. Il est donc crucial que cette interaction soit positive et inoubliable.
             </p>
             <p>
               Un design web soigné va au-delà de l'apparence. Il s'agit de créer une expérience utilisateur (UX) exceptionnelle. Un site bien conçu est facile à naviguer, offre une disposition intuitive et met en valeur le contenu de manière à ce qu'il soit clair et engageant. Il est conçu pour répondre aux besoins des utilisateurs, qu'ils recherchent des informations, des produits ou des services.

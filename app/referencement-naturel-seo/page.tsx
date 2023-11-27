@@ -125,16 +125,16 @@ export default function page() {
                                 src={seo}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Pourquoi le SEO est indispensable ?
                             </h2>
                             <p>
-                                Le SEO, ou Search Engine Optimization, est une stratégie essentielle pour toute entreprise cherchant à prospérer en ligne. Il offre de nombreux avantages clés qui contribuent à la croissance et à la réussite à long terme.                        </p>
+                                Le  <span className="font-bold">SEO</span>, ou Search Engine Optimization, est une stratégie essentielle pour toute entreprise cherchant à prospérer en ligne. Il offre de nombreux avantages clés qui contribuent à la croissance et à la réussite à long terme.                        </p>
                             <p>
-                                Tout d'abord, le SEO améliore la visibilité en ligne de votre site web. En optimisant votre contenu et votre structure, vous augmentez vos chances d'apparaître en haut des résultats des moteurs de recherche, ce qui signifie que plus de personnes peuvent découvrir votre entreprise.                        </p>
+                                Tout d'abord, le <span className="font-bold">SEO</span> améliore la visibilité en ligne de votre site web. En optimisant votre contenu et votre structure, vous augmentez vos chances d'apparaître en haut des résultats des moteurs de recherche, ce qui signifie que plus de personnes peuvent découvrir votre entreprise.                        </p>
                             <p>
-                                De plus, le trafic organique généré par le SEO est de haute qualité. Les visiteurs arrivent sur votre site parce qu'ils recherchent activement des informations ou des produits liés à votre secteur. Cela augmente considérablement les chances de conversion en clients ou en prospects.                        </p>
+                                De plus, le trafic organique généré par le <span className="font-bold">SEO</span> est de haute qualité. Les visiteurs arrivent sur votre site parce qu'ils recherchent activement des informations ou des produits liés à votre secteur. Cela augmente considérablement les chances de conversion en clients ou en prospects.                        </p>
                         </div>
                     </div>
 
@@ -145,15 +145,15 @@ export default function page() {
                                 src={seo_score}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5 flex flex-col justify-center'>
                             <p>
-                                Le SEO est également rentable à long terme. Contrairement à la publicité payante qui nécessite un budget continu, le SEO continue de produire des résultats après avoir investi du temps et des efforts initiaux.                        </p>
+                                Le <span className="font-bold">SEO</span> est également rentable à long terme. Contrairement à la publicité payante qui nécessite un budget continu, le <span className="font-bold">SEO</span> continue de produire des résultats après avoir investi du temps et des efforts initiaux.                        </p>
                             <p>
                                 En outre, il renforce la crédibilité de votre entreprise. Les sites bien classés dans les moteurs de recherche sont souvent perçus comme des autorités dans leur domaine.                        </p>
                             <p>
-                                Enfin, le SEO vous aide à rester compétitif en ligne. Si vos concurrents investissent dans le SEO et que vous ne le faites pas, vous risquez de perdre des parts de marché.                        </p>
+                                Enfin, le <span className="font-bold">SEO</span> vous aide à rester compétitif en ligne. Si vos concurrents investissent dans le <span className="font-bold">SEO</span> et que vous ne le faites pas, vous risquez de perdre des parts de marché.                        </p>
                             <p>
-                                En conclusion, le SEO est bien plus qu'une stratégie de marketing ; il est devenu une nécessité pour toute entreprise cherchant à prospérer dans le paysage numérique d'aujourd'hui. C'est un investissement qui porte ses fruits à long terme en augmentant la visibilité, en attirant un trafic de qualité et en renforçant la crédibilité.                        </p>
+                                En conclusion, le <span className="font-bold">SEO</span> est bien plus qu'une stratégie de marketing ; il est devenu une nécessité pour toute entreprise cherchant à prospérer dans le paysage numérique d'aujourd'hui. C'est un investissement qui porte ses fruits à long terme en augmentant la visibilité, en attirant un trafic de qualité et en renforçant la crédibilité.                        </p>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,6 @@ export default function page() {
 
                     </div>
                 </div>
-                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
                 <BlogSection />
                 <CallToActionLight />
                 <Faq faq={faqs} />

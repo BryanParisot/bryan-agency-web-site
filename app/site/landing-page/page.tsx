@@ -32,7 +32,7 @@ export default function page() {
       title: 'Conversion maximale', text: 'Les landing pages sont conçues pour une seule action ou objectif, ce qui les rend hautement efficaces pour convaincre les visiteurs d\'effectuer cette action spécifique.Une landing page bien conçue est optimisée pour maximiser les conversions.', image: logo_optimization, alt: 'Logo optimisation en ligne'
     },
     {
-      title: 'Personnalisation ciblée', text: 'Les landing pages sont généralement créées pour des publics spécifiques ou des campagnes marketing particulières. Cela permet une personnalisation approfondie du contenu, du design et des éléments de persuasion pour répondre aux besoins et aux intérêts de votre public cible.', image: logo_audience, alt: 'Logo audience'
+      title: 'Personnalisation ciblée', text: 'Les landing pages sont généralement créées pour des publics spécifiques ou des campagnes marketing particulières. Cela permet une personnalisation approfondie du contenu, du design et des éléments de persuasion pour répondre aux besoins de votre public.', image: logo_audience, alt: 'Logo audience'
     },
     {
       title: 'Mesure et optimisation faciles', text: 'Les landing pages offrent une visibilité claire sur les performances, ce qui facilite la mesure du taux de conversion et l\'optimisation continue.Vous pouvez effectuer des tests A/ B pour découvrir ce qui fonctionne le mieux et ajuster votre landing page en conséquence.', image: logo_roi, alt: 'logo roi'
@@ -94,7 +94,7 @@ export default function page() {
                 src={landing_page}
                 alt="Freelance landing page nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Optimisez vos taux de conversion avec mon expertise en <span className='text-emerald-600'>landing pages</span>
               </h2>
@@ -117,7 +117,7 @@ export default function page() {
                 src={maquette_landing}
                 alt="Freelance landing page Nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Une <span className='text-emerald-600'>landing page</span> qui vous ressemble
               </h2>
@@ -135,7 +135,6 @@ export default function page() {
         </div>
 
         <CallToAction />
-
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre landing page" />
         <BlogSection />
         <Faq faq={faqs} />

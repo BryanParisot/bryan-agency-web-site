@@ -58,7 +58,7 @@ export default function Page() {
     },
     {
       title: 'Transformez votre site web le service de refonte',
-      text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités, je peux donner une nouvelle vie à votre site.',
+      text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
       link: '/site/refonte'
@@ -99,7 +99,7 @@ export default function Page() {
     <main>
       <Header
         title="Développeur web - créateur de site internet"
-        subtitle="Création de site web pour booster votre visibilité sur internet."
+        subtitle="Création de site web pour booster votre visibilité sur internet"
         text="Découvrez comment mon expertise en tant que développeur web freelance peut transformer votre présence en ligne en un atout puissant pour votre entreprise locale. Avec mon expérience dans le développement web, je crée des sites internet optimisés pour les moteurs de recherche. Propulsez votre visibilité et atteignez vos objectifs en ligne."
         image={picture_site}
         alt="image png developpeur web"
@@ -107,7 +107,7 @@ export default function Page() {
 
       <div className="mt-10 mb-10">
 
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-2 sm:px-0" >
           Mes prestation de <span className="text-emerald-600">création de site web</span>
         </h2>
 
@@ -125,9 +125,11 @@ export default function Page() {
 
           <SectionWithPictures
             title="Créez votre présence en ligne avec mon expertise en création de site web"
-            description="Pourquoi choisir un développeur web freelance ? Parce que je suis le navigateur de l'univers numérique. Avec mon expertise en développement web, design, référencement et stratégie numérique, je vous aide à hisser les voiles vers le succès en ligne. Ma conception professionnelle, ma visibilité accrue dans les moteurs de recherche et mon site web optimisé vous font gagner du temps. Restez à la pointe de la technologie et concentrez-vous sur votre entreprise pendant que je donne vie à votre présence en ligne. Contactez-moi aujourd'hui pour commencer votre voyage vers la réussite digitale."
+            description="Découvrez l'art de la création de site web sur mesure avec moi, Bryan Parisot, votre développeur web freelance. Je crois en la puissance d'une présence en ligne unique qui représente fidèlement votre vision et votre activité. Mon engagement se concentre sur la création de sites web fonctionnels, esthétiques et optimisés. Que vous ayez besoin d'un site vitrine, d'un site e-commerce ou d'un site WordPress, je conçois des solutions sur mesure pour répondre à vos objectifs. Laissez-moi vous guider à travers le processus et transformez votre idée en une réalité numérique."
             image={presence_en_ligne}
             alt='illustration web'
+            buttonLink="/contact"
+            buttonText="Contactez-moi"
           />
 
           <BlogSection />

@@ -36,7 +36,7 @@ export default function page() {
 
     const vitrineData = [
         {
-            title: 'Adaptation à votre entreprise', text: 'Les landing pages sont conçues pour une seule action ou objectif, ce qui les rend hautement efficaces pour convaincre les visiteurs d\'effectuer cette action spécifique.Une landing page bien conçue est optimisée pour maximiser les conversions.', image: logo_responsive, alt: 'Logo responsive'
+            title: 'Adaptation à votre entreprise', text: 'Un site web personnalisé est conçu spécifiquement pour répondre aux besoins uniques de votre entreprise. Il peut refléter votre identité de marque, s\'aligner sur vos objectifs commerciaux et intégrer les fonctionnalités spécifiques dont vous avez besoin.', image: logo_responsive, alt: 'Logo responsive'
         },
         {
             title: 'Performance et rapidité', text: 'Un site web personnalisé peut être optimisé pour la performance, la vitesse de chargement et la convivialité. Cela garantit une meilleure expérience utilisateur, ce qui peut influencer positivement le référencement, les taux de conversion et la fidélisation de la clientèle.', image: logo_growth, alt: 'Logo performance et rapidité'
@@ -101,7 +101,7 @@ export default function page() {
                                 src={wp}
                                 alt="Freelance créateur de site wordpress" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Votre vision, mon expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span>
                             </h2>
@@ -124,7 +124,7 @@ export default function page() {
                                 src={wp_illu}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Un site <span className='text-emerald-600' >WordPress personnalisé</span> à votre image
                             </h2>
@@ -148,7 +148,8 @@ export default function page() {
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
                         <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
-                            Garantissez la performance de votre site avec min Service de maintenance WordPress                        </h2>
+                            Garantissez la performance de votre site avec mon service de maintenance WordPress
+                        </h2>
                         <p>
                             La <span className='font-bold'>maintenance</span> régulière de votre site web est essentielle pour assurer sa performance, sa sécurité et sa fiabilité. En tant que développeur web freelance, je propose un service complet de <span className='font-bold'>maintenance WordPress</span>  qui vous permet de vous concentrer sur votre entreprise, en laissant mon expertise prendre soin de votre site.
                         </p>
@@ -161,7 +162,7 @@ export default function page() {
                         <div>
                             <Link href="/site/maintenance-wordpress">
                                 <Button variant="primary">
-                                    Découvrez nos services de maintenance WordPress ici.
+                                    Découvrez notre de maintenance WordPress.
                                 </Button>
                             </Link>
                         </div>

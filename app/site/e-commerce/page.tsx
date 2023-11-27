@@ -95,7 +95,7 @@ export default function page() {
                 src={commerce}
                 alt="E-commerce nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
               </h2>
@@ -118,12 +118,12 @@ export default function page() {
                 src={site_e_commerce_nancy}
                 alt="e-commerce nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Un site internet  <span className='text-emerald-600'>e-commerce</span> qui vous ressemble
               </h2>
               <p>
-                En tant que développeur web freelance, je comprends que votre boutique en ligne est bien plus qu'un simple site web ; c'est le visage de votre entreprise sur internet. Je m'engage à créer une boutique en ligne qui reflète votre identité de marque et votre vision.
+                En tant que développeur web freelance, je comprends que votre boutique en ligne est bien plus qu'un simple site web c'est le visage de votre entreprise sur internet. Je m'engage à créer une boutique en ligne qui reflète votre identité de marque et votre vision.
               </p>
               <p>
                 Que vous soyez une petite entreprise artisanale ou une entreprise établie, je travaille en étroite collaboration avec vous pour concevoir une boutique en ligne qui vous ressemble. De la personnalisation du design à l'intégration des fonctionnalités spécifiques, je mets tout en œuvre pour capturer l'essence de votre entreprise.

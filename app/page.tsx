@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function Home() {
 
   const contentCards = [
-    { title: "Création de Sites Internet", text: 'En tant que développeur web freelance, je concevrai un site web unique et optimisé, représentant votre entreprise de manière professionnelle en ligne. J\'intègre vos besoins et votre identité dans chaque aspect du site pour offrir une expérience utilisateur exceptionnelle', icon: logo_creation_site, link: '/site', bg: 'bg-amber-200', alt: "Icone création de site internet" },
+    { title: "Création de Sites Internet", text: 'En tant que développeur web freelance, je suis là pour créer un site web unique et optimisé qui représentera votre entreprise de manière professionnelle en ligne. J\'intègre soigneusement vos besoins et votre identité dans chaque aspect du site, assurant ainsi une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/site', bg: 'bg-amber-200', alt: "Icone création de site internet" },
     { title: "Refonte de Site Web", text: 'Donnez une nouvelle vie à votre site web existant. Mon expertise en tant que développeur web freelance vous aidera à moderniser votre site, améliorer son design et son efficacité pour rester compétitif en ligne. Découvrez comment je peux revitaliser votre présence sur le web', icon: logo_refonte_site, link: '/site/refonte', bg: 'bg-blue-200', alt: "Icone refonte de site internet" },
     { title: "Applications Web / SaaS", text: 'En tant que développeur web freelance, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web.', icon: logo_sass_web, link: '/sass', bg: 'bg-green-200', alt: "Icone application web/sass" },
     { title: "Intégration de Vos Maquettes", text: 'Mon expertise en tant que développeur web freelance assure une parfaite intégration de vos maquettes dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon savoir-faire en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icone intégration de maquette" },
@@ -65,8 +65,8 @@ export default function Home() {
     <main>
       <Header
         title="Développeur web freelance"
-        subtitle="Hissez les voiles vers votre succès digital avec un capitaine du web expérimenté."
-        text="Cap sur la réussite digitale ! Votre développeur web freelance expert en création de sites, refonte et applications. Naviguez vers le succès avec nous"
+        subtitle="Hissez les voiles vers votre succès digital avec un capitaine du web expérimenté"
+        text="Cap sur la réussite digitale ! Votre développeur web freelance expert en création de sites, refonte et applications. Naviguez vers le succès avec nous."
         image={picture_home}
         alt="image png developpeur web"
       />
@@ -85,9 +85,11 @@ export default function Home() {
 
           <SectionWithPictures
             title="Pourquoi choisir un développeur web freelance ?"
-            description="Pourquoi opter pour un Développeur Web Freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
+            description="Pourquoi opter pour un développeur web freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
             image={illustration_web}
             alt="Illustration web"
+            buttonLink="/contact"
+            buttonText="Contactez-moi"
           />
           <BlogSection />
 

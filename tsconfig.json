@@ -13,15 +13,17 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Button.stories.tsx", "components/CTA/CallToAction.stories.jsx", "components/Carrousel/Carousel.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Button.stories.tsx", "components/CTA/CallToAction.stories.jsx", "components/Carrousel/Carousel.tsx",".contentlayer/generated", "components/blog/RenderMDX.jsx"],
   "exclude": ["node_modules"]
 }

@@ -154,7 +154,7 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Développeur web freelance - Intégrateur web "
+        title="Intégrateur web freelance - Intégrateur web "
         subtitle="Intégration web : Transformez votre vision en réalité en ligne"
         text="Bienvenue ! Je suis bryan parisot, un développeur web freelance, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
         image={picture_site}
@@ -168,8 +168,8 @@ export default function page() {
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             steps.map((item) => (
-              <div className='space-y-4' key={item.id}>
-                <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg' >{item.id}</div>
+              <div className='space-y-4 shadow-lg p-4' key={item.id}>
+                <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg ' >{item.id}</div>
                 <h3 className='font-bold text-lg text-emerald-950'>{item.title}</h3>
                 <p className='text-gray-500'>{item.text}</p>
               </div>
@@ -184,7 +184,7 @@ export default function page() {
           </div>
           <div className='w-full sm:w-3/6 space-y-6 px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-              Pourquoi me en tant qu'intégrateur web freelance ?
+              Pourquoi me choisir en tant qu'intégrateur web freelance ?
             </h2>
             {
               choiceMaquetteData.map((item) => (
@@ -221,7 +221,7 @@ export default function page() {
             }
           </div>
         </div>
-        <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
+        <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre intégration web" />
         <BlogSection />
         <CallToActionLight />
         <Faq faq={faqs} />

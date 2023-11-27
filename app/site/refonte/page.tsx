@@ -40,7 +40,7 @@ export default function page() {
             title: 'Amélioration de l\'expérience utilisateur', text: 'La refonte de site permet d\'améliorer l\'expérience globale des visiteurs. Vous pouvez moderniser le design, simplifier la navigation, rendre le site plus convivial sur les appareils mobiles, et optimiser la vitesse de chargement. Cela contribue à réduire le taux de rebond, à augmenter le temps passé sur le site, et à fidéliser les visiteurs.', image: logo_experience, alt: 'Logo experience utilisateur'
         },
         {
-            title: 'Optimisation pour les moteurs de recherche', text: 'Une refonte bien planifiée offre l\'opportunité d\'optimiser votre site pour les moteurs de recherche. Vous pouvez mettre à jour les balises meta, les mots-clés, le contenu et la structure des liens pour améliorer la visibilité de votre site dans les résultats de recherche. Cela peut entraîner une augmentation du trafic organique et de la visibilité en ligne.', image: logo_seo, alt: 'Logo référencement naturel'
+            title: 'Optimisation pour les moteurs de recherche', text: 'Une refonte bien planifiée offre l\'opportunité d\'optimiser votre site pour les moteurs de recherche. Vous pouvez mettre à jour les balises meta, les mots-clés, le contenu et la structure des liens pour améliorer la visibilité de votre site dans les résultats de recherche. Cela peut entraîner une augmentation du trafic organique et de la visibilité.', image: logo_seo, alt: 'Logo référencement naturel'
         },
         {
             title: 'Alignement sur les tendances actuels', text: 'Les objectifs et les tendances en ligne évoluent avec le temps. Une refonte vous permet de vous aligner sur les objectifs actuels de votre entreprise et sur les attentes de votre public. Vous pouvez intégrer de nouvelles fonctionnalités, mettre en avant des produits ou des services spécifiques.', image: logo_market, alt: 'logo  market'
@@ -102,7 +102,7 @@ export default function page() {
                                 src={refonte}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Pourquoi me confier la <span className="text-emerald-600">refonte de votre site web ?</span>
                             </h2>
@@ -135,7 +135,7 @@ export default function page() {
                                 src={refonte_1}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8 mt-5 flex flex-col justify-center'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8 mt-0 sm:mt-5 flex flex-col justify-center'>
                             <div className='flex flex-row mt-2'>
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
                                 <div className='w-5/6'>
@@ -176,15 +176,15 @@ export default function page() {
                             Nouveau <span className="text-emerald-600">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
                         </h2>
                         <p>
-                            <span className='font-extrabold'>Création d'un nouveau site :</span> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
+                            <Link href="/site" className='font-extrabold underline'>Création d'un nouveau site :</Link> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
                         </p>
                         <p>
-                            <span className='font-extrabold'>Refonte de site existant :</span> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
+                            <Link href="/site/refonte" className='font-extrabold underline'>Refonte de site existant :</Link> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
                         </p>
                         <div>
                             <Link href="/site">
                                 <Button variant="primary">
-                                    Découvrez mes services de création de site internet
+                                    Services de création de site internet
                                 </Button>
                             </Link>
                         </div>
