@@ -9,8 +9,8 @@ const navigation = {
         { name: '07 50 96 65 22', href: 'tel:07 50 96 65 22' },
     ],
     plan_site: [
-        { name: 'Création de Sites Internet', href: '/site' },
-        { name: 'Refonte de Site Web', href: '/site/refonte' },
+        { name: 'Création de Sites Internet', href: '/creation-site-internet' },
+        { name: 'Refonte de Site Web', href: '/creation-site-internet/refonte' },
         { name: 'Applications Web / SaaS', href: '/sass' },
         { name: 'Intégration de Vos Maquettes', href: '/integration' },
         { name: 'Référencement Naturel - SEO', href: '/referencement-naturel-seo' },

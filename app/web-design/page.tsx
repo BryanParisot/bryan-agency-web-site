@@ -147,7 +147,7 @@ export default function page() {
 
               <div className="flex justify-start items-start">
                 <div>
-                  <Link href="/site">
+                  <Link href="/creation-site-internet">
                     <Button size="lg" variant="primary">Découvrir nos préstations </Button>
                   </Link>
                 </div>

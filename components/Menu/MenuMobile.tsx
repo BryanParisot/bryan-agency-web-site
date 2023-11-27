@@ -8,7 +8,7 @@ interface MenuMobileProps {
 const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick }) => {
     const paths = [
         { name: 'Accueil', path: '/' },
-        { name: 'Création de site', path: '/site' },
+        { name: 'Création de site', path: '/creation-site-internet' },
         { name: 'Refonte de site', path: '/site/refonte' },
         { name: 'Application web | Sass', path: '/sass' },
         { name: 'Intégration maquette', path: '/integration' },

@@ -116,7 +116,7 @@ export default function page() {
                 Vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Je suis fier d'offrir mes services de création de sites web sur mesure.
               </p>
               <p>
-                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un <Link className='font-bold underline' href="/site/e-commerce">site e-commerce</Link>  pour vendre vos produits, ou d'une <Link className='font-bold underline' href="refonte">refonte </Link> pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
+                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un <Link className='font-bold underline' href="/creation-site-internet/e-commerce">site e-commerce</Link>  pour vendre vos produits, ou d'une <Link className='font-bold underline' href="refonte">refonte </Link> pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
               </p>
               <p>
                 Je suis là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment mon savoir-faire peut faire une différence significative pour votre entreprise. Contactez-moi dès aujourd'hui pour discuter de vos besoins en matière de création de site web et de marketing numérique.
@@ -167,7 +167,7 @@ export default function page() {
               Découvrez comment mon service de refonte de site peut vous aider à rester compétitif en ligne et à offrir une expérience utilisateur exceptionnelle.
             </p>
             <div>
-              <Link href="/site/refonte">
+              <Link href="/creation-site-internet/refonte">
                 <Button size="lg" variant="primary">
                   En savoir plus sur la refonte de site
                 </Button>

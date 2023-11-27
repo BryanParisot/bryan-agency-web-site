@@ -17,8 +17,8 @@ import logo_design from "../../public/logos/nav/logo_design.svg"
 
 
 const solutions = [
-    { name: 'Création de site internet', description: 'Transformez votre vision en réalité en ligne', href: '/site', icon: logo_creation_site, alt: "Icone création de site internet", bg: 'bg-amber-200' },
-    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/site/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
+    { name: 'Création de site internet', description: 'Transformez votre vision en réalité en ligne', href: '/creation-site-internet', icon: logo_creation_site, alt: "Icone création de site internet", bg: 'bg-amber-200' },
+    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/creation-site-internete/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
     { name: 'Application Web/Sass', description: "Des solutions web sur mesure pour votre entreprise", href: '/sass', icon: logo_sass_web, alt: "Icone application web/sass", bg: 'bg-green-200' },
     { name: 'Integration de vos maquettes', description: 'Donnez vie à vos conceptions avec notre expertise en intégration', href: '/integration', icon: logo_integration_maquette, alt: "Icone intégration de maquette", bg: 'bg-green-200' },
     { name: 'Référencement Naturel - SEO', description: 'Optimisez votre visibilité en ligne grâce à notre expertise en SEO.', href: '/referencement-naturel-seo', icon: logo_referencement_seo, alt: "Icone référencement naturel SEO", bg: 'bg-blue-200' },
