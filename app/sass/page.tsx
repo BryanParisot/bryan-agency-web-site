@@ -209,7 +209,7 @@ export default function page() {
                         Nos étapes de réalisation d’une <span className='text-emerald-600'>application web</span> sur mesure
                     </h2>
 
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
+                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 rounded-lg py-12'>
 
                         {
                             atouts.map((item) => (
