@@ -80,8 +80,8 @@ export default function Home() {
           ))}
         </div>
 
+        <CallToAction />
         <div className="px-5 sm:px-16">
-          <CallToAction />
 
           <SectionWithPictures
             title="Pourquoi choisir un développeur web freelance ?"
