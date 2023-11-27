@@ -33,7 +33,7 @@ export default function Page() {
       text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec un site vitrine.',
       image: logo_vitrine,
       alt: 'logo site vitrine',
-      link: '/creation-site-internet/vitrine'
+      link: '/creation-site-internet/site-vitrine'
     },
     {
       title: 'Création d’un site e-commerce',
