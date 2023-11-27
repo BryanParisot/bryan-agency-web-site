@@ -188,7 +188,7 @@ export default function page() {
                         </div>
                     </div>
 
-                    <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+                    <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20">
                         {
                             vitrineData.map((item) => (
                                 <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
