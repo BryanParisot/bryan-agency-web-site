@@ -96,7 +96,7 @@ export default function page() {
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-4 sm:px-0" >
           Les avantages de la création d’un <span className="text-emerald-600">design personnalisé </span>
         </h2>
 
@@ -115,7 +115,7 @@ export default function page() {
                 src={web_design}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-6 px-8'>
+            <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Qu'est-ce que le <span className='text-emerald-600'> Web Design ?</span>
               </h2>
@@ -133,7 +133,7 @@ export default function page() {
                 src={web_design_1}
                 alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 sm:mt-0 mt-5 flex flex-col justify-center'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 L'Art de Créer des <span className='text-emerald-600'>sites web</span>  mémorables
               </h2>
@@ -181,7 +181,7 @@ export default function page() {
               src={web_design_2}
               alt="Double Ecran illustration" />
           </div>
-          <div className='w-full sm:w-3/6 space-y-6 px-8'>
+          <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
               L’importance du <span className='text-emerald-600'>web-design</span>
             </h2>

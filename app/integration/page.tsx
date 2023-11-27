@@ -168,8 +168,8 @@ export default function page() {
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             steps.map((item) => (
-              <div className='space-y-4' key={item.id}>
-                <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg' >{item.id}</div>
+              <div className='space-y-4 shadow-lg p-4' key={item.id}>
+                <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg ' >{item.id}</div>
                 <h3 className='font-bold text-lg text-emerald-950'>{item.title}</h3>
                 <p className='text-gray-500'>{item.text}</p>
               </div>
@@ -221,7 +221,7 @@ export default function page() {
             }
           </div>
         </div>
-        <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
+        <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre intégration web" />
         <BlogSection />
         <CallToActionLight />
         <Faq faq={faqs} />

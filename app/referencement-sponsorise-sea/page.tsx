@@ -149,7 +149,7 @@ export default function page() {
                                 src={sea}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Boostez votre performance grâce au SEA
                             </h2>
@@ -168,7 +168,7 @@ export default function page() {
                                 src={sea_computer}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5 flex flex-col justify-center'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Créez votre landing page spécialisée
                             </h2>

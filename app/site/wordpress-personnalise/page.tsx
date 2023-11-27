@@ -101,7 +101,7 @@ export default function page() {
                                 src={wp}
                                 alt="Freelance créateur de site wordpress" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Votre vision, mon expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span>
                             </h2>
@@ -124,7 +124,7 @@ export default function page() {
                                 src={wp_illu}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Un site <span className='text-emerald-600' >WordPress personnalisé</span> à votre image
                             </h2>
@@ -162,7 +162,7 @@ export default function page() {
                         <div>
                             <Link href="/site/maintenance-wordpress">
                                 <Button variant="primary">
-                                    Découvrez nos services de maintenance WordPress ici.
+                                    Découvrez notre de maintenance WordPress.
                                 </Button>
                             </Link>
                         </div>

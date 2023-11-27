@@ -111,7 +111,7 @@ export default function page() {
                                 src={wordpress_maintenance}
                                 alt="Freelance wordpress" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Liste des  <span className="text-emerald-600" >services de maintenance</span>
                             </h2>
@@ -143,7 +143,7 @@ export default function page() {
                                 src={wordpress_maintenance_menu}
                                 alt="Freelance wordpress" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8 mt-5 flex flex-col justify-center'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8 mt-0 sm:mt-5 flex flex-col justify-center'>
                             <div className='flex flex-row mt-2'>
                                 <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
                                 <div className='w-5/6'>

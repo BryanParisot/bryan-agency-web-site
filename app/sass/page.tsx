@@ -94,7 +94,7 @@ export default function page() {
 
     const atouts = [
         {
-            title: "Etude de votre projet", text: "Création, configuration, et gestion complète de campagnes publicitaires sur les moteurs de recherche, notamment Google Ads et Bing Ads.", logo: loupe, alt: "logo loupe"
+            title: "Etude de votre projet", text: "Création, configuration, et gestion complète de campagnes publicitaires sur les moteurs de recherche, notamment Google Ads.", logo: loupe, alt: "logo loupe"
         },
         {
             title: "Analyse des besoins", text: "Comprendre en profondeur les besoins de l'entreprise et des utilisateurs finaux. Il s'agit de recueillir des informations sur les fonctionnalités requises, les objectifs commerciaux, les contraintes budgétaires.", logo: search, alt: "logo appareil responsive"
@@ -151,7 +151,7 @@ export default function page() {
                                     alt="Capture d'écran code" />
                             </div>
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 sm:p-10 p-0 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 sm:p-10 p-0 px-0  sm:px-8'>
                             <h2 className='text-2xl sm:text-4xl text-emerald-950 font-bold'>
                                 Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
                             </h2>
@@ -170,14 +170,14 @@ export default function page() {
                     </div>
 
 
-                    <div className='flex flex-col sm:flex-row mt-44 sm:h-[50vh] h-full'>
+                    <div className='flex flex-col sm:flex-row mt-36 sm:mt-44 sm:h-[50vh] h-full'>
                         <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
                             <Image
                                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                                 src={saas}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Qu'est-ce qu'une <span className='text-emerald-600'> application Web ?</span>
                             </h2>

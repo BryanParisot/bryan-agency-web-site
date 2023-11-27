@@ -94,7 +94,7 @@ export default function page() {
                 src={landing_page}
                 alt="Freelance landing page nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Optimisez vos taux de conversion avec mon expertise en <span className='text-emerald-600'>landing pages</span>
               </h2>
@@ -117,7 +117,7 @@ export default function page() {
                 src={maquette_landing}
                 alt="Freelance landing page Nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Une <span className='text-emerald-600'>landing page</span> qui vous ressemble
               </h2>
@@ -135,7 +135,6 @@ export default function page() {
         </div>
 
         <CallToAction />
-
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre landing page" />
         <BlogSection />
         <Faq faq={faqs} />

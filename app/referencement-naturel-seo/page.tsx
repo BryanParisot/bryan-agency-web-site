@@ -125,7 +125,7 @@ export default function page() {
                                 src={seo}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-8'>
+                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
                             <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                                 Pourquoi le SEO est indispensable ?
                             </h2>
@@ -145,7 +145,7 @@ export default function page() {
                                 src={seo_score}
                                 alt="Illustration d'un site vitrine" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5 flex flex-col justify-center'>
+                        <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5 flex flex-col justify-center'>
                             <p>
                                 Le <span className="font-bold">SEO</span> est également rentable à long terme. Contrairement à la publicité payante qui nécessite un budget continu, le <span className="font-bold">SEO</span> continue de produire des résultats après avoir investi du temps et des efforts initiaux.                        </p>
                             <p>

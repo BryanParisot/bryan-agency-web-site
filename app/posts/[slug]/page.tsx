@@ -30,7 +30,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
                     <span className='text-emerald-100 text-sm'>{post.readTime} min</span>
                 </div>
             </div>
-            <article className="mx-auto max-w-4xl py-8">
+            <article className="mx-auto max-w-4xl py-8 px-4 sm:px-0">
                 {/* <div dangerouslySetInnerHTML={{ __html: post.body.html }} /> */}
                 <RenderMdx blog={post} />
             </article>

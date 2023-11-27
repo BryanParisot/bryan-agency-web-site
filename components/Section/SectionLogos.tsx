@@ -34,7 +34,7 @@ const SectionLogos: React.FC<SectionLogosProps> = ({ title }) => {
                 {title}
             </h2>
             <div>
-                <div className="mt-20 grid grid-cols-1 sm:grid-cols-4 gap-10 justify-items-center px-5 sm:px-20">
+                <div className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-10 justify-items-center px-5 sm:px-20">
                     {
                         dataSection.map((item) => (
                             <div key={item.text} className='flex flex-col items-center justify-center space-y-4'>

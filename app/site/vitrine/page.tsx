@@ -108,7 +108,7 @@ export default function page() {
                 src={double_screen}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span>
               </h2>
@@ -129,7 +129,7 @@ export default function page() {
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={vitrine_site} alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-8 mt-5'>
+            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
               <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                 <span className='text-emerald-600'>Un site vitrine</span> qui vous ressemble
               </h2>
@@ -169,7 +169,7 @@ export default function page() {
             <div>
               <Link href="/site/refonte">
                 <Button size="lg" variant="primary">
-                  En savoir plus sur mon service de refonte de site
+                  En savoir plus sur la refonte de site
                 </Button>
               </Link>
             </div>

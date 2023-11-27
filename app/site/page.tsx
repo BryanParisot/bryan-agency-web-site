@@ -107,7 +107,7 @@ export default function Page() {
 
       <div className="mt-10 mb-10">
 
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
+        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-2 sm:px-0" >
           Mes prestation de <span className="text-emerald-600">création de site web</span>
         </h2>
 
