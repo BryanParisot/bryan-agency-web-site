@@ -33,42 +33,42 @@ export default function Page() {
       text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec un site vitrine.',
       image: logo_vitrine,
       alt: 'logo site vitrine',
-      link: '/site/vitrine'
+      link: '/creation-site-internet/site-vitrine'
     },
     {
       title: 'Création d’un site e-commerce',
       text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne sur mesure, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne.',
       image: logo_e_commerce,
       alt: 'logo e-commerce',
-      link: '/site/e-commerce'
+      link: '/creation-site-internet/e-commerce'
     },
     {
       title: 'Création d’une landing-page',
       text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle.Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable.',
       image: logo_landing_page,
       alt: 'logo landing page',
-      link: '/site/landing-page'
+      link: '/creation-site-internet/landing-page'
     },
     {
       title: 'Votre site WordPress personnalisé',
       text: 'Optez pour la puissance de WordPress avec mes services. En tant qu\'expert dans la création de sites web sur mesure utilisant la plateforme WordPress, je personnalise chaque détail pour répondre à vos besoins spécifiques. Que ce soit pour un blog, un site vitrine ou un site e-commerce, je transforme votre vision en un site web WordPress fonctionnel et attrayant, prêt à attirer l\'attention en ligne.',
       image: logo_wordpress,
       alt: 'logo wordpress personnalisé',
-      link: '/site/wordpress-personnalise'
+      link: '/creation-site-internet/wordpress-personnalise'
     },
     {
       title: 'Transformez votre site web le service de refonte',
       text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
-      link: '/site/refonte'
+      link: '/creation-site-internet/refonte'
     },
     {
       title: 'Service de maintenance WordPress',
       text: 'La maintenance régulière est essentielle pour garantir le bon fonctionnement et la sécurité de votre site WordPress. Mon service de maintenance prend en charge toutes les tâches fastidieuses, des mises à jour de sécurité aux sauvegardes régulières, en passant par la gestion des plugins. Vous pouvez vous concentrer sur votre entreprise pendant que je veille sur votre site.',
       image: logo_maintenance,
       alt: 'logo maintenance wordpress',
-      link: '/site/maintenance-wordpress'
+      link: '/creation-site-internet/maintenance-wordpress'
     }
   ];
 

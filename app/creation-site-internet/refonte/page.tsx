@@ -176,13 +176,13 @@ export default function page() {
                             Nouveau <span className="text-emerald-600">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
                         </h2>
                         <p>
-                            <Link href="/site" className='font-extrabold underline'>Création d'un nouveau site :</Link> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
+                            <Link href="/creation-site-internet" className='font-extrabold underline'>Création d'un nouveau site :</Link> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
                         </p>
                         <p>
-                            <Link href="/site/refonte" className='font-extrabold underline'>Refonte de site existant :</Link> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
+                            <Link href="/creation-site-internet/refonte" className='font-extrabold underline'>Refonte de site existant :</Link> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
                         </p>
                         <div>
-                            <Link href="/site">
+                            <Link href="/creation-site-internet">
                                 <Button variant="primary">
                                     Services de création de site internet
                                 </Button>

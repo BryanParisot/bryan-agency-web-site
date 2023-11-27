@@ -160,7 +160,7 @@ export default function page() {
                             Découvrez comment mon service de <span className='font-bold'>maintenance WordPress</span>  peut vous aider à éviter les interruptions inattendues et à maintenir la qualité de votre présence en ligne.
                         </p>
                         <div>
-                            <Link href="/site/maintenance-wordpress">
+                            <Link href="/creation-site-internet/maintenance-wordpress">
                                 <Button variant="primary">
                                     Découvrez notre de maintenance WordPress.
                                 </Button>
