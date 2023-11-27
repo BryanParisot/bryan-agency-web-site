@@ -6,7 +6,7 @@ author: "Bryan Parisot"
 role: "CEO"
 category: "WordPress"
 image: /images/blog/blog-post-1.jpg
-picture_author: /images/blog/bryan.jpg
+picture_author: /images/blog/bryan.webp
 ---
 
 ##Ullamco et nostrud magna  blblblbll blb ommodo nostrud ...

@@ -6,7 +6,7 @@ author: "Bryan Parisot"
 role: "CEO"
 category: "WordPress"
 image: /images/blog/blog-post-1.jpg
-picture_author: /images/blog/bryan.jpg
+picture_author: /images/blog/bryan.webp
 ---
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
