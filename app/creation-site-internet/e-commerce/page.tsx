@@ -69,7 +69,7 @@ export default function page() {
       <Header
         title="Développeur web freelance de création de e-commerce"
         subtitle="Création d'un site internet e-commerce"
-        text="Embarquez pour l'aventure de la vente en ligne avec [Nom de Votre Entreprise]. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
+        text="Embarquez pour l'aventure de la vente en ligne. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
         image={picture_site}
         alt="image png developpeur web"
       />
