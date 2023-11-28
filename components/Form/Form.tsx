@@ -125,7 +125,7 @@ const Form: FC = () => {
                                 />
                             </div>
                         </div>
-                        <div className="sm:col-span-2">
+                        <div className="sm:col-span-2 mt-2">
                             <div className="flex flex-row h-6 items-center gap-2">
                                 <input
                                     id="check"
@@ -139,7 +139,7 @@ const Form: FC = () => {
                         </div>
                         {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
-                    <div className="mt-8 flex flex-col-reverse sm:flex-row-reverse justify-between gap-3 sm:gap-0">
+                    <div className="mt-10 flex flex-col-reverse sm:flex-row-reverse justify-between gap-5 sm:gap-0">
                         <Button
                             variant="primary"
                             size="lg"
