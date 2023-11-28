@@ -45,7 +45,10 @@ const Form: FC = () => {
     };
     return (
         <div>
-            <Toaster />
+            <Toaster
+                position="bottom-center"
+                containerClassName="z-50"
+            />
             <form onSubmit={handleSubmit(onSubmitHandler)} className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
                 <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -136,7 +139,7 @@ const Form: FC = () => {
                         </div>
                         {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
-                    <div className="mt-8 flex flex-row-reverse justify-between">
+                    <div className="mt-8 flex flex-col-reverse sm:flex-row-reverse justify-between gap-3 sm:gap-0">
                         <Button
                             variant="primary"
                             size="lg"
