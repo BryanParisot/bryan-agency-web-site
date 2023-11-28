@@ -29,7 +29,7 @@ const SectionLogos: React.FC<SectionLogosProps> = ({ title }) => {
     ]
 
     return (
-        <div className='my-10'>
+        <div className='my-10 px-5 sm:px-16'>
             <h2 className='text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 {title}
             </h2>

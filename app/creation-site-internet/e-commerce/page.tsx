@@ -134,8 +134,11 @@ export default function page() {
           </div>
         </div>
         <CallToAction />
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
+
         <BlogSection />
+        
         <Faq faq={faqs} />
       </div>
     </main>

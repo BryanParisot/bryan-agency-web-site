@@ -168,7 +168,7 @@ export default function page() {
                 <CallToAction />
             </div>
 
-            <div className="px-5 sm:px-16 mb-10">
+            <div className="mb-10">
 
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
@@ -190,7 +190,9 @@ export default function page() {
                         </div>
                     </div>
                 </SectionEmerald>
+
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site" />
+
                 <BlogSection />
 
                 <CallToActionLight />

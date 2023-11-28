@@ -132,8 +132,11 @@ export default function Page() {
             buttonText="Contactez-moi"
           />
 
+        </div>
+        <div className="px-0 sm:px-16">
           <BlogSection />
           <Faq faq={faqs} />
+
         </div>
       </div>
     </main>

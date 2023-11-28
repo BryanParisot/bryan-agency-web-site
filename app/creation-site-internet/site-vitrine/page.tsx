@@ -150,8 +150,7 @@ export default function page() {
         <CallToAction />
       </div >
 
-      <div className="px-5 sm:px-16 mb-10">
-
+      <div className=" mb-10">
         <SectionEmerald image={score_site} alt="représentation du score du site">
           <div className='space-y-6'>
             <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
@@ -175,8 +174,11 @@ export default function page() {
             </div>
           </div>
         </SectionEmerald>
+        
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site vitrine" />
+
         <BlogSection />
+
         <Faq faq={faqs} />
 
       </div>

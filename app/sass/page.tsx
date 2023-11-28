@@ -202,9 +202,8 @@ export default function page() {
                 <CallToAction />
             </div>
 
-            <div className="px-5 sm:px-16 mb-10">
-
-                <div className='bg-emerald-50 flex items-center flex-col py-5'>
+            <div className="mb-10">
+                <div className='bg-emerald-50 flex items-center flex-col py-5 "px-5 sm:px-16'>
                     <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
                         Nos étapes de réalisation d’une <span className='text-emerald-600'>application web</span> sur mesure
                     </h2>
@@ -220,7 +219,9 @@ export default function page() {
                     </div>
 
                 </div>
+
                 <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site Wordpress personnalisé" />
+
                 <BlogSection />
 
                 <CallToActionLight />

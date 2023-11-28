@@ -135,8 +135,11 @@ export default function page() {
         </div>
 
         <CallToAction />
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre landing page" />
+
         <BlogSection />
+        
         <Faq faq={faqs} />
       </div>
 

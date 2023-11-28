@@ -9,7 +9,7 @@ interface SectionEmeraldProps {
 
 const SectionEmerald: React.FC<SectionEmeraldProps> = ({ image, alt, children }) => {
     return (
-        <div className='flex flex-col sm:flex-row bg-emerald-50 py-20 sm:py-20 sm:px-5 px-0 space-y-4 sm:space-y-0'>
+        <div className='flex flex-col sm:flex-row bg-emerald-50 py-20 sm:py-20 sm:px-16 px-5 space-y-4 sm:space-y-0'>
             <div className='px-4 flex items-center w-full sm:w-2/4'>
                 <Image src={image} alt={alt} />
             </div>
