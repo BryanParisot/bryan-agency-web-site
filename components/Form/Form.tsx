@@ -5,6 +5,8 @@ import React, { FC, useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast';
 import { useForm } from 'react-hook-form';
 import { Button } from '../ui/button';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 
 export type FormData = {
     prenom: string;
@@ -125,6 +127,7 @@ const Form: FC = () => {
                         </div>
                         {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
+                    <ReCAPTCHA sitekey='6LdDLR8pAAAAABcRSpzleoB_konxunFnH4C4gw4S' />
                     <div className="mt-8 flex justify-end">
                         <Button
                             variant="primary"

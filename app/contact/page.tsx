@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 
 //COMPONENTS
 import Header from '@/components/Header/Header'
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { BuildingOffice2Icon, PhoneIcon } from '@heroicons/react/24/outline'
 
 //LOGOS | PICTURES
 import picture_site from "../../public/pictures/site/site_page.png"
