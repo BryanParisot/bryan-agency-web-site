@@ -81,22 +81,21 @@ export default function Home() {
         </div>
 
         <CallToAction />
-        <div className="px-0 sm:px-16">
 
-          <SectionWithPictures
-            title="Pourquoi choisir un développeur web freelance ?"
-            description="Pourquoi opter pour un développeur web freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
-            image={illustration_web}
-            alt="Illustration web"
-            buttonLink="/contact"
-            buttonText="Contactez-moi"
-          />
-          <BlogSection />
+        <SectionWithPictures
+          title="Pourquoi choisir un développeur web freelance ?"
+          description="Pourquoi opter pour un développeur web freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
+          image={illustration_web}
+          alt="Illustration web"
+          buttonLink="/contact"
+          buttonText="Contactez-moi"
+        />
 
-        <Faq faq={faqs} />
-
-        </div>
       </div>
+
+      <BlogSection />
+
+      <Faq faq={faqs} />
     </main>
   )
 }
