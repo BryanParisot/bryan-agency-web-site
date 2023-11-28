@@ -14,15 +14,24 @@ export type FormData = {
     email: string;
     message: string;
     numero: number;
-    check: boolean
+    check: boolean;
+    recaptcha: string | null;
 };
 
 const Form: FC = () => {
 
     const [loading, setLoading] = useState(false);
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
+    const { register, handleSubmit, formState: { errors }, reset, setValue, watch } = useForm<FormData>();
+
+    const recaptchaValue = watch('recaptcha');
 
     const onSubmitHandler = async (data: FormData) => {
+
+        if (!recaptchaValue) {
+            toast.error('Veuillez valider le ReCAPTCHA avant d\'envoyer le formulaire.');
+            return;
+        }
+
         setLoading(true);
         try {
             await sendEmail(data);
@@ -127,8 +136,7 @@ const Form: FC = () => {
                         </div>
                         {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
-                    <ReCAPTCHA sitekey='6LdDLR8pAAAAABcRSpzleoB_konxunFnH4C4gw4S' />
-                    <div className="mt-8 flex justify-end">
+                    <div className="mt-8 flex flex-row-reverse justify-between">
                         <Button
                             variant="primary"
                             size="lg"
@@ -137,6 +145,10 @@ const Form: FC = () => {
                         >
                             {loading ? 'Envoi en cours...' : 'Envoyer'}
                         </Button>
+                        <ReCAPTCHA
+                            sitekey='6LdDLR8pAAAAABcRSpzleoB_konxunFnH4C4gw4S'
+                            onChange={(value) => setValue('recaptcha', value)}
+                        />
                     </div>
                 </div>
             </form >
