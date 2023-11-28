@@ -36,7 +36,7 @@ const Faq: React.FC<FaqProps> = ({ faq }) => {
                                                 </span>
                                             </Disclosure.Button>
                                         </dt>
-                                        <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                                        <Disclosure.Panel as="dd" className="mt-2 pr-10">
                                             <p className="text-base leading-7 text-gray-600  px-3">{FaqItem.answer}</p>
                                         </Disclosure.Panel>
                                     </>
