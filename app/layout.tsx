@@ -3,7 +3,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
 import Carousel from '@/components/Carrousel/Carousel'
-import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -26,7 +25,7 @@ export default function RootLayout({
           `,
           }}
         />
-      </Head>
+      </head>
 
       <body className={inter.className}>
         <noscript>
