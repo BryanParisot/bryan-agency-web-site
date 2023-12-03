@@ -69,8 +69,8 @@ export default function Menu() {
                         </div>
                         <div className="bg-gray-50 px-8 py-6">
                             <div className="flex items-center gap-x-3">
-                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Bry-Agency</h3>
-                                <p className="rounded-full bg-indigo-600/10 px-2.5 py-1.5 text-xs font-semibold text-indigo-600">New</p>
+                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Bryan Parisot développeur web freelance</h3>
+                                {/* <p className="rounded-full bg-indigo-600/10 px-2.5 py-1.5 text-xs font-semibold text-indigo-600">New</p> */}
                             </div>
                             <p className="mt-2 text-sm leading-6 text-gray-600">
                                 N'hesitez pas à prendre contact pour embarquer dans le navire.

@@ -18,7 +18,7 @@ export default function Navigation() {
     return (
         <header className='flex justify-center'>
             <div className='fixed shadow flex items-center justify-between bg-emerald-50/90 h-20 w-full max-w-[90%] rounded-lg text mt-10 px-5 z-10'>
-                <div>Logo Here</div>
+                <span className='font-bold text-emerald-950 text-xl'>Bryan parisot</span>
                 <div className='hidden sm:flex sm:items-center'>
                     <Menu />
                     <Link className='hidden sm:block' href="/contact">

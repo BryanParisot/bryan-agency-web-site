@@ -12,10 +12,11 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick }) => {
         { name: 'Refonte de site', path: '/creation-site-internet/refonte' },
         { name: 'Application web | Sass', path: '/sass' },
         { name: 'Intégration maquette', path: '/integration' },
-        { name: 'SEO', path: '/referencement-naturel-seo' },
-        { name: 'SEA', path: '/referencement-sponsorise-sea' },
+        { name: 'Référencement Naturel - SEO', path: '/referencement-naturel-seo' },
+        { name: 'Référencement Sponsorisé - SEA', path: '/referencement-sponsorise-sea' },
         { name: 'Web design', path: '/web-design' },
         { name: 'Blog', path: '/blog' },
+        { name: 'Contact', path: '/contact' },
     ];
 
     const handleLinkClick = () => {
