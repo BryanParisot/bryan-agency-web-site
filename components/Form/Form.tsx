@@ -149,7 +149,7 @@ const Form: FC = () => {
                             {loading ? 'Envoi en cours...' : 'Envoyer'}
                         </Button>
                         <ReCAPTCHA
-                            sitekey='6LdDLR8pAAAAABcRSpzleoB_konxunFnH4C4gw4S'
+                            sitekey='6LdHGCYpAAAAALA0COeLNYjSGySaB6eBqh63nqLv'
                             onChange={(value) => setValue('recaptcha', value)}
                         />
                     </div>
