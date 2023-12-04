@@ -24,7 +24,7 @@ const changeFrequency: SitemapEntry['changeFrequency'] = 'daily';
 
     const post = posts.map(({url, date}) => ({
       url: `${siteUrl}${url}`,
-      lastModified: date.toString(),
+      lastModified: date,
       changeFrequency
     }))
 
