@@ -30,7 +30,7 @@ const changeFrequency: SitemapEntry['changeFrequency'] = 'daily';
 
     const routes: SitemapEntry[] = ['', 'creation-site-internet','creation-site-internet/e-commerce','creation-site-internet/landing-page','creation-site-internet/maintenance-wordpress','creation-site-internet/refonte','creation-site-internet/site-vitrine','creation-site-internet/wordpress-personnalise', 'sass', 'web-design', 'referencement-sponsorise-sea', 'referencement-naturel-seo', 'realisation', 'blog', 'integration', 'contact', 'legal/mentions-legales','legal/conditions-generales'].map((route) => ({
         url: `${siteUrl}/${route}`,
-        lastModified: new Date().toString(),
+        lastModified: new Date(),
         changeFrequency,
     }));
 
