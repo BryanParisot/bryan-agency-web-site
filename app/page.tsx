@@ -22,6 +22,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Développeur web freelance | Bryan Parisot - Création de sites et applications',
   description: 'Bryan Parisot, développeur web freelance spécialisé dans la création de sites et d\'applications sur mesure.',
+  alternates: {
+    canonical: process.env.URL_SITE
+  }
 }
 
 
