@@ -36,8 +36,12 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Freelance SEA expert : Campagnes publicitaires performantes',
-    description: "Embarquez pour le succès avec Bryan Parisot, développeur web freelance expert en SEA. Maximisez votre visibilité instantanément"
+    description: "Embarquez pour le succès avec Bryan Parisot, développeur web freelance expert en SEA. Maximisez votre visibilité instantanément",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/referencement-sponsorise-sea`
+    }
 }
+
 
 
 

@@ -24,6 +24,11 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site e-commerce - Pret à lever l\'ancre',
   description: 'Explorez de nouveaux horizons avec une boutique en ligne unique, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet/e-commerce`
+  }
+
+
 }
 
 

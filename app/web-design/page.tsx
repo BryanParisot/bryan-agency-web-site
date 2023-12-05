@@ -28,7 +28,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Web Design freelance : Créez une expérience unique en ligne',
-  description: "Transformez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en web design."
+  description: "Transformez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en web design.",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/web-design`
+  }
 
 }
 

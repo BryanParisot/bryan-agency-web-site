@@ -12,7 +12,10 @@ import Form from '@/components/Form/Form'
 
 export const metadata: Metadata = {
     title: 'Contact - Bryan Parisot, Développeur Web Freelance à Nancy',
-    description: "Besoin d'un coup de pouce ? Contactez Bryan Parisot, votre développeur web freelance. Ensemble, naviguons vers le succès de votre présence en ligne."
+    description: "Besoin d'un coup de pouce ? Contactez Bryan Parisot, votre développeur web freelance. Ensemble, naviguons vers le succès de votre présence en ligne.",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/contact`
+    }
 }
 
 export default function integration() {

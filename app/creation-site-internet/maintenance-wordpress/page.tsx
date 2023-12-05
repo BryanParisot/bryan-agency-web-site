@@ -28,7 +28,12 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Maintenance wordpress - Pret à lever l\'ancre',
-    description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance. Bryan Parisot, développeur web freelance, veille à la performance, sécurité"
+    description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance. Bryan Parisot, développeur web freelance, veille à la performance, sécurité",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/creation-site-internet/maintenance-wordpress`
+    }
+
+
 }
 
 

@@ -39,7 +39,11 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Création d\'applications web et SaaS personnalisées',
-    description: "Optez pour des applications web et SaaS sur mesure avec Bryan Parisot, développeur web freelance. Transformez vos idées en solutions numériques"
+    description: "Optez pour des applications web et SaaS sur mesure avec Bryan Parisot, développeur web freelance. Transformez vos idées en solutions numériques",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/sass`
+    }
+
 }
 
 

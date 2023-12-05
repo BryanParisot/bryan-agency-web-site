@@ -27,7 +27,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Intégration de vos maquettes - Pret à lever l\'ancre',
-  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques."
+  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques.",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/integration`
+  }
 }
 
 export default function page() {

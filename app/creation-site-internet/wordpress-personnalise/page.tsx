@@ -28,7 +28,12 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Création de site wordpress - Pret à lever l\'ancre',
-    description: "Découvrez l'univers unique de votre site WordPress avec Bryan Parisot, développeur web freelance. Créez une présence en ligne, naviguez vers le succès"
+    description: "Découvrez l'univers unique de votre site WordPress avec Bryan Parisot, développeur web freelance. Créez une présence en ligne, naviguez vers le succès",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/creation-site-internet/wordpress-personnalise`
+    }
+
+
 }
 
 
@@ -176,7 +181,7 @@ export default function page() {
                 <Faq faq={faqs} />
             </div>
 
-            
+
 
         </main>
     )

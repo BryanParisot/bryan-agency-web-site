@@ -28,7 +28,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Refonte de site web   - Pret à lever l\'ancre',
-    description: "Donnez une nouvelle vie à votre site web avec notre service de refonte web. Bryan Parisot, développeur web freelance."
+    description: "Donnez une nouvelle vie à votre site web avec notre service de refonte web. Bryan Parisot, développeur web freelance.",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/creation-site-internet/refonte`
+    }
 }
 
 

@@ -22,7 +22,12 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de landing page - Pret à lever l\'ancre',
-  description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance, conçoit des pages pour maximiser votre taux de conversion"
+  description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance, conçoit des pages pour maximiser votre taux de conversion",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet/landing-page`
+  }
+
+
 }
 
 export default function page() {
@@ -139,7 +144,7 @@ export default function page() {
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre landing page" />
 
         <BlogSection />
-        
+
         <Faq faq={faqs} />
       </div>
 

@@ -26,6 +26,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site vitrine - Pret à lever l\'ancre',
   description: 'Hissons les voiles avec la création de site vitrine par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet/site-vitrine`
+  }
 }
 
 
@@ -174,7 +177,7 @@ export default function page() {
             </div>
           </div>
         </SectionEmerald>
-        
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site vitrine" />
 
         <BlogSection />
