@@ -33,7 +33,7 @@ export default function CookieBanner() {
                          bg-emerald-50 rounded-lg shadow text-emerald-900`}>
 
             <div className='text-center font-medium'>
-                <Link href="/legal/mentions-legales"><p>Nous utilisons des <span className='font-bold text-emerald-600'>cookies</span> sur notre site.</p></Link>
+                <Link href="/legal/conditions-generales"><p>Nous utilisons des <span className='font-bold text-emerald-600'>cookies</span> sur notre site.</p></Link>
             </div>
 
 

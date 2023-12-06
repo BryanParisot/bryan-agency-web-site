@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function page() {
@@ -26,10 +27,10 @@ export default function page() {
             <h2 className="text-xl font-bold mb-2">ARTICLE 1 - L'EDITEUR</h2>
             <p className="mb-4">
                 L'édition du Site est assurée par Bryan Parisot Entrepreneur individuel au capital de 1000 euros, immatriculée au Registre du Commerce et des Sociétés de Luneville sous le numéro 91185474300018 dont le siège social est situé au 9 rue jean girarget, Numéro de téléphone 0750966522, Adresse e-mail:
-                <a href="mailto:contact@bryanparisot.com" className="text-blue-500 underline">
+                <Link href="mailto:contact@bryanparisot.com" className="text-blue-500 underline">
                     {' '}
                     contact@bryanparisot.com{' '}
-                </a>
+                </Link>
                 . N° de TVA intracommunautaire : FR20911854743. Le Directeur de la publication est Bryan Parisot ci-après l'"Editeur".
             </p>
 
@@ -58,10 +59,10 @@ export default function page() {
 
             <p className="mb-4">
                 Pour plus d'informations en matière de cookies, se reporter à la Charte en matière de cookies du site
-                <a href="https://www.bryanparisot.com/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.bryanparisot.com/" className="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
                     {' '}
                     https://www.bryanparisot.com/{' '}
-                </a>
+                </Link>
                 accessible à la rubrique "Cookies"
             </p>
         </div>
