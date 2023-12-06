@@ -23,16 +23,13 @@ export default function CookieBanner() {
         });
 
         setLocalStorage("cookie_consent", cookieConsent)
-
-        //For Testing
-        console.log("Cookie Consent: ", cookieConsent)
-
     }, [cookieConsent]);
 
     return (
         <div className={`my-10 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0 
-                        flex px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
+                        ${cookieConsent != null ? "hidden" : "flex"}
+                         px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
                          bg-emerald-50 rounded-lg shadow text-emerald-900`}>
 
             <div className='text-center font-medium'>

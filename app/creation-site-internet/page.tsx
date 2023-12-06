@@ -61,7 +61,7 @@ export default function Page() {
       link: '/creation-site-internet/wordpress-personnalise'
     },
     {
-      title: 'Transformez votre site web le service de refonte',
+      title: 'Transformez votre site web service de refonte',
       text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
