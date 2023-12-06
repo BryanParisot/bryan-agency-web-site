@@ -3,6 +3,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
 import Carousel from '@/components/Carrousel/Carousel'
+import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
+import CookieBanner from '@/components/cookiebanner/cookiebanner'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <head>
+      <GoogleAnalytics GA_MEASUREMENT_ID='G-PLCVSLNZ7G' />
+      {/* <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -25,20 +28,21 @@ export default function RootLayout({
           `,
           }}
         />
-      </head>
+      </head> */}
 
       <body className={inter.className}>
-        <noscript>
+        {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MWP2CKSR"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
           />
-        </noscript>
+        </noscript> */}
         <Navigation />
         {children}
         <Carousel />
+        <CookieBanner />
         <Footer />
       </body>
     </html>

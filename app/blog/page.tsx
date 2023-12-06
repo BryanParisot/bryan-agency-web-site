@@ -16,9 +16,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: `${process.env.URL_SITE}/blog`
   }
-
 }
-
 
 export default function page() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
