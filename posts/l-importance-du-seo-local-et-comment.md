@@ -17,7 +17,7 @@ picture_author: /images/blog/bryan.webp
   sizes="90vw"
 />
 
-Salut à vous, les acharnés du **SEO local** ! Si vous avez atterri ici, c'est probablement parce que vous en avez marre d'être la perle rare que personne ne trouve dans l'océan d'Internet. Pas de panique, on est là pour éclairer votre chemin vers la gloire locale. Attachez vos ceintures, on part en exploration dans l'univers du référencement local !
+Salut à vous, les acharnés du **SEO local** ! Si vous avez atterri ici, c'est probablement parce que vous en avez marre d'être la perle rare que personne ne trouve dans l'océan d'Internet. Pas de panique, on est là pour éclairer votre chemin vers la gloire locale. Hissons les voiles, on part en exploration dans l'univers du référencement local !
 
 ## **POURQUOI LE SEO LOCAL EST-IL PRIMORDIAL ?**
 
@@ -49,7 +49,7 @@ Maintenant, penchons-nous sur les avantages concrets. Être bien référencé lo
 
 Pour les sceptiques, laissez-moi sortir les chiffres. Selon des études sérieuses (et pas sorties de nulle part, promis !), plus de 80% des recherches locales aboutissent à une visite physique ou à un appel dans les 24 heures. On ne peut pas vraiment faire plus concret que ça, non ?
 
-    ##  **Quelques statistiques de seo local** :
+    ##  **Quelques statistiques de SEO local** :
 
     - 46 % des recherches Google sont destinées à trouver une entreprise locale. [SEO Expert Brad](https://seoexpertbrad.com/local-seo-stats).
 
