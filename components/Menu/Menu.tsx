@@ -35,7 +35,7 @@ export default function Menu() {
                     <span className="hover:text-emerald-700">Nos services</span>
                     <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
                 </Popover.Button>
-                <Link href="/blog" > <span className='hover:text-emerald-700'>Ressources</span> </Link>
+                <Link href="/blog" > <span className='hover:text-emerald-700'>Blog</span> </Link>
                 <Link href="/realisation" > <span className='hover:text-emerald-700'>Réalisation</span> </Link>
             </div>
 
