@@ -7,7 +7,7 @@ export const generateStaticParams = async () => allPosts.map((post) => ({ slug: 
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {
     const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
-    const title = post.title.replace(/\s+/g, '-').toLowerCase();
+    const title = post?.title.replace(/\s+/g, '-').toLowerCase();
 
     if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
     return {
