@@ -1,6 +1,19 @@
 import Link from 'next/link';
 import React from 'react';
 
+import { Metadata } from 'next'
+
+
+export const metadata: Metadata = {
+    title: 'Mentions-légales - Bryan Parisot, Développeur Web Freelance',
+    description: "Mentions-légales",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/mentions-legales`
+    }
+
+}
+
+
 export default function page() {
     return (
         <div className="container mx-auto p-4 mt-40">

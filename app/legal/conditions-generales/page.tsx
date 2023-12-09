@@ -1,4 +1,16 @@
 import React from 'react'
+import { Metadata } from 'next'
+
+
+export const metadata: Metadata = {
+    title: 'Conditions-générales - Bryan Parisot, Développeur Web Freelance',
+    description: "Conditions-générales",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/conditions-generales`
+    }
+
+}
+
 
 export default function page() {
     return (
