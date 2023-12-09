@@ -126,6 +126,9 @@ Comme pour un check-up médical, assurez-vous que votre site est en pleine forme
 
 Échangez des liens avec d'autres entreprises locales et annuaires locales. C'est comme des recommandations entre amis, mais pour les sites web. Ça renforce votre crédibilité et votre position dans le cœur de Google.
 
+Voici un [lien](https://www.jeveuxunfreelance.fr
+) pour obtenir un backlink gratuit pour les indépandant
+
 ### Réseau social
 
 Les réseaux sociaux, c'est comme le tam-tam moderne. Soyez actif, partagez du contenu local, interagissez avec votre communauté. Plus vous êtes visible, plus vous aurez de chances d'être repéré.
