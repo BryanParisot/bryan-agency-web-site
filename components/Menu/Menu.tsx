@@ -58,10 +58,10 @@ export default function Menu() {
                                         <Image src={item.icon} height={100} width={100} alt={item.alt} />
                                     </div>
                                     <div>
-                                        <Link href={item.href} className="font-semibold text-gray-900 focus-visible:outline">
+                                        <a href={item.href} className="font-semibold text-gray-900 focus-visible:outline">
                                             <span> {item.name}</span>
                                             <span className="absolute inset-0" />
-                                        </Link>
+                                        </a>
                                         <p className="mt-1 text-gray-600">{item.description}</p>
                                     </div>
                                 </div>
