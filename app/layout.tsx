@@ -1,12 +1,17 @@
 import Navigation from '@/components/Nav/Navigation'
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, Lora } from 'next/font/google'
 import Footer from '@/components/Footer/Footer'
 import Carousel from '@/components/Carrousel/Carousel'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
 
 const inter = Inter({ subsets: ['latin'] })
+const lora = Lora({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-lora"
+})
 
 export default function RootLayout({
   children,
@@ -30,7 +35,7 @@ export default function RootLayout({
         />
       </head> */}
 
-      <body className={inter.className}>
+      <body className={`${lora.variable} ${inter.className}`}>
         {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MWP2CKSR"

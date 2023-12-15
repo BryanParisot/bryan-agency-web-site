@@ -1,41 +1,44 @@
 import Link from 'next/link';
 import React from 'react';
+import { motion } from 'framer-motion'
 
 interface MenuMobileProps {
     onLinkClick: () => void;
+    href: string,
+    name: string
 }
 
-const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick }) => {
-    const paths = [
-        { name: 'Accueil', path: '/' },
-        { name: 'Création de site', path: '/creation-site-internet' },
-        { name: 'Refonte de site', path: '/creation-site-internet/refonte' },
-        { name: 'Application web | Sass', path: '/sass' },
-        { name: 'Intégration maquette', path: '/integration' },
-        { name: 'Référencement Naturel - SEO', path: '/referencement-naturel-seo' },
-        { name: 'Référencement Sponsorisé - SEA', path: '/referencement-sponsorise-sea' },
-        { name: 'Web design', path: '/web-design' },
-        { name: 'Blog', path: '/blog' },
-        { name: 'Contact', path: '/contact' },
-    ];
 
+const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick, href, name }) => {
     const handleLinkClick = () => {
         onLinkClick();
     };
 
+    const linkVar = {
+        initial: {
+            y: "30vh",
+            transition: {
+                duration: 0.5,
+                ease: [0.37, 0, 0.63, 1],
+            },
+        },
+        open: {
+            y: 0,
+            transition: {
+                ease: [0, 0.55, 0.45, 1],
+                duration: 0.7,
+            },
+        },
+    }
+
     return (
-        <nav className="w-full h-full text-white">
-            <ul className="flex flex-col items-center h-full">
-                {paths.map((item, index) => (
-                    <li key={index} className="py-4 border-b border-emerald-500 w-full text-center text-lg">
-                        {/* Utiliser la fonction handleLinkClick lorsqu'un lien est cliqué */}
-                        <Link href={item.path} className="text-lg font-medium hover:text-gray-300" onClick={handleLinkClick}>
-                            {item.name}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
-        </nav>
+        <motion.div
+            variants={linkVar}
+            className="py-4 w-full text-center text-lg font-lora uppercase text-white">
+            <Link href={href} className="text-1xl" onClick={handleLinkClick}>
+                {name}
+            </Link>
+        </motion.div>
     );
 };
 

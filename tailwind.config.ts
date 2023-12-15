@@ -5,6 +5,12 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extends:{
+    fontFamily: {
+      lora: ["var(--font-lora)"],
+    },
+
+    },
     colors: {
       primary: '#064e3b',
       secondary: '#059669',
