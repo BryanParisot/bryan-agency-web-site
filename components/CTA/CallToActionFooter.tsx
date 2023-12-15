@@ -7,7 +7,7 @@ import cat from '../../public/animations/home/Animation - 1698073664929.gif';
 
 function CallToActionFooter() {
     return (
-        <div className='bg-emerald-800 h-[500px] sm:h-96 rounded-xl flex flex-row justify-center items-center px-5 sm:bg-red-900 md:bg-black lg:bg-blue-900 xl:bg-yellow-900' >
+        <div className='bg-emerald-800 h-[500px] sm:h-96 rounded-xl flex flex-row justify-center items-center px-5' >
             <div className='relative sm:mr-10'>
                 <div className='hidden xl:flex right-10 bg-emerald-50 shadow rounded-lg h-72 w-72 items-end justify-center'>
                     <Image src={cat} alt='cat animation' height={100} width={100} />
