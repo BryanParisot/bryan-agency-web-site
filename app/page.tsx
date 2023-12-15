@@ -77,7 +77,7 @@ export default function Home() {
       <div className="sm:mt-20 sm:mb-20 mt-14 mb-14 px-5 sm:px-16">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale</span></h2>
 
-        <div className="sm:mt-20 mt-14 grid grid-cols-1 sm:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
+        <div className="sm:mt-20 mt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
           {contentCards.map((card) => (
             <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}

@@ -130,7 +130,7 @@ export default function Navigation() {
         <header className='flex justify-center'>
             <div className='fixed shadow flex items-center justify-between bg-emerald-50/90 h-20 w-full max-w-[90%] rounded-lg text mt-10 px-5 z-10'>
                 <span className='font-bold text-emerald-950 text-xl'>Bryan parisot</span>
-                <div className='hidden sm:flex sm:items-center'>
+                <div className='hidden lg:flex sm:items-center'>
                     <Menu />
                     <Link className='hidden sm:block' href="/contact">
                         <Button variant="secondary" size="lg">
@@ -138,7 +138,7 @@ export default function Navigation() {
                         </Button>
                     </Link>
                 </div>
-                <Bars3Icon onClick={() => setMenuOpen(true)} className="h-12 w-12 sm:hidden block cursor-pointer" aria-hidden="true" />
+                <Bars3Icon onClick={() => setMenuOpen(true)} className="h-12 w-12 lg:hidden block cursor-pointer" aria-hidden="true" />
             </div>
             <AnimatePresence>
                 {menuOpen && (

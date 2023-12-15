@@ -140,23 +140,23 @@ export default function page() {
 
                 <div className="mt-10 mb-10">
 
-                    <div className='flex flex-col sm:flex-row'>
-                        <div className='w-full md:w-6/12 sm:w-3/6 sm:p-10 p-0 relative sm:mb-20 mb-10'>
-                            <div className='w-[500px] hidden sm:block'>
+                    <div className='flex flex-col xl:flex-row'>
+                        <div className='w-full md:w-6/12 xl:w-3/6 xl:p-10 p-0 relative xl:mb-20 mb-10'>
+                            <div className='w-[500px] hidden xl:block'>
                                 <Image
                                     className='w-full h-full rounded'
                                     src={code}
                                     alt="Freelance developpeur sass" />
                             </div>
-                            <div className='w-full h-full sm:w-[500px] sm:absolute top-40 right-1 flex items-center'>
+                            <div className='w-full h-full sm:w-[500px] xl:absolute top-40 right-1 flex items-center'>
                                 <Image
                                     className='w-full h-full sm:rounded rounded-xl'
                                     src={screen_code}
                                     alt="Capture d'écran code" />
                             </div>
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 sm:p-10 p-0 px-0  sm:px-8'>
-                            <h2 className='text-2xl sm:text-4xl text-emerald-950 font-bold'>
+                        <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                                 Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
                             </h2>
                             <p>
@@ -174,15 +174,16 @@ export default function page() {
                     </div>
 
 
-                    <div className='flex flex-col sm:flex-row mt-36 sm:mt-44 sm:h-[50vh] h-full'>
-                        <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+
+                    <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+                        <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
                             <Image
                                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                                 src={saas}
                                 alt="Double Ecran illustration" />
                         </div>
-                        <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                        <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                                 Qu'est-ce qu'une <span className='text-emerald-600'> application Web ?</span>
                             </h2>
                             <p>
@@ -192,7 +193,7 @@ export default function page() {
                         </div>
                     </div>
 
-                    <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20">
+                    <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20">
                         {
                             vitrineData.map((item) => (
                                 <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
@@ -208,11 +209,11 @@ export default function page() {
 
             <div className="mb-10">
                 <div className='bg-emerald-50 flex items-center flex-col py-5 "px-5 sm:px-16'>
-                    <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
+                    <h2 className='mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950 text-center'>
                         Nos étapes de réalisation d’une <span className='text-emerald-600'>application web</span> sur mesure
                     </h2>
 
-                    <div className='grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 rounded-lg py-12'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 rounded-lg py-12'>
 
                         {
                             atouts.map((item) => (
