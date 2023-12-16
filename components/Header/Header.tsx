@@ -17,7 +17,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ title, subtitle, text, image, alt }) => {
     return (
         <div className='flex flex-row w-full h-full xl:h-[700px] bg-emerald-900 pb-10 pt-36 sm:pt-36'>
-            <div className='xl:mt-46 flex flex-row items-center justify-between px-8 sm:px-20'>
+            <div className='xl:mt-46 flex flex-row items-center justify-between px-8 sm:px-14 xl:px-20'>
                 <div className='xl:w-3/6 w-full space-y-4 lg:pr-44'>
                     <div className='space-y-3 mb-5'>
                         <h1 className='text-base xl:text-2xl font-bold text-emerald-400'>
