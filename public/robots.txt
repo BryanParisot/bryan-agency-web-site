@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://bryanparisot.com/sitemap.xml
+Sitemap: https://www.bryanparisot.com/sitemap.xml
