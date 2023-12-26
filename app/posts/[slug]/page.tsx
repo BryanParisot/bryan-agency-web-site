@@ -17,7 +17,6 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
         alternates: {
             canonical: `${process.env.URL_SITE}/posts/${canonical}`
         }
-
     };
 };
 
