@@ -7,6 +7,7 @@ role: "CEO"
 category: "SEO"
 image: /images/blog/seo_local.webp
 picture_author: /images/blog/bryan.webp
+canonical : L’importance du référencement local et comment
 ---
 
 <img
