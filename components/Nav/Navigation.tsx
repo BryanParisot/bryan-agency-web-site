@@ -56,7 +56,7 @@ export default function Navigation() {
         { name: 'Accueil', path: '/' },
         { name: 'Création de site', path: '/creation-site-internet' },
         { name: 'Refonte de site', path: '/creation-site-internet/refonte' },
-        { name: 'Application web | Sass', path: '/sass' },
+        { name: 'Application web | Sass', path: '/saas' },
         { name: 'Intégration maquette', path: '/integration' },
         { name: 'Référencement Naturel - SEO', path: '/referencement-naturel-seo' },
         { name: 'Référencement Sponsorisé - SEA', path: '/referencement-sponsorise-sea' },

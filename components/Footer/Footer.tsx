@@ -11,7 +11,7 @@ const navigation = {
     plan_site: [
         { name: 'Création de sites internet', href: '/creation-site-internet' },
         { name: 'Refonte de site web', href: '/creation-site-internet/refonte' },
-        { name: 'Applications web / SaaS', href: '/sass' },
+        { name: 'Applications web / SaaS', href: '/saas' },
         { name: 'Intégration de vos maquettes', href: '/integration' },
         { name: 'Référencement naturel - SEO', href: '/referencement-naturel-seo' },
         { name: 'Référencement sponsorisé - SEA', href: '/referencement-sponsorise-sea' },
