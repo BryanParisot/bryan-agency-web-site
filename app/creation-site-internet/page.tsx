@@ -34,21 +34,21 @@ export default function Page() {
   const cardData = [
     {
       title: 'Création d’un site vitrine',
-      text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec un site vitrine.',
+      text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. En assurant une expérience responsive sur tous les appareils',
       image: logo_vitrine,
       alt: 'logo site vitrine',
       link: '/creation-site-internet/site-vitrine'
     },
     {
       title: 'Création d’un site e-commerce',
-      text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne sur mesure, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne.',
+      text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne sur tous les écrans.',
       image: logo_e_commerce,
       alt: 'logo e-commerce',
       link: '/creation-site-internet/e-commerce'
     },
     {
       title: 'Création d’une landing-page',
-      text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle.Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable.',
+      text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable sur tous les écrans.',
       image: logo_landing_page,
       alt: 'logo landing page',
       link: '/creation-site-internet/landing-page'
@@ -61,7 +61,7 @@ export default function Page() {
       link: '/creation-site-internet/wordpress-personnalise'
     },
     {
-      title: 'Transformez votre site web service de refonte',
+      title: 'Refonte de votre site internet ou application',
       text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
@@ -123,6 +123,15 @@ export default function Page() {
           }
         </div>
 
+        <section className="mt-20 px-5 sm:px-16">
+          <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">
+            Conception responsive pour une expérience optimal
+          </h2>
+          <p className="mt-4 text-center text-gray-600">
+            Chaque site que je crée est optimisé pour s'adapter à différents écrans, offrant ainsi une expérience utilisateur fluide et agréable, que ce soit sur ordinateur, tablette ou smartphone.
+          </p>
+        </section>
+
         <div className="px-5 sm:px-16">
 
           <CallToAction />
@@ -135,7 +144,6 @@ export default function Page() {
             buttonLink="/contact"
             buttonText="Contactez-moi"
           />
-
         </div>
         <div className="px-0 sm:px-16">
           <BlogSection />

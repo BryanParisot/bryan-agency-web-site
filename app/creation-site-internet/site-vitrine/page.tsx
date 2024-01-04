@@ -20,6 +20,7 @@ import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
 import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
 import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 import score_site from "../../../public/pictures/site/vitrine/score_site.png"
+import responsive from "../../../public/pictures/site/vitrine/responsive.jpg"
 
 import { Metadata } from 'next'
 
@@ -178,6 +179,38 @@ export default function page() {
             </div>
           </div>
         </SectionEmerald>
+
+        <div className='xl:px-20 px-5 mb-20'>
+
+
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[59vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={responsive} alt="Illustration d'un site vitrine responsive" />
+            </div>
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                <span className='text-emerald-600'>Un site vitrine responsive</span> une présence adaptative et captivante
+              </h2>
+              <p>
+                En tant que développeur web freelance spécialisé dans les sites vitrines, je m'engage à créer une présence en ligne qui s'adapte à tous les écrans.
+              </p>
+              <h3 className='text-xl'>
+                Pourquoi opter pour un <span className='font-bold'> site vitrine responsive</span> ?
+              </h3>
+              <p>
+                Votre site doit être accessible sur tous les appareils. Un site vitrine responsive assure une expérience utilisateur optimale, quel que soit le dispositif utilisé, renforçant ainsi votre crédibilité et améliorant votre référencement.
+              </p>
+              <h3 className='text-xl'>
+                Mon engagement envers le <span className='font-bold'>responsive design</span>
+              </h3>
+              <p>
+                Collaborons pour donner vie à un site vitrine qui représente fidèlement votre entreprise de manière adaptative. Contactez-moi aujourd'hui pour discuter de la création d'un site vitrine responsive, propulsant votre entreprise vers de nouveaux sommets dans le monde numérique compétitif.
+              </p>
+            </div>
+          </div >
+        </div>
 
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site vitrine" />
 
