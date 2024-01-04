@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: 'Mentions-légales - Bryan Parisot, Développeur Web Freelance',
     description: "Mentions-légales",
     alternates: {
-        canonical: `${process.env.URL_SITE}/mentions-legales`
+        canonical: `${process.env.URL_SITE}/legal/mentions-legales`
     }
 }
 

@@ -145,7 +145,7 @@ export default function page() {
                 Travaillant en étroite collaboration avec vous, je capture l'essence de votre entreprise et la traduis en un design web exceptionnel. Je crois que chaque entreprise est unique, et votre site web devrait l'être aussi.
               </p>
               <p>
-                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/site" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
+                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/creation-site-internet" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
               </p>
             </div>
           </div >
