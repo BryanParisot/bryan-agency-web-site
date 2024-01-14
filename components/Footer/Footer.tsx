@@ -16,6 +16,7 @@ const navigation = {
         { name: 'Référencement naturel - SEO', href: '/referencement-naturel-seo' },
         { name: 'Référencement sponsorisé - SEA', href: '/referencement-sponsorise-sea' },
         { name: 'Web design', href: '/web-design' },
+        { name: 'Développeur web à Nancy', href: '/developpeur-web-freelance-nancy' },
     ],
     legal: [
         { name: 'Mentions-légales', href: '/legal/mentions-legales' },
