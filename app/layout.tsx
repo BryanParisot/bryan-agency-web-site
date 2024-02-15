@@ -5,7 +5,6 @@ import Footer from '@/components/Footer/Footer'
 import Carousel from '@/components/Carrousel/Carousel'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
-import Calendly from '@/components/Calendly/Calendly'
 
 const inter = Inter({ subsets: ['latin'] })
 const lora = Lora({
@@ -47,9 +46,9 @@ export default function RootLayout({
         </noscript> */}
         <Navigation />
         {children}
-        <div id="calendly" className='flex'>
+        {/* <div id="calendly" className='flex'>
           <Calendly url="https://calendly.com/bryanparisot-rdv/30min?" />
-        </div>
+        </div> */}
         <Carousel />
         <CookieBanner />
         <Footer />
