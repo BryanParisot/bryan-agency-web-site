@@ -1,8 +1,8 @@
-import React from 'react'
-import { Button } from '../ui/button'
-import Image, { StaticImageData } from 'next/image'
-import { ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline'
+import { ChatBubbleBottomCenterIcon } from '@heroicons/react/24/outline';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
+import React from 'react';
+import { Button } from '../ui/button';
 
 
 interface HeaderProps {
@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, text, image, alt }) =>
 
                     <div className='flex flex-col xl:flex-row justify-start items-start xl:items-center xl:space-y-0 space-y-5 space-x-0 xl:space-x-4'>
 
-                        <Link href="#calendly">
+                        <Link href="https://calendly.com/bryanparisot-rdv/30min?month=2024-02">
                             <Button size="lg">
                                 <ChatBubbleBottomCenterIcon className="h-5 w-5 mr-2" aria-hidden="true" />
                                 Discutons de votre projet
