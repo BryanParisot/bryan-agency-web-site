@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link'
 import { getLocalStorage, setLocalStorage } from '@/lib/storageHelper';
-import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { Button } from '../ui/button';
 
 export default function CookieBanner() {
@@ -18,13 +18,15 @@ export default function CookieBanner() {
     useEffect(() => {
         const newValue = cookieConsent ? 'granted' : 'denied'
 
-        window.gtag("consent", 'update', {
-            'analytics_storage': newValue
-        });
+        // Vérifier si window.gtag est défini avant de l'appeler
+        if (typeof window.gtag === 'function') {
+            window.gtag("consent", 'update', {
+                'analytics_storage': newValue
+            });
+        }
 
         setLocalStorage("cookie_consent", cookieConsent)
     }, [cookieConsent]);
-
     return (
         <div className={`my-10 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0 

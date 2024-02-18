@@ -1,23 +1,23 @@
 //COMPONENTS
-import Header from "@/components/Header/Header";
-import picture_home from "../public/pictures/header/picture_home_page.svg"
-import HomeCards from "@/components/Cards/HomeCards";
-import CallToAction from "@/components/CTA/CallToAction";
-import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import BlogSection from "@/components/BlogSection/BlogSection";
+import CallToAction from "@/components/CTA/CallToAction";
+import HomeCards from "@/components/Cards/HomeCards";
 import Faq from "@/components/FAQ/Faq";
+import Header from "@/components/Header/Header";
+import SectionWithPictures from "@/components/Section/SectionWithPictures";
+import picture_home from "../public/pictures/header/picture_home_page.svg";
 
 //PICTURES | LOGOS
-import logo_creation_site from "../public/logos/nav/logo_html.svg"
-import logo_refonte_site from "../public/logos/nav/logo_refonte.svg"
-import logo_sass_web from "../public/logos/nav/logo_sass.svg"
-import logo_integration_maquette from "../public/logos/nav/logo_integration.svg"
-import logo_referencement_seo from "../public/logos/nav/logo_seo.svg"
-import logo_referencement_sea from "../public/logos/nav/logo_sea.svg"
-import logo_design from "../public/logos/nav/logo_design.svg"
-import illustration_web from '../public/pictures/home/illustration_web.jpg'
+import logo_design from "../public/logos/nav/logo_design.svg";
+import logo_creation_site from "../public/logos/nav/logo_html.svg";
+import logo_integration_maquette from "../public/logos/nav/logo_integration.svg";
+import logo_refonte_site from "../public/logos/nav/logo_refonte.svg";
+import logo_sass_web from "../public/logos/nav/logo_sass.svg";
+import logo_referencement_sea from "../public/logos/nav/logo_sea.svg";
+import logo_referencement_seo from "../public/logos/nav/logo_seo.svg";
+import illustration_web from '../public/pictures/home/illustration_web.jpg';
 
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Développeur web freelance | Bryan Parisot - Création de sites et applications',

@@ -6,7 +6,6 @@ const nextConfig = {
     compiler:{
         removeConsole: true,
     },
-    target: "server",
 };
 
 module.exports = withContentlayer({ ...nextConfig });
