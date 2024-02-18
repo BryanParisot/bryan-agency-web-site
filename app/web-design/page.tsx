@@ -1,28 +1,28 @@
 import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import LittleCard from '@/components/Cards/LittleCard'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
 import loupe from "../../public/logos/integration/loupe.svg"
-import content from "../../public/logos/seo/content.svg"
 import browser from "../../public/logos/seo/browser.svg"
+import content from "../../public/logos/seo/content.svg"
+import branding from "../../public/logos/web-design/branding.svg"
 import customer from "../../public/logos/web-design/customer.svg"
 import quality from "../../public/logos/web-design/quality.svg"
-import branding from "../../public/logos/web-design/branding.svg"
-import web_design from "../../public/pictures/web-design/web-design.jpg"
+import picture_site from "../../public/pictures/site/site_page.png"
 import web_design_1 from "../../public/pictures/web-design/web-design-1.jpg"
 import web_design_2 from "../../public/pictures/web-design/web-design-2.jpg"
+import web_design from "../../public/pictures/web-design/web-design.jpg"
 
 import { Metadata } from 'next'
 

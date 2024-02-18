@@ -1,10 +1,11 @@
-import Navigation from '@/components/Nav/Navigation'
-import './globals.css'
-import { Inter, Lora } from 'next/font/google'
-import Footer from '@/components/Footer/Footer'
 import Carousel from '@/components/Carrousel/Carousel'
+import Footer from '@/components/Footer/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
+import Navigation from '@/components/Nav/Navigation'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
+import { Inter, Lora } from 'next/font/google'
+import { Suspense } from 'react'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 const lora = Lora({
@@ -20,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <GoogleAnalytics GA_MEASUREMENT_ID='G-PLCVSLNZ7G' />
+      <Suspense fallback={<>Loading...</>}>
+        <GoogleAnalytics GA_MEASUREMENT_ID='G-PLCVSLNZ7G' />
+      </Suspense>
       {/* <head>
         <script
           dangerouslySetInnerHTML={{
