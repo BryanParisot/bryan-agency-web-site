@@ -1,28 +1,28 @@
 //COMPONENTS
-import Header from "@/components/Header/Header"
-import HomeCards from "@/components/Cards/HomeCards"
-import Link from "next/link"
-import Image from "next/image"
-import { UserIcon } from '@heroicons/react/24/outline'
-import Faq from "@/components/FAQ/Faq"
 import BlogSection from "@/components/BlogSection/BlogSection"
+import HomeCards from "@/components/Cards/HomeCards"
+import Faq from "@/components/FAQ/Faq"
+import Header from "@/components/Header/Header"
+import { UserIcon } from '@heroicons/react/24/outline'
+import Image from "next/image"
+import Link from "next/link"
 
 
 //LOGOS | PICTURES
 import profil from "../../public/images/blog/bryan.webp"
-import picture_site from "../../public/pictures/site/site_page.png"
+import logo_design from "../../public/logos/nav/logo_design.svg"
 import logo_creation_site from "../../public/logos/nav/logo_html.svg"
+import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
 import logo_refonte_site from "../../public/logos/nav/logo_refonte.svg"
 import logo_sass_web from "../../public/logos/nav/logo_sass.svg"
-import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
-import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
 import logo_referencement_sea from "../../public/logos/nav/logo_sea.svg"
-import logo_design from "../../public/logos/nav/logo_design.svg"
-import speed from "../../public/logos/web-nancy/speed 1.svg"
+import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
+import first from "../../public/logos/web-nancy/first.svg"
+import modifiable from "../../public/logos/web-nancy/modifiable.svg"
 import performant from "../../public/logos/web-nancy/performant.svg"
 import responsive from "../../public/logos/web-nancy/responsive.svg"
-import modifiable from "../../public/logos/web-nancy/modifiable.svg"
-import first from "../../public/logos/web-nancy/first.svg"
+import speed from "../../public/logos/web-nancy/speed 1.svg"
+import picture_site from "../../public/pictures/site/site_page.png"
 
 
 import { Metadata } from 'next'
@@ -186,7 +186,7 @@ const page = () => {
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
                         <Link
-                            href="#calendly"
+                            href="https://calendly.com/bryanparisot-rdv/30min?month=2024-02"
                             className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
                             Discuton de votre projet 30 min
