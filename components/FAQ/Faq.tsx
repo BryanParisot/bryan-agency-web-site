@@ -4,25 +4,6 @@ import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import React from 'react'
 
-const faqs = [
-    {
-        question: "What's the best thing about Switzerland?",
-        answer:
-            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-        question: "What's the best thing about Switzerland?",
-        answer:
-            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    {
-        question: "What's the best thing about Switzerland?",
-        answer:
-            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-    },
-    // More questions...
-]
-
 interface FaqItem {
     question: string;
     answer: string;
@@ -55,7 +36,7 @@ const Faq: React.FC<FaqProps> = ({ faq }) => {
                                                 </span>
                                             </Disclosure.Button>
                                         </dt>
-                                        <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                                        <Disclosure.Panel as="dd" className="mt-2 pr-5 sm:pr-12">
                                             <p className="text-base leading-7 text-gray-600  px-3">{FaqItem.answer}</p>
                                         </Disclosure.Panel>
                                     </>

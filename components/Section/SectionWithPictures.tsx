@@ -8,7 +8,7 @@ interface SectionWithPicturesProps {
     description: string,
     image: StaticImageData,
     alt: string,
-    buttonText?: string, 
+    buttonText?: string,
     buttonLink?: string,
 }
 
@@ -16,8 +16,8 @@ interface SectionWithPicturesProps {
 
 const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, description, image, alt, buttonLink, buttonText }) => {
     return (
-        <div className="animated fadeIn mb-8 flex flex-col sm:flex-row mt-20">
-            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+        <div className="animated fadeIn mb-8 flex flex-col xl:flex-row mt-20">
+            <div className="mb-8 flex items-center xl:order-last xl:w-1/2">
                 {" "}
                 <Image
                     alt={alt}
@@ -25,7 +25,7 @@ const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, descri
                     src={image}
                 />
             </div>
-            <div className="mt-5 mb-8 flex flex-col justify-center sm:w-1/2 sm:pr-16 md:mt-0 md:w-6/12 space-y-5">
+            <div className="mt-5 mb-8 flex flex-col justify-center xl:w-1/2 sm:pr-16 md:mt-0  space-y-5">
                 <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
                     {title}{" "}
                 </h2>

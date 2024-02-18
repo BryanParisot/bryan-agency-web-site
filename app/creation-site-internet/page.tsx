@@ -20,8 +20,12 @@ import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: ' Développeur Web Freelance | Création de site web - Pret à lever l\'ancre',
-  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web. Des sites web sur mesure qui naviguent entre créativité et performance.',
+  title: ' Développeur Web Freelance | Création de site internet - Pret à lever l\'ancre',
+  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web. Des sites internet sur mesure qui naviguent entre créativité et performance.',
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet`
+  }
+
 }
 
 
@@ -30,21 +34,21 @@ export default function Page() {
   const cardData = [
     {
       title: 'Création d’un site vitrine',
-      text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec un site vitrine.',
+      text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. En assurant une expérience responsive sur tous les appareils',
       image: logo_vitrine,
       alt: 'logo site vitrine',
       link: '/creation-site-internet/site-vitrine'
     },
     {
       title: 'Création d’un site e-commerce',
-      text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne sur mesure, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne.',
+      text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne sur tous les écrans.',
       image: logo_e_commerce,
       alt: 'logo e-commerce',
       link: '/creation-site-internet/e-commerce'
     },
     {
       title: 'Création d’une landing-page',
-      text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle.Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable.',
+      text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable sur tous les écrans.',
       image: logo_landing_page,
       alt: 'logo landing page',
       link: '/creation-site-internet/landing-page'
@@ -57,7 +61,7 @@ export default function Page() {
       link: '/creation-site-internet/wordpress-personnalise'
     },
     {
-      title: 'Transformez votre site web le service de refonte',
+      title: 'Refonte de votre site internet ou application',
       text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
@@ -99,19 +103,19 @@ export default function Page() {
     <main>
       <Header
         title="Développeur web - créateur de site internet"
-        subtitle="Création de site web pour booster votre visibilité sur internet"
+        subtitle="Création de site internet pour booster votre visibilité sur le web"
         text="Découvrez comment mon expertise en tant que développeur web freelance peut transformer votre présence en ligne en un atout puissant pour votre entreprise locale. Avec mon expérience dans le développement web, je crée des sites internet optimisés pour les moteurs de recherche. Propulsez votre visibilité et atteignez vos objectifs en ligne."
         image={picture_site}
-        alt="image png developpeur web"
+        alt="image png developpeur web création de site internet"
       />
 
       <div className="mt-10 mb-10">
 
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-2 sm:px-0" >
-          Mes prestation de <span className="text-emerald-600">création de site web</span>
+          Mes prestation de <span className="text-emerald-600">création de site internet</span>
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             cardData.map((item) => (
               <SiteCards title={item.title} text={item.text} image={item.image} alt={item.alt} link={item.link} key={item.title} />
@@ -119,21 +123,32 @@ export default function Page() {
           }
         </div>
 
+        <section className="mt-20 px-5 sm:px-16">
+          <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">
+            Conception responsive pour une expérience optimal
+          </h2>
+          <p className="mt-4 text-center text-gray-600">
+            Chaque site que je crée est optimisé pour s'adapter à différents écrans, offrant ainsi une expérience utilisateur fluide et agréable, que ce soit sur ordinateur, tablette ou smartphone.
+          </p>
+        </section>
+
         <div className="px-5 sm:px-16">
 
           <CallToAction />
 
           <SectionWithPictures
-            title="Créez votre présence en ligne avec mon expertise en création de site web"
-            description="Découvrez l'art de la création de site web sur mesure avec moi, Bryan Parisot, votre développeur web freelance. Je crois en la puissance d'une présence en ligne unique qui représente fidèlement votre vision et votre activité. Mon engagement se concentre sur la création de sites web fonctionnels, esthétiques et optimisés. Que vous ayez besoin d'un site vitrine, d'un site e-commerce ou d'un site WordPress, je conçois des solutions sur mesure pour répondre à vos objectifs. Laissez-moi vous guider à travers le processus et transformez votre idée en une réalité numérique."
+            title="Créez votre présence en ligne avec mon expertise en création de site internet"
+            description="Découvrez l'art de la création de site internet sur mesure avec moi, Bryan Parisot, votre développeur web freelance. Je crois en la puissance d'une présence en ligne unique qui représente fidèlement votre vision et votre activité. Mon engagement se concentre sur la création de sites web fonctionnels, esthétiques et optimisés. Que vous ayez besoin d'un site vitrine, d'un site e-commerce ou d'un site WordPress, je conçois des solutions sur mesure pour répondre à vos objectifs. Laissez-moi vous guider à travers le processus et transformez votre idée en une réalité numérique."
             image={presence_en_ligne}
-            alt='illustration web'
+            alt='illustration site web'
             buttonLink="/contact"
             buttonText="Contactez-moi"
           />
-
+        </div>
+        <div className="px-0 sm:px-16">
           <BlogSection />
           <Faq faq={faqs} />
+
         </div>
       </div>
     </main>

@@ -18,8 +18,8 @@ import logo_design from "../../public/logos/nav/logo_design.svg"
 
 const solutions = [
     { name: 'Création de site internet', description: 'Transformez votre vision en réalité en ligne', href: '/creation-site-internet', icon: logo_creation_site, alt: "Icone création de site internet", bg: 'bg-amber-200' },
-    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/creation-site-internete/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
-    { name: 'Application Web/Sass', description: "Des solutions web sur mesure pour votre entreprise", href: '/sass', icon: logo_sass_web, alt: "Icone application web/sass", bg: 'bg-green-200' },
+    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/creation-site-internet/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
+    { name: 'Application Web/Saas', description: "Des solutions web sur mesure pour votre entreprise", href: '/saas', icon: logo_sass_web, alt: "Icone application web/saas", bg: 'bg-green-200' },
     { name: 'Integration de vos maquettes', description: 'Donnez vie à vos conceptions avec notre expertise en intégration', href: '/integration', icon: logo_integration_maquette, alt: "Icone intégration de maquette", bg: 'bg-green-200' },
     { name: 'Référencement Naturel - SEO', description: 'Optimisez votre visibilité en ligne grâce à notre expertise en SEO.', href: '/referencement-naturel-seo', icon: logo_referencement_seo, alt: "Icone référencement naturel SEO", bg: 'bg-blue-200' },
     { name: 'Référencement Sponsorisé - SEA', description: 'Augmentez votre visibilité instantanément avec notre stratégie SEA', href: '/referencement-sponsorise-sea', icon: logo_referencement_sea, alt: "Icone référencement Sponsorisé - SEA", bg: 'bg-blue-200' },
@@ -35,7 +35,7 @@ export default function Menu() {
                     <span className="hover:text-emerald-700">Nos services</span>
                     <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
                 </Popover.Button>
-                <Link href="/blog" > <span className='hover:text-emerald-700'>Ressources</span> </Link>
+                <Link href="/blog" > <span className='hover:text-emerald-700'>Blog</span> </Link>
                 <Link href="/realisation" > <span className='hover:text-emerald-700'>Réalisation</span> </Link>
             </div>
 
@@ -58,10 +58,10 @@ export default function Menu() {
                                         <Image src={item.icon} height={100} width={100} alt={item.alt} />
                                     </div>
                                     <div>
-                                        <Link href={item.href} className="font-semibold text-gray-900 focus-visible:outline">
+                                        <a href={item.href} className="font-semibold text-gray-900 focus-visible:outline">
                                             <span> {item.name}</span>
                                             <span className="absolute inset-0" />
-                                        </Link>
+                                        </a>
                                         <p className="mt-1 text-gray-600">{item.description}</p>
                                     </div>
                                 </div>
@@ -69,8 +69,8 @@ export default function Menu() {
                         </div>
                         <div className="bg-gray-50 px-8 py-6">
                             <div className="flex items-center gap-x-3">
-                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Bry-Agency</h3>
-                                <p className="rounded-full bg-indigo-600/10 px-2.5 py-1.5 text-xs font-semibold text-indigo-600">New</p>
+                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Bryan Parisot développeur web freelance</h3>
+                                {/* <p className="rounded-full bg-indigo-600/10 px-2.5 py-1.5 text-xs font-semibold text-indigo-600">New</p> */}
                             </div>
                             <p className="mt-2 text-sm leading-6 text-gray-600">
                                 N'hesitez pas à prendre contact pour embarquer dans le navire.

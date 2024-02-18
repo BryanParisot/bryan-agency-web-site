@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 
 //COMPONENTS
 import Header from '@/components/Header/Header'
-import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
+import { BuildingOffice2Icon, PhoneIcon } from '@heroicons/react/24/outline'
 
 //LOGOS | PICTURES
 import picture_site from "../../public/pictures/site/site_page.png"
@@ -12,7 +12,10 @@ import Form from '@/components/Form/Form'
 
 export const metadata: Metadata = {
     title: 'Contact - Bryan Parisot, Développeur Web Freelance à Nancy',
-    description: "Besoin d'un coup de pouce ? Contactez Bryan Parisot, votre développeur web freelance. Ensemble, naviguons vers le succès de votre présence en ligne."
+    description: "Besoin d'un coup de pouce ? Contactez Bryan Parisot, votre développeur web freelance. Ensemble, naviguons vers le succès de votre présence en ligne.",
+    alternates: {
+        canonical: `${process.env.URL_SITE}/contact`
+    }
 }
 
 export default function integration() {

@@ -28,7 +28,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Web Design freelance : Créez une expérience unique en ligne',
-  description: "Transformez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en web design."
+  description: "Transformez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en web design.",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/web-design`
+  }
 
 }
 
@@ -100,23 +103,24 @@ export default function page() {
           Les avantages de la création d’un <span className="text-emerald-600">design personnalisé </span>
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             vitrineData.map((item) => (
               <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
             ))
           }
         </div>
-        <div className='sm:px-20 px-5'>
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+        <div className='xl:px-20 px-5'>
+
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-first xl:w-1/2">
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={web_design}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                 Qu'est-ce que le <span className='text-emerald-600'> Web Design ?</span>
               </h2>
               <p>
@@ -126,16 +130,16 @@ export default function page() {
             </div>
           </div>
 
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={web_design_1}
                 alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 sm:mt-0 mt-5 flex flex-col justify-center'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
-                L'Art de Créer des <span className='text-emerald-600'>sites web</span>  mémorables
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                L'art de créer des <span className='text-emerald-600'>sites web</span>  mémorables
               </h2>
 
               <p>
@@ -163,7 +167,7 @@ export default function page() {
           <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
             Prestations en <span className='text-emerald-600'>web design</span>
           </h2>
-          <div className='bg-emerald-50 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
+          <div className='bg-emerald-50 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
             {
               atouts.map((item) => (
                 <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
@@ -174,15 +178,15 @@ export default function page() {
         </div>
 
 
-        <div className='flex flex-col sm:flex-row mt-20 sm:h-[45vh] h-full'>
-          <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+        <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+          <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
             <Image
               className="rounded-xl shadow-xl shadow-emerald-900/20 h-full w-full"
               src={web_design_2}
               alt="Double Ecran illustration" />
           </div>
-          <div className='w-full sm:w-3/6 space-y-6 px-0 sm:px-8'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+          <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
               L’importance du <span className='text-emerald-600'>web-design</span>
             </h2>
             <p>

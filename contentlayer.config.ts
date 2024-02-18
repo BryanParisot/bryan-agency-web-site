@@ -13,7 +13,8 @@ export const Post = defineDocumentType(() => ({
     picture_author: { type: 'string', required: true },    
     category: { type: 'string', required: true },
     description: { type: 'string', required: true },
-    image: { type: "string",required: true },
+    image: { type: "string", required: true },
+    canonical: { type:"string", required: false },
   },
   computedFields: {
     url: { type: 'string', resolve: (post) => `/posts/${post._raw.flattenedPath}` },

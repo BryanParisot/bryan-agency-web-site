@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+     fontFamily: {
+      lora: ["var(--font-lora)"],
+    },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

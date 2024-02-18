@@ -5,6 +5,8 @@ import React, { FC, useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast';
 import { useForm } from 'react-hook-form';
 import { Button } from '../ui/button';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 
 export type FormData = {
     prenom: string;
@@ -12,15 +14,24 @@ export type FormData = {
     email: string;
     message: string;
     numero: number;
-    check: boolean
+    check: boolean;
+    recaptcha: string | null;
 };
 
 const Form: FC = () => {
 
     const [loading, setLoading] = useState(false);
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>();
+    const { register, handleSubmit, formState: { errors }, reset, setValue, watch } = useForm<FormData>();
+
+    const recaptchaValue = watch('recaptcha');
 
     const onSubmitHandler = async (data: FormData) => {
+
+        if (!recaptchaValue) {
+            toast.error('Veuillez valider le ReCAPTCHA avant d\'envoyer le formulaire.');
+            return;
+        }
+
         setLoading(true);
         try {
             await sendEmail(data);
@@ -34,7 +45,10 @@ const Form: FC = () => {
     };
     return (
         <div>
-            <Toaster />
+            <Toaster
+                position="bottom-center"
+                containerClassName="z-50"
+            />
             <form onSubmit={handleSubmit(onSubmitHandler)} className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
                 <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -111,7 +125,7 @@ const Form: FC = () => {
                                 />
                             </div>
                         </div>
-                        <div className="sm:col-span-2">
+                        <div className="sm:col-span-2 mt-2">
                             <div className="flex flex-row h-6 items-center gap-2">
                                 <input
                                     id="check"
@@ -125,7 +139,7 @@ const Form: FC = () => {
                         </div>
                         {errors.check && <span className='text-red-900 text-xs'>Acceptez les conditions d'envoies</span>}
                     </div>
-                    <div className="mt-8 flex justify-end">
+                    <div className="mt-10 flex flex-col-reverse sm:flex-row-reverse justify-between gap-5 sm:gap-0">
                         <Button
                             variant="primary"
                             size="lg"
@@ -134,6 +148,10 @@ const Form: FC = () => {
                         >
                             {loading ? 'Envoi en cours...' : 'Envoyer'}
                         </Button>
+                        <ReCAPTCHA
+                            sitekey='6LdHGCYpAAAAALA0COeLNYjSGySaB6eBqh63nqLv'
+                            onChange={(value) => setValue('recaptcha', value)}
+                        />
                     </div>
                 </div>
             </form >

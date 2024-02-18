@@ -27,7 +27,10 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Intégration de vos maquettes - Pret à lever l\'ancre',
-  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques."
+  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques.",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/integration`
+  }
 }
 
 export default function page() {
@@ -165,7 +168,7 @@ export default function page() {
           Les avantages de me laisser <span className="text-emerald-600">l'intégration de votre maquette</span>
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             steps.map((item) => (
               <div className='space-y-4 shadow-lg p-4' key={item.id}>
@@ -178,12 +181,12 @@ export default function page() {
           }
         </div>
 
-        <div className='flex flex-col sm:flex-row mt-20 sm:max-h-full  h-full'>
-          <div className="flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+        <div className='flex flex-col xl:flex-row mt-20 xl:max-h-full  h-full'>
+          <div className="flex items-center xl:order-first xl:w-1/2">
             <Image className="w-full h-full" src={integration} alt="Double Ecran illustration" />
           </div>
-          <div className='w-full sm:w-3/6 space-y-6 px-8'>
-            <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+          <div className='w-full xl:w-3/6 space-y-6 px-8'>
+            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
               Pourquoi me choisir en tant qu'intégrateur web freelance ?
             </h2>
             {
@@ -207,13 +210,13 @@ export default function page() {
         <CallToAction />
       </div>
 
-      <div className="px-5 sm:px-16 mb-10">
+      <div className=" mb-10">
 
-        <div className='bg-emerald-50 flex items-center flex-col py-5'>
+        <div className='bg-emerald-50 flex items-center flex-col py-5 px-5 sm:px-16'>
           <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
             Les atouts de mes <span className='text-emerald-600'>intégration web</span> sur mesure
           </h2>
-          <div className=' grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
+          <div className=' grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
             {
               atouts.map((item) => (
                 <LittleCard key={item.title} title={item.title} text={item.text} logo={item.logo} alt={item.alt} />
@@ -221,9 +224,13 @@ export default function page() {
             }
           </div>
         </div>
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre intégration web" />
+
         <BlogSection />
+
         <CallToActionLight />
+
         <Faq faq={faqs} />
       </div>
 

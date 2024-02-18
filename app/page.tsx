@@ -22,6 +22,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Développeur web freelance | Bryan Parisot - Création de sites et applications',
   description: 'Bryan Parisot, développeur web freelance spécialisé dans la création de sites et d\'applications sur mesure.',
+  alternates: {
+    canonical: process.env.URL_SITE
+  }
 }
 
 
@@ -30,7 +33,7 @@ export default function Home() {
   const contentCards = [
     { title: "Création de Sites Internet", text: 'En tant que développeur web freelance, je suis là pour créer un site web unique et optimisé qui représentera votre entreprise de manière professionnelle en ligne. J\'intègre soigneusement vos besoins et votre identité dans chaque aspect du site, assurant ainsi une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet', bg: 'bg-amber-200', alt: "Icone création de site internet" },
     { title: "Refonte de Site Web", text: 'Donnez une nouvelle vie à votre site web existant. Mon expertise en tant que développeur web freelance vous aidera à moderniser votre site, améliorer son design et son efficacité pour rester compétitif en ligne. Découvrez comment je peux revitaliser votre présence sur le web', icon: logo_refonte_site, link: '/creation-site-internet/refonte', bg: 'bg-blue-200', alt: "Icone refonte de site internet" },
-    { title: "Applications Web / SaaS", text: 'En tant que développeur web freelance, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web.', icon: logo_sass_web, link: '/sass', bg: 'bg-green-200', alt: "Icone application web/sass" },
+    { title: "Applications Web / SaaS", text: 'En tant que développeur web freelance, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web.', icon: logo_sass_web, link: '/saas', bg: 'bg-green-200', alt: "Icone application web/saas" },
     { title: "Intégration de Vos Maquettes", text: 'Mon expertise en tant que développeur web freelance assure une parfaite intégration de vos maquettes dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon savoir-faire en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icone intégration de maquette" },
     { title: "Référencement Naturel - SEO", text: 'Maximisez votre visibilité en ligne avec mon expertise en référencement naturel (SEO). J\'optimise votre site web pour les moteurs de recherche, ce qui signifie une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icone référencement naturel SEO" },
     { title: "Référencement Sponsorisé - SEA", text: 'Boostez votre visibilité instantanément avec mon expertise en référencement sponsorisé (SEA). Je crée et gère des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icone référencement Sponsorisé - SEA", },
@@ -60,7 +63,6 @@ export default function Home() {
     },
   ];
 
-
   return (
     <main>
       <Header
@@ -74,29 +76,28 @@ export default function Home() {
       <div className="sm:mt-20 sm:mb-20 mt-14 mb-14 px-5 sm:px-16">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">Transformez vos idées en réalité <span className="text-emerald-600">digitale</span></h2>
 
-        <div className="sm:mt-20 mt-14 grid grid-cols-1 sm:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
+        <div className="sm:mt-20 mt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
           {contentCards.map((card) => (
             <HomeCards key={card.title} title={card.title} text={card.text} image={card.icon} alt={card.alt} link={card.link} bg={card.bg} />
           ))}
         </div>
 
-        <div className="px-5 sm:px-16">
-          <CallToAction />
+        <CallToAction />
 
-          <SectionWithPictures
-            title="Pourquoi choisir un développeur web freelance ?"
-            description="Pourquoi opter pour un développeur web freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
-            image={illustration_web}
-            alt="Illustration web"
-            buttonLink="/contact"
-            buttonText="Contactez-moi"
-          />
-          <BlogSection />
+        <SectionWithPictures
+          title="Pourquoi choisir un développeur web freelance ?"
+          description="Pourquoi opter pour un développeur web freelance ? Parce que je suis le capitaine de votre navire numérique, naviguant à travers les vastes océans du développement web. Avec mon expertise polyvalente, je m'engage à hisser les voiles de votre succès en ligne. Du design captivant à l'optimisation pour les moteurs de recherche, en passant par une stratégie numérique percutante, je suis là pour donner vie à votre présence en ligne. Gagnez du temps, restez à la pointe de la technologie, et laissez-moi prendre en charge la construction de votre site web. Prêt à embarquer pour un voyage numérique exceptionnel ? Contactez-moi aujourd'hui et hissons ensemble les voiles de votre réussite digitale."
+          image={illustration_web}
+          alt="Illustration web"
+          buttonLink="/contact"
+          buttonText="Contactez-moi"
+        />
 
-          <Faq faq={faqs} />
-
-        </div>
       </div>
+
+      <BlogSection />
+
+      <Faq faq={faqs} />
     </main>
   )
 }

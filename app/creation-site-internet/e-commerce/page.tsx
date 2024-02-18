@@ -24,6 +24,11 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site e-commerce - Pret à lever l\'ancre',
   description: 'Explorez de nouveaux horizons avec une boutique en ligne unique, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet/e-commerce`
+  }
+
+
 }
 
 
@@ -69,7 +74,7 @@ export default function page() {
       <Header
         title="Développeur web freelance de création de e-commerce"
         subtitle="Création d'un site internet e-commerce"
-        text="Embarquez pour l'aventure de la vente en ligne avec [Nom de Votre Entreprise]. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
+        text="Embarquez pour l'aventure de la vente en ligne. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
         image={picture_site}
         alt="image png developpeur web"
       />
@@ -79,24 +84,24 @@ export default function page() {
           Les avantages de créer <span className="text-emerald-600">un site internet e-commerce </span>
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             vitrineData.map((item) => (
               <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
             ))
           }
         </div>
-        <div className='sm:px-20 px-5 mb-5'>
+        <div className='xl:px-20 px-5 mb-5'>
 
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[50vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-first xl:w-1/2">
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={commerce}
                 alt="E-commerce nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                 Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
               </h2>
               <p>
@@ -111,15 +116,16 @@ export default function page() {
             </div>
           </div>
 
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={site_e_commerce_nancy}
                 alt="e-commerce nancy" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                 Un site internet  <span className='text-emerald-600'>e-commerce</span> qui vous ressemble
               </h2>
               <p>
@@ -134,8 +140,11 @@ export default function page() {
           </div>
         </div>
         <CallToAction />
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
+
         <BlogSection />
+        
         <Faq faq={faqs} />
       </div>
     </main>

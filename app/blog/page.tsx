@@ -12,9 +12,11 @@ import picture_site from "../../public/pictures/site/site_page.png"
 
 export const metadata: Metadata = {
   title: 'Blog Freelance : Explorez nos conseils, tendances et astuces pour le succès en ligne',
-  description: "Découvrez des articles captivants et informatifs sur le blog de Bryan Parisot, développeur web freelance. Boostez vos connaissances, suivez les tendances du web design"
+  description: "Découvrez des articles captivants et informatifs sur le blog de Bryan Parisot, développeur web freelance. Boostez vos connaissances, suivez les tendances du web design",
+  alternates: {
+    canonical: `${process.env.URL_SITE}/blog`
+  }
 }
-
 
 export default function page() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))

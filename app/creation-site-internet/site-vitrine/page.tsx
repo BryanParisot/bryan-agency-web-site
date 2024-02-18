@@ -20,12 +20,16 @@ import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
 import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
 import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 import score_site from "../../../public/pictures/site/vitrine/score_site.png"
+import responsive from "../../../public/pictures/site/vitrine/responsive.jpg"
 
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site vitrine - Pret à lever l\'ancre',
   description: 'Hissons les voiles avec la création de site vitrine par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
+  alternates: {
+    canonical: `${process.env.URL_SITE}/creation-site-internet/site-vitrine`
+  }
 }
 
 
@@ -91,25 +95,25 @@ export default function page() {
           Les avantages de créer <span className="text-emerald-600">un site vitrine</span>
         </h2>
 
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             vitrineData.map((item) => (
               <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
             ))
           }
         </div>
-        <div className='sm:px-20 px-5'>
+        <div className='xl:px-20 px-5'>
 
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-first sm:w-1/2 md:w-6/12">
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-first xl:w-1/2">
               {" "}
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={double_screen}
                 alt="Double Ecran illustration" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                 Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span>
               </h2>
               <p>
@@ -123,14 +127,15 @@ export default function page() {
               </p>
             </div>
           </div>
-          <div className='flex flex-col sm:flex-row mt-20 sm:h-[52vh] h-full'>
-            <div className="mb-8 flex items-center sm:order-last sm:w-1/2 md:w-6/12">
+
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
               <Image
                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                 src={vitrine_site} alt="Illustration d'un site vitrine" />
             </div>
-            <div className='w-full sm:w-3/6 space-y-4 px-0 sm:px-8 mt-0 sm:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
                 <span className='text-emerald-600'>Un site vitrine</span> qui vous ressemble
               </h2>
               <p>
@@ -140,7 +145,7 @@ export default function page() {
                 Travaillant en étroite collaboration avec vous, je capture l'essence de votre entreprise et la traduis en un design web exceptionnel. Je crois que chaque entreprise est unique, et votre site web devrait l'être aussi.
               </p>
               <p>
-                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/site" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
+                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/creation-site-internet" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
               </p>
             </div>
           </div >
@@ -150,11 +155,10 @@ export default function page() {
         <CallToAction />
       </div >
 
-      <div className="px-5 sm:px-16 mb-10">
-
+      <div className=" mb-10">
         <SectionEmerald image={score_site} alt="représentation du score du site">
           <div className='space-y-6'>
-            <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
+            <h2 className='mt-2 text-2xl font-bold lg:text-left md:text-4xl text-emerald-950'>
               Optimisez votre présence en ligne avec mon service de <span className='text-emerald-600'>refonte de site</span>
             </h2>
             <p>
@@ -175,8 +179,43 @@ export default function page() {
             </div>
           </div>
         </SectionEmerald>
+
+        <div className='xl:px-20 px-5 mb-20'>
+
+
+          <div className='flex flex-col xl:flex-row mt-20 xl:h-[59vh] h-full'>
+            <div className="mb-8 flex items-center justify-center xl:order-last xl:w-1/2 w-full">
+              <Image
+                className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
+                src={responsive} alt="Illustration d'un site vitrine responsive" />
+            </div>
+            <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                <span className='text-emerald-600'>Un site vitrine responsive</span> une présence adaptative et captivante
+              </h2>
+              <p>
+                En tant que développeur web freelance spécialisé dans les sites vitrines, je m'engage à créer une présence en ligne qui s'adapte à tous les écrans.
+              </p>
+              <h3 className='text-xl'>
+                Pourquoi opter pour un <span className='font-bold'> site vitrine responsive</span> ?
+              </h3>
+              <p>
+                Votre site doit être accessible sur tous les appareils. Un site vitrine responsive assure une expérience utilisateur optimale, quel que soit le dispositif utilisé, renforçant ainsi votre crédibilité et améliorant votre référencement.
+              </p>
+              <h3 className='text-xl'>
+                Mon engagement envers le <span className='font-bold'>responsive design</span>
+              </h3>
+              <p>
+                Collaborons pour donner vie à un site vitrine qui représente fidèlement votre entreprise de manière adaptative. Contactez-moi aujourd'hui pour discuter de la création d'un site vitrine responsive, propulsant votre entreprise vers de nouveaux sommets dans le monde numérique compétitif.
+              </p>
+            </div>
+          </div >
+        </div>
+
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site vitrine" />
+
         <BlogSection />
+
         <Faq faq={faqs} />
 
       </div>
