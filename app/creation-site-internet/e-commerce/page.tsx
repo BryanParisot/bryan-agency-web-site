@@ -22,8 +22,8 @@ import site_e_commerce_nancy from "../../../public/pictures/site/commerce/site_e
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Développeur Web Freelance | Création de site e-commerce - Pret à lever l\'ancre',
-  description: 'Explorez de nouveaux horizons avec une boutique en ligne unique, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
+  title: 'Développeur Web Freelance | Création de site e-commerce à Nancy',
+  description: 'Explorez de nouveaux horizons avec une boutique en ligne unique à Nancy, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
   alternates: {
     canonical: `${process.env.URL_SITE}/creation-site-internet/e-commerce`
   }
@@ -72,8 +72,8 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Développeur web freelance de création de e-commerce"
-        subtitle="Création d'un site internet e-commerce"
+        title="Développeur web freelance | création de site e-commerce à Nancy "
+        subtitle="Création d'une boutique en ligne à Nancy"
         text="Embarquez pour l'aventure de la vente en ligne. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
         image={picture_site}
         alt="image png developpeur web"
@@ -81,7 +81,7 @@ export default function page() {
 
       <div className="mt-10 mb-10">
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de créer <span className="text-emerald-600">un site internet e-commerce </span>
+          Les avantages de créer <span className="text-emerald-600">un site e-commerce</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">

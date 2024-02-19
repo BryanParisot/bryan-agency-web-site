@@ -17,6 +17,7 @@ import picture_home from "../public/pictures/header/picture_home_page.svg";
 
 import { Button } from "@/components/ui/button";
 import { Metadata } from 'next';
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: 'Développeur web freelance | Bryan Parisot - Création de sites et applications',
@@ -87,7 +88,9 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row bg-emerald-50 sm:p-10 p-5 ">
         <div className="flex flex-col items-start justify-center sm:w-1/3 space-y-10 w-full">
           <h2 className="text-2xl sm:text-6xl font-bold">Pourquoi choisir un <span className="font-extrabold text-emerald-600">développeur web freelance à Nancy ?</span> </h2>
-          <Button size="lg" variant="secondary">Contactez-nous</Button>
+          <Link href="/contact">
+            <Button size="lg" variant="secondary">Contactez-nous</Button>
+          </Link>
         </div>
         <div className="sm:w-2/3 pl-0 sm:pl-10 sm:mt-0 mt-10 w-full">
 

@@ -26,8 +26,8 @@ import LittleCard from '@/components/Cards/LittleCard'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Développeur Web Freelance | Intégration de vos maquettes - Pret à lever l\'ancre',
-  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance. Transformez vos designs en sites web fonctionnels et esthétiques.",
+  title: 'Développeur Web Freelance | Intégration de vos maquettes à Nancy',
+  description: "Confiez l'intégration de vos maquettes à Bryan Parisot, développeur web freelance à Nancy. Transformez vos designs en sites web fonctionnels et esthétiques.",
   alternates: {
     canonical: `${process.env.URL_SITE}/integration`
   }
@@ -157,9 +157,9 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Intégrateur web freelance - Intégrateur web "
+        title="Intégrateur web freelance - Intégrateur web à Nancy"
         subtitle="Intégration web : Transformez votre vision en réalité en ligne"
-        text="Bienvenue ! Je suis bryan parisot, un développeur web freelance, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
+        text="Bienvenue ! Je suis bryan parisot, un développeur web freelance basé à Nancy, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
         image={picture_site}
         alt="image png developpeur web"
       />
@@ -171,7 +171,7 @@ export default function page() {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             steps.map((item) => (
-              <div className='space-y-4 shadow-lg p-4' key={item.id}>
+              <div className='space-y-4 shadow-lg p-8' key={item.id}>
                 <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg ' >{item.id}</div>
                 <h3 className='font-bold text-lg text-emerald-950'>{item.title}</h3>
                 <p className='text-gray-500'>{item.text}</p>

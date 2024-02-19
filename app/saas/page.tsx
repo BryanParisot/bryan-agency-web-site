@@ -1,44 +1,44 @@
-import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import LittleCard from '@/components/Cards/LittleCard'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionLogos from '@/components/Section/SectionLogos'
 import { Button } from '@/components/ui/button'
+import Image from 'next/image'
 import Link from 'next/link'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
-import code from "../../public/pictures/saas/code.jpg"
-import screen_code from "../../public/pictures/saas/screen_code.jpg"
 import loupe from "../../public/logos/integration/loupe.svg"
-import personalization from "../../public/logos/saas/personalization.svg"
-import optimisation from "../../public/logos/saas/optimisation.svg"
-import flexible from "../../public/logos/saas/flexible.svg"
-import shield from "../../public/logos/saas/shield.svg"
-import integration from "../../public/logos/saas/integration.svg"
-import ux from "../../public/logos/site/refonte/logo_experience.svg"
-import search from "../../public/logos/saas/search.svg"
 import concept from "../../public/logos/saas/concept.svg"
+import education from "../../public/logos/saas/education.svg"
+import flexible from "../../public/logos/saas/flexible.svg"
+import integration from "../../public/logos/saas/integration.svg"
+import optimisation from "../../public/logos/saas/optimisation.svg"
+import personalization from "../../public/logos/saas/personalization.svg"
 import program from "../../public/logos/saas/program.svg"
-import test from "../../public/logos/saas/test.svg"
+import search from "../../public/logos/saas/search.svg"
+import shield from "../../public/logos/saas/shield.svg"
 import stamp from "../../public/logos/saas/stamp.svg"
 import start from "../../public/logos/saas/start.svg"
-import education from "../../public/logos/saas/education.svg"
+import test from "../../public/logos/saas/test.svg"
 import tools from "../../public/logos/saas/tools.svg"
+import ux from "../../public/logos/site/refonte/logo_experience.svg"
+import code from "../../public/pictures/saas/code.jpg"
+import screen_code from "../../public/pictures/saas/screen_code.jpg"
+import picture_site from "../../public/pictures/site/site_page.png"
 
 import saas from "../../public/pictures/saas/saas.jpg"
 
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Développeur Web Freelance | Création d\'applications web et SaaS personnalisées',
+    title: 'Développeur Web Freelance | Création d\'applications web et SaaS à Nancy',
     description: "Optez pour des applications web et SaaS sur mesure avec Bryan Parisot, développeur web freelance. Transformez vos idées en solutions numériques",
     alternates: {
         canonical: `${process.env.URL_SITE}/saas`
@@ -130,8 +130,8 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Solutions Web & SaaS sur-mesure"
-                subtitle="Transformez vos idées en réalité digitale"
+                title="Solutions Web & SaaS sur-mesure à Nancy"
+                subtitle="Transformez vos idées en réalité digitale à Nancy"
                 text="Bienvenue dans l'univers des applications web et SaaS sur-mesure. En tant que développeur web freelance, je fais de la technologie un catalyseur pour la réalisation de vos ambitions. Travaillons ensemble pour créer des solutions web innovantes et des logiciels SaaS parfaitement adaptés à vos besoins. Ensemble, nous transformerons vos idées en réalité digitale, en fournissant des outils puissants qui stimuleront la croissance de votre entreprise. Explorez ma gamme de services et découvrez comment je peux façonner le futur de votre entreprise."
                 image={picture_site}
                 alt="Image PNG développeur web"
@@ -155,9 +155,9 @@ export default function page() {
                                     alt="Capture d'écran code" />
                             </div>
                         </div>
-                        <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
+                        <div className='flex flex-col  justify-center w-full  xl:w-3/6 space-y-4 px-0 xl:px-8'>
                             <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Développeur <span className='text-emerald-600'>d'application web</span> sur mesure
+                                Développeur <span className='text-emerald-600'>d'application web</span> sur mesure à Nancy
                             </h2>
                             <p>
                                 En tant que <span className='font-bold'>développeur web freelance</span>  sur mesure de premier plan, je m'engage à créer des solutions numériques qui répondent précisément à vos besoins. Je ne crois pas en l'approche
@@ -187,19 +187,23 @@ export default function page() {
                                 Qu'est-ce qu'une <span className='text-emerald-600'> application Web ?</span>
                             </h2>
                             <p>
-                                Une<span className='font-bold'>application web</span>, souvent appelée simplement '<span className='font-bold'>web app</span>', est une application logicielle accessible via un navigateur web. Contrairement aux applications traditionnelles installées localement, les <span className='font-bold'>applications web</span>  ne nécessitent pas de téléchargement ni d'installation sur l'appareil de l'utilisateur. Elles sont hébergées sur des serveurs distants et accessibles en ligne.                        </p>
+                                Une<span className='font-bold'> application web</span>, souvent appelée simplement '<span className='font-bold'>web app</span>', est une application logicielle accessible via un navigateur web. Contrairement aux applications traditionnelles installées localement, les <span className='font-bold'>applications web</span>  ne nécessitent pas de téléchargement ni d'installation sur l'appareil de l'utilisateur. Elles sont hébergées sur des serveurs distants et accessibles en ligne.                        </p>
                             <p>
                                 Les <span className='font-bold'>applications web</span>  offrent de nombreux avantages, notamment leur accessibilité depuis n'importe quel appareil connecté à Internet, qu'il s'agisse d'un ordinateur de bureau, d'une tablette ou d'un smartphone. Elles éliminent également les contraintes de compatibilité et de mises à jour, car les utilisateurs accèdent toujours à la version la plus récente de l'application.                        </p>
                         </div>
                     </div>
 
-                    <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20">
-                        {
-                            vitrineData.map((item) => (
-                                <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
-                            ))
-                        }
+                    <div className='bg-emerald-50 py-20 '>
+                        <h2 className="mt-2 text-2xl font-bold md:text-4xl text-emerald-950 text-center"> Création <span className='text-emerald-600'>d'application web</span>  à Nancy</h2>
+                        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 ">
+                            {
+                                vitrineData.map((item) => (
+                                    <CardGeneral key={item.title} title={item.title} text={item.text} image={item.image} alt={item.alt} />
+                                ))
+                            }
+                        </div>
                     </div>
+
 
 
 

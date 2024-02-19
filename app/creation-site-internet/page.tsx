@@ -20,8 +20,8 @@ import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: ' Développeur Web Freelance | Création de site internet - Pret à lever l\'ancre',
-  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web. Des sites internet sur mesure qui naviguent entre créativité et performance.',
+  title: ' Développeur Web Freelance | Création de site internet à Nancy',
+  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web à Nancy. Des sites internet sur mesure qui naviguent entre créativité et performance.',
   alternates: {
     canonical: `${process.env.URL_SITE}/creation-site-internet`
   }
@@ -102,7 +102,7 @@ export default function Page() {
   return (
     <main>
       <Header
-        title="Développeur web - créateur de site internet"
+        title="Développeur web - créateur de site internet à Nancy"
         subtitle="Création de site internet pour booster votre visibilité sur le web"
         text="Découvrez comment mon expertise en tant que développeur web freelance peut transformer votre présence en ligne en un atout puissant pour votre entreprise locale. Avec mon expérience dans le développement web, je crée des sites internet optimisés pour les moteurs de recherche. Propulsez votre visibilité et atteignez vos objectifs en ligne."
         image={picture_site}
@@ -112,7 +112,7 @@ export default function Page() {
       <div className="mt-10 mb-10">
 
         <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-2 sm:px-0" >
-          Mes prestation de <span className="text-emerald-600">création de site internet</span>
+          Mes prestation de <span className="text-emerald-600">création de site internet à Nancy</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -137,7 +137,7 @@ export default function Page() {
           <CallToAction />
 
           <SectionWithPictures
-            title="Créez votre présence en ligne avec mon expertise en création de site internet"
+            title="Créez votre présence en ligne avec mon expertise en création de site internet à Nancy"
             description="Découvrez l'art de la création de site internet sur mesure avec moi, Bryan Parisot, votre développeur web freelance. Je crois en la puissance d'une présence en ligne unique qui représente fidèlement votre vision et votre activité. Mon engagement se concentre sur la création de sites web fonctionnels, esthétiques et optimisés. Que vous ayez besoin d'un site vitrine, d'un site e-commerce ou d'un site WordPress, je conçois des solutions sur mesure pour répondre à vos objectifs. Laissez-moi vous guider à travers le processus et transformez votre idée en une réalité numérique."
             image={presence_en_ligne}
             alt='illustration site web'

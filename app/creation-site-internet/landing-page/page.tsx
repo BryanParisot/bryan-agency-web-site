@@ -21,8 +21,8 @@ import maquette_landing from "../../../public/pictures/site/landing_page/maquett
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Développeur Web Freelance | Création de landing page - Pret à lever l\'ancre',
-  description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance, conçoit des pages pour maximiser votre taux de conversion",
+  title: 'Développeur Web Freelance | Création de landing page à Nancy',
+  description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance à Nancy, conçoit des pages pour maximiser votre taux de conversion",
   alternates: {
     canonical: `${process.env.URL_SITE}/creation-site-internet/landing-page`
   }
@@ -71,9 +71,9 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Développeur web créateur de landing page"
+        title="Développeur web créateur de landing page à Nancy"
         subtitle="Création d'une landing page sur mesure"
-        text="En tant que développeur web freelance, je suis convaincu que chaque visiteur sur votre site web est une opportunité en or. C'est pourquoi je me spécialise dans la création de landing pages qui captivent, persuadent et convertissent."
+        text="En tant que développeur web freelance à Nancy, je suis convaincu que chaque visiteur sur votre site web est une opportunité en or. C'est pourquoi je me spécialise dans la création de landing pages qui captivent, persuadent et convertissent."
         image={picture_site}
         alt="image png developpeur web freelance"
       />

@@ -27,7 +27,7 @@ import maintenance_illustration from "../../../public/pictures/site/wordpress/ma
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Développeur Web Freelance | Refonte de site web   - Pret à lever l\'ancre',
+    title: 'Développeur Web Freelance | Refonte de site web et application à Nancy',
     description: "Donnez une nouvelle vie à votre site web avec notre service de refonte web. Bryan Parisot, développeur web freelance.",
     alternates: {
         canonical: `${process.env.URL_SITE}/creation-site-internet/refonte`
@@ -77,16 +77,16 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Développeur web freelance - refonte de site web"
-                subtitle="Donnez un nouveau souffle à votre site avec mes services de refonte"
-                text="En tant que développeur web freelance, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me suis spécialisé dans la refonte de sites web qui réinvente l'expérience en ligne, persuade les visiteurs et les transforme en clients fidèles."
+                title="Développeur web freelance - refonte de site web à Nancy"
+                subtitle="Donnez un nouveau souffle à votre site ou application web à Nancy "
+                text="En tant que développeur web freelance basé à Nancy, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me suis spécialisé dans la refonte de sites web qui réinvente l'expérience en ligne."
                 image={picture_site}
-                alt="image png developpeur web"
+                alt="Développeur web freelance à Nancy"
             />
 
             <div className="mt-10 mb-10">
                 <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages de faire <span className="text-emerald-600">la refonte de votre site web</span>
+                    Pourquoi mettre en place <span className="text-emerald-600">la refonte de son site web</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -194,7 +194,7 @@ export default function page() {
                     </div>
                 </SectionEmerald>
 
-                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site" />
+                <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre refonte de site internet" />
 
                 <BlogSection />
 

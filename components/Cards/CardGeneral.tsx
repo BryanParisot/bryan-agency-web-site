@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
-import React from 'react'
+import React from 'react';
 
 interface CardGeneralProps {
     title: string;
@@ -10,7 +10,7 @@ interface CardGeneralProps {
 
 const CardGeneral: React.FC<CardGeneralProps> = ({ title, text, image, alt }) => {
     return (
-        <div className='h-full flex flex-col justify-between items-center space-y-4 p-4 shadow-xl rounded-lg '>
+        <div className='h-full flex flex-col justify-between items-center space-y-4 p-4 sm:p-10 shadow-xl rounded-lg'>
             <div className='flex items-center justify-center'>
                 <Image className='w-22 h-22' src={image} alt={alt} height={100} width={100} />
             </div>

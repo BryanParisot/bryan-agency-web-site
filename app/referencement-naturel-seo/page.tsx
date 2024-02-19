@@ -1,42 +1,39 @@
 import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import LittleCard from '@/components/Cards/LittleCard'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
+import crayon from "../../public/logos/integration/crayon.svg"
 import loupe from "../../public/logos/integration/loupe.svg"
+import browser from "../../public/logos/seo/browser.svg"
 import content from "../../public/logos/seo/content.svg"
+import link from "../../public/logos/seo/link.svg"
 import logo_qualite from "../../public/logos/seo/logo_qualite.svg"
 import logo_tag from "../../public/logos/seo/logo_tag.svg"
 import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
-import browser from "../../public/logos/seo/browser.svg"
-import link from "../../public/logos/seo/link.svg"
 import map from "../../public/logos/seo/map.svg"
-import crayon from "../../public/logos/integration/crayon.svg"
 import seo from "../../public/pictures/seo/seo.jpg"
 import seo_score from "../../public/pictures/seo/seo_score.jpg"
+import picture_site from "../../public/pictures/site/site_page.png"
 
 
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Freelance SEO expert : Optimisation et visibilité en ligne',
+    title: 'Freelance SEO expert : Optimisation et visibilité en ligne à Nancy',
     description: "Boostez votre présence en ligne avec Bryan Parisot, développeur web freelance spécialisé en SEO. Maximisez votre visibilité, attirez du trafic organique",
     alternates: {
         canonical: `${process.env.URL_SITE}/referencement-naturel-seo`
     }
-
 }
-
 
 
 export default function page() {
@@ -101,8 +98,8 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Développeur web freelance - SEO "
-                subtitle="Améliorez votre référencement naturel avec mon expertise en SEO"
+                title="Développeur web freelance - SEO à Nancy"
+                subtitle="Améliorez votre référencement naturel avec mon expertise en SEO à Nancy"
                 text="Bienvenue dans mon univers chez Bryan Parisot, votre partenaire de confiance pour le référencement SEO. En tant que développeur web freelance, je suis déterminé à propulser votre site web vers les sommets des résultats de recherche. Grâce à mon expertise, je conçois des stratégies SEO sur mesure qui maximisent votre visibilité en ligne et génèrent un trafic qualifié."
                 image={picture_site}
                 alt="image png developpeur web"

@@ -2,31 +2,31 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
+import CallToAction from '@/components/CTA/CallToAction'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import Faq from '@/components/FAQ/Faq'
-import { Button } from '@/components/ui/button'
+import Header from '@/components/Header/Header'
 import SectionEmerald from '@/components/Section/SectionEmerald'
+import SectionLogos from '@/components/Section/SectionLogos'
+import { Button } from '@/components/ui/button'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../../public/pictures/site/site_page.png"
-import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
 import logo_promotion from "../../../public/logos/site/vitrine/logo_promotion.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
+import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
+import picture_site from "../../../public/pictures/site/site_page.png"
 import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
-import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
-import score_site from "../../../public/pictures/site/vitrine/score_site.png"
 import responsive from "../../../public/pictures/site/vitrine/responsive.jpg"
+import score_site from "../../../public/pictures/site/vitrine/score_site.png"
+import vitrine_site from "../../../public/pictures/site/vitrine/vitrine_site.png"
 
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Développeur Web Freelance | Création de site vitrine - Pret à lever l\'ancre',
-  description: 'Hissons les voiles avec la création de site vitrine par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
+  title: 'Développeur Web Freelance | Création de site vitrine à Nancy',
+  description: 'Hissons les voiles avec la création de site vitrine à Nancy par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
   alternates: {
     canonical: `${process.env.URL_SITE}/creation-site-internet/site-vitrine`
   }
@@ -83,8 +83,8 @@ export default function page() {
   return (
     <main>
       <Header
-        title="Développeur web freelance créateur de site vitrine"
-        subtitle="Création d'un site vitrine sur mesure"
+        title="Développeur web freelance créateur de site vitrine à Nancy"
+        subtitle="Création d'un site vitrine sur mesure à Nancy"
         text="Découvrez l'élégance et la simplicité d'un site vitrine conçu spécialement pour votre entreprise. Mettons en avant votre image de marque et vos produits/services de manière captivante. Transformez les visiteurs en clients avec un site web vitrine qui laisse une impression mémorable."
         image={picture_site}
         alt="image png developpeur web"
@@ -114,8 +114,7 @@ export default function page() {
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
               <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span>
-              </h2>
+                Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span> à Nancy </h2>
               <p>
                 Vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Je suis fier d'offrir mes services de création de sites web sur mesure.
               </p>

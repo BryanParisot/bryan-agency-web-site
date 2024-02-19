@@ -1,42 +1,41 @@
-import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import LittleCard from '@/components/Cards/LittleCard'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import Image from 'next/image'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
+import crayon from "../../public/logos/integration/crayon.svg"
 import loupe from "../../public/logos/integration/loupe.svg"
+import audit from "../../public/logos/sea/audit.svg"
+import competion from "../../public/logos/sea/competion.svg"
+import conversion from "../../public/logos/sea/conversion.svg"
+import growth from "../../public/logos/sea/growth.svg"
+import map from "../../public/logos/sea/map.svg"
+import road from "../../public/logos/sea/road.svg"
+import speed from "../../public/logos/sea/speed.svg"
+import target from "../../public/logos/sea/target.svg"
+import test from "../../public/logos/sea/test.svg"
 import content from "../../public/logos/seo/content.svg"
 import logo_qualite from "../../public/logos/seo/logo_qualite.svg"
 import logo_tag from "../../public/logos/seo/logo_tag.svg"
 import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
-import map from "../../public/logos/sea/map.svg"
-import crayon from "../../public/logos/integration/crayon.svg"
-import growth from "../../public/logos/sea/growth.svg"
-import speed from "../../public/logos/sea/speed.svg"
-import test from "../../public/logos/sea/test.svg"
-import competion from "../../public/logos/sea/competion.svg"
-import conversion from "../../public/logos/sea/conversion.svg"
-import target from "../../public/logos/sea/target.svg"
-import audit from "../../public/logos/sea/audit.svg"
-import road from "../../public/logos/sea/road.svg"
-
 import sea from "../../public/pictures/sea/sea.jpg"
 import sea_computer from "../../public/pictures/sea/sea_computer.jpg"
+import picture_site from "../../public/pictures/site/site_page.png"
+
 
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Freelance SEA expert : Campagnes publicitaires performantes',
-    description: "Embarquez pour le succès avec Bryan Parisot, développeur web freelance expert en SEA. Maximisez votre visibilité instantanément",
+    title: 'Freelance SEA expert : Campagnes publicitaires performantes à Nancy',
+    description: "Embarquez pour le succès avec Bryan Parisot, développeur web freelance expert en SEA à Nancy. Maximisez votre visibilité instantanément",
     alternates: {
         canonical: `${process.env.URL_SITE}/referencement-sponsorise-sea`
     }
@@ -125,8 +124,8 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Expert Ads freelance"
-                subtitle="Boostez votre visibilité avec le SEA"
+                title="Expert Ads freelance à Nancy"
+                subtitle="Boostez votre visibilité avec le SEA avec un expert à Nancy"
                 text="Explorez de nouvelles horizons en ligne avec mon expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à ma stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
                 image={picture_site}
                 alt="image png developpeur web"
@@ -134,7 +133,7 @@ export default function page() {
 
             <div className="mt-10 mb-10">
                 <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages du <span className="text-emerald-600">SEA (Search Engine Advertising)</span>
+                    Les avantages du <span className="text-emerald-600">SEA (Search Engine Advertising)</span> à Nancy
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -155,12 +154,10 @@ export default function page() {
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
                             <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Boostez votre performance grâce au SEA
+                                Boostez votre performance grâce au SEA à Nancy
                             </h2>
                             <p>
-                                <p>
-                                    Découvrez comment le <span className="font-bold">SEA</span> peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. En tant que développeur web freelance spécialisé en publicité sur les moteurs de recherche, je suis prêt à concevoir des stratégies de <span className='font-bold'>SEA</span> sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, je maximise chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec moi, Bryan Parisot, et propulsez votre entreprise sous les feux de la rampe en ligne.
-                                </p>
+                                Découvrez comment le <span className="font-bold">SEA</span> peut propulser votre entreprise vers de nouveaux sommets de performance en ligne. En tant que développeur web freelance spécialisé en publicité sur les moteurs de recherche, je suis prêt à concevoir des stratégies de <span className='font-bold'>SEA</span> sur mesure qui mettront en avant votre marque, augmenteront votre visibilité et stimuleront la croissance de votre entreprise. Avec des campagnes ciblées et un suivi précis, je maximise chaque euro de votre budget publicitaire pour des résultats tangibles. Explorez les possibilités du SEA avec moi, Bryan Parisot, et propulsez votre entreprise sous les feux de la rampe en ligne.
                             </p>
                         </div>
                     </div>

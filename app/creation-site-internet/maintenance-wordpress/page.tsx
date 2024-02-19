@@ -27,13 +27,11 @@ import maintenance_illustration from "../../../public/pictures/site/wordpress/ma
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Développeur Web Freelance | Maintenance wordpress - Pret à lever l\'ancre',
-    description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance. Bryan Parisot, développeur web freelance, veille à la performance, sécurité",
+    title: 'Développeur Web Freelance | Maintenance wordpress à Nancy',
+    description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance à Nancy. Bryan Parisot, développeur web freelance, veille à la performance, sécurité",
     alternates: {
         canonical: `${process.env.URL_SITE}/creation-site-internet/maintenance-wordpress`
     }
-
-
 }
 
 
@@ -88,7 +86,7 @@ export default function page() {
     return (
         <main>
             <Header
-                title="Développeur web freelance - Maintenance Wordpress"
+                title="Développeur web freelance - Maintenance Wordpress à Nancy"
                 subtitle="Services de maintenance pour votre site WordPress : Votre garantie de performances optimales"
                 text="En tant que développeur web freelance spécialisé dans WordPress, je comprends l'importance de maintenir votre site en parfait état de fonctionnement. Je m'engage à vous offrir des services de maintenance complets et rigoureux pour garantir que votre site fonctionne à son meilleur, à tout moment."
                 image={picture_site}
