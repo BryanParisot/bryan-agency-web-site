@@ -1,4 +1,3 @@
-import React from 'react'
 import Link from 'next/link'
 
 //COMPONENTS
@@ -23,12 +22,12 @@ function CallToAction() {
                         </defs>
                     </svg>
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left z-50">
-                        <h2 className="text-lg font-semibold sm:font-bold tracking-tight text-white sm:text-2xl">
-                            Embarquez avec notre équipage digital et propulsez votre présence en ligne vers de nouveaux sommets !
+                        <div className="text-lg font-semibold sm:font-bold tracking-tight text-white sm:text-2xl">
+                            <h2>Un site web ou application clé-en-main à Nancy et ses alentours</h2>
                             <br />
                             <br />
-                            Contactez-nous dès aujourd'hui pour commencer votre voyage vers le succès.
-                        </h2>
+                            <p className='text-base font-normal'>Embarquez avec notre équipage digital et propulsez votre présence en ligne vers de nouveaux sommets avec votre site internet  et nos services de référencement naturel (seo) et référencement sponsorisé (sea). </p>
+                        </div>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
 
                             <Link
