@@ -84,14 +84,14 @@ export default function Home() {
         <CallToAction />
       </div>
 
-      <div className="flex flew-row bg-emerald-50 px-10 py-10">
-        <div className="flex flex-col items-start justify-center w-1/3 space-y-10">
-          <h2 className="text-6xl font-bold">Pourquoi choisir un <span className="font-extrabold text-emerald-600">développeur web freelance à Nancy ?</span> </h2>
+      <div className="flex flex-col sm:flex-row bg-emerald-50 sm:p-10 p-5 ">
+        <div className="flex flex-col items-start justify-center sm:w-1/3 space-y-10 w-full">
+          <h2 className="text-2xl sm:text-6xl font-bold">Pourquoi choisir un <span className="font-extrabold text-emerald-600">développeur web freelance à Nancy ?</span> </h2>
           <Button size="lg" variant="secondary">Contactez-nous</Button>
         </div>
-        <div className="w-2/3 pl-10">
+        <div className="sm:w-2/3 pl-0 sm:pl-10 sm:mt-0 mt-10 w-full">
 
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid sm:grid-cols-2 gap-6 grid-cols-1">
             <div className="bg-white shadow p-10 space-y-2">
               <h3 className="text-lg font-semibold">Flexibilité et adaptabilité</h3>
               <p>En optant pour un développeur web freelance basé à Nancy, vous bénéficiez d'une flexibilité et d'une adaptabilité inégalées. En travaillant avec un professionnel indépendant, vous avez la liberté de définir les horaires de travail et les délais en fonction de vos besoins spécifiques. Cette souplesse vous permet d'ajuster facilement le calendrier des projets en cours et de répondre rapidement aux exigences changeantes de votre entreprise.</p>
