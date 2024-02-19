@@ -103,7 +103,7 @@ const page = () => {
             <Header
                 title="Développeur web freelance à Nancy"
                 subtitle="Développeur web freelance à Nancy"
-                text="En tant que développeur web freelance basé à Nancy, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
+                text="En tant que développeur web freelance basé à Nancy, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité visuelle dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
                 image={picture_site}
                 alt="image png developpeur web"
             />
@@ -122,7 +122,7 @@ const page = () => {
 
 
             <div className="bg-emerald-900 w-full text-white mt-20 py-12 flex flex-col items-center ">
-                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center"> Des <span className="text-emerald-300 font-bold">sites web</span>  à nancy qui font la différence</h2>
+                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center"> Votre <span className="text-emerald-300 font-bold">site internet</span> clé-en-main à nancy qui fait la différence</h2>
 
                 <div className="max-w-7xl space-y-10 sm:px-0 px-5">
 
@@ -147,8 +147,8 @@ const page = () => {
                     </div>
                     <div className="flex flex-col-reverse items-center sm:flex-row w-full">
                         <div className="sm:w-2/3 space-y-4 flex flex-col justify-center w-full items-center sm:items-start" >
-                            <h3 className="text-3xl font-bold">Site responsive</h3>
-                            <p>La conception responsive est une priorité absolue. Votre site s'ajustera automatiquement à tous les écrans, qu'il s'agisse d'ordinateurs de bureau, de tablettes ou de smartphones. Cela garantit une expérience utilisateur optimale, quel que soit l'appareil utilisé.</p>
+                            <h3 className="text-3xl font-bold">Site responsive design</h3>
+                            <p>La conception responsive design est une priorité absolue. Votre site s'ajustera automatiquement à tous les écrans, qu'il s'agisse d'ordinateurs de bureau, de tablettes ou de smartphones. Cela garantit une expérience utilisateur optimale, quel que soit l'appareil utilisé.</p>
                         </div>
                         <div className="flex items-center justify-center w-1/3 sm:mb-0 mb-10 ">
                             <Image alt="optimisation" src={responsive} />
