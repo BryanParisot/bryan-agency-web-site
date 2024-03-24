@@ -9,7 +9,7 @@ import Link from "next/link"
 
 
 //LOGOS | PICTURES
-import profil from "../../public/images/blog/bryan.webp"
+import profil from "../../public/profil/profil_bryan.webp"
 import logo_design from "../../public/logos/nav/logo_design.svg"
 import logo_creation_site from "../../public/logos/nav/logo_html.svg"
 import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
@@ -28,10 +28,10 @@ import picture_site from "../../public/pictures/site/site_page.png"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Développeur Web Freelance à Nancy | Création de sites et applications à Nancy',
-    description: 'Bryan Parisot, développeur web freelance à Nancy spécialisé dans la création de sites internet et d\'applications web.',
+    title: 'Développeur Web Freelance | Création de sites et applications à Luneville',
+    description: 'Bryan Parisot, développeur web freelance à Luneville spécialisé dans la création de sites internet et d\'applications web.',
     alternates: {
-        canonical: `${process.env.URL_SITE}/developpeur-web-freelance-nancy`
+        canonical: `${process.env.URL_SITE}/developpeur-web-freelance-luneville`
     }
 
 }
@@ -69,13 +69,13 @@ const page = () => {
 
     const advantage = [
         {
-            title: "Visibilité sur Google à Nancy", text: 'Améliorez votre positionnement sur les résultats de recherche locaux grâce à des techniques de référencement naturel ciblées.'
+            title: "Visibilité sur Google à Luneville", text: 'Améliorez votre positionnement sur les résultats de recherche locaux grâce à des techniques de référencement naturel ciblées.'
         },
         {
             title: "Vitrine ou boutique disponible 24/7", text: 'Offrez à votre entreprise une présence en ligne constante pour attirer de nouveaux clients à tout moment.'
         },
         {
-            title: "Gagner de nouveaux clients", text: 'Optimisez votre site pour la conversion, attirant ainsi de nouveaux clients à Nancy et au-delà.'
+            title: "Gagner de nouveaux clients", text: 'Optimisez votre site pour la conversion, attirant ainsi de nouveaux clients à Luneville et au-delà.'
         },
         {
             title: "Gagner en crédibilité", text: 'Une présence en ligne professionnelle renforce la crédibilité de votre entreprise.'
@@ -89,27 +89,27 @@ const page = () => {
     ]
 
     const contentCards = [
-        { title: "Création de sites internet à Nancy", text: 'En tant que développeur web freelance à Nancy, je m\'engage à être votre partenaire local pour la conception d\'un site internet unique et performant. Chaque site que je construis est une représentation professionnelle en ligne de votre entreprise, adaptée à vos besoins et à votre identité, offrant une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet', bg: 'bg-amber-200', alt: "Icône création de site internet" },
-        { title: "Refonte de site web à Nancy", text: 'Offrez une nouvelle jeunesse à votre site web existant grâce à mon expertise en tant que développeur web indépendant à Nancy. Je propose une modernisation complète, améliorant le design et l\'efficacité pour maintenir votre compétitivité locale.Découvrez comment je peux revitaliser votre présence en ligne.', icon: logo_refonte_site, link: '/creation-site-internet/refonte', bg: 'bg-blue-200', alt: "Icône refonte de site internet" },
-        { title: "Applications web / SaaS à Nancy", text: 'En qualité de développeur web freelance à Nancy, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels locaux. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web freelance basé à nancy.', icon: logo_sass_web, link: '/saas', bg: 'bg-green-200', alt: "Icône application web/saas" },
-        { title: "Intégration de vos maquettes à Nancy", text: 'Mon savoir-faire en tant que développeur web freelance à Nancy assure une intégration parfaite de vos designs dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon expertise en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icône intégration de design" },
-        { title: "Référencement Naturel - SEO à Nancy", text: 'Optimisez votre visibilité en ligne à Nancy grâce à mon expertise en référencement naturel (SEO). J\'optimise votre site web pour les moteurs de recherche, garantissant ainsi une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icône optimisation pour les moteurs de recherche - SEO" },
-        { title: "Référencement Sponsorisé - SEA à Nancy", text: 'Boostez instantanément votre visibilité à Nancy grâce à mon expertise en publicité en ligne (SEA). Je crée et gère des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icône publicité en ligne - SEA" },
-        { title: "Web Design à Nancy", text: 'Mon talent en tant que développeur web freelance à Nancy est dédié à la création d\'expériences en ligne inoubliables. Je crois que le design va bien au-delà de l\'esthétique ; c\'est l\'art de créer des sites web qui suscitent l\'émotion, renforcent la crédibilité et génèrent des résultats tangibles.', icon: logo_design, link: '/web-design', bg: 'bg-amber-200', alt: "Icône conception web" },
+        { title: "Création de sites internet à Luneville", text: 'En tant que développeur web freelance à Luneville, je m\'engage à être votre partenaire local pour la conception d\'un site internet unique et performant. Chaque site que je construis est une représentation professionnelle en ligne de votre entreprise, adaptée à vos besoins et à votre identité, offrant une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet', bg: 'bg-amber-200', alt: "Icône création de site internet" },
+        { title: "Refonte de site web à Luneville", text: 'Offrez une nouvelle jeunesse à votre site web existant grâce à mon expertise en tant que développeur web indépendant à Luneville. Je propose une modernisation complète, améliorant le design et l\'efficacité pour maintenir votre compétitivité locale.Découvrez comment je peux revitaliser votre présence en ligne.', icon: logo_refonte_site, link: '/creation-site-internet/refonte', bg: 'bg-blue-200', alt: "Icône refonte de site internet" },
+        { title: "Applications web / SaaS à Luneville", text: 'En qualité de développeur web freelance à Luneville, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels locaux. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web freelance basé à Luneville.', icon: logo_sass_web, link: '/saas', bg: 'bg-green-200', alt: "Icône application web/saas" },
+        { title: "Intégration de vos maquettes à Luneville", text: 'Mon savoir-faire en tant que développeur web freelance à Luneville assure une intégration parfaite de vos designs dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon expertise en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icône intégration de design" },
+        { title: "Référencement Naturel - SEO à Luneville", text: 'Optimisez votre visibilité en ligne à Luneville grâce à mon expertise en référencement naturel (SEO). J\'optimise votre site web pour les moteurs de recherche, garantissant ainsi une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icône optimisation pour les moteurs de recherche - SEO" },
+        { title: "Référencement Sponsorisé - SEA à Luneville", text: 'Boostez instantanément votre visibilité à Luneville grâce à mon expertise en publicité en ligne (SEA). Je crée et gère des campagnes publicitaires ciblées pour maximiser votre présence sur les moteurs de recherche.', icon: logo_referencement_sea, link: '/referencement-sponsorise-sea', bg: 'bg-green-200', alt: "Icône publicité en ligne - SEA" },
+        { title: "Web Design à Luneville", text: 'Mon talent en tant que développeur web freelance à Luneville est dédié à la création d\'expériences en ligne inoubliables. Je crois que le design va bien au-delà de l\'esthétique ; c\'est l\'art de créer des sites web qui suscitent l\'émotion, renforcent la crédibilité et génèrent des résultats tangibles.', icon: logo_design, link: '/web-design', bg: 'bg-amber-200', alt: "Icône conception web" },
     ];
 
     return (
         <main>
             <Header
-                title="Développeur web freelance à Nancy"
-                subtitle="Développeur web freelance à Nancy"
-                text="En tant que développeur web freelance basé à Nancy, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité visuelle dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
+                title="Développeur web freelance à Luneville"
+                subtitle="Développeur web freelance à Luneville"
+                text="En tant que développeur web freelance basé à Luneville, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité visuelle dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
                 image={picture_site}
                 alt="image png developpeur web"
             />
             <div className="sm:mt-20 sm:mb-20 mt-14 mb-14 px-5 sm:px-16">
                 <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Création de  <span className="text-emerald-600">sites internet et application</span> sur mesure à Nancy
+                    Création de  <span className="text-emerald-600">sites internet et application</span> sur mesure à Luneville
                 </h2>
 
                 <div className="sm:mt-20 mt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
@@ -122,14 +122,14 @@ const page = () => {
 
 
             <div className="bg-emerald-900 w-full text-white mt-20 py-12 flex flex-col items-center ">
-                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center"> Votre <span className="text-emerald-300 font-bold">site internet</span> clé-en-main à nancy qui fait la différence</h2>
+                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center"> Votre <span className="text-emerald-300 font-bold">site internet</span> clé-en-main à Luneville qui fait la différence</h2>
 
                 <div className="max-w-7xl space-y-10 sm:px-0 px-5">
 
                     <div className="flex flex-col-reverse items-center sm:flex-row w-full">
                         <div className="sm:w-2/3 space-y-4 flex flex-col justify-center w-full items-center sm:items-start" >
                             <h3 className="text-3xl font-bold">Site optimisé</h3>
-                            <p>En choisissant mes services de développement web à Nancy, votre site sera soigneusement optimisé pour garantir une performance maximale. De l'optimisation du code à la gestion des images, je m'assure que chaque détail est pris en compte pour une expérience utilisateur fluide.</p>
+                            <p>En choisissant mes services de développement web à Luneville, votre site sera soigneusement optimisé pour garantir une performance maximale. De l'optimisation du code à la gestion des images, je m'assure que chaque détail est pris en compte pour une expérience utilisateur fluide.</p>
                         </div>
                         <div className="flex items-center justify-center w-1/3 sm:mb-0 mb-10 ">
                             <Image alt="optimisation" src={speed} />
@@ -166,7 +166,7 @@ const page = () => {
                     <div className="flex flex-col-reverse items-center sm:flex-row w-full">
                         <div className="sm:w-2/3 space-y-4 flex flex-col justify-center w-full items-center sm:items-start" >
                             <h3 className="text-3xl font-bold sm:text-left text-center">Site dans le top classement Google</h3>
-                            <p>Mon approche inclut des techniques avancées de référencement naturel (SEO) pour maximiser la visibilité de votre site dans les résultats de recherche. Ensemble, visons le sommet du classement pour des termes clés tels que "création de site Nancy", "création de site internet Nancy", "site vitrine Nancy" et "développeur web Nancy"</p>
+                            <p>Mon approche inclut des techniques avancées de référencement naturel (SEO) pour maximiser la visibilité de votre site dans les résultats de recherche. Ensemble, visons le sommet du classement pour des termes clés tels que "création de site Luneville", "création de site internet Luneville", "site vitrine Luneville" et "développeur web Luneville"</p>
                         </div>
                         <div className="flex items-center justify-center w-1/3 sm:mb-0 mb-10 ">
                             <Image alt="optimisation" src={first} />
@@ -179,7 +179,7 @@ const page = () => {
             <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
                 <div className="relative isolate overflow-hidden bg-emerald-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
                     <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                        Donnez vie à votre vision avec un développeur web freelance à Nancy
+                        Donnez vie à votre vision avec un développeur web freelance à Luneville
                     </h2>
                     <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
                         Cliquez ci-dessous pour commencer votre projet dès maintenant. Ensemble, nous pouvons créer une expérience web exceptionnelle qui captivera votre audience et propulsera votre activité vers de nouveaux sommets.
@@ -248,13 +248,13 @@ const page = () => {
 
             <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 space-y-5 px-5">
                 <h2 className="text-2xl sm:text-4xl text-emerald-950 font-bold" >Pourquoi avoir un <span className="text-emerald-600">un site internet</span></h2>
-                <p>Que vous cherchiez à renforcer votre visibilité sur Google à Nancy ou à dynamiser votre présence en ligne, mes services de développement web sont conçus pour vous offrir des solutions sur mesure. En tant que développeur web chevronné basé à Nancy, je vous propose une expertise complète, du développement de sites vitrines et boutiques en ligne à la création de landing pages percutantes.</p>
-                <p className="text-lg font-semibold" >Optimisez votre visibilité sur Google à Nancy <Link href="referencement-naturel-seo" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
-                <p>Augmentez votre visibilité sur le moteur de recherche le plus utilisé avec des techniques de référencement naturel (SEO) adaptées à Nancy. En collaborant avec moi, vous bénéficierez d'une meilleure position sur les résultats de recherche locaux, maximisant ainsi votre exposition en ligne.</p>
+                <p>Que vous cherchiez à renforcer votre visibilité sur Google à Luneville ou à dynamiser votre présence en ligne, mes services de développement web sont conçus pour vous offrir des solutions sur mesure. En tant que développeur web chevronné basé à Luneville, je vous propose une expertise complète, du développement de sites vitrines et boutiques en ligne à la création de landing pages percutantes.</p>
+                <p className="text-lg font-semibold" >Optimisez votre visibilité sur Google à Luneville <Link href="referencement-naturel-seo" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p>Augmentez votre visibilité sur le moteur de recherche le plus utilisé avec des techniques de référencement naturel (SEO) adaptées à Luneville. En collaborant avec moi, vous bénéficierez d'une meilleure position sur les résultats de recherche locaux, maximisant ainsi votre exposition en ligne.</p>
                 <p className="text-lg font-semibold" >Propulsez votre entreprise avec une vitrine 24/7 <Link href="creation-site-internet/site-vitrine" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
                 <p>Offrez à votre entreprise une vitrine en ligne accessible 24/7. Avec mes compétences en développement web, je crée des sites vitrines attrayants, assurant une présence constante pour attirer de nouveaux clients, renforcer votre crédibilité et augmenter votre chiffre d'affaires.</p>
                 <p className="text-lg font-semibold" >Expérience E-commerce pour gagner de nouveaux clients <Link href="creation-site-internet/e-commerce" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
-                <p>Explorez le potentiel de l'e-commerce avec des boutiques en ligne puissantes. Grâce à mes compétences en développement, je crée des boutiques en ligne optimisées pour la conversion, vous permettant de gagner de nouveaux clients, d'augmenter votre ca et de faire prospérer votre activité à Nancy.</p>
+                <p>Explorez le potentiel de l'e-commerce avec des boutiques en ligne puissantes. Grâce à mes compétences en développement, je crée des boutiques en ligne optimisées pour la conversion, vous permettant de gagner de nouveaux clients, d'augmenter votre ca et de faire prospérer votre activité à Luneville.</p>
                 <p className="text-lg font-semibold" >Landing pages stratégiques pour une communication efficace <Link href="creation-site-internet/landing-page" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
                 <p>Mes services incluent la création de landing pages stratégiques. Ces pages sont conçues pour convertir les visiteurs en clients potentiels, facilitant ainsi la communication et l'interaction avec votre audience cible.</p>
                 <p className="text-lg font-semibold" >Optimisation et refonte pour un impact durable <Link href="creation-site-internet/refonte" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
