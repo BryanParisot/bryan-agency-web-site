@@ -9,7 +9,6 @@ import Link from "next/link"
 
 
 //LOGOS | PICTURES
-import profil from "../../public/profil/profil_bryan.webp"
 import logo_design from "../../public/logos/nav/logo_design.svg"
 import logo_creation_site from "../../public/logos/nav/logo_html.svg"
 import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
@@ -23,6 +22,7 @@ import performant from "../../public/logos/web-nancy/performant.svg"
 import responsive from "../../public/logos/web-nancy/responsive.svg"
 import speed from "../../public/logos/web-nancy/speed 1.svg"
 import picture_site from "../../public/pictures/site/site_page.png"
+import profil from "../../public/profil/profil_bryan.webp"
 
 
 import { Metadata } from 'next'
@@ -101,8 +101,8 @@ const page = () => {
     return (
         <main>
             <Header
-                title="Développeur web freelance à Luneville"
-                subtitle="Développeur web freelance à Luneville"
+                title="Agence web à Luneville"
+                subtitle="Agence web à Luneville"
                 text="En tant que développeur web freelance basé à Luneville, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité visuelle dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
                 image={picture_site}
                 alt="image png developpeur web"
@@ -179,7 +179,7 @@ const page = () => {
             <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
                 <div className="relative isolate overflow-hidden bg-emerald-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
                     <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                        Donnez vie à votre vision avec un développeur web freelance à Luneville
+                        Donnez vie à votre vision avec votre agence web à Luneville
                     </h2>
                     <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
                         Cliquez ci-dessous pour commencer votre projet dès maintenant. Ensemble, nous pouvons créer une expérience web exceptionnelle qui captivera votre audience et propulsera votre activité vers de nouveaux sommets.
