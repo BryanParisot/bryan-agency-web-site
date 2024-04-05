@@ -1,5 +1,5 @@
 ---
-title: 5 raisons d'avoir avoir un site internet en 2024
+title: 5 raisons d'avoir un site internet en 2024
 description: "Découvrez les 5 raisons d'avoir un site web : visibilité accrue, boutique ouverte 24/7, nouveaux clients, crédibilité renforcée et communication facilitée."
 date: 2023-01-05
 author: "Bryan Parisot"
@@ -7,7 +7,7 @@ role: "CEO"
 category: "Web"
 image: /pictures/posts/raison-de-faire-site.webp
 picture_author: /images/blog/bryan.webp
-canonical : 5 Raisons d'avoir avoir un site internet en 2024
+canonical : 5 Raisons d'avoir un site internet en 2024
 ---
 
 Bienvenue dans le monde numérique, un univers où la présence en ligne est devenue la clé de la prospérité des entreprises. En tant qu'enthousiastes du web, nous sommes ici pour explorer les raisons impérieuses qui rendent essentiel d'avoir une présence en ligne solide. Attachez vos ceintures, car nous allons vous dévoiler comment cela peut révolutionner votre entreprise !
