@@ -17,6 +17,7 @@ const navigation = {
         { name: 'Référencement sponsorisé - SEA', href: '/referencement-sponsorise-sea' },
         { name: 'Web design', href: '/web-design' },
         { name: 'Développeur web à Luneville', href: '/developpeur-web-freelance-luneville' },
+        { name: 'Agence web à Baccarat', href: '/agence-web-a-baccarat' },
     ],
     legal: [
         { name: 'Mentions-légales', href: '/legal/mentions-legales' },

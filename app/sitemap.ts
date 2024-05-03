@@ -28,7 +28,7 @@ const changeFrequency: SitemapEntry['changeFrequency'] = 'daily';
       changeFrequency
     }))
 
-    const routes: SitemapEntry[] = ['', 'creation-site-internet','creation-site-internet/e-commerce','creation-site-internet/landing-page','creation-site-internet/maintenance-wordpress','creation-site-internet/refonte','creation-site-internet/site-vitrine','creation-site-internet/wordpress-personnalise', 'saas', 'web-design', 'referencement-sponsorise-sea', 'referencement-naturel-seo', 'realisation', 'blog', 'integration', 'contact', 'legal/mentions-legales','legal/conditions-generales','developpeur-web-freelance-luneville'].map((route) => ({
+    const routes: SitemapEntry[] = ['', 'creation-site-internet','creation-site-internet/e-commerce','creation-site-internet/landing-page','creation-site-internet/maintenance-wordpress','creation-site-internet/refonte','creation-site-internet/site-vitrine','creation-site-internet/wordpress-personnalise', 'saas', 'web-design', 'referencement-sponsorise-sea', 'referencement-naturel-seo', 'realisation', 'blog', 'integration', 'contact', 'legal/mentions-legales','legal/conditions-generales','developpeur-web-freelance-luneville','agence-web-a-baccarat'].map((route) => ({
         url: `${siteUrl}/${route}`,
         lastModified: new Date(),
         changeFrequency,

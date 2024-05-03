@@ -1,6 +1,6 @@
-import { format, parseISO } from 'date-fns';
-import { allPosts } from 'contentlayer/generated';
 import RenderMdx from '@/components/blog/RenderMdx';
+import { allPosts } from 'contentlayer/generated';
+import { format, parseISO } from 'date-fns';
 
 
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
