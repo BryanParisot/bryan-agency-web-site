@@ -1,4 +1,3 @@
-import React from 'react'
 import { Metadata } from 'next'
 
 //COMPONENTS
@@ -6,7 +5,6 @@ import Header from '@/components/Header/Header'
 import { BuildingOffice2Icon, PhoneIcon } from '@heroicons/react/24/outline'
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
 import Form from '@/components/Form/Form'
 
 
@@ -25,9 +23,8 @@ export default function integration() {
                 title="Développeur web freelance - page contact"
                 subtitle="Contactez Bryan Parisot, Développeur Web Freelance"
                 text="Vous avez des questions, des projets à discuter ou simplement envie de dire bonjour ? N'hésitez pas à me contacter. Je suis là pour vous aider à concrétiser vos idées numériques. Remplissez le formulaire ci-dessous, et je vous répondrai dans les plus brefs délais. Ensemble, créons une présence en ligne qui vous démarque !"
-                image={picture_site}
-                alt="image png developpeur web freelance"
             />
+            
             <div className="relative isolate bg-white">
                 <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
                     <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
