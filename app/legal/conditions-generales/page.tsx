@@ -1,7 +1,5 @@
-import React from 'react'
-import { Metadata } from 'next'
-import picture_home from "../../../public/pictures/header/picture_home_page.svg"
 import Header from "@/components/Header/Header";
+import { Metadata } from 'next';
 
 
 
@@ -22,8 +20,6 @@ export default function page() {
                 title="Développeur web freelance"
                 subtitle="Politique de confidentialité"
                 text="Le site web Bryanparisot est détenu par bryanparisot, qui est un contrôleur de données de vos données personnelles."
-                image={picture_home}
-                alt="image png developpeur web"
             />
             <div className="container mx-auto p-4 mt-14 sm:mt-20">
 

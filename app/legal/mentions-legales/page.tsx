@@ -1,9 +1,7 @@
-import Link from 'next/link';
-import React from 'react';
-import picture_home from "../../../public/pictures/header/picture_home_page.svg"
 import Header from "@/components/Header/Header";
+import Link from 'next/link';
 
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 
 export const metadata: Metadata = {
@@ -21,8 +19,6 @@ export default function page() {
                 title="Développeur web freelance"
                 subtitle="Mentions-légales"
                 text="En vigueur au 06/12/2023"
-                image={picture_home}
-                alt="image png developpeur web"
             />
             <div className="container mx-auto p-4 mt-14 sm:mt-20">
 
