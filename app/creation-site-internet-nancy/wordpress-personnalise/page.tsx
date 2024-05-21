@@ -17,7 +17,6 @@ import { Button } from '@/components/ui/button'
 import logo_growth from "../../../public/logos/site/wordpress/logo_growth.svg"
 import logo_responsive from "../../../public/logos/site/wordpress/logo_responsive.svg"
 import logo_security from "../../../public/logos/site/wordpress/logo_security.svg"
-import picture_site from "../../../public/pictures/site/site_page.png"
 import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 import wp from "../../../public/pictures/site/wordpress/wp.jpg"
 import wp_illu from "../../../public/pictures/site/wordpress/wp_il.jpg"
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Création de site wordpress à Nancy',
     description: "Découvrez l'univers unique de votre site WordPress à Nancy avec Bryan Parisot, développeur web freelance. Créez une présence en ligne, naviguez vers le succès",
     alternates: {
-        canonical: `${process.env.URL_SITE}/creation-site-internet/wordpress-personnalise`
+        canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/wordpress-personnalise`
     }
 
 
@@ -81,13 +80,11 @@ export default function page() {
                 title="Développeur web freelance créateur de site wordpress personnalisé à Nancy"
                 subtitle="Création d'un site wordpress personnalisé"
                 text="  En tant que développeur web freelance, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me spécialise dans la création de sites WordPress personnalisés qui captivent, convainquent et transforment ces visiteurs en clients fidèles."
-                image={picture_site}
-                alt="image png developpeur web"
             />
 
             <div className="mt-10 mb-10">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages de créer <span className="text-emerald-600">un site wordpress professionnel </span>
+                <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider sm:px-0 px-3" >
+                    Les avantages de créer <span className="text-primary">un site wordpress professionnel </span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -107,15 +104,12 @@ export default function page() {
                                 alt="Freelance créateur de site wordpress" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">Votre vision, mon expertise : Créez un site <span className='text-emerald-600'>WordPress professionnel</span> </h2>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">Votre vision, mon expertise : Créez un site <span className='text-primary'>WordPress professionnel</span> </h2>
                             <p>
                                 En tant que développeur web freelance basé à Nancy, je comprends que votre site web doit être une véritable extension de votre entreprise et de votre vision. C'est pourquoi je me spécialise dans la création de  <span className="font-bold">sites WordPress personnalisés</span> qui vous permettent de concrétiser vos idées en ligne.
                             </p>
                             <p>
                                 Que vous recherchiez une présence en ligne professionnelle, un blog percutant, une boutique e-commerce ou une solution complexe, je suis là pour vous. Je collabore étroitement avec vous pour comprendre vos objectifs, vos besoins et votre identité de marque, puis je personnalise chaque détail de votre site pour qu'il corresponde parfaitement à votre vision.
-                            </p>
-                            <p>
-                                Avec <span className="font-bold"> WordPress </span> comme toile, je donne vie à vos idées avec des designs uniques, des fonctionnalités puissantes et une performance optimale. Découvrez comment je peux transformer votre vision en réalité en créant un <span className="font-bold"> site WordPress personnalisé </span> qui excelle en ligne.
                             </p>
                         </div>
                     </div>
@@ -128,8 +122,8 @@ export default function page() {
                                 alt="Illustration d'un site vitrine" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Un site <span className='text-emerald-600' >WordPress personnalisé</span> à votre image
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                                Un site <span className='text-primary' >WordPress personnalisé</span> à votre image
                             </h2>
                             <p>
                                 En tant que développeur web freelance, je crois en la création de sites WordPress qui sont fidèles à votre vision et à votre identité en ligne.
@@ -150,7 +144,7 @@ export default function page() {
 
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
-                        <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
+                        <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 font-anton line tracking-wider'>
                             Garantissez la performance de votre site avec mon service de maintenance WordPress
                         </h2>
                         <p>
@@ -163,7 +157,7 @@ export default function page() {
                             Découvrez comment mon service de <span className='font-bold'>maintenance WordPress</span>  peut vous aider à éviter les interruptions inattendues et à maintenir la qualité de votre présence en ligne.
                         </p>
                         <div>
-                            <Link href="/creation-site-internet/maintenance-wordpress">
+                            <Link href="/creation-site-internet-nancy/maintenance-wordpress">
                                 <Button variant="primary">
                                     Découvrez notre de maintenance WordPress.
                                 </Button>

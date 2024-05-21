@@ -11,3 +11,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.line{
+  line-height: 1.2 !important;
+}
+

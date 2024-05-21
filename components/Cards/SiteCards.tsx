@@ -18,7 +18,7 @@ const SiteCards: React.FC<siteCardsProps> = ({ title, text, image, alt, link }) 
                 <Image className='w-20 h-20' src={image} alt={alt} height={100} width={100} />
             </div>
             <div className='space-y-3'>
-                <h3 className='text-center text-emerald-950 font-extrabold text-lg'>
+                <h3 className='text-center text-gray-950 font-extrabold text-lg'>
                     {title}
                 </h3>
                 <p className='text-gray-700 font-light text-center'>

@@ -1,24 +1,24 @@
 "use client"
 
-import { Fragment } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Fragment } from 'react'
 
 import { Popover, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import logo_design from "../../public/logos/nav/logo_design.svg"
 import logo_creation_site from "../../public/logos/nav/logo_html.svg"
+import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
 import logo_refonte_site from "../../public/logos/nav/logo_refonte.svg"
 import logo_sass_web from "../../public/logos/nav/logo_sass.svg"
-import logo_integration_maquette from "../../public/logos/nav/logo_integration.svg"
-import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
 import logo_referencement_sea from "../../public/logos/nav/logo_sea.svg"
-import logo_design from "../../public/logos/nav/logo_design.svg"
+import logo_referencement_seo from "../../public/logos/nav/logo_seo.svg"
 
 
 
 const solutions = [
-    { name: 'Création de site internet', description: 'Transformez votre vision en réalité en ligne', href: '/creation-site-internet', icon: logo_creation_site, alt: "Icone création de site internet", bg: 'bg-amber-200' },
-    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/creation-site-internet/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
+    { name: 'Création de site internet', description: 'Transformez votre vision en réalité en ligne', href: '/creation-site-internet-nancy', icon: logo_creation_site, alt: "Icone création de site internet", bg: 'bg-amber-200' },
+    { name: 'Refonte site web', description: 'Modernisez et optimisez votre présence en ligne', href: '/creation-site-internet-nancy/refonte', icon: logo_refonte_site, alt: "Icone refonte de site internet", bg: 'bg-amber-200' },
     { name: 'Application Web/Saas', description: "Des solutions web sur mesure pour votre entreprise", href: '/saas', icon: logo_sass_web, alt: "Icone application web/saas", bg: 'bg-green-200' },
     { name: 'Integration de vos maquettes', description: 'Donnez vie à vos conceptions avec notre expertise en intégration', href: '/integration', icon: logo_integration_maquette, alt: "Icone intégration de maquette", bg: 'bg-green-200' },
     { name: 'Référencement Naturel - SEO', description: 'Optimisez votre visibilité en ligne grâce à notre expertise en SEO.', href: '/referencement-naturel-seo', icon: logo_referencement_seo, alt: "Icone référencement naturel SEO", bg: 'bg-blue-200' },

@@ -1,27 +1,26 @@
 import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
-import SectionEmerald from '@/components/Section/SectionEmerald'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionEmerald from '@/components/Section/SectionEmerald'
+import SectionLogos from '@/components/Section/SectionLogos'
 import { Button } from '@/components/ui/button'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../../public/pictures/site/site_page.png"
 
-import logo_securite from "../../../public/logos/site/maintenance/logo_securite.svg"
 import logo_performance from "../../../public/logos/site/maintenance/logo_performance.svg"
+import logo_securite from "../../../public/logos/site/maintenance/logo_securite.svg"
 import logo_stress from "../../../public/logos/site/maintenance/logo_stress.svg"
 
+import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 import wordpress_maintenance from "../../../public/pictures/site/wordpress/wordpress_maintenance.jpg"
 import wordpress_maintenance_menu from "../../../public/pictures/site/wordpress/wordpress_maintenance_menu.jpg"
-import maintenance_illustration from "../../../public/pictures/site/wordpress/maintenance_illustration.png"
 
 
 import { Metadata } from 'next'
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Maintenance wordpress à Nancy',
     description: "Assurez la pérennité de votre site WordPress avec notre service de maintenance à Nancy. Bryan Parisot, développeur web freelance, veille à la performance, sécurité",
     alternates: {
-        canonical: `${process.env.URL_SITE}/creation-site-internet/maintenance-wordpress`
+        canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/maintenance-wordpress`
     }
 }
 
@@ -89,13 +88,11 @@ export default function page() {
                 title="Développeur web freelance - Maintenance Wordpress à Nancy"
                 subtitle="Services de maintenance pour votre site WordPress : Votre garantie de performances optimales"
                 text="En tant que développeur web freelance spécialisé dans WordPress, je comprends l'importance de maintenir votre site en parfait état de fonctionnement. Je m'engage à vous offrir des services de maintenance complets et rigoureux pour garantir que votre site fonctionne à son meilleur, à tout moment."
-                image={picture_site}
-                alt="image png developpeur web"
             />
 
             <div className="mt-10 mb-10">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages de me laisser <span className="text-emerald-600">le service de maintenance</span>
+                <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >
+                    Les avantages de me laisser <span className="text-primary">le service de maintenance</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -115,13 +112,13 @@ export default function page() {
                                 alt="Freelance wordpress" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Liste des  <span className="text-emerald-600" >services de maintenance</span>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                                Liste des  <span className="text-primary" >services de maintenance</span>
                             </h2>
                             <p>
                                 En tant que développeur web freelance, je comprends que la maintenance de votre site web est une décision cruciale. Je suis prêt à vous montrer pourquoi choisir mes services est la meilleure option pour assurer la performance, la sécurité et la fiabilité continues de votre site.                            </p>
                             <div className='flex flex-row'>
-                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>1</div>
+                                <div className='h-10 w-10 bg-red-200 rounded-full flex items-center justify-center mr-4'>1</div>
                                 <div className='w-5/6'>
                                     <p>
                                         <span className='font-extrabold'>Mises à jour régulières :  </span> En tant que développeur web freelance, j'assure une gestion proactive des mises à jour pour maintenir la compatibilité et la sécurité de votre site.
@@ -129,7 +126,7 @@ export default function page() {
                                 </div>
                             </div>
                             <div className='flex flex-row'>
-                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>2</div>
+                                <div className='h-10 w-10 bg-red-200 rounded-full flex items-center justify-center mr-4'>2</div>
                                 <div className='w-5/6'>
                                     <p>
                                         <span className='font-extrabold'>Sécurité renforcée : </span> En tant que développeur web freelance, je surveille en permanence votre site pour prévenir les menaces et réagir rapidement en cas d'incident.
@@ -148,7 +145,7 @@ export default function page() {
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
                             <div className='flex flex-row mt-2'>
-                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>3</div>
+                                <div className='h-10 w-10 bg-red-200 rounded-full flex items-center justify-center mr-4'>3</div>
                                 <div className='w-5/6'>
                                     <p>
                                         <span className='font-extrabold'>Sauvegardes Automatisées : </span> En tant que développeur web freelance, je protège vos données grâce à des sauvegardes régulières.
@@ -156,7 +153,7 @@ export default function page() {
                                 </div>
                             </div>
                             <div className='flex flex-row mt-2'>
-                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>4</div>
+                                <div className='h-10 w-10 bg-red-200 rounded-full flex items-center justify-center mr-4'>4</div>
                                 <div className='w-5/6'>
                                     <p>
                                         <span className='font-extrabold'>Optimisation des performances : </span> En tant que développeur web freelance, j'améliore constamment la vitesse et la réactivité de votre site pour offrir une expérience utilisateur exceptionnelle.
@@ -164,7 +161,7 @@ export default function page() {
                                 </div>
                             </div>
                             <div className='flex flex-row mt-2'>
-                                <div className='h-10 w-10 bg-emerald-200 rounded-full flex items-center justify-center mr-4'>5</div>
+                                <div className='h-10 w-10 bg-red-200 rounded-full flex items-center justify-center mr-4'>5</div>
                                 <div className='w-5/6'>
                                     <p>
                                         <span className='font-extrabold'>Support technique réactif : </span> En tant que développeur web freelance, je suis prêt à intervenir rapidement en cas de problème pour résoudre tout souci technique sur votre site.
@@ -183,7 +180,7 @@ export default function page() {
 
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6 flex-col flex justify-evenly '>
-                        <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
+                        <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 font-anton line tracking-wider'>
                             Pourquoi la maintenance d’un site WordPress est indispensable ?
                         </h2>
                         <p>

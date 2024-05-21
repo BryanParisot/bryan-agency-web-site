@@ -1,29 +1,28 @@
 //COMPONENTS
-import CallToAction from "@/components/CTA/CallToAction";
-import SectionWithPictures from "@/components/Section/SectionWithPictures";
 import BlogSection from "@/components/BlogSection/BlogSection";
-import Header from "@/components/Header/Header";
-import SiteCards from "../../components/Cards/SiteCards";
+import CallToAction from "@/components/CTA/CallToAction";
 import Faq from "@/components/FAQ/Faq";
+import Header from "@/components/Header/Header";
+import SectionWithPictures from "@/components/Section/SectionWithPictures";
+import SiteCards from "../../components/Cards/SiteCards";
 
 //LOGOS | PICTURES
-import logo_vitrine from "../../public/logos/site/logo_vitrine.svg"
-import logo_e_commerce from "../../public/logos/site/logo_e_commerce.svg"
-import logo_landing_page from "../../public/logos/site/logo_landing_page.svg"
-import logo_wordpress from "../../public/logos/site/logo_wordpress.svg"
-import logo_refonte from "../../public/logos/site/logo_refonte.svg"
-import logo_maintenance from "../../public/logos/site/logo_maintenance.svg"
-import picture_site from "../../public/pictures/site/site_page.png"
-import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg"
+import logo_e_commerce from "../../public/logos/site/logo_e_commerce.svg";
+import logo_landing_page from "../../public/logos/site/logo_landing_page.svg";
+import logo_maintenance from "../../public/logos/site/logo_maintenance.svg";
+import logo_refonte from "../../public/logos/site/logo_refonte.svg";
+import logo_vitrine from "../../public/logos/site/logo_vitrine.svg";
+import logo_wordpress from "../../public/logos/site/logo_wordpress.svg";
+import presence_en_ligne from "../../public/pictures/site/presence_en_ligne.jpg";
 
 
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: ' Développeur Web Freelance | Création de site internet à Nancy',
-  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web à Nancy. Des sites internet sur mesure qui naviguent entre créativité et performance.',
+  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web à Nancy expert en création de site internet performant.',
   alternates: {
-    canonical: `${process.env.URL_SITE}/creation-site-internet`
+    canonical: `${process.env.URL_SITE}/creation-site-internet-nancy`
   }
 
 }
@@ -37,42 +36,42 @@ export default function Page() {
       text: 'Mon approche de création de sites vitrine va bien au-delà d\'une simple présentation en ligne. Je conçois des sites qui attirent, engagent et convertissent vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, je vous offre une expérience utilisateur exceptionnelle. En assurant une expérience responsive sur tous les appareils',
       image: logo_vitrine,
       alt: 'logo site vitrine',
-      link: '/creation-site-internet/site-vitrine'
+      link: '/creation-site-internet-nancy/site-vitrine'
     },
     {
       title: 'Création d’un site e-commerce',
       text: 'Explorez le monde du commerce électronique avec confiance en choisissant mes services. Je suis spécialisé dans la création de boutiques en ligne, conçues pour transformer les visiteurs en clients fidèles. Mon expertise en design, développement e-commerce et optimisation vous permettra de prospérer dans le paysage en constante évolution du commerce en ligne sur tous les écrans.',
       image: logo_e_commerce,
       alt: 'logo e-commerce',
-      link: '/creation-site-internet/e-commerce'
+      link: '/creation-site-internet-nancy/e-commerce'
     },
     {
       title: 'Création d’une landing-page',
       text: 'Mes sites vitrine vont bien au-delà d\'une simple vitrine en ligne. Ils sont conçus pour attirer, engager et convertir vos visiteurs en clients. Mettant en avant votre entreprise de manière élégante et persuasive, j\'offre une expérience utilisateur exceptionnelle. Découvrez comment je peux vous aider à briller en ligne avec une landing page qui laisse une impression mémorable sur tous les écrans.',
       image: logo_landing_page,
       alt: 'logo landing page',
-      link: '/creation-site-internet/landing-page'
+      link: '/creation-site-internet-nancy/landing-page'
     },
     {
       title: 'Votre site WordPress personnalisé',
       text: 'Optez pour la puissance de WordPress avec mes services. En tant qu\'expert dans la création de sites web sur mesure utilisant la plateforme WordPress, je personnalise chaque détail pour répondre à vos besoins spécifiques. Que ce soit pour un blog, un site vitrine ou un site e-commerce, je transforme votre vision en un site web WordPress fonctionnel et attrayant, prêt à attirer l\'attention en ligne.',
       image: logo_wordpress,
       alt: 'logo wordpress personnalisé',
-      link: '/creation-site-internet/wordpress-personnalise'
+      link: '/creation-site-internet-nancy/wordpress-personnalise'
     },
     {
       title: 'Refonte de votre site internet ou application',
       text: 'Votre site web mérite d\'être à la hauteur de votre entreprise en constante évolution. Avec mon service de refonte de site web, je peux revitaliser votre présence en ligne, moderniser votre design et améliorer votre expérience utilisateur. Que vous souhaitiez une mise à jour esthétique, une optimisation pour les moteurs de recherche ou de nouvelles fonctionnalités.',
       image: logo_refonte,
       alt: 'logo refonte de site web/app',
-      link: '/creation-site-internet/refonte'
+      link: '/creation-site-internet-nancy/refonte'
     },
     {
       title: 'Service de maintenance WordPress',
       text: 'La maintenance régulière est essentielle pour garantir le bon fonctionnement et la sécurité de votre site WordPress. Mon service de maintenance prend en charge toutes les tâches fastidieuses, des mises à jour de sécurité aux sauvegardes régulières, en passant par la gestion des plugins. Vous pouvez vous concentrer sur votre entreprise pendant que je veille sur votre site.',
       image: logo_maintenance,
       alt: 'logo maintenance wordpress',
-      link: '/creation-site-internet/maintenance-wordpress'
+      link: '/creation-site-internet-nancy/maintenance-wordpress'
     }
   ];
 
@@ -102,17 +101,15 @@ export default function Page() {
   return (
     <main>
       <Header
-        title="Développeur web - créateur de site internet à Nancy"
+        title="Développeur web - création de site internet à Nancy"
         subtitle="Création de site internet pour booster votre visibilité sur le web"
         text="Découvrez comment mon expertise en tant que développeur web freelance peut transformer votre présence en ligne en un atout puissant pour votre entreprise locale. Avec mon expérience dans le développement web, je crée des sites internet optimisés pour les moteurs de recherche. Propulsez votre visibilité et atteignez vos objectifs en ligne."
-        image={picture_site}
-        alt="image png developpeur web création de site internet"
       />
 
       <div className="mt-10 mb-10">
 
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-2 sm:px-0" >
-          Mes prestation de <span className="text-emerald-600">création de site internet à Nancy</span>
+        <h2 className="text-center font-anton tracking-wider text-4xl sm:text-5xl text-gray-900 font-bold px-2 sm:px-0" >
+          Mes prestations de <span className="text-primary">création de site internet à Nancy</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -123,11 +120,11 @@ export default function Page() {
           }
         </div>
 
-        <section className="mt-20 px-5 sm:px-16">
-          <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold">
+        <section className="mt-20 px-5 sm:w-2/4 flex flex-col items-center justify-center mx-auto" >
+          <h2 className="text-center text-2xl sm:text-5xl tracking-wider font-anton text-gray-950 font-bold line w-full sm:w-2/3">
             Conception responsive pour une expérience optimal
           </h2>
-          <p className="mt-4 text-center text-gray-600">
+          <p className="text-center mt-4 text-gray-600">
             Chaque site que je crée est optimisé pour s'adapter à différents écrans, offrant ainsi une expérience utilisateur fluide et agréable, que ce soit sur ordinateur, tablette ou smartphone.
           </p>
         </section>

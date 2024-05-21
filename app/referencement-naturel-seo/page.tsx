@@ -22,7 +22,6 @@ import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
 import map from "../../public/logos/seo/map.svg"
 import seo from "../../public/pictures/seo/seo.jpg"
 import seo_score from "../../public/pictures/seo/seo_score.jpg"
-import picture_site from "../../public/pictures/site/site_page.png"
 
 
 import { Metadata } from 'next'
@@ -99,15 +98,13 @@ export default function page() {
         <main>
             <Header
                 title="Développeur web freelance - SEO à Nancy"
-                subtitle="Améliorez votre référencement naturel avec mon expertise en SEO à Nancy"
+                subtitle="Améliorez votre référencement naturel en SEO à Nancy"
                 text="Bienvenue dans mon univers chez Bryan Parisot, votre partenaire de confiance pour le référencement SEO. En tant que développeur web freelance, je suis déterminé à propulser votre site web vers les sommets des résultats de recherche. Grâce à mon expertise, je conçois des stratégies SEO sur mesure qui maximisent votre visibilité en ligne et génèrent un trafic qualifié."
-                image={picture_site}
-                alt="image png developpeur web"
             />
 
             <div className="mt-10 mb-10">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages du <span className="text-emerald-600">référencement naturel (SEO)</span>
+                <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >
+                    Les avantages du <span className="text-primary">référencement naturel (SEO)</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -126,7 +123,7 @@ export default function page() {
                                 alt="Double Ecran illustration" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
                                 Pourquoi le SEO est indispensable ?
                             </h2>
                             <p>
@@ -160,9 +157,9 @@ export default function page() {
                 <CallToAction />
             </div>
             <div className=" mb-10">
-                <div className='bg-emerald-50 flex items-center flex-col py-5 px-5 sm:px-16'>
-                    <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
-                        Les services de <span className='text-emerald-600'>referecement naturel</span>
+                <div className='bg-gray-50 flex items-center flex-col py-5 px-5 sm:px-16'>
+                    <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 text-center font-anton line tracking-wider'>
+                        Les services de <span className='text-primary'>référencement naturel</span>
                     </h2>
 
                     <div className='bg-emerald-50 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>

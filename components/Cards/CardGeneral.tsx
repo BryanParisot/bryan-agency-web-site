@@ -15,7 +15,7 @@ const CardGeneral: React.FC<CardGeneralProps> = ({ title, text, image, alt }) =>
                 <Image className='w-22 h-22' src={image} alt={alt} height={100} width={100} />
             </div>
             <div className='space-y-3'>
-                <h3 className='text-center text-emerald-950 font-bold text-xl'>
+                <h3 className='text-center text-gray-950 font-bold text-xl'>
                     {title}
                 </h3>
                 <p className='text-gray-700 font-light text-center'>

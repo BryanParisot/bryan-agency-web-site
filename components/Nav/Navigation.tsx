@@ -1,12 +1,12 @@
 "use client"
 
-import React, { useState } from 'react'
-import Menu from '../Menu/Menu'
-import { Button } from '../ui/button'
-import Link from 'next/link'
-import MenuMobile from '../Menu/MenuMobile'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { AnimatePresence, motion } from 'framer-motion'
+import Link from 'next/link'
+import { useState } from 'react'
+import Menu from '../Menu/Menu'
+import MenuMobile from '../Menu/MenuMobile'
+import { Button } from '../ui/button'
 
 
 export default function Navigation() {
@@ -18,7 +18,7 @@ export default function Navigation() {
                 name: 'Linkedin',
                 href: 'https://www.linkedin.com/in/bryan-parisot-a99b0a1b1/',
                 icon: (props: any) => (
-                    <svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px">
+                    <svg fill="currentColor" viewBox="0 0 50 50" width="25px" height="25px" {...props}>
                         <path
                             d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z" />
                     </svg>),
@@ -54,8 +54,8 @@ export default function Navigation() {
 
     const paths = [
         { name: 'Accueil', path: '/' },
-        { name: 'Création de site', path: '/creation-site-internet' },
-        { name: 'Refonte de site', path: '/creation-site-internet/refonte' },
+        { name: 'Création de site', path: '/creation-site-internet-nancy' },
+        { name: 'Refonte de site', path: '/creation-site-internet-nancy/refonte' },
         { name: 'Application web | Sass', path: '/saas' },
         { name: 'Intégration maquette', path: '/integration' },
         { name: 'Référencement Naturel - SEO', path: '/referencement-naturel-seo' },
@@ -128,9 +128,9 @@ export default function Navigation() {
 
     return (
         <header className='flex justify-center'>
-            <div className='fixed shadow flex items-center justify-between bg-emerald-50/90 h-20 w-full max-w-[90%] rounded-lg text mt-10 px-5 z-10'>
+            <div className='fixed shadow flex items-center justify-between bg-red-50 h-20 w-full max-w-[90%] rounded-lg text mt-10 px-5 z-10'>
                 <Link href="/">
-                    <span className='font-bold text-emerald-950 text-xl'>Bryan parisot</span>
+                    <span className='font-bold text-gray-950 text-xl'>Bryan parisot</span>
                 </Link>
                 <div className='hidden lg:flex sm:items-center'>
                     <Menu />
@@ -149,10 +149,10 @@ export default function Navigation() {
                         initial="initial"
                         animate="animate"
                         exit="exit"
-                        className="fixed origin-top bg-emerald-800 w-full h-screen top-0 left-0 p-2 z-50 py-8">
+                        className="fixed origin-top bg-secondary w-full h-screen top-0 left-0 p-2 z-50 py-8">
                         <div className='flex flex-col h-full'>
                             <div className="flex justify-end items-center">
-                                <XMarkIcon onClick={() => setMenuOpen(false)} className="h-12 w-12 cursor-pointer text-emerald-50" aria-hidden="true" />
+                                <XMarkIcon onClick={() => setMenuOpen(false)} className="h-12 w-12 cursor-pointer text-primary" aria-hidden="true" />
                             </div>
                             <motion.div
                                 variants={containerVar}
@@ -169,12 +169,12 @@ export default function Navigation() {
                                         ))}
                                 </div>
 
-                                <motion.div variants={aaaa} className='flex flex-row justify-between text-white font-lora items-center px-2' >
+                                <motion.div variants={aaaa} className='flex flex-row justify-between text-primary font-lora items-center px-2' >
                                     <div className='flex flex-row gap-4 items-center'>
                                         {navigation.social.map((item) => (
                                             <Link target='_blank' key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
                                                 <span className="sr-only">{item.name}</span>
-                                                <item.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                                                <item.icon className="h-6 w-6 text-primary" aria-hidden="true" />
                                             </Link>
                                         ))}
                                     </div>

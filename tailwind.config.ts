@@ -7,16 +7,9 @@ module.exports = {
   theme: {
     extends:{
     fontFamily: {
-      lora: ["var(--font-lora)"],
+      anton: ["var(--font-anton)"],
     },
 
-    },
-    colors: {
-      primary: '#064e3b',
-      secondary: '#059669',
-      light: '#ecfdf5',
-      sombre: '#022c22',
-      middle: '#34d399',
     },
   },
   plugins: [require('@tailwindcss/typography')],

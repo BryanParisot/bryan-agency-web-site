@@ -1,20 +1,18 @@
-import React from 'react'
 import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
+import CallToAction from '@/components/CTA/CallToAction'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionLogos from '@/components/Section/SectionLogos'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../../public/pictures/site/site_page.png"
-import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
 import logo_promotion from "../../../public/logos/site/vitrine/logo_promotion.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
+import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
 import commerce from "../../../public/pictures/site/commerce/commerce.jpg"
 import site_e_commerce_nancy from "../../../public/pictures/site/commerce/site_e_commerce_nancy.jpg"
 
@@ -25,7 +23,7 @@ export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site e-commerce à Nancy',
   description: 'Explorez de nouveaux horizons avec une boutique en ligne unique à Nancy, conçue sur mesure par Bryan Parisot, développeur web freelance. Boostez vos ventes',
   alternates: {
-    canonical: `${process.env.URL_SITE}/creation-site-internet/e-commerce`
+    canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/e-commerce`
   }
 
 
@@ -75,13 +73,11 @@ export default function page() {
         title="Développeur web freelance | création de site e-commerce à Nancy "
         subtitle="Création d'une boutique en ligne à Nancy"
         text="Embarquez pour l'aventure de la vente en ligne. En tant que développeur web freelance, je vous offre une expertise spécialisée dans la création de sites e-commerce. Transformez vos idées en une véritable boutique en ligne florissante. Offrez à vos clients une expérience d'achat en ligne exceptionnelle et hissez les voiles pour développer votre entreprise comme jamais auparavant."
-        image={picture_site}
-        alt="image png developpeur web"
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de créer <span className="text-emerald-600">un site e-commerce</span>
+        <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider sm:px-0 px-3" >
+          Les avantages de créer <span className="text-primary">un site e-commerce</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -101,8 +97,8 @@ export default function page() {
                 alt="E-commerce nancy" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Transformez votre entreprise en ligne avec une <span className='text-emerald-600'>boutique e-commerce</span> sur mesure
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                Transformez votre entreprise en ligne avec une <span className='text-primary'>boutique e-commerce</span> sur mesure
               </h2>
               <p>
                 En tant que développeur web freelance passionné, je m'engage à créer des boutiques en ligne qui se démarquent. Ma spécialité en développement <span className='font-bold'>e-commerce</span> vous offre la possibilité de créer une expérience d'achat exceptionnelle pour vos clients. Que vous vendiez des produits physiques, des services ou des produits numériques, je conçois des sites <span className='font-bold'>e-commerce</span> sur mesure qui répondent à vos besoins spécifiques.
@@ -125,8 +121,8 @@ export default function page() {
                 alt="e-commerce nancy" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Un site internet  <span className='text-emerald-600'>e-commerce</span> qui vous ressemble
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                Un site internet  <span className='text-primary'>e-commerce</span> qui vous ressemble
               </h2>
               <p>
                 En tant que développeur web freelance, je comprends que votre boutique en ligne est bien plus qu'un simple site web c'est le visage de votre entreprise sur internet. Je m'engage à créer une boutique en ligne qui reflète votre identité de marque et votre vision.
@@ -144,7 +140,7 @@ export default function page() {
         <SectionLogos title="Exemple de fonctionnalités que vous pouvez ajouter à votre site e-commerce" />
 
         <BlogSection />
-        
+
         <Faq faq={faqs} />
       </div>
     </main>

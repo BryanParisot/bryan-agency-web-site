@@ -1,18 +1,16 @@
-import React from 'react'
 import Image from 'next/image'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
+import CallToAction from '@/components/CTA/CallToAction'
+import CardGeneral from '@/components/Cards/CardGeneral'
 import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionLogos from '@/components/Section/SectionLogos'
 
 //LOGOS | PICTURES
-import picture_site from "../../../public/pictures/site/site_page.png"
-import logo_optimization from "../../../public/logos/site/landing/logo_optimization.svg"
 import logo_audience from "../../../public/logos/site/landing/logo_audience.svg"
+import logo_optimization from "../../../public/logos/site/landing/logo_optimization.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
 import landing_page from "../../../public/pictures/site/landing_page/illustration_landing_page.jpg"
 import maquette_landing from "../../../public/pictures/site/landing_page/maquette_landing.jpg"
@@ -24,7 +22,7 @@ export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de landing page à Nancy',
   description: "Transformez vos visiteurs en clients avec des landing pages. Développeur web freelance à Nancy, conçoit des pages pour maximiser votre taux de conversion",
   alternates: {
-    canonical: `${process.env.URL_SITE}/creation-site-internet/landing-page`
+    canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/landing-page`
   }
 
 
@@ -74,13 +72,11 @@ export default function page() {
         title="Développeur web créateur de landing page à Nancy"
         subtitle="Création d'une landing page sur mesure"
         text="En tant que développeur web freelance à Nancy, je suis convaincu que chaque visiteur sur votre site web est une opportunité en or. C'est pourquoi je me spécialise dans la création de landing pages qui captivent, persuadent et convertissent."
-        image={picture_site}
-        alt="image png developpeur web freelance"
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de créer <span className="text-emerald-600">une landing page</span>
+        <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider sm:px-0 px-3">
+          Les avantages de créer <span className="text-primary">une landing page</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -100,8 +96,8 @@ export default function page() {
                 alt="Freelance landing page nancy" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Optimisez vos taux de conversion avec mon expertise en <span className='text-emerald-600'>landing pages</span>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                Optimisez vos taux de conversion avec mon expertise en <span className='text-primary'>landing pages</span>
               </h2>
               <p>
                 En tant que développeur web freelance, je comprends que chaque clic sur votre site web représente une opportunité de conversion précieuse. C'est pourquoi je mets mon savoir-faire au service de la création de <span className='font-bold'>landing pages</span> qui captivent vos visiteurs et les incitent à agir.
@@ -123,8 +119,8 @@ export default function page() {
                 alt="Freelance landing page Nancy" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Une <span className='text-emerald-600'>landing page</span> qui vous ressemble
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-gray-950 font-anton line tracking-wider">
+                Une <span className='text-primary'>landing page</span> qui vous ressemble
               </h2>
               <p>
                 Votre <span className='font-bold'>landing page</span> est bien plus qu'une simple page web. C'est votre première impression en ligne, une opportunité de captiver vos visiteurs et de les inciter à prendre des mesures. En tant que développeur web freelance, je comprends l'importance de créer une <span className='font-bold'>landing page</span> qui reflète votre identité de marque, votre message unique et vos objectifs spécifiques.

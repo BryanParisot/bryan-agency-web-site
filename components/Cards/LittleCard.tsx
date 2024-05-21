@@ -12,7 +12,7 @@ const LittleCard: React.FC<littleCardProps> = ({ title, text, logo, alt }) => {
     return (
         <div className='rounded-lg shadow bg-white p-4 space-y-2'>
             <Image src={logo} alt={alt} />
-            <h3 className='font-bold text-lg text-emerald-950'>{title}</h3>
+            <h3 className='font-bold text-lg text-gray-950'>{title}</h3>
             <p className="text-gray-500">{text}</p>
         </div>
     )

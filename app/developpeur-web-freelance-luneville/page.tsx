@@ -21,7 +21,6 @@ import modifiable from "../../public/logos/web-nancy/modifiable.svg"
 import performant from "../../public/logos/web-nancy/performant.svg"
 import responsive from "../../public/logos/web-nancy/responsive.svg"
 import speed from "../../public/logos/web-nancy/speed 1.svg"
-import picture_site from "../../public/pictures/site/site_page.png"
 import profil from "../../public/profil/profil_bryan.webp"
 
 
@@ -89,8 +88,8 @@ const page = () => {
     ]
 
     const contentCards = [
-        { title: "Création de sites internet à Luneville", text: 'En tant que développeur web freelance à Luneville, je m\'engage à être votre partenaire local pour la conception d\'un site internet unique et performant. Chaque site que je construis est une représentation professionnelle en ligne de votre entreprise, adaptée à vos besoins et à votre identité, offrant une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet', bg: 'bg-amber-200', alt: "Icône création de site internet" },
-        { title: "Refonte de site web à Luneville", text: 'Offrez une nouvelle jeunesse à votre site web existant grâce à mon expertise en tant que développeur web indépendant à Luneville. Je propose une modernisation complète, améliorant le design et l\'efficacité pour maintenir votre compétitivité locale.Découvrez comment je peux revitaliser votre présence en ligne.', icon: logo_refonte_site, link: '/creation-site-internet/refonte', bg: 'bg-blue-200', alt: "Icône refonte de site internet" },
+        { title: "Création de sites internet à Luneville", text: 'En tant que développeur web freelance à Luneville, je m\'engage à être votre partenaire local pour la conception d\'un site internet unique et performant. Chaque site que je construis est une représentation professionnelle en ligne de votre entreprise, adaptée à vos besoins et à votre identité, offrant une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet-nancy', bg: 'bg-amber-200', alt: "Icône création de site internet" },
+        { title: "Refonte de site web à Luneville", text: 'Offrez une nouvelle jeunesse à votre site web existant grâce à mon expertise en tant que développeur web indépendant à Luneville. Je propose une modernisation complète, améliorant le design et l\'efficacité pour maintenir votre compétitivité locale.Découvrez comment je peux revitaliser votre présence en ligne.', icon: logo_refonte_site, link: '/creation-site-internet-nancy/refonte', bg: 'bg-blue-200', alt: "Icône refonte de site internet" },
         { title: "Applications web / SaaS à Luneville", text: 'En qualité de développeur web freelance à Luneville, je crée des applications web sur mesure et des logiciels en tant que service (SaaS) pour répondre à vos besoins professionnels locaux. Transformez vos idées en réalité numérique avec mon expertise en développement d\'applications web freelance basé à Luneville.', icon: logo_sass_web, link: '/saas', bg: 'bg-green-200', alt: "Icône application web/saas" },
         { title: "Intégration de vos maquettes à Luneville", text: 'Mon savoir-faire en tant que développeur web freelance à Luneville assure une intégration parfaite de vos designs dans des solutions web fonctionnelles et esthétiques. Transformez vos idées visuelles en sites web et applications web interactifs grâce à mon expertise en intégration.', icon: logo_integration_maquette, link: '/integration', bg: 'bg-amber-200', alt: "Icône intégration de design" },
         { title: "Référencement Naturel - SEO à Luneville", text: 'Optimisez votre visibilité en ligne à Luneville grâce à mon expertise en référencement naturel (SEO). J\'optimise votre site web pour les moteurs de recherche, garantissant ainsi une meilleure visibilité, plus de trafic organique et des résultats durables.', icon: logo_referencement_seo, link: '/referencement-naturel-seo', bg: 'bg-blue-200', alt: "Icône optimisation pour les moteurs de recherche - SEO" },
@@ -104,12 +103,11 @@ const page = () => {
                 title="Agence web à Luneville"
                 subtitle="Agence web à Luneville"
                 text="En tant que développeur web freelance basé à Luneville, je suis votre partenaire local pour la création de sites web uniques et performants. Avec une approche personnalisée, je m'engage à représenter votre entreprise de manière professionnelle en ligne, en intégrant soigneusement vos besoins et votre identité visuelle dans chaque aspect du site. Explorez mes services et découvrez comment nous pouvons façonner ensemble votre présence digitale."
-                image={picture_site}
-                alt="image png developpeur web"
             />
+
             <div className="sm:mt-20 sm:mb-20 mt-14 mb-14 px-5 sm:px-16">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Création de  <span className="text-emerald-600">sites internet et application</span> sur mesure à Luneville
+                <h2 className="text-center text-2xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >
+                    Création de  <span className="text-primary">sites internet et application</span> sur mesure à Luneville
                 </h2>
 
                 <div className="sm:mt-20 mt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
@@ -121,8 +119,8 @@ const page = () => {
             </div>
 
 
-            <div className="bg-emerald-900 w-full text-white mt-20 py-12 flex flex-col items-center ">
-                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center"> Votre <span className="text-emerald-300 font-bold">site internet</span> clé-en-main à Luneville qui fait la différence</h2>
+            <div className="bg-gray-950 w-full text-white mt-20 py-16 flex flex-col items-center ">
+                <h2 className="text-2xl sm:text-4xl font-bold mb-10 text-center font-anton line tracking-wider"> Votre <span className="text-primary font-bold">site internet</span> clé-en-main à Luneville qui fait la différence</h2>
 
                 <div className="max-w-7xl space-y-10 sm:px-0 px-5">
 
@@ -177,7 +175,7 @@ const page = () => {
                 </div>
             </div>
             <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-                <div className="relative isolate overflow-hidden bg-emerald-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+                <div className="relative isolate overflow-hidden bg-red-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
                     <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
                         Donnez vie à votre vision avec votre agence web à Luneville
                     </h2>
@@ -191,7 +189,7 @@ const page = () => {
                         >
                             Discuton de votre projet 30 min
                         </Link>
-                        <Link href="/creation-site-internet" className="text-sm font-semibold leading-6 text-white">
+                        <Link href="/creation-site-internet-nancy" className="text-sm font-semibold leading-6 text-white">
                             Nos Services <span aria-hidden="true">→</span>
                         </Link>
                     </div>
@@ -221,12 +219,12 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-wrap items-center bg-emerald-100 py-10 rounded">
+                <div className="flex flex-wrap items-center bg-gray-100 py-10 rounded-lg">
                     <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                         <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                             <UserIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                         </div>
-                        <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                        <h3 className="text-5xl mb-2 font-semibold leading-normal font-anton line tracking-wider">
                             A propos de moi
                         </h3>
                         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
@@ -246,27 +244,27 @@ const page = () => {
                 </div>
             </div>
 
-            <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 space-y-5 px-5">
-                <h2 className="text-2xl sm:text-4xl text-emerald-950 font-bold" >Pourquoi avoir un <span className="text-emerald-600">un site internet</span></h2>
+            <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-0 space-y-6 px-5">
+                <h2 className="text-2xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >Pourquoi avoir un <span className="text-primary">un site internet</span></h2>
                 <p>Que vous cherchiez à renforcer votre visibilité sur Google à Luneville ou à dynamiser votre présence en ligne, mes services de développement web sont conçus pour vous offrir des solutions sur mesure. En tant que développeur web chevronné basé à Luneville, je vous propose une expertise complète, du développement de sites vitrines et boutiques en ligne à la création de landing pages percutantes.</p>
-                <p className="text-lg font-semibold" >Optimisez votre visibilité sur Google à Luneville <Link href="referencement-naturel-seo" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p className="text-xl font-semibold" >Optimisez votre visibilité sur Google à Luneville <Link href="referencement-naturel-seo" className="underline text-primary font-bold">En savoir plus</Link></p>
                 <p>Augmentez votre visibilité sur le moteur de recherche le plus utilisé avec des techniques de référencement naturel (SEO) adaptées à Luneville. En collaborant avec moi, vous bénéficierez d'une meilleure position sur les résultats de recherche locaux, maximisant ainsi votre exposition en ligne.</p>
-                <p className="text-lg font-semibold" >Propulsez votre entreprise avec une vitrine 24/7 <Link href="creation-site-internet/site-vitrine" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p className="text-xl font-semibold" >Propulsez votre entreprise avec une vitrine 24/7 <Link href="creation-site-internet-nancy/site-vitrine" className="underline text-primary font-bold">En savoir plus</Link></p>
                 <p>Offrez à votre entreprise une vitrine en ligne accessible 24/7. Avec mes compétences en développement web, je crée des sites vitrines attrayants, assurant une présence constante pour attirer de nouveaux clients, renforcer votre crédibilité et augmenter votre chiffre d'affaires.</p>
-                <p className="text-lg font-semibold" >Expérience E-commerce pour gagner de nouveaux clients <Link href="creation-site-internet/e-commerce" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p className="text-xl font-semibold" >Expérience E-commerce pour gagner de nouveaux clients <Link href="creation-site-internet-nancy/e-commerce" className="underline text-primary font-bold">En savoir plus</Link></p>
                 <p>Explorez le potentiel de l'e-commerce avec des boutiques en ligne puissantes. Grâce à mes compétences en développement, je crée des boutiques en ligne optimisées pour la conversion, vous permettant de gagner de nouveaux clients, d'augmenter votre ca et de faire prospérer votre activité à Luneville.</p>
-                <p className="text-lg font-semibold" >Landing pages stratégiques pour une communication efficace <Link href="creation-site-internet/landing-page" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p className="text-xl font-semibold" >Landing pages stratégiques pour une communication efficace <Link href="creation-site-internet-nancy/landing-page" className="underline text-primary font-bold">En savoir plus</Link></p>
                 <p>Mes services incluent la création de landing pages stratégiques. Ces pages sont conçues pour convertir les visiteurs en clients potentiels, facilitant ainsi la communication et l'interaction avec votre audience cible.</p>
-                <p className="text-lg font-semibold" >Optimisation et refonte pour un impact durable <Link href="creation-site-internet/refonte" className="underline text-emerald-600 font-bold">En savoir plus</Link></p>
+                <p className="text-xl font-semibold" >Optimisation et refonte pour un impact durable <Link href="creation-site-internet-nancy/refonte" className="underline text-primary font-bold">En savoir plus</Link></p>
                 <p>En plus de la création, je propose également des services d'optimisation et de refonte pour maintenir votre site web à la pointe. Cette approche proactive garantit une expérience utilisateur optimale, renforçant ainsi votre crédibilité en ligne.</p>
 
                 <div className="mt-5">
-                    <h2 className="text-xl font-bold ">Les avantages d'avoir un <span className="text-emerald-600">site internet</span> </h2>
+                    <h2 className="text-5xl font-bold font-anton line tracking-wider sm:mt-20 mt-0">Les avantages d'avoir un <span className="text-primary">site internet</span> </h2>
                     <div className="sm:mt-10 mt-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 sm:gap-10 gap-5 justify-items-center">
                         {
                             advantage.map((item, index) => (
-                                <div key={index} className="space-y-4">
-                                    <h3> <span className="text-white bg-emerald-600 px-3 py-2 font-bold text-lg rounded">{item.title}</span></h3>
+                                <div key={index} className="space-y-4 mt-3">
+                                    <h3> <span className="text-white bg-black px-4 py-3 font-bold text-lg rounded">{item.title}</span></h3>
                                     <p>{item.text}</p>
                                 </div>
 

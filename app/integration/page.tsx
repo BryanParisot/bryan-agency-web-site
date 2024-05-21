@@ -1,27 +1,25 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
+import CallToAction from '@/components/CTA/CallToAction'
 import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionLogos from '@/components/Section/SectionLogos'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../public/pictures/site/site_page.png"
 
-import loupe from "../../public/logos/integration/loupe.svg"
-import device from "../../public/logos/integration/device.svg"
 import conversion from "../../public/logos/integration/conversion.svg"
-import deadline from "../../public/logos/integration/deadline.svg"
-import people from "../../public/logos/integration/people.svg"
 import crayon from "../../public/logos/integration/crayon.svg"
+import deadline from "../../public/logos/integration/deadline.svg"
+import device from "../../public/logos/integration/device.svg"
+import loupe from "../../public/logos/integration/loupe.svg"
+import people from "../../public/logos/integration/people.svg"
 
-import integration from "../../public/pictures/integration/integration.jpg"
 import CallToActionLight from '@/components/CTA/CallToActionLight'
 import LittleCard from '@/components/Cards/LittleCard'
+import integration from "../../public/pictures/integration/integration.jpg"
 
 import { Metadata } from 'next'
 
@@ -160,20 +158,19 @@ export default function page() {
         title="Intégrateur web freelance - Intégrateur web à Nancy"
         subtitle="Intégration web : Transformez votre vision en réalité en ligne"
         text="Bienvenue ! Je suis bryan parisot, un développeur web freelance basé à Nancy, et je suis là pour vous offrir des services d'intégration web de qualité. En tant que votre partenaire de confiance, je me spécialise dans la transformation de vos designs visuels en sites web dynamiques et fonctionnels. Je comprends l'importance de faire passer votre vision du concept à la réalité en ligne, et j'ai l'expertise nécessaire pour le faire de manière impeccable."
-        image={picture_site}
-        alt="image png developpeur web"
       />
+
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de me laisser <span className="text-emerald-600">l'intégration de votre maquette</span>
+        <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >
+          Les avantages de me laisser <span className="text-primary">l'intégration de votre maquette</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
           {
             steps.map((item) => (
               <div className='space-y-4 shadow-lg p-8' key={item.id}>
-                <div className='w-12 h-12 bg-emerald-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg ' >{item.id}</div>
-                <h3 className='font-bold text-lg text-emerald-950'>{item.title}</h3>
+                <div className='w-12 h-12 bg-red-200 rounded-full flex justify-center items-center text-white font-extrabold text-lg ' >{item.id}</div>
+                <h3 className='font-bold text-xl text-gray-950'>{item.title}</h3>
                 <p className='text-gray-500'>{item.text}</p>
               </div>
 
@@ -186,13 +183,13 @@ export default function page() {
             <Image className="w-full h-full" src={integration} alt="Double Ecran illustration" />
           </div>
           <div className='w-full xl:w-3/6 space-y-6 px-8'>
-            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+            <h2 className="mt-4 text-4xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
               Pourquoi me choisir en tant qu'intégrateur web freelance ?
             </h2>
             {
               choiceMaquetteData.map((item) => (
                 <div key={item.title} className='space-y-1'>
-                  <h3 className="font-bold text-lg">
+                  <h3 className="font-bold text-xl">
                     {item.title}
                   </h3>
                   <p className='text-gray-600'>
@@ -212,9 +209,9 @@ export default function page() {
 
       <div className=" mb-10">
 
-        <div className='bg-emerald-50 flex items-center flex-col py-5 px-5 sm:px-16'>
-          <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
-            Les atouts de mes <span className='text-emerald-600'>intégration web</span> sur mesure
+        <div className='bg-gray-50 flex items-center flex-col py-5 px-5 sm:px-16'>
+          <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 text-center font-anton line tracking-wider'>
+            Les atouts de mes <span className='text-primary'>intégration web</span> sur mesure
           </h2>
           <div className=' grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-12'>
             {

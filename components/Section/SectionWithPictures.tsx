@@ -26,7 +26,7 @@ const SectionWithPictures: React.FC<SectionWithPicturesProps> = ({ title, descri
                 />
             </div>
             <div className="mt-5 mb-8 flex flex-col justify-center xl:w-1/2 sm:pr-16 md:mt-0  space-y-5">
-                <h2 className="mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950">
+                <h2 className="mt-2 text-2xl font-bold font-anton tracker-wider line sm:text-left md:text-5xl text-gray-950">
                     {title}{" "}
                 </h2>
                 <span className="h-1 w-56 bg-emerald-900"></span>

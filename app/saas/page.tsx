@@ -31,7 +31,6 @@ import tools from "../../public/logos/saas/tools.svg"
 import ux from "../../public/logos/site/refonte/logo_experience.svg"
 import code from "../../public/pictures/saas/code.jpg"
 import screen_code from "../../public/pictures/saas/screen_code.jpg"
-import picture_site from "../../public/pictures/site/site_page.png"
 
 import saas from "../../public/pictures/saas/saas.jpg"
 
@@ -133,8 +132,6 @@ export default function page() {
                 title="Solutions Web & SaaS sur-mesure à Nancy"
                 subtitle="Transformez vos idées en réalité digitale à Nancy"
                 text="Bienvenue dans l'univers des applications web et SaaS sur-mesure. En tant que développeur web freelance, je fais de la technologie un catalyseur pour la réalisation de vos ambitions. Travaillons ensemble pour créer des solutions web innovantes et des logiciels SaaS parfaitement adaptés à vos besoins. Ensemble, nous transformerons vos idées en réalité digitale, en fournissant des outils puissants qui stimuleront la croissance de votre entreprise. Explorez ma gamme de services et découvrez comment je peux façonner le futur de votre entreprise."
-                image={picture_site}
-                alt="Image PNG développeur web"
             />
             <div className='sm:px-20 px-5'>
 
@@ -156,8 +153,8 @@ export default function page() {
                             </div>
                         </div>
                         <div className='flex flex-col  justify-center w-full  xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Développeur <span className='text-emerald-600'>d'application web</span> sur mesure à Nancy
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                                Développeur <span className='text-primary'>d'application web</span> sur mesure à Nancy
                             </h2>
                             <p>
                                 En tant que <span className='font-bold'>développeur web freelance</span>  sur mesure de premier plan, je m'engage à créer des solutions numériques qui répondent précisément à vos besoins. Je ne crois pas en l'approche
@@ -183,8 +180,8 @@ export default function page() {
                                 alt="Double Ecran illustration" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Qu'est-ce qu'une <span className='text-emerald-600'> application Web ?</span>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                                Qu'est-ce qu'une <span className='text-primary'> application Web ?</span>
                             </h2>
                             <p>
                                 Une<span className='font-bold'> application web</span>, souvent appelée simplement '<span className='font-bold'>web app</span>', est une application logicielle accessible via un navigateur web. Contrairement aux applications traditionnelles installées localement, les <span className='font-bold'>applications web</span>  ne nécessitent pas de téléchargement ni d'installation sur l'appareil de l'utilisateur. Elles sont hébergées sur des serveurs distants et accessibles en ligne.                        </p>
@@ -193,8 +190,8 @@ export default function page() {
                         </div>
                     </div>
 
-                    <div className='bg-emerald-50 py-20 '>
-                        <h2 className="mt-2 text-2xl font-bold md:text-4xl text-emerald-950 text-center"> Création <span className='text-emerald-600'>d'application web</span>  à Nancy</h2>
+                    <div className='bg-gray-50 py-20 mt-10 sm:mt-0'>
+                        <h2 className="mt-2 text-4xl font-bold md:text-5xl text-gray-950 text-center font-anton line tracking-wider"> Création <span className='text-primary'>d'application web</span>  à Nancy</h2>
                         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 ">
                             {
                                 vitrineData.map((item) => (
@@ -212,9 +209,9 @@ export default function page() {
             </div>
 
             <div className="mb-10">
-                <div className='bg-emerald-50 flex items-center flex-col py-5 "px-5 sm:px-16'>
-                    <h2 className='mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950 text-center'>
-                        Nos étapes de réalisation d’une <span className='text-emerald-600'>application web</span> sur mesure
+                <div className='bg-gray-50 flex items-center flex-col py-5 "px-5 sm:px-16'>
+                    <h2 className='mt-2 text-4xl font-bold xl:text-left md:text-5xl text-gray-950 text-center font-anton line tracking-wider'>
+                        Nos étapes de réalisation d’une <span className='text-primary'>application web</span> sur mesure
                     </h2>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-0 sm:px-20 rounded-lg py-12'>

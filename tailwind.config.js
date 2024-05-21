@@ -6,19 +6,23 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
-     fontFamily: {
-      lora: ["var(--font-lora)"],
-    },
+      colors: {
+        primary: '#ED402F',
+        secondary: '#ECE6D6',
+      },
+      container: {
+        center: true,
+        padding: "2rem",
+        screens: {
+          "2xl": "1400px",
+        },
+      },
+      fontFamily: {
+        anton: ["var(--font-anton)"],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

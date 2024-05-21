@@ -5,7 +5,7 @@ import Link from 'next/link'
 const CallToActionLight = () => {
     return (
         <div className='flex flex-col justify-center items-center mb-20 space-y-5 px-5 sm:px-16'>
-            <h3 className='text-4xl text-center font-bold text-emerald-800'>
+            <h3 className='text-5xl text-center font-bold text-gray-800 font-anton line tracking-wider'>
                 N’hésitez plus, contactez-moi
             </h3>
             <p className='text-center'>

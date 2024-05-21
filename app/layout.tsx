@@ -3,15 +3,15 @@ import Footer from '@/components/Footer/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
 import Navigation from '@/components/Nav/Navigation'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
-import { Inter, Lora } from 'next/font/google'
+import { Anton, Inter } from 'next/font/google'
 import { Suspense } from 'react'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
-const lora = Lora({
+const anton = Anton({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-lora"
+  variable: "--font-anton"
 })
 
 export default function RootLayout({
@@ -38,7 +38,7 @@ export default function RootLayout({
         />
       </head> */}
 
-      <body className={`${lora.variable} ${inter.className}`}>
+      <body className={`${anton.variable} ${inter.className}`}>
         {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MWP2CKSR"

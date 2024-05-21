@@ -16,7 +16,6 @@ import { Button } from '@/components/ui/button'
 import logo_promotion from "../../../public/logos/site/vitrine/logo_promotion.svg"
 import logo_roi from "../../../public/logos/site/vitrine/logo_roi.svg"
 import logo_visibilite from "../../../public/logos/site/vitrine/logo_visibilite.svg"
-import picture_site from "../../../public/pictures/site/site_page.png"
 import double_screen from "../../../public/pictures/site/vitrine/double_screen.png"
 import responsive from "../../../public/pictures/site/vitrine/responsive.jpg"
 import score_site from "../../../public/pictures/site/vitrine/score_site.png"
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
   title: 'Développeur Web Freelance | Création de site vitrine à Nancy',
   description: 'Hissons les voiles avec la création de site vitrine à Nancy par Bryan Parisot, développeur web freelance. Embarquez pour une présence en ligne mémorable',
   alternates: {
-    canonical: `${process.env.URL_SITE}/creation-site-internet/site-vitrine`
+    canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/site-vitrine`
   }
 }
 
@@ -86,13 +85,11 @@ export default function page() {
         title="Développeur web freelance créateur de site vitrine à Nancy"
         subtitle="Création d'un site vitrine sur mesure à Nancy"
         text="Découvrez l'élégance et la simplicité d'un site vitrine conçu spécialement pour votre entreprise. Mettons en avant votre image de marque et vos produits/services de manière captivante. Transformez les visiteurs en clients avec un site web vitrine qui laisse une impression mémorable."
-        image={picture_site}
-        alt="image png developpeur web"
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-          Les avantages de créer <span className="text-emerald-600">un site vitrine</span>
+        <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold tracking-wider font-anton px-3 sm:px-0" >
+          Les avantages de créer <span className="text-primary">un site vitrine</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -113,16 +110,16 @@ export default function page() {
                 alt="Double Ecran illustration" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Boostez votre présence en ligne avec mon expertise en création de <span className='text-emerald-600'>sites vitrine</span> à Nancy </h2>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl font-anton line tracking-wider text-gray-950">
+                Boostez votre présence en ligne avec mon expertise en création de <span className='text-primary'>sites vitrine</span> à Nancy </h2>
               <p>
                 Vous cherchez à développer votre entreprise en ligne ? Ne cherchez pas plus loin. Je suis fier d'offrir mes services de création de sites web sur mesure.
               </p>
               <p>
-                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un <Link className='font-bold underline' href="/creation-site-internet/e-commerce">site e-commerce</Link>  pour vendre vos produits, ou d'une <Link className='font-bold underline' href="refonte">refonte </Link> pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
+                En tant que développeur web freelance, je suis prêt à travailler avec vous pour créer un site web qui capte l'attention de votre public cible. Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> pour mettre en avant vos services, d'un <Link className='font-bold underline' href="/creation-site-internet-nancy/e-commerce">site e-commerce</Link>  pour vendre vos produits, ou d'une <Link className='font-bold underline' href="refonte">refonte </Link> pour moderniser votre présence en ligne, j'ai l'expertise pour vous accompagner à chaque étape.
               </p>
               <p>
-                Je suis là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment mon savoir-faire peut faire une différence significative pour votre entreprise. Contactez-moi dès aujourd'hui pour discuter de vos besoins en matière de création de site web et de marketing numérique.
+                Je suis là pour vous aider à prospérer dans cet environnement numérique compétitif. Découvrez comment mon savoir-faire peut faire une différence significative pour votre entreprise.
               </p>
             </div>
           </div>
@@ -134,8 +131,8 @@ export default function page() {
                 src={vitrine_site} alt="Illustration d'un site vitrine" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                <span className='text-emerald-600'>Un site vitrine</span> qui vous ressemble
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                <span className='text-primary'>Un site vitrine</span> qui vous ressemble
               </h2>
               <p>
                 En tant que développeur web freelance, je comprends que votre <span className='font-bold'>site vitrine</span> doit être bien plus qu'une simple présence en ligne. Il doit être une extension de votre entreprise, reflétant votre identité, vos valeurs et votre style unique. C'est pourquoi je m'engage à créer un <span className='font-bold'>site vitrine</span> sur mesure qui vous ressemble.
@@ -144,7 +141,7 @@ export default function page() {
                 Travaillant en étroite collaboration avec vous, je capture l'essence de votre entreprise et la traduis en un design web exceptionnel. Je crois que chaque entreprise est unique, et votre site web devrait l'être aussi.
               </p>
               <p>
-                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/creation-site-internet" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
+                Que vous ayez besoin d'un <span className='font-bold'>site vitrine</span> élégant, moderne, créatif ou professionnel, j'ai l'expertise pour créer une expérience en ligne qui séduit votre public cible. Mettez en avant votre entreprise d'une manière qui vous ressemble. Découvrez comment je peux vous aider à créer un <Link className='font-bold underline' href="/creation-site-internet-nancy" >site web </Link> qui reflète parfaitement votre vision et à le partager avec le monde.
               </p>
             </div>
           </div >
@@ -157,8 +154,8 @@ export default function page() {
       <div className=" mb-10">
         <SectionEmerald image={score_site} alt="représentation du score du site">
           <div className='space-y-6'>
-            <h2 className='mt-2 text-2xl font-bold lg:text-left md:text-4xl text-emerald-950'>
-              Optimisez votre présence en ligne avec mon service de <span className='text-emerald-600'>refonte de site</span>
+            <h2 className='mt-2 text-4xl font-bold lg:text-left md:text-5xl text-gray-950 font-anton line tracking-wider'>
+              Optimisez votre présence en ligne avec mon service de <span className='text-primary'>refonte de site</span>
             </h2>
             <p>
               La <span className='font-bold'>refonte de site</span> est une étape essentielle pour maintenir la pertinence en ligne de votre entreprise. En tant que développeur web freelance, je propose un service complet de refonte de site qui vous permet de moderniser votre présence en ligne, d'améliorer l'expérience utilisateur et d'optimiser la performance.
@@ -170,7 +167,7 @@ export default function page() {
               Découvrez comment mon service de refonte de site peut vous aider à rester compétitif en ligne et à offrir une expérience utilisateur exceptionnelle.
             </p>
             <div>
-              <Link href="/creation-site-internet/refonte">
+              <Link href="/creation-site-internet-nancy/refonte">
                 <Button size="lg" variant="primary">
                   En savoir plus sur la refonte de site
                 </Button>
@@ -189,19 +186,19 @@ export default function page() {
                 src={responsive} alt="Illustration d'un site vitrine responsive" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                <span className='text-emerald-600'>Un site vitrine responsive</span> une présence adaptative et captivante
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                <span className='text-primary'>Un site vitrine responsive</span> une présence adaptative et captivante
               </h2>
               <p>
                 En tant que développeur web freelance spécialisé dans les sites vitrines, je m'engage à créer une présence en ligne qui s'adapte à tous les écrans.
               </p>
-              <h3 className='text-xl'>
+              <h3 className='text-2xl font-anton line tracking-wider'>
                 Pourquoi opter pour un <span className='font-bold'> site vitrine responsive</span> ?
               </h3>
               <p>
                 Votre site doit être accessible sur tous les appareils. Un site vitrine responsive assure une expérience utilisateur optimale, quel que soit le dispositif utilisé, renforçant ainsi votre crédibilité et améliorant votre référencement.
               </p>
-              <h3 className='text-xl'>
+              <h3 className='text-2xl font-anton line tracking-wider'>
                 Mon engagement envers le <span className='font-bold'>responsive design</span>
               </h3>
               <p>

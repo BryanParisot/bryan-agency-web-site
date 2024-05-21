@@ -2,19 +2,18 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 //COMPONENTS
-import Header from '@/components/Header/Header'
-import CardGeneral from '@/components/Cards/CardGeneral'
-import CallToAction from '@/components/CTA/CallToAction'
-import SectionLogos from '@/components/Section/SectionLogos'
 import BlogSection from '@/components/BlogSection/BlogSection'
-import Faq from '@/components/FAQ/Faq'
-import { Button } from '@/components/ui/button'
-import SectionEmerald from '@/components/Section/SectionEmerald'
+import CallToAction from '@/components/CTA/CallToAction'
 import CallToActionLight from '@/components/CTA/CallToActionLight'
+import CardGeneral from '@/components/Cards/CardGeneral'
+import Faq from '@/components/FAQ/Faq'
+import Header from '@/components/Header/Header'
+import SectionEmerald from '@/components/Section/SectionEmerald'
+import SectionLogos from '@/components/Section/SectionLogos'
+import { Button } from '@/components/ui/button'
 
 
 //LOGOS | PICTURES
-import picture_site from "../../../public/pictures/site/site_page.png"
 
 import logo_experience from "../../../public/logos/site/refonte/logo_experience.svg"
 import logo_market from "../../../public/logos/site/refonte/logo_market.svg"
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Développeur Web Freelance | Refonte de site web et application à Nancy',
     description: "Donnez une nouvelle vie à votre site web avec notre service de refonte web. Bryan Parisot, développeur web freelance.",
     alternates: {
-        canonical: `${process.env.URL_SITE}/creation-site-internet/refonte`
+        canonical: `${process.env.URL_SITE}/creation-site-internet-nancy/refonte`
     }
 }
 
@@ -80,13 +79,11 @@ export default function page() {
                 title="Développeur web freelance - refonte de site web à Nancy"
                 subtitle="Donnez un nouveau souffle à votre site ou application web à Nancy "
                 text="En tant que développeur web freelance basé à Nancy, je suis convaincu que chaque visiteur de votre site web est une opportunité précieuse. C'est pourquoi je me suis spécialisé dans la refonte de sites web qui réinvente l'expérience en ligne."
-                image={picture_site}
-                alt="Développeur web freelance à Nancy"
             />
 
             <div className="mt-10 mb-10">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Pourquoi mettre en place <span className="text-emerald-600">la refonte de son site web</span>
+                <h2 className="text-center text-3xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider sm:px-0 px-4" >
+                    Pourquoi mettre en place <span className="text-primary">la refonte de son site web</span>
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -99,15 +96,15 @@ export default function page() {
                 <div className='xl:px-20 px-5'>
 
                     <div className='flex flex-col xl:flex-row mt-20 xl:h-[52vh] h-full'>
-                        <div className="mb-8 flex items-center justify-center xl:order-first xl:w-1/2">
+                        <div className="mb-8 flex items-center justify-center xl:order-first xl:w-1/2 ">
                             <Image
                                 className="rounded-xl shadow-xl shadow-emerald-900/20 h-full"
                                 src={refonte}
                                 alt="Double Ecran illustration" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                                Pourquoi me confier la <span className="text-emerald-600">refonte de votre site web ?</span>
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+                                Pourquoi me confier la <span className="text-primary">refonte de votre site web ?</span>
                             </h2>
                             <p>
                                 En tant que développeur web freelance, je comprends que la refonte de votre site web est une décision importante, et je suis prêt à vous montrer pourquoi je suis le choix idéal pour cette tâche cruciale.
@@ -175,17 +172,17 @@ export default function page() {
 
                 <SectionEmerald image={maintenance_illustration} alt="représentation maintenance wordpress">
                     <div className='space-y-6'>
-                        <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950'>
-                            Nouveau <span className="text-emerald-600">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
+                        <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 font-anton line tracking-wider'>
+                            Nouveau <span className="text-primary">site ou refonte de site internet :</span> quel est le meilleur choix pour votre entreprise ?
                         </h2>
                         <p>
-                            <Link href="/creation-site-internet" className='font-extrabold underline'>Création d'un nouveau site :</Link> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
+                            <Link href="/creation-site-internet-nancy" className='font-extrabold underline'>Création d'un nouveau site :</Link> Si vous lancez une nouvelle entreprise, la création d'un nouveau site web est souvent la meilleure option. Cela vous permet de partir d'une feuille blanche pour construire une présence en ligne qui reflète parfaitement votre vision et vos objectifs. En tant que développeur web freelance, je suis spécialisé dans la conception et le développement de sites entièrement personnalisés pour répondre à vos besoins.
                         </p>
                         <p>
-                            <Link href="/creation-site-internet/refonte" className='font-extrabold underline'>Refonte de site existant :</Link> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
+                            <Link href="/creation-site-internet-nancy/refonte" className='font-extrabold underline'>Refonte de site existant :</Link> Si vous possédez déjà un site web, une refonte peut être la solution idéale pour le moderniser, l'optimiser et le rendre plus performant. Elle peut également s'avérer nécessaire si votre site actuel ne respecte pas les normes actuelles en matière de design, de convivialité ou de référencement. En tant que développeur web freelance, je travaille sur chaque détail pour améliorer l'expérience utilisateur et atteindre vos objectifs en ligne.
                         </p>
                         <div>
-                            <Link href="/creation-site-internet">
+                            <Link href="/creation-site-internet-nancy">
                                 <Button variant="primary">
                                     Services de création de site internet
                                 </Button>

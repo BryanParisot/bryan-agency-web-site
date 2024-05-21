@@ -19,7 +19,6 @@ import content from "../../public/logos/seo/content.svg"
 import branding from "../../public/logos/web-design/branding.svg"
 import customer from "../../public/logos/web-design/customer.svg"
 import quality from "../../public/logos/web-design/quality.svg"
-import picture_site from "../../public/pictures/site/site_page.png"
 import web_design_1 from "../../public/pictures/web-design/web-design-1.jpg"
 import web_design_2 from "../../public/pictures/web-design/web-design-2.jpg"
 import web_design from "../../public/pictures/web-design/web-design.jpg"
@@ -93,14 +92,12 @@ export default function page() {
       <Header
         title="Développeur web freelance en web-design à Nancy"
         subtitle="Donnez vie à votre site web avec un design personnalisé à Nancy"
-        text="Au cœur de mon approche en tant que développeur web freelance, le design est une passion qui prend vie à travers chaque projet que j'entreprends. Je suis déterminé à donner vie à votre vision en créant des sites web uniques, captivants et parfaitement adaptés à votre entreprise ou à votre projet. Mon engagement en tant que concepteur talentueux est de créer des expériences en ligne exceptionnelles qui captivent vos visiteurs, renforcent votre image de marque et stimulent votre succès en ligne. Explorez mon portfolio pour découvrir comment je peux transformer votre vision en une réalité web à couper le souffle."
-        image={picture_site}
-        alt="image png developpeur web"
+        text="Au cœur de mon approche en tant que développeur web freelance, le design est une passion qui prend vie à travers chaque projet que j'entreprends. Je suis déterminé à donner vie à votre vision en créant des sites web uniques, captivants et parfaitement adaptés à votre entreprise ou à votre projet. "
       />
 
       <div className="mt-10 mb-10">
-        <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold px-4 sm:px-0" >
-          Les avantages de la création d’un <span className="text-emerald-600">design personnalisé à Nancy</span>
+        <h2 className="text-center text-4xl sm:text-4xl text-gray-950 font-bold px-4 sm:px-0 font-anton line tracking-wider">
+          Les avantages de la création d’un <span className="text-primary">design personnalisé à Nancy</span>
         </h2>
 
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -120,8 +117,8 @@ export default function page() {
                 alt="Double Ecran illustration" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                Qu'est-ce que le <span className='text-emerald-600'> Web Design ?</span>
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-gray-950 font-anton line tracking-wider">
+                Qu'est-ce que le <span className='text-primary'> Web Design ?</span>
               </h2>
               <p>
                 Le <span className='font-bold'>web design</span>, ou conception web, est l'art et la discipline de créer des interfaces visuelles attrayantes et fonctionnelles pour les sites web. Il englobe la disposition des éléments visuels, la typographie, les couleurs, les images, les icônes et d'autres éléments graphiques qui composent l'apparence et la convivialité d'un site web. Le <span className='font-bold'>web design</span> vise à créer une expérience utilisateur agréable et intuitive, à renforcer l'identité visuelle de la marque et à atteindre les objectifs spécifiques du site, que ce soit la génération de leads, la vente en ligne, l'information ou la sensibilisation.            </p>
@@ -138,8 +135,8 @@ export default function page() {
                 alt="Illustration d'un site vitrine" />
             </div>
             <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-                L'art de créer des <span className='text-emerald-600'>sites web</span>  mémorables
+              <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-gray-950 font-anton line tracking-wider">
+                L'art de créer des <span className='text-primary'>sites web</span>  mémorables
               </h2>
 
               <p>
@@ -151,7 +148,7 @@ export default function page() {
 
               <div className="flex justify-start items-start">
                 <div>
-                  <Link href="/creation-site-internet">
+                  <Link href="/creation-site-internet-nancy">
                     <Button size="lg" variant="primary">Découvrir nos préstations </Button>
                   </Link>
                 </div>
@@ -164,8 +161,8 @@ export default function page() {
 
       <div className="px-5 sm:px-16 mb-10">
         <div className='bg-emerald-50 flex items-center flex-col py-5'>
-          <h2 className='mt-2 text-2xl font-bold sm:text-left md:text-4xl text-emerald-950 text-center'>
-            Prestations en <span className='text-emerald-600'>web design</span>
+          <h2 className='mt-2 text-4xl font-bold sm:text-left md:text-5xl text-gray-950 text-center font-anton line tracking-wider'>
+            Prestations en <span className='text-primary'>web design</span>
           </h2>
           <div className='bg-emerald-50 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>
             {
@@ -186,8 +183,8 @@ export default function page() {
               alt="Double Ecran illustration" />
           </div>
           <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
-              L’importance du <span className='text-emerald-600'>web-design</span>
+            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
+              L’importance du <span className='text-primary'>web-design</span>
             </h2>
             <p>
               Le <span className='font-bold'>web design</span> est bien plus qu'une simple esthétique, c'est l'art de créer des expériences en ligne mémorables. Dans un monde numérique en constante évolution, votre site web est souvent la première interaction que les clients potentiels ont avec votre entreprise. Il est donc crucial que cette interaction soit positive et inoubliable.

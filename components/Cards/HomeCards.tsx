@@ -17,7 +17,7 @@ interface HomeCardsProps {
 
 const HomeCards: React.FC<HomeCardsProps> = ({ title, text, image, alt, link, bg }) => {
     return (
-        <motion.div className='bg-emerald-50 rounded-md p-5 min-w-96 h-full'>
+        <motion.div className='bg-gray-50 shadow rounded-md p-5 min-w-96 h-full'>
             <div className='flex flex-col !justify-between space-y-4 h-full'>
 
                 <div className={`${bg} flex items-center justify-end w-20 h-20 rounded p-3`}>
@@ -25,7 +25,7 @@ const HomeCards: React.FC<HomeCardsProps> = ({ title, text, image, alt, link, bg
                 </div>
 
                 <div className='space-y-2'>
-                    <h3 className='text-emerald-950 font-extrabold text-lg'>
+                    <h3 className='text-red-950 font-extrabold text-2xl'>
                         {title}
                     </h3>
                     <p className='text-gray-700 font-light'>

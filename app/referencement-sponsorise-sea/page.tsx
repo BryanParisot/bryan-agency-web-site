@@ -28,7 +28,6 @@ import logo_tag from "../../public/logos/seo/logo_tag.svg"
 import logo_visibile from "../../public/logos/seo/logo_visibile.svg"
 import sea from "../../public/pictures/sea/sea.jpg"
 import sea_computer from "../../public/pictures/sea/sea_computer.jpg"
-import picture_site from "../../public/pictures/site/site_page.png"
 
 
 import { Metadata } from 'next'
@@ -127,13 +126,11 @@ export default function page() {
                 title="Expert Ads freelance à Nancy"
                 subtitle="Boostez votre visibilité avec le SEA avec un expert à Nancy"
                 text="Explorez de nouvelles horizons en ligne avec mon expertise en publicité sur les moteurs de recherche. Le SEA (Search Engine Advertising) est la clé pour placer votre entreprise devant un public ciblé. Maximisez vos résultats grâce à ma stratégie de publicité payante sur les moteurs de recherche. Atteignez vos objectifs de croissance avec [Nom de Votre Entreprise]."
-                image={picture_site}
-                alt="image png developpeur web"
             />
 
             <div className="mt-10 mb-10">
-                <h2 className="text-center text-2xl sm:text-4xl text-emerald-950 font-bold" >
-                    Les avantages du <span className="text-emerald-600">SEA (Search Engine Advertising)</span> à Nancy
+                <h2 className="text-center text-4xl sm:text-5xl text-gray-950 font-bold font-anton line tracking-wider" >
+                    Les avantages du <span className="text-primary">SEA (Search Engine Advertising)</span> à Nancy
                 </h2>
 
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20">
@@ -153,7 +150,7 @@ export default function page() {
                                 alt="Double Ecran illustration" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
                                 Boostez votre performance grâce au SEA à Nancy
                             </h2>
                             <p>
@@ -170,7 +167,7 @@ export default function page() {
                                 alt="Illustration d'un site vitrine" />
                         </div>
                         <div className='w-full xl:w-3/6 space-y-4 px-0 xl:px-8 mt-0 xl:mt-5'>
-                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950">
+                            <h2 className="mt-2 text-2xl font-bold xl:text-left md:text-5xl text-gray-950 font-anton line tracking-wider">
                                 Créez votre landing page spécialisée
                             </h2>
                             <p>
@@ -187,8 +184,8 @@ export default function page() {
 
             <div className="mb-10">
                 <div className='bg-emerald-50 flex items-center flex-col py-5 px-5 sm:px-16 '>
-                    <h2 className='mt-2 text-2xl font-bold xl:text-left md:text-4xl text-emerald-950 text-center'>
-                        Nos étapes de construction d'une compagne <span className='text-emerald-600'>SEA</span>
+                    <h2 className='mt-2 text-4xl font-bold xl:text-left md:text-5xl text-gray-950 text-center font-anton line tracking-wider'>
+                        Nos étapes de construction d'une compagne <span className='text-primary'>SEA</span>
                     </h2>
 
                     <div className='bg-emerald-50 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 justify-items-center px-5 sm:px-20 rounded-lg py-20'>

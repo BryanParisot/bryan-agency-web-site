@@ -34,7 +34,7 @@ const MenuMobile: React.FC<MenuMobileProps> = ({ onLinkClick, href, name }) => {
     return (
         <motion.div
             variants={linkVar}
-            className="py-4 w-full text-center text-lg font-lora uppercase text-white">
+            className="py-4 w-full text-center text-2xl font-anton uppercase text-primary tracking-wider">
             <Link href={href} className="text-1xl" onClick={handleLinkClick}>
                 {name}
             </Link>

@@ -41,7 +41,7 @@ Un site internet bien conçu est comme un aimant à clients. En fournissant des 
         <p className="mt-4 text-xl text-white">Explorez les opportunités infinies qui vous attendent en ligne et découvrez comment notre expertise peut propulser votre entreprise vers de nouveaux horizons.</p>
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a href="/contact" className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Demandez votre devis gratuit maintenant</a>
-        <a href="/creation-site-internet" className="text-sm font-semibold leading-6 text-white">En savoir plus sur nos services <span aria-hidden="true">→</span></a>
+        <a href="/creation-site-internet-nancy" className="text-sm font-semibold leading-6 text-white">En savoir plus sur nos services <span aria-hidden="true">→</span></a>
       </div>
       <svg viewBox="0 0 1024 1024" className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true">
         <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7" />
@@ -66,4 +66,4 @@ Un site internet offre une plateforme pour communiquer directement avec vos clie
 
 En conclusion, avoir un site internet est bien plus qu'une simple nécessité. C'est une opportunité de croissance, de visibilité et de crédibilité pour votre entreprise. Si vous ne l'avez pas encore fait, il est temps de franchir le pas et de construire votre présence en ligne dès aujourd'hui.
 
-*Pour en savoir plus sur la création de sites internet, explorez nos pages dédiées à la [création de site internet](/creation-site-internet), [site vitrine](/creation-site-internet/site-vitrine), [e-commerce](/creation-site-internet/e-commerce), [WordPress](/creation-site-internet/wordpress-personnalise) ou [refonte](/creation-site-internet/refonte).*
+*Pour en savoir plus sur la création de sites internet, explorez nos pages dédiées à la [création de site internet](/creation-site-internet-nancy), [site vitrine](/creation-site-internet-nancy/site-vitrine), [e-commerce](/creation-site-internet-nancy/e-commerce), [WordPress](/creation-site-internet-nancy/wordpress-personnalise) ou [refonte](/creation-site-internet-nancy/refonte).*

@@ -15,13 +15,13 @@ interface FaqProps {
 const Faq: React.FC<FaqProps> = ({ faq }) => {
 
     return (
-        <div className="bg-emerald-100">
+        <div className="bg-secondary">
             <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-20">
                 <div className="mx-auto max-w-4xl">
-                    <h2 className="text-2xl font-bold leading-10 tracking-tight text-emerald-950 text-center">Encore des questions ? </h2>
+                    <h2 className="text-3xl sm:text-5xl font-anton tracking-wider font-bold leading-10 text-red-950 text-center">Encore des questions ? </h2>
                     <dl className="mt-10">
                         {faq.map((FaqItem) => (
-                            <Disclosure as="div" key={FaqItem.question} className="p-6 bg-emerald-50 rounded mt-4">
+                            <Disclosure as="div" key={FaqItem.question} className="p-6 bg-red-50 rounded mt-4">
                                 {({ open }) => (
                                     <>
                                         <dt>

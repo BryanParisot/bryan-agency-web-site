@@ -10,7 +10,7 @@ export default {
 export const Emerald = () => (
   <SectionEmerald image={score_site} alt='représentation du score du site'>
     <div className='space-y-6'>
-      <h2 className='mt-2 text-2xl font-bold text-emerald-950 sm:text-left md:text-4xl'>
+      <h2 className='mt-2 text-2xl font-bold text-gray-950 sm:text-left md:text-4xl'>
         Optimisez votre présence en ligne avec notre service de refonte de site
       </h2>
       <p>
