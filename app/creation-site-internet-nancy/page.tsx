@@ -20,7 +20,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: ' Développeur Web Freelance | Création de site internet à Nancy',
-  description: 'Voguez vers le succès avec Bryan Parisot, votre freelance développeur web à Nancy expert en création de site internet performant.',
+  description: 'Bryan Parisot, votre freelance développeur web à Nancy expert en création de site internet performant.',
   alternates: {
     canonical: `${process.env.URL_SITE}/creation-site-internet-nancy`
   }
