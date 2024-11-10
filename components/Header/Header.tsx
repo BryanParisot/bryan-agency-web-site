@@ -18,23 +18,23 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, text }) => {
             <div className='xl:w-4/6 w-full space-y-4 flex flex-col items-center justify-center'>
                 <div className='space-y-5 mb-5 flex flex-col items-center justify-center px-4 xl:px-0'>
                     <motion.h1
-                        initial={{ opacity: 0, x: 0 }}
-                        animate={{ opacity: 1, x: 20 }}
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: .6, delay: .40 }}
                         className='text-base xl:text-2xl font-bold text-secondary bg-black px-5 py-4'>
                         {title}
                     </motion.h1>
                     <motion.h2
-                        initial={{ opacity: 0, x: 0 }}
-                        animate={{ opacity: 1, x: 20 }}
+                        initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: .6, delay: .90 }}
 
                         className='font-bold text-primary text-4xl xl:text-7xl text-center font-anton line'>
 
                         {subtitle}
                     </motion.h2>
-                    <motion.p initial={{ opacity: 0, x: 0 }}
-                        animate={{ opacity: 1, x: 20 }}
+                    <motion.p initial={{ opacity: 0, x: 20 }}
+                        animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: .6, delay: 1.10 }}
                         className='text-gray-700 xl:text-lg text-base text-center'>
                         {text}
@@ -42,8 +42,8 @@ const Header: React.FC<HeaderProps> = ({ title, subtitle, text }) => {
                 </div>
 
                 <motion.div
-                    initial={{ opacity: 0, x: 0 }}
-                    animate={{ opacity: 1, x: 20 }}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: .6, delay: 1.50 }}
                     className='flex flex-col  xl:flex-row justify-start items-center xl:items-center xl:space-y-0 space-y-5 space-x-0 xl:space-x-4'>
 
