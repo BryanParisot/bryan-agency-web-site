@@ -14,6 +14,7 @@ import logo_sass_web from "../public/logos/nav/logo_sass.svg";
 import logo_referencement_sea from "../public/logos/nav/logo_sea.svg";
 import logo_referencement_seo from "../public/logos/nav/logo_seo.svg";
 
+import LoadingHome from "@/components/loading-page/LoadingHome";
 import { Button } from "@/components/ui/button";
 import { Metadata } from 'next';
 import Link from "next/link";
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
 
 
 export default function Home() {
+
 
   const contentCards = [
     { title: "Création de sites internet", text: 'En tant que développeur web freelance, je suis là pour créer un site web unique et optimisé qui représentera votre entreprise de manière professionnelle en ligne. J\'intègre soigneusement vos besoins et votre identité dans chaque aspect du site, assurant ainsi une expérience utilisateur exceptionnelle.', icon: logo_creation_site, link: '/creation-site-internet-nancy', bg: 'bg-amber-200', alt: "Icone création de site internet" },
@@ -63,7 +65,7 @@ export default function Home() {
   ];
 
   return (
-    <main>
+    <main className="aboslute">
       <Header
         title="Développeur web freelance à Nancy"
         subtitle="Expert en création de site internet et application web à Nancy"
@@ -116,6 +118,8 @@ export default function Home() {
       <BlogSection />
 
       <Faq faq={faqs} />
+      <LoadingHome />
+
     </main>
   )
 }

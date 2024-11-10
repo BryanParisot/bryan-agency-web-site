@@ -3,6 +3,7 @@ import Footer from '@/components/Footer/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
 import Navigation from '@/components/Nav/Navigation'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
+import LoadingHome from '@/components/loading-page/LoadingHome'
 import { Anton, Inter } from 'next/font/google'
 import { Suspense } from 'react'
 import './globals.css'
@@ -21,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <Suspense fallback={<>Loading...</>}>
+      <Suspense fallback={<LoadingHome />}>
         <GoogleAnalytics GA_MEASUREMENT_ID='G-PLCVSLNZ7G' />
       </Suspense>
       {/* <head>
