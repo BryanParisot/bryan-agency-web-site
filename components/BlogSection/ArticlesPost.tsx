@@ -6,48 +6,45 @@ import { Post } from 'contentlayer/generated'
 
 const ArticlesPost = (post: Post) => {
     return (
-        <article className="flex flex-col items-start justify-between">
-            <div className="relative w-full">
+        <article className="group flex h-full flex-col justify-between overflow-hidden rounded-[1.75rem] border border-stone-200/80 bg-white/95 p-4 shadow-[0_18px_45px_-32px_rgba(15,23,42,0.35)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_28px_60px_-34px_rgba(15,23,42,0.4)] sm:p-5">
+            <div className="relative w-full overflow-hidden rounded-[1.25rem]">
                 <img
                     src={post.image}
                     alt={post.title}
-                    className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                    className="aspect-[16/9] w-full rounded-[1.25rem] bg-stone-100 object-cover transition duration-500 group-hover:scale-[1.03] sm:aspect-[2/1] lg:aspect-[3/2]"
                 />
-                <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                <div className="absolute inset-0 rounded-[1.25rem] ring-1 ring-inset ring-black/5" />
             </div>
-            <div className="max-w-xl">
-                <div className="mt-8 flex items-center gap-x-4 text-xs">
-                    <time dateTime={post.date} className="text-gray-500">
+            <div className="flex max-w-xl flex-1 flex-col">
+                <div className="mt-6 flex items-center gap-x-3 text-xs">
+                    <time dateTime={post.date} className="text-stone-500">
                         {format(parseISO(post.date), 'd LLLL yyyy')}
 
                     </time>
                     <p
-                        // href={post.category}
-                        className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                        className="relative z-10 rounded-full bg-secondary px-3 py-1.5 font-semibold text-stone-700"
                     >
                         {post.category}
                     </p>
-                    <span className='text-gray-500'>{post.readTime} min</span>
+                    <span className='text-stone-500'>{post.readTime} min</span>
                 </div>
-                <div className="group relative">
-                    <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <div className="relative flex-1">
+                    <h3 className="mt-4 text-xl font-semibold leading-7 text-slate-950 transition group-hover:text-primary">
                         <Link href={post.url}>
                             <span className="absolute inset-0" />
                             {post.title}
                         </Link>
                     </h3>
-                    {/* <div className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600 [&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} /> */}
-
-                    <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                    <p className="mt-4 line-clamp-3 text-sm leading-7 text-slate-600">{post.description}</p>
                 </div>
-                <div className="relative mt-8 flex items-center gap-x-4">
-                    <img src={post.picture_author} alt="" className="h-10 w-10 rounded-full bg-gray-100" />
+                <div className="relative mt-8 flex items-center gap-x-4 border-t border-stone-200/80 pt-5">
+                    <img src={post.picture_author} alt="" className="h-11 w-11 rounded-full border border-stone-200 bg-stone-100" />
                     <div className="text-sm leading-6">
-                        <p className="font-semibold text-gray-900">
+                        <p className="font-semibold text-slate-950">
                             <span className="absolute inset-0" />
                             {post.author}
                         </p>
-                        <p className="text-gray-600">{post.role}</p>
+                        <p className="text-stone-500">{post.role}</p>
                     </div>
                 </div>
             </div>

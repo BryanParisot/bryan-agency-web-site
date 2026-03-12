@@ -2,8 +2,11 @@ import Carousel from '@/components/Carrousel/Carousel'
 import Footer from '@/components/Footer/Footer'
 import GoogleAnalytics from '@/components/GoogleAnalytics/GoogleAnalytics'
 import Navigation from '@/components/Nav/Navigation'
+import StructuredData from '@/components/SEO/StructuredData'
 import CookieBanner from '@/components/cookiebanner/cookiebanner'
 import LoadingHome from '@/components/loading-page/LoadingHome'
+import { siteConfig } from '@/lib/site-config'
+import type { Metadata } from 'next'
 import { Anton, Inter } from 'next/font/google'
 import { Suspense } from 'react'
 import './globals.css'
@@ -14,6 +17,28 @@ const anton = Anton({
   weight: "400",
   variable: "--font-anton"
 })
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.siteUrl),
+  title: {
+    default: 'Bryan Parisot | Developpeur web freelance a Nancy',
+    template: '%s | Bryan Parisot',
+  },
+  description:
+    'Developpeur web freelance a Nancy, creation de sites internet, SEO, SEO local et accompagnement web sur mesure.',
+  alternates: {
+    canonical: siteConfig.siteUrl,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'fr_FR',
+    url: siteConfig.siteUrl,
+    siteName: siteConfig.name,
+    title: 'Bryan Parisot | Developpeur web freelance a Nancy',
+    description:
+      'Creation de sites internet, refonte, SEO local et accompagnement web sur mesure a Nancy.',
+  },
+}
 
 export default function RootLayout({
   children,
@@ -40,6 +65,7 @@ export default function RootLayout({
       </head> */}
 
       <body className={`${anton.variable} ${inter.className}`}>
+        <StructuredData />
         {/* <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MWP2CKSR"
