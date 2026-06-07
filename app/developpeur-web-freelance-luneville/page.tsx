@@ -6,74 +6,106 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Creation site internet Luneville | Freelance web',
+  title: 'Développeur web freelance à Lunéville | Sites & applications web',
   description:
-    'Creation de site internet a Luneville pour artisans, PME et independants. Site vitrine, WordPress, SEO et maintenance.',
+    'Développeur web freelance à Lunéville pour applications web, intégrations WordPress, Next.js et solutions sur mesure. Accompagnement local pour artisans, PME et indépendants.',
   alternates: {
     canonical: getCanonicalUrl('/developpeur-web-freelance-luneville'),
+  },
+  openGraph: {
+    title: 'Développeur web freelance à Lunéville | Sites & applications web',
+    description:
+      'Développeur web freelance à Lunéville pour sites vitrines, applications web, WordPress, Next.js et solutions sur mesure.',
+    url: getCanonicalUrl('/developpeur-web-freelance-luneville'),
+    siteName: 'Bryan Parisot',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Développeur web freelance à Lunéville | Sites & applications web',
+    description:
+      'Développeur web freelance à Lunéville pour sites vitrines, applications web, WordPress, Next.js et solutions sur mesure.',
   },
 }
 
 const services = [
-  'Creation de site vitrine pour presenter votre activite et rassurer vos prospects.',
-  'Creation de site WordPress a Luneville pour garder la main sur vos contenus.',
-  'Refonte de site internet existant pour moderniser votre image et mieux convertir.',
-  'Optimisation SEO locale pour remonter sur Google sur Luneville et les communes voisines.',
-  'Maintenance, mises a jour, sauvegardes et accompagnement dans la duree.',
+  'Développement web sur mesure à Lunéville pour applications, sites vitrines et solutions d entreprise.',
+  'Intégration WordPress pour garder la main sur vos contenus et votre communication.',
+  'Développement Next.js performant, mobile-first et optimisé pour la vitesse.',
+  'Optimisation technique et maintenance web pour garantir fiabilité et sécurité.',
+  'Accompagnement local pour artisans, PME et indépendants en Meurthe-et-Moselle.',
 ]
 
 const achievements = [
-  'Sites vitrines pour independants et petites entreprises souhaitant une presence en ligne claire et professionnelle.',
-  'Pages locales optimisees pour ameliorer la visibilite sur des recherches geographiques.',
-  'Projets WordPress penses pour etre simples a administrer et faciles a faire evoluer.',
+  'Applications web professionnelles pour entreprises locales.',
+  'Intégrations WordPress solides et faciles à administrer.',
+  'Sites et solutions optimisés pour le référencement local à Lunéville.',
 ]
 
 const pricing = [
-  'Site vitrine simple: a partir d un budget adapte a une petite structure qui veut un site propre, rapide et convaincant.',
-  'Site WordPress personnalise: budget plus complet pour un site internet professionnel Luneville avec plusieurs pages, contenus structures et options SEO.',
-  'Maintenance et accompagnement: formule mensuelle ou intervention ponctuelle selon vos besoins.',
+  'Développement web sur mesure: budget adapté pour projet professionnel et application web.',
+  'Intégration WordPress: solution flexible pour autonomie, SEO local et gestion de contenu.',
+  'Maintenance web: support, mises à jour, sauvegardes et optimisation continue.',
 ]
 
 const faqItems = [
   {
-    question: 'Combien coute la creation d un site internet ?',
+    question: 'Pourquoi faire appel à un développeur web freelance à Lunéville ?',
     answer:
-      "Le tarif depend du nombre de pages, du niveau de personnalisation, des contenus a integrer et des besoins SEO. Un devis permet de cadrer un budget coherent avec votre objectif business.",
+      'Un développeur freelance apporte une relation directe, une meilleure réactivité et une compréhension locale de votre activité. C est idéal pour les artisans, PME et indépendants qui veulent une solution claire, efficace et adaptative.',
   },
   {
-    question: 'Combien de temps pour creer un site ?',
+    question: 'Quelle différence entre un développeur web et une agence web ?',
     answer:
-      "Un site simple peut etre mis en ligne en quelques semaines. Un projet plus complet avec redaction, SEO et structure plus avancee demande davantage de temps, mais chaque etape est planifiee clairement.",
+      'Un développeur freelance offre un interlocuteur unique, une exécution plus rapide et souvent un budget mieux maîtrisé. L agence peut convenir pour des projets très gros, mais un freelance local est plus adapté pour un accompagnement personnalisé à Lunéville.',
   },
   {
-    question: 'Pourquoi choisir WordPress ?',
+    question: 'Pouvez-vous développer un site WordPress ?',
     answer:
-      "WordPress est une solution souple, evolutive et pratique pour gerer un site professionnel. Il permet de modifier facilement les textes, les images et certaines pages sans dependre du developpeur pour chaque changement.",
+      'Oui. Je conçois des sites WordPress sur mesure, sécurisés et faciles à administrer, avec un back-office pratique pour gérer textes, images et pages sans dépendre du développeur pour chaque modification.',
   },
   {
-    question: 'Un site internet peut-il apporter des clients ?',
+    question: 'Pouvez-vous créer une application web sur mesure ?',
     answer:
-      "Oui, a condition d etre pense pour convertir. Un bon site attire un trafic qualifie, rassure rapidement, montre votre offre et facilite la prise de contact ou la demande de devis.",
+      'Oui. Je développe des applications web professionnelles adaptées aux besoins des entreprises locales, avec des parcours utilisateurs fiables, un design responsive et une optimisation technique pour assurer la performance.',
   },
   {
-    question: 'Puis-je modifier mon site moi-meme ?',
+    question: 'Travaillez-vous avec Next.js ?',
     answer:
-      "Oui. Si vous choisissez une creation site WordPress Luneville, vous pourrez modifier une grande partie de votre contenu. Je peux aussi vous montrer comment le faire proprement.",
+      'Oui. Next.js est mon choix pour les sites et applications qui doivent être rapides, robustes et bien référencés. Il permet de combiner performance, SEO et expérience utilisateur fluide.',
+  },
+  {
+    question: 'Proposez-vous la maintenance après livraison ?',
+    answer:
+      'Oui. Je propose des formules de maintenance web, des mises à jour, des sauvegardes et une optimisation technique continue pour que votre solution reste performante et sécurisée.',
   },
 ]
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+}
 
 const highlightCards = [
   {
     title: 'Positionnement local',
-    text: 'Une page pensee pour la requete creation site internet Luneville, avec une structure claire et des contenus utiles pour vos prospects.',
+    text: 'Une prestation pensée pour le développeur web freelance Lunéville, avec un focus sur la visibilité locale et la conversion.',
   },
   {
-    title: 'Image professionnelle',
-    text: 'Un site internet professionnel Luneville doit rassurer vite, clarifier votre offre et faciliter la prise de contact.',
+    title: 'Solution web sur mesure',
+    text: 'Je construis des intégrations WordPress, des applications web et des outils numériques alignés sur vos besoins métier.',
   },
   {
-    title: 'Logique business',
-    text: 'Le site n est pas la pour faire joli. Il doit soutenir votre activite, vos demandes de devis et votre visibilite locale.',
+    title: 'Optimisation technique',
+    text: 'Performance, vitesse, maintenance web et référencement sont intégrés dès la conception du projet.',
   },
 ]
 
@@ -89,40 +121,33 @@ export default function Page() {
   return (
     <main>
       <Header
-        title="Creation site internet Luneville"
-        subtitle="Creation de site internet a Luneville"
-        text="Site vitrine, WordPress, SEO local et maintenance pour artisans, PME, commerçants et independants a Luneville."
+        title="Développeur web freelance à Lunéville"
+        subtitle="J’accompagne les entreprises, artisans et indépendants de Lunéville dans le développement d’applications web, d’intégrations WordPress et de solutions digitales sur mesure."
+        text="Développeur web freelance à Lunéville pour applications web, intégrations WordPress, Next.js, optimisation technique et maintenance web."
       />
-
       <div className="px-5 pb-20 pt-10 sm:px-10 xl:px-16">
         <div className="mx-auto max-w-6xl">
           <section className="grid gap-6 lg:grid-cols-[1.25fr_0.7fr]">
             <div className="rounded-[2rem] border border-black/8 bg-white/95 p-8 shadow-[0_24px_70px_-48px_rgba(15,23,42,0.28)] sm:p-10">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-slate-500">
-                Creation site internet Luneville
+                Développeur web freelance Lunéville
               </p>
               <h1 className="mt-4 font-anton text-4xl tracking-[0.03em] text-slate-950 sm:text-6xl">
-                Cr&eacute;ation de site internet &agrave; Lun&eacute;ville
+                Développeur web freelance à Lunéville
               </h1>
               <p className="mt-6 text-lg leading-8 text-slate-700">
-                Vous cherchez un professionnel pour la <strong>cr&eacute;ation site internet Lun&eacute;ville</strong> ?
-                Je vous accompagne pour concevoir un site clair, rapide et pens&eacute; pour g&eacute;n&eacute;rer des
-                demandes de contact. Que vous soyez artisan, commer&ccedil;ant, PME ou ind&eacute;pendant, l enjeu n est pas
-                seulement d avoir un site en ligne. L enjeu est d avoir un
-                <strong> site internet professionnel Lun&eacute;ville</strong> capable de rassurer, d expliquer votre offre et
-                d attirer de nouveaux clients. Mon approche est simple&nbsp;: une structure lisible, un design
-                propre, des contenus orient&eacute;s business et une base SEO solide pour vous aider &agrave; exister
-                localement face &agrave; la concurrence. Si vous recherchez une solution plus humaine, plus souple et
-                plus directe qu une grosse structure, je vous propose une <strong>cr&eacute;ation site web Lun&eacute;ville</strong>
-                sur mesure, adapt&eacute;e &agrave; vos objectifs et &agrave; votre budget.
+                Vous cherchez un développeur web freelance à Lunéville pour faire évoluer votre présence en ligne ? J’accompagne les artisans, PME et indépendants du Grand Est avec des applications web, des intégrations WordPress et des solutions techniques sur mesure qui améliorent la conversion, la performance et la gestion quotidienne.
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-700">
+                Mon approche combine développement Next.js, optimisation technique, design UX et maintenance web. Ensemble, nous construisons une solution digitale qui fonctionne pour vos clients, votre visibilité et vos objectifs de croissance.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <Link href="/contact">
                   <Button size="lg" variant="primary">
-                    Demandez votre devis gratuit pour la cr&eacute;ation de votre site internet &agrave; Lun&eacute;ville.
+                    Demandez un devis pour votre projet web
                   </Button>
                 </Link>
-                <Link href="/creation-site-internet-nancy">
+                <Link href="/web-design-nancy">
                   <Button size="lg" variant="outline">
                     Voir mes services web
                   </Button>
@@ -147,29 +172,23 @@ export default function Page() {
 
           <section className="mt-16 rounded-[2rem] border border-black/8 bg-secondary/70 p-8 shadow-sm sm:p-10">
             <SectionTitle>
-              Pourquoi cr&eacute;er un site internet pour son entreprise &agrave; Lun&eacute;ville
+              Pourquoi faire appel à un développeur web freelance à Lunéville ?
             </SectionTitle>
             <div className="mt-6 grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
               <div className="space-y-5 text-base leading-8 text-slate-700">
                 <p>
-                  A Lun&eacute;ville, beaucoup d entreprises fonctionnent encore principalement par bouche-&agrave;-oreille.
-                  Cela peut suffire un temps, mais cela limite aussi votre capacit&eacute; &agrave; etre trouv&eacute; par de
-                  nouveaux prospects. Lorsqu un client cherche un artisan, un prestataire ou un commerce local, il
-                  passe d abord par Google. Sans site, vous laissez la place &agrave; vos concurrents.
+                  À Lunéville, une présence digitale performante permet d attirer des prospects et de se démarquer face à la concurrence locale. Un développeur web freelance apporte une réponse sur mesure, une relation directe et une meilleure réactivité pour vos besoins.
                 </p>
                 <p>
-                  Une <strong>cr&eacute;ation site internet Lun&eacute;ville</strong> bien pens&eacute;e ne sert pas seulement &agrave; etre
-                  pr&eacute;sent en ligne. Elle sert &agrave; structurer votre communication, centraliser vos informations,
-                  rassurer vos prospects et vous rendre plus visible localement. C est aussi un outil de travail qui
-                  peut vous faire gagner du temps.
+                  Je construis des solutions web qui servent votre activité : site vitrine, application web, intégration WordPress ou optimisation technique. L'objectif est de transformer votre présence en ligne en un outil de génération de contacts.
                 </p>
               </div>
               <div className="rounded-[1.75rem] border border-white/70 bg-white/90 p-6">
                 <ul className="list-disc space-y-3 pl-6 text-base leading-8 text-slate-700">
-                  <li>Vous gagnez en cr&eacute;dibilit&eacute; face &agrave; vos concurrents locaux.</li>
-                  <li>Vous devenez visible sur les recherches Google li&eacute;es &agrave; votre activit&eacute;.</li>
-                  <li>Vous pouvez pr&eacute;senter clairement vos services, vos prix ou votre zone d intervention.</li>
-                  <li>Vous facilitez la prise de contact pour les habitants de Lun&eacute;ville et des alentours.</li>
+                  <li>Un interlocuteur unique pour votre projet.</li>
+                  <li>Une réponse locale adaptée à Lunéville et au Grand Est.</li>
+                  <li>Une solution web sur mesure, rapide et évolutive.</li>
+                  <li>Une approche orientée performance et maintenance.</li>
                 </ul>
               </div>
             </div>
@@ -178,47 +197,37 @@ export default function Page() {
           <section className="mt-16 grid gap-6 lg:grid-cols-2">
             <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
               <SectionTitle>
-                Cr&eacute;ation de site internet professionnel &agrave; Lun&eacute;ville
+                Développement web sur mesure à Lunéville
               </SectionTitle>
               <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
                 <p>
-                  Un <strong>site internet professionnel Lun&eacute;ville</strong> doit aller au-del&agrave; d une simple carte de
-                  visite. Il doit traduire votre positionnement, mettre en avant votre expertise et simplifier le
-                  parcours du visiteur.
+                  Le développement web sur mesure à Lunéville permet de créer des outils numériques parfaitement alignés avec votre modèle de business. C’est la meilleure option si vous cherchez plus qu’un simple site vitrine : un système qui répond à vos processus et à vos clients.
                 </p>
                 <p>
-                  Je travaille chaque projet avec une logique business&nbsp;: un message clair d&egrave;s les premiers
-                  &eacute;crans, des pages faciles &agrave; lire, des appels &agrave; l action visibles et une structure pens&eacute;e pour
-                  rassurer. En pratique, cela veut dire un site rapide, responsive, bien hi&eacute;rarchis&eacute; et simple &agrave;
-                  utiliser sur mobile comme sur ordinateur.
+                  Je développe des applications web professionnelles, des espaces clients, des formulaires avancés et des interfaces utilisateur sur mesure. Tout cela avec une attention particulière portée à l’UX, à la performance et à la maintenance web.
                 </p>
                 <p>
-                  Si vous h&eacute;sitez entre un freelance local et une <strong>agence web Lun&eacute;ville</strong>, l enjeu est
-                  souvent le meme&nbsp;: trouver quelqu un capable d allier qualit&eacute; technique, vision strat&eacute;gique et
-                  relation simple.
+                  En partenariat avec des entreprises locales, j’aide à construire des solutions durables qui évoluent avec l’activité, sans surcharger votre budget ni complexifier la gestion quotidienne.
                 </p>
               </div>
             </div>
 
             <div className="rounded-[2rem] border border-primary/10 bg-primary/5 p-8 shadow-sm sm:p-10">
               <SectionTitle>
-                Cr&eacute;ation de site WordPress &agrave; Lun&eacute;ville
+                Développeur WordPress et Next.js pour les entreprises locales
               </SectionTitle>
               <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
                 <p>
-                  La <strong>cr&eacute;ation site WordPress Lun&eacute;ville</strong> est souvent le meilleur choix pour une petite
-                  entreprise qui veut un site solide, &eacute;volutif et simple &agrave; administrer.
+                  Je propose des développements WordPress pour les structures qui veulent un site administrable et facile à faire évoluer. Je propose aussi du développement Next.js quand la performance, le SEO et l’expérience utilisateur sont prioritaires.
                 </p>
                 <p>
-                  Je con&ccedil;ois des sites WordPress sur mesure pour &eacute;viter l effet mod&egrave;le standard. L id&eacute;e est de
-                  construire une base propre qui vous ressemble, r&eacute;ponde &agrave; vos objectifs et reste simple &agrave; faire
-                  &eacute;voluer.
+                  Cette double expertise permet de choisir la technologie la plus adaptée : intégration WordPress pour l’autonomie de contenu, ou Next.js pour les solutions techniques avancées.
                 </p>
                 <ul className="list-disc space-y-3 pl-6">
-                  <li>Gestion simple des textes, images et pages.</li>
-                  <li>Bonne base pour le SEO local et la cr&eacute;ation de contenu.</li>
-                  <li>Solution adapt&eacute;e &agrave; une croissance progressive de votre activit&eacute;.</li>
-                  <li>Maintenance possible pour garder un site sain et &agrave; jour.</li>
+                  <li>Intégration WordPress sur mesure</li>
+                  <li>Développement Next.js pour des performances élevées</li>
+                  <li>Maintenance web et optimisation technique continue</li>
+                  <li>Application web professionnelle pour services ou réservation</li>
                 </ul>
               </div>
             </div>
@@ -226,71 +235,40 @@ export default function Page() {
 
           <section className="mt-16 rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
             <SectionTitle>
-              Cr&eacute;ation de site internet pour artisans et PME
+              Quand faire appel à un développeur web freelance ?
             </SectionTitle>
             <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
               <p>
-                Les artisans, commer&ccedil;ants, professions lib&eacute;rales et petites entreprises locales n ont pas besoin
-                d un site compliqu&eacute;. Ils ont besoin d un site utile. Une page d accueil claire, une pr&eacute;sentation
-                des services, des preuves de confiance, une zone d intervention, un moyen simple de vous
-                contacter et un bon positionnement local suffisent souvent &agrave; faire la diff&eacute;rence.
+                Quand vous avez besoin d’une solution web sur mesure, d’une application professionnelle, ou d’une optimisation technique, faire appel à un freelance est souvent la meilleure option. Le freelance apporte simplicité, proximité et un suivi direct.
+              </p>
+              <ul className="list-disc space-y-3 pl-6">
+                <li>Vous avez besoin d’un développement web sur mesure à Lunéville.</li>
+                <li>Vous souhaitez un accompagnement technique durable et local.</li>
+                <li>Vous cherchez un développeur WordPress ou Next.js expérimenté.</li>
+                <li>Vous voulez sécuriser la maintenance web et la performance de votre site.</li>
+              </ul>
+              <p>
+                J’accompagne les projets qui recherchent à la fois une vision stratégique et une exécution technique fiable, en restant proche de vos réalités de terrain.
+              </p>
+            </div>
+          </section>
+
+          <section className="mt-16 rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
+            <SectionTitle>Pourquoi choisir un freelance plutôt qu une agence web</SectionTitle>
+            <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
+              <p>
+                Beaucoup de dirigeants hésitent entre un freelance et une <strong>agence web Lunéville</strong>. Un freelance local peut offrir une relation plus fluide, un respect du budget et une meilleure compréhension des enjeux locaux.
               </p>
               <p>
-                Dans le cadre d une <strong>cr&eacute;ation site internet Lun&eacute;ville</strong>, je m adapte &agrave; votre r&eacute;alit&eacute; de
-                terrain. Votre site doit soutenir votre activit&eacute;, pas devenir une contrainte suppl&eacute;mentaire.
+                Vous travaillez avec un interlocuteur unique, pas avec plusieurs services. Cela facilite les ajustements, accélère les décisions et simplifie le suivi du projet.
               </p>
             </div>
           </section>
 
-          <section className="mt-16 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-            <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
-              <SectionTitle>
-                R&eacute;f&eacute;rencement SEO pour entreprises de Lun&eacute;ville
-              </SectionTitle>
-              <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
-                <p>
-                  Un site sans visibilit&eacute; locale peut avoir du mal &agrave; produire des r&eacute;sultats. C est pourquoi la
-                  <strong> cr&eacute;ation site web Lun&eacute;ville</strong> doit etre li&eacute;e &agrave; une vraie logique SEO.
-                </p>
-                <p>
-                  Le but est d aider votre entreprise &agrave; se positionner sur les recherches li&eacute;es &agrave; votre activit&eacute;
-                  et &agrave; votre zone g&eacute;ographique&nbsp;: Lun&eacute;ville, Nancy, Baccarat, Saint-Nicolas-de-Port et plus
-                  largement la Meurthe-et-Moselle.
-                </p>
-                <p>
-                  Cette logique peut aussi s articuler avec des pages connexes comme
-                  <strong> cr&eacute;ation site internet Nancy</strong> ou
-                  <strong> cr&eacute;ation site internet Meurthe-et-Moselle</strong>, afin de renforcer votre couverture locale.
-                </p>
-              </div>
-            </div>
-
-            <div className="rounded-[2rem] border border-black/8 bg-slate-950 p-8 text-white shadow-[0_28px_70px_-46px_rgba(15,23,42,0.55)] sm:p-10">
-              <SectionTitle>
-                Pourquoi choisir un freelance plut&ocirc;t qu une agence web
-              </SectionTitle>
-              <div className="mt-6 space-y-5 text-base leading-8 text-slate-300">
-                <p>
-                  Beaucoup de dirigeants h&eacute;sitent entre un freelance et une <strong>agence web Lun&eacute;ville</strong>.
-                  Une agence peut convenir sur certains projets, mais un freelance local offre souvent une relation
-                  plus simple et plus directe.
-                </p>
-                <p>
-                  Vous b&eacute;n&eacute;ficiez d un interlocuteur unique, d une meilleure compr&eacute;hension de votre activit&eacute; et
-                  d une solution plus adapt&eacute;e &agrave; votre contexte local.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <section className="mt-16 rounded-[2rem] border border-black/8 bg-secondary/55 p-8 shadow-sm sm:p-10">
-            <SectionTitle>
-              Mes services de cr&eacute;ation de site internet &agrave; Lun&eacute;ville
-            </SectionTitle>
+          <section className="mt-16 rounded-[2rem] border border-secondary/55 bg-secondary/55 p-8 shadow-sm sm:p-10">
+            <SectionTitle>Mes services de développement web à Lunéville</SectionTitle>
             <p className="mt-6 text-base leading-8 text-slate-700">
-              J accompagne les entreprises locales sur tout le cycle du projet, du cadrage initial &agrave; la mise en
-              ligne puis &agrave; la maintenance. Cela me permet de proposer une prestation coh&eacute;rente, pens&eacute;e pour
-              durer et pour soutenir votre activit&eacute; sur le long terme.
+              J accompagne les entreprises locales sur tout le cycle du projet, du cadrage initial à la mise en ligne puis à la maintenance. Cela me permet de proposer une prestation cohérente, pensée pour durer et pour soutenir votre activité sur le long terme.
             </p>
             <ul className="mt-6 grid gap-4 sm:grid-cols-2">
               {services.map((service) => (
@@ -303,11 +281,9 @@ export default function Page() {
 
           <section className="mt-16 grid gap-6 lg:grid-cols-2">
             <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
-              <SectionTitle>Mes r&eacute;alisations</SectionTitle>
+              <SectionTitle>Mes réalisations</SectionTitle>
               <p className="mt-6 text-base leading-8 text-slate-700">
-                Mon travail repose sur une logique simple&nbsp;: des sites clairs, convaincants et orient&eacute;s
-                r&eacute;sultat. Je con&ccedil;ois des projets pour des structures qui ont besoin d un site professionnel sans
-                lourdeur inutile.
+                Mon travail repose sur une logique simple : des sites et des applications clairs, convaincants et orientés résultat. Je conçois des projets pour des structures qui ont besoin d une solution web professionnelle sans lourdeur inutile.
               </p>
               <ul className="mt-6 list-disc space-y-3 pl-6 text-base leading-8 text-slate-700">
                 {achievements.map((item) => (
@@ -317,10 +293,9 @@ export default function Page() {
             </div>
 
             <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
-              <SectionTitle>Tarif cr&eacute;ation site internet Lun&eacute;ville</SectionTitle>
+              <SectionTitle>Tarif développement web à Lunéville</SectionTitle>
               <p className="mt-6 text-base leading-8 text-slate-700">
-                Le prix d une <strong>cr&eacute;ation site internet Lun&eacute;ville</strong> varie selon le type de site, le
-                volume de contenu, les besoins SEO et les fonctionnalit&eacute;s attendues.
+                Le prix du développement web sur mesure varie selon le type de projet, le volume de fonctionnalités, les besoins WordPress ou Next.js, ainsi que le niveau d optimisation technique et de maintenance.
               </p>
               <ul className="mt-6 list-disc space-y-3 pl-6 text-base leading-8 text-slate-700">
                 {pricing.map((item) => (
@@ -330,7 +305,7 @@ export default function Page() {
               <div className="mt-8">
                 <Link href="/contact">
                   <Button size="lg" variant="primary">
-                    Demandez votre devis gratuit pour la cr&eacute;ation de votre site internet &agrave; Lun&eacute;ville.
+                    Demandez votre devis gratuit pour votre projet web à Lunéville.
                   </Button>
                 </Link>
               </div>
@@ -341,25 +316,21 @@ export default function Page() {
             <SectionTitle>Zone d intervention</SectionTitle>
             <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
               <p>
-                Je propose la cr&eacute;ation de site internet &agrave; Lun&eacute;ville, Nancy, Baccarat, Saint-Nicolas-de-Port et
-                dans toute la Meurthe-et-Moselle.
+                Je propose le développement web à Lunéville, Nancy, Baccarat, Saint-Nicolas-de-Port et dans toute la Meurthe-et-Moselle.
               </p>
               <p>
-                Cette proximit&eacute; me permet d accompagner des entreprises locales avec une meilleure compr&eacute;hension
-                de leur march&eacute;, de leur concurrence et des recherches g&eacute;ographiques pertinentes.
+                Cette proximité me permet d accompagner des entreprises locales avec une meilleure compréhension de leur marché, de leur concurrence et des recherches géographiques pertinentes.
               </p>
             </div>
           </section>
 
-          <section className="mt-16 rounded-[2rem] border border-black/8 bg-slate-950 px-8 py-10 text-white shadow-[0_30px_80px_-50px_rgba(15,23,42,0.55)] sm:px-10">
-            <SectionTitle>Pr&ecirc;t &agrave; lancer votre projet web ?</SectionTitle>
+          <section className="mt-16 rounded-[2rem] border border-slate-950/20 bg-slate-950 px-8 py-10 text-white shadow-[0_30px_80px_-50px_rgba(15,23,42,0.55)] sm:px-10">
+            <SectionTitle>Prêt à lancer votre projet web ?</SectionTitle>
             <p className="mt-6 text-base leading-8 text-slate-300">
-              Si vous voulez un site plus clair, plus cr&eacute;dible et plus visible localement, je peux vous aider.
-              Mon objectif est de vous proposer une <strong>cr&eacute;ation site internet Lun&eacute;ville</strong> utile,
-              durable et orient&eacute;e vers vos demandes entrantes.
+              Si vous voulez un site plus clair, plus crédible et plus visible localement, je peux vous aider. Mon objectif est de vous proposer une <strong>solution web sur mesure</strong> utile, durable et orientée vers vos demandes entrantes.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-300">
-              Demandez votre devis gratuit pour la cr&eacute;ation de votre site internet &agrave; Lun&eacute;ville.
+              Demandez votre devis gratuit ou prenez contact pour parler de votre prochaine application web professionnelle.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link href="/contact">
@@ -374,10 +345,24 @@ export default function Page() {
               </Link>
             </div>
           </section>
+
+          <section className="mt-16 rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm sm:p-10">
+            <p className="text-base leading-8 text-slate-700">
+              Si votre besoin concerne principalement un site vitrine ou une refonte, consultez ma page dédiée à la <Link href="/creation-site-internet-luneville" className="font-semibold text-slate-950 underline">création de site internet à Lunéville</Link>.
+            </p>
+            <p className="mt-6 text-base leading-8 text-slate-700">
+              Consulter mes <Link href="/realisations" className="font-semibold text-slate-950 underline">réalisations</Link> vous aidera à comprendre comment j’associe technique et design pour des projets locaux et concrets.
+            </p>
+          </section>
         </div>
       </div>
 
       <Faq faq={faqItems} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
     </main>
   )
 }
